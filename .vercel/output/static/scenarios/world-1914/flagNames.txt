@@ -1,0 +1,258 @@
+NOTE: This file is only for personal use! You don't need to share this with other scenario files.
+This file includes all nations with flags. They follow the same order as the saved flag canvas, in columns of 10, from bottom to top.
+This file is useful for editing flags in outside programs.
+
+1. United States
+2. Canada
+3. Cuba
+4. Jamaica
+5. Haiti
+6. Dominican Republic
+7. Windward Islands
+8. The Bahamas
+9. Trinidad and Tobago
+10. Mexico
+
+11. British Honduras
+12. Guatemala
+13. El Salvador
+14. Honduras
+15. Nicaragua
+16. Costa Rica
+17. Panama
+18. Australia
+19. New Zealand
+20. New Hebrides
+
+21. Fiji
+22. Solomon Islands
+23. Papua
+24. Timor
+25. Samoa
+26. United Kingdom
+27. Ireland
+28. Iceland
+29. Denmark
+30. Norway
+
+31. Finland
+32. Sweden
+33. Russia
+34. France
+35. Switzerland
+36. Netherlands
+37. Belgium
+38. Luxembourg
+39. Italy
+40. Spain
+
+41. Portugal
+42. Greece
+43. Albania
+44. Bulgaria
+45. Germany
+46. Estonia
+47. Latvia
+48. Lithuania
+49. Cyprus
+50. Ottoman Empire
+
+51. Malta
+52. San Marino
+53. Chile
+54. Argentina
+55. Paraguay
+56. Uruguay
+57. Bolivia
+58. Liechtenstein
+59. Brazil
+60. Peru
+
+61. Ecuador
+62. Venezuela
+63. Colombia
+64. British Guiana
+65. Surinam
+66. Sao Tome and Principe
+67. Mauritius
+68. Comoros
+69. Bahrain
+70. Monaco
+
+71. Cape Verde
+72. Singapore
+73. Egypt
+74. Libya
+75. Tunisia
+76. Morocco
+77. Sahara
+78. West Africa
+79. Portuguese Guinea
+80. Ceylon
+
+81. Japan
+82. Andorra
+83. Philippines
+84. Serbia
+85. Austria-Hungary
+86. Bohemia
+87. Poland
+88. Ukraine
+89. Romania
+90. Equatorial Africa
+
+91. Sierra Leone
+92. Liberia
+93. Gold Coast
+94. Nigeria
+95. Kamerun
+96. Sudan
+97. Ethiopia
+98. The Gambia
+99. Spanish Guinea
+100. Congo
+
+101. Rwanda
+102. Burundi
+103. Uganda
+104. East Africa
+105. Ostafrika
+106. Northern Rhodesia
+107. Nyasaland
+108. Mozambique
+109. Angola
+110. Southwest Africa
+
+111. Bechuanaland
+112. South Africa
+113. Basutoland
+114. Swaziland
+115. Southern Rhodesia
+116. French Somaliland
+117. Madagascar
+118. Nejd
+119. Persia
+120. Trucial States
+
+121. Muscat and Oman
+122. Qatar
+123. Kuwait
+124. Afghanistan
+125. Nepal
+126. Bhutan
+127. Siam
+128. Luang Prabang
+129. Indochina
+130. Cambodia
+
+131. Malaya
+132. Dutch East Indies
+133. British Raj
+134. Brunei
+135. Republic of China
+136. Mongolia
+137. Burma
+138. French Guiana
+139. Puerto Rico
+140. Guadeloupe
+
+141. Falklands
+142. Réunion
+143. French Oceania
+144. Guam
+145. New Caledonia
+146. Faroe Islands
+147. South Greenland
+148. Canary Islands
+149. Hawaii
+150. Yucatan
+
+151. Amazonas
+152. Patagonia
+153. Kurdistan
+154. British Somaliland
+155. Kashmir
+156. Tibet
+157. East Turkestan
+158. Western Papua
+159. Hyderabad
+160. Alaska
+
+161. Texas
+162. Spanish Morocco
+163. Zanzibar
+164. White Ruthenia
+165. Armenia
+166. Georgia
+167. Azerbaijan
+168. Kazakhstan
+169. Bukhara
+170. Korea
+
+171. Formosa
+172. Sarawak
+173. Newfoundland
+174. Aden
+175. New Guinea
+176. Algeria
+177. Croatia Slavonia
+178. Montenegro
+179. Guinea
+180. Ivory Coast
+
+181. Soudan
+182. Upper Volta
+183. Togoland
+184. Dahomey
+185. Mauritania
+186. Chad
+187. Ubangi-Shari
+188. Gabon
+189. Niger
+190. Uryankhay
+
+191. Pakistan
+192. East Pakistan
+193. Geledi
+194. Darfur
+195. Eritrea
+196. Dervish State
+197. Bosnia
+198. Jabal Shammar
+199. Anaza
+200. Najran
+
+201. Yemen
+202. Hejaz
+203. Asir
+204. Senussiya
+205. Carrancistas
+206. Villistas
+207. Baja California
+208. Bavaria
+209. Khiva
+210. Turkestan
+
+211. Lebanon
+212. Syria
+213. Palestine
+214. Iraq
+215. Galicia
+216. North Greenland
+217. Sikkim
+218. Kiautschou Bay
+219. Hong Kong
+220. North Borneo
+
+221. Aussa
+222. State of India
+223. Yunnan
+224. Quebec
+225. India
+226. Vietnam
+227. Senegal
+228. Setul
+229. Maldives
+230. Hobyo
+
+231. Majeerteenia

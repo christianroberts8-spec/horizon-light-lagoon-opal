@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "REMAP",
+      "hasCanvas": false,
+      "bodyTextLen": 998,
+      "bodyTextHash": "961d8bade4526627932e1467dea335a4672efc8b493b55ee2fc3dd37570939e9",
+      "bodyTextPrefix": "SCENARIO STUDIO REMAP Tap a world map to open it. Then paint, an",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "REMAP",
+      "hasCanvas": false,
+      "bodyTextLen": 998,
+      "bodyTextHash": "961d8bade4526627932e1467dea335a4672efc8b493b55ee2fc3dd37570939e9",
+      "bodyTextPrefix": "SCENARIO STUDIO REMAP Tap a world map to open it. Then paint, an",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

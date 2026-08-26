@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "REMAP",
+      "hasCanvas": false,
+      "bodyTextLen": 985,
+      "bodyTextHash": "c0986d289e2c1353c6dc80210bb0a21ecc4c966523e3296ece4e8f18531884cf",
+      "bodyTextPrefix": "SCENARIO STUDIO REMAP Official Ages of Conflict world maps — 191",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "REMAP",
+      "hasCanvas": false,
+      "bodyTextLen": 985,
+      "bodyTextHash": "c0986d289e2c1353c6dc80210bb0a21ecc4c966523e3296ece4e8f18531884cf",
+      "bodyTextPrefix": "SCENARIO STUDIO REMAP Official Ages of Conflict world maps — 191",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

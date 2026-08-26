@@ -1,0 +1,288 @@
+NOTE: This file is only for personal use! You don't need to share this with other scenario files.
+This file includes all nations with flags. They follow the same order as the saved flag canvas, in columns of 10, from bottom to top.
+This file is useful for editing flags in outside programs.
+
+1. United States
+2. Canada
+3. Cuba
+4. Jamaica
+5. Haiti
+6. Dominican Republic
+7. Saint Kitts and Nevis
+8. Antigua and Barbuda
+9. Dominica
+10. Saint Lucia
+
+11. Barbados
+12. Saint Vincent and the Grenadines
+13. The Bahamas
+14. Trinidad and Tobago
+15. Mexico
+16. British Honduras
+17. Guatemala
+18. El Salvador
+19. Honduras
+20. Nicaragua
+
+21. Costa Rica
+22. Panama
+23. Australia
+24. New Zealand
+25. New Hebrides
+26. Fiji
+27. Tuvalu
+28. Nauru
+29. Trust Territories of the Pacific Islands
+30. Solomon Islands
+
+31. Papua New Guinea
+32. Timor
+33. Western Samoa
+34. Tonga
+35. Kiribati
+36. United Kingdom
+37. Ireland
+38. Iceland
+39. Denmark
+40. Norway
+
+41. Finland
+42. Sweden
+43. Soviet Union
+44. France
+45. Switzerland
+46. Netherlands
+47. Belgium
+48. Luxembourg
+49. Italy
+50. Spain
+
+51. Portugal
+52. Greece
+53. Albania
+54. Macedonia
+55. Bulgaria
+56. Montenegro
+57. West Germany
+58. Estonian SSR
+59. Latvian SSR
+60. Lithuanian SSR
+
+61. Cyprus
+62. Turkey
+63. Malta
+64. San Marino
+65. Chile
+66. Argentina
+67. Paraguay
+68. Uruguay
+69. Bolivia
+70. Liechtenstein
+
+71. Brazil
+72. Peru
+73. Ecuador
+74. Venezuela
+75. Colombia
+76. Guyana
+77. Suriname
+78. Sao Tome and Principe
+79. Seychelles
+80. Mauritius
+
+81. Comoros
+82. Maldives
+83. Bahrain
+84. Monaco
+85. Cape Verde
+86. Egypt
+87. Libya
+88. Tunisia
+89. French Morocco
+90. Spanish Sahara
+
+91. Algeria
+92. Mauritania
+93. Senegal
+94. Soudan
+95. Guinea-Bissau
+96. Guinea
+97. Sri Lanka
+98. Japan
+99. Andorra
+100. Taiwan
+
+101. Philippines
+102. Serbia
+103. Bosnia and Herzegovina
+104. Croatia
+105. Slovenia
+106. Austria
+107. Czechoslovakia
+108. Slovakia
+109. Poland
+110. Byelorussian SSR
+
+111. Ukrainian SSR
+112. Moldavian SSR
+113. Hungary
+114. Romania
+115. Chad
+116. Niger
+117. Sierra Leone
+118. Liberia
+119. Ivory Coast
+120. Gold Coast
+
+121. French Togoland
+122. Upper Volta
+123. Nigeria
+124. Cameroun
+125. Oubangui-chari
+126. Sudan
+127. Sudan Defense Force
+128. Abyssinia
+129. Eritrea
+130. The Gambia
+
+131. Dahomey
+132. Spanish Guinea
+133. Gabon
+134. Congo
+135. Belgian Congo
+136. Rwanda
+137. Burundi
+138. Uganda
+139. Kenya
+140. Tanganyika
+
+141. Mozambique
+142. Angola
+143. Namibia
+144. Bechuanaland
+145. South Africa
+146. Basutoland
+147. Swaziland
+148. Rhodesia and Nyasaland
+149. Trust Territory of Somaliland
+150. French Somaliland
+
+151. Madagascar
+152. Syria
+153. Lebanon
+154. Israel
+155. Jordan
+156. Saudi Arabia
+157. Iraq
+158. Iran
+159. Georgian SSR
+160. Azerbaijan SSR
+
+161. Armenian SSR
+162. Trucial States
+163. Muscat and Oman
+164. Yemen
+165. Qatar
+166. Palestine
+167. Kuwait
+168. Turkmen SSR
+169. Uzbek SSR
+170. Kazakh SSR
+
+171. Kyrgyz SSR
+172. Tajik SSR
+173. Afghanistan
+174. Pakistan
+175. Nepal
+176. Bhutan
+177. East Bengal
+178. Thailand
+179. Laos
+180. North Vietnam
+
+181. Cambodia
+182. Malaya
+183. Indonesia
+184. India
+185. Brunei
+186. China
+187. South Korea
+188. North Korea
+189. Mongolia
+190. Burma
+
+191. French Guiana
+192. Puerto Rico
+193. Guadeloupe
+194. Falklands
+195. French Polynesia
+196. Guam
+197. New Caledonia
+198. Faroe Islands
+199. Greenland
+200. Canary Islands
+
+201. Hawaii
+202. Yucatan
+203. Amazonas
+204. Patagonia
+205. Darfur
+206. Kurdistan
+207. Scotland
+208. Crimea
+209. Lapland
+210. Sakha
+
+211. Somaliland
+212. Tamil
+213. Kashmir
+214. Tibet
+215. East Turkestan
+216. Western Papua
+217. North Solomos
+218. Nunavut
+219. Chechnya
+220. Manchuria
+
+221. Hyderabad
+222. Alaska
+223. Balochistan
+224. Texas
+225. East Germany
+226. Spanish Morocco
+227. Zanzibar
+228. Ruanda-urundi
+229. British Cameroons
+230. British Togoland
+
+231. British Somaliland
+232. Aden Protectorate
+233. Oman
+234. Qu'aiti
+235. Kathiri
+236. Mahra
+237. South Vietnam
+238. Pathet Lao
+239. Communist Insurgencies
+240. Karen
+
+241. Kuomintang
+242. Karelo-Finnish SSR
+243. Sikkim
+244. Sarawak
+245. North Borneo
+246. Goa
+247. Gilbert and Ellice Islands
+248. Leeward Islands
+249. Windward Islands
+250. Wales
+
+251. Hungarian Revolutionaries
+252. Quebec
+253. Ifni
+254. Martinique
+255. Panama Canal Zone
+256. Singapore
+257. URNG
+258. FSIN
+259. Hong Kong

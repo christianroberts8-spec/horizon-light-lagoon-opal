@@ -1,0 +1,13254 @@
+//#region node_modules/.nitro/vite/services/ssr/assets/world-2026-41dfgJ5x.js
+var version = "4.5.0";
+var width = 950;
+var height = 373;
+var startingYear = 2026;
+var startingMonth = 0;
+var currentGameTime = 0;
+var achData = {
+	"ironMan": false,
+	"smallIds": [],
+	"starters": 0
+};
+var nations = [
+	{
+		"id": 1,
+		"name": "United States",
+		"destroyed": false,
+		"pos": {
+			"x": 271,
+			"y": 252
+		},
+		"originalPos": {
+			"x": 271,
+			"y": 252
+		},
+		"gold": 50,
+		"flagId": 1,
+		"color": {
+			"r": .17254900932312012,
+			"g": .27843135595321655,
+			"b": .5254902243614197,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 7541,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [199, 204],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 2,
+		"name": "Canada",
+		"destroyed": false,
+		"pos": {
+			"x": 274,
+			"y": 270
+		},
+		"originalPos": {
+			"x": 274,
+			"y": 270
+		},
+		"gold": 50,
+		"flagId": 2,
+		"color": {
+			"r": .4623737931251526,
+			"g": .08733733743429184,
+			"b": .08733733743429184,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 11230,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 3,
+		"name": "Cuba",
+		"destroyed": false,
+		"pos": {
+			"x": 257,
+			"y": 211
+		},
+		"originalPos": {
+			"x": 257,
+			"y": 211
+		},
+		"gold": 50,
+		"flagId": 3,
+		"color": {
+			"r": .29411765933036804,
+			"g": .21568627655506134,
+			"b": .3294117748737335,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 67,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 4,
+		"name": "Jamaica",
+		"destroyed": false,
+		"pos": {
+			"x": 271,
+			"y": 197
+		},
+		"originalPos": {
+			"x": 271,
+			"y": 197
+		},
+		"gold": 50,
+		"flagId": 4,
+		"color": {
+			"r": .11764705926179886,
+			"g": .5882353186607361,
+			"b": .13333331048488617,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 8,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 5,
+		"name": "Haiti",
+		"destroyed": false,
+		"pos": {
+			"x": 284,
+			"y": 199
+		},
+		"originalPos": {
+			"x": 284,
+			"y": 199
+		},
+		"gold": 50,
+		"flagId": 5,
+		"color": {
+			"r": .658823549747467,
+			"g": .16470588743686676,
+			"b": .16470588743686676,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 19,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 6,
+		"name": "Dominican Republic",
+		"destroyed": false,
+		"pos": {
+			"x": 291,
+			"y": 199
+		},
+		"originalPos": {
+			"x": 291,
+			"y": 199
+		},
+		"gold": 50,
+		"flagId": 6,
+		"color": {
+			"r": .2549019753932953,
+			"g": .32156869769096375,
+			"b": .43529412150382996,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 32,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 7,
+		"name": "Saint Kitts and Nevis",
+		"destroyed": false,
+		"pos": {
+			"x": 306,
+			"y": 196
+		},
+		"originalPos": {
+			"x": 306,
+			"y": 196
+		},
+		"gold": 50,
+		"flagId": 7,
+		"color": {
+			"r": .8509804010391235,
+			"g": .8627451062202454,
+			"b": .250980406999588,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 8,
+		"name": "Antigua and Barbuda",
+		"destroyed": false,
+		"pos": {
+			"x": 311,
+			"y": 196
+		},
+		"originalPos": {
+			"x": 311,
+			"y": 196
+		},
+		"gold": 50,
+		"flagId": 8,
+		"color": {
+			"r": .4470587372779846,
+			"g": .24313725531101227,
+			"b": .6000000238418579,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 9,
+		"name": "Dominica",
+		"destroyed": false,
+		"pos": {
+			"x": 313,
+			"y": 189
+		},
+		"originalPos": {
+			"x": 313,
+			"y": 189
+		},
+		"gold": 50,
+		"flagId": 9,
+		"color": {
+			"r": .6470587253570557,
+			"g": .1764705777168274,
+			"b": .8509804010391235,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 10,
+		"name": "Saint Lucia",
+		"destroyed": false,
+		"pos": {
+			"x": 313,
+			"y": 184
+		},
+		"originalPos": {
+			"x": 313,
+			"y": 184
+		},
+		"gold": 50,
+		"flagId": 10,
+		"color": {
+			"r": .2509804666042328,
+			"g": .6431373357772827,
+			"b": .8705882430076599,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 11,
+		"name": "Barbados",
+		"destroyed": false,
+		"pos": {
+			"x": 320,
+			"y": 184
+		},
+		"originalPos": {
+			"x": 320,
+			"y": 184
+		},
+		"gold": 50,
+		"flagId": 11,
+		"color": {
+			"r": .125490203499794,
+			"g": .16470585763454437,
+			"b": .5568627715110779,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 12,
+		"name": "Saint Vincent and the Grenadines",
+		"destroyed": false,
+		"pos": {
+			"x": 313,
+			"y": 182
+		},
+		"originalPos": {
+			"x": 313,
+			"y": 182
+		},
+		"gold": 50,
+		"flagId": 12,
+		"color": {
+			"r": .2666667401790619,
+			"g": .09803920984268188,
+			"b": .5803921818733215,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 13,
+		"name": "Grenada",
+		"destroyed": false,
+		"pos": {
+			"x": 312,
+			"y": 180
+		},
+		"originalPos": {
+			"x": 312,
+			"y": 180
+		},
+		"gold": 50,
+		"flagId": 13,
+		"color": {
+			"r": .8117647171020508,
+			"g": .533333420753479,
+			"b": .3607843518257141,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 14,
+		"name": "The Bahamas",
+		"destroyed": false,
+		"pos": {
+			"x": 270,
+			"y": 216
+		},
+		"originalPos": {
+			"x": 270,
+			"y": 216
+		},
+		"gold": 50,
+		"flagId": 14,
+		"color": {
+			"r": .29019609093666077,
+			"g": .7568627595901489,
+			"b": .6316776275634766,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 8,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 15,
+		"name": "Trinidad and Tobago",
+		"destroyed": false,
+		"pos": {
+			"x": 313,
+			"y": 178
+		},
+		"originalPos": {
+			"x": 313,
+			"y": 178
+		},
+		"gold": 50,
+		"flagId": 15,
+		"color": {
+			"r": .5568627715110779,
+			"g": .13725489377975464,
+			"b": .13725489377975464,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 4,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 16,
+		"name": "Mexico",
+		"destroyed": false,
+		"pos": {
+			"x": 212,
+			"y": 201
+		},
+		"originalPos": {
+			"x": 212,
+			"y": 201
+		},
+		"gold": 50,
+		"flagId": 16,
+		"color": {
+			"r": .2705882489681244,
+			"g": .4627451002597809,
+			"b": .2980392277240753,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1197,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 17,
+		"name": "Belize",
+		"destroyed": false,
+		"pos": {
+			"x": 241,
+			"y": 195
+		},
+		"originalPos": {
+			"x": 241,
+			"y": 195
+		},
+		"gold": 50,
+		"flagId": 17,
+		"color": {
+			"r": .5647059082984924,
+			"g": .18431369960308075,
+			"b": .18431369960308075,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 11,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 18,
+		"name": "Guatemala",
+		"destroyed": false,
+		"pos": {
+			"x": 236,
+			"y": 188
+		},
+		"originalPos": {
+			"x": 236,
+			"y": 188
+		},
+		"gold": 50,
+		"flagId": 18,
+		"color": {
+			"r": .49456626176834106,
+			"g": .596530020236969,
+			"b": .6886364221572876,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 67,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 19,
+		"name": "El Salvador",
+		"destroyed": false,
+		"pos": {
+			"x": 240,
+			"y": 185
+		},
+		"originalPos": {
+			"x": 240,
+			"y": 185
+		},
+		"gold": 50,
+		"flagId": 19,
+		"color": {
+			"r": .48627451062202454,
+			"g": .27450981736183167,
+			"b": .6627451181411743,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 11,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 20,
+		"name": "Honduras",
+		"destroyed": false,
+		"pos": {
+			"x": 244,
+			"y": 186
+		},
+		"originalPos": {
+			"x": 244,
+			"y": 186
+		},
+		"gold": 50,
+		"flagId": 20,
+		"color": {
+			"r": .7098039388656616,
+			"g": .4901960790157318,
+			"b": .10588233172893524,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 65,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 21,
+		"name": "Nicaragua",
+		"destroyed": false,
+		"pos": {
+			"x": 247,
+			"y": 182
+		},
+		"originalPos": {
+			"x": 247,
+			"y": 182
+		},
+		"gold": 50,
+		"flagId": 21,
+		"color": {
+			"r": .6603536009788513,
+			"g": .18609970808029175,
+			"b": .18609970808029175,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 66,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 22,
+		"name": "Costa Rica",
+		"destroyed": false,
+		"pos": {
+			"x": 252,
+			"y": 177
+		},
+		"originalPos": {
+			"x": 252,
+			"y": 177
+		},
+		"gold": 50,
+		"flagId": 22,
+		"color": {
+			"r": .18039216101169586,
+			"g": .32156863808631897,
+			"b": .4470588266849518,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 31,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 23,
+		"name": "Panama",
+		"destroyed": false,
+		"pos": {
+			"x": 265,
+			"y": 174
+		},
+		"originalPos": {
+			"x": 265,
+			"y": 174
+		},
+		"gold": 50,
+		"flagId": 23,
+		"color": {
+			"r": .5372549891471863,
+			"g": .29019609093666077,
+			"b": .5882353186607361,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 39,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 24,
+		"name": "Australia",
+		"destroyed": false,
+		"pos": {
+			"x": 869,
+			"y": 58
+		},
+		"originalPos": {
+			"x": 869,
+			"y": 58
+		},
+		"gold": 50,
+		"flagId": 24,
+		"color": {
+			"r": .16885679960250854,
+			"g": .25695595145225525,
+			"b": .40378791093826294,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 4847,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 25,
+		"name": "New Zealand",
+		"destroyed": false,
+		"pos": {
+			"x": 936,
+			"y": 41
+		},
+		"originalPos": {
+			"x": 936,
+			"y": 41
+		},
+		"gold": 50,
+		"flagId": 25,
+		"color": {
+			"r": .7215686440467834,
+			"g": .5529412031173706,
+			"b": .09803921729326248,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 205,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 26,
+		"name": "Vanuatu",
+		"destroyed": false,
+		"pos": {
+			"x": 919,
+			"y": 103
+		},
+		"originalPos": {
+			"x": 919,
+			"y": 103
+		},
+		"gold": 50,
+		"flagId": 26,
+		"color": {
+			"r": .8196078538894653,
+			"g": .686274528503418,
+			"b": .1607843041419983,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 7,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 27,
+		"name": "Fiji",
+		"destroyed": false,
+		"pos": {
+			"x": 944,
+			"y": 102
+		},
+		"originalPos": {
+			"x": 944,
+			"y": 102
+		},
+		"gold": 50,
+		"flagId": 27,
+		"color": {
+			"r": .20392157137393951,
+			"g": .6392158269882202,
+			"b": .8901960849761963,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 10,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 28,
+		"name": "Tuvalu",
+		"destroyed": false,
+		"pos": {
+			"x": 948,
+			"y": 129
+		},
+		"originalPos": {
+			"x": 948,
+			"y": 129
+		},
+		"gold": 50,
+		"flagId": 28,
+		"color": {
+			"r": .41960784792900085,
+			"g": .501960813999176,
+			"b": .6901960968971252,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 29,
+		"name": "Nauru",
+		"destroyed": false,
+		"pos": {
+			"x": 915,
+			"y": 149
+		},
+		"originalPos": {
+			"x": 915,
+			"y": 149
+		},
+		"gold": 50,
+		"flagId": 29,
+		"color": {
+			"r": .3450980484485626,
+			"g": .3450980484485626,
+			"b": .3450980484485626,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 30,
+		"name": "Micronesia",
+		"destroyed": false,
+		"pos": {
+			"x": 892,
+			"y": 168
+		},
+		"originalPos": {
+			"x": 892,
+			"y": 168
+		},
+		"gold": 50,
+		"flagId": 30,
+		"color": {
+			"r": .3105986714363098,
+			"g": .6732696890830994,
+			"b": .8310605883598328,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 6,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 31,
+		"name": "Marshall Islands",
+		"destroyed": false,
+		"pos": {
+			"x": 920,
+			"y": 175
+		},
+		"originalPos": {
+			"x": 920,
+			"y": 175
+		},
+		"gold": 50,
+		"flagId": 31,
+		"color": {
+			"r": .615686297416687,
+			"g": .3607843220233917,
+			"b": .5960783958435059,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 32,
+		"name": "Palau",
+		"destroyed": false,
+		"pos": {
+			"x": 828,
+			"y": 169
+		},
+		"originalPos": {
+			"x": 828,
+			"y": 169
+		},
+		"gold": 50,
+		"flagId": 32,
+		"color": {
+			"r": .8274509906768799,
+			"g": .7529411315917969,
+			"b": .15294118225574493,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 33,
+		"name": "Solomon Islands",
+		"destroyed": false,
+		"pos": {
+			"x": 896,
+			"y": 125
+		},
+		"originalPos": {
+			"x": 896,
+			"y": 125
+		},
+		"gold": 50,
+		"flagId": 33,
+		"color": {
+			"r": .7254902124404907,
+			"g": .04313724860548973,
+			"b": .04313724860548973,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 16,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 34,
+		"name": "Papua New Guinea",
+		"destroyed": false,
+		"pos": {
+			"x": 862,
+			"y": 126
+		},
+		"originalPos": {
+			"x": 862,
+			"y": 126
+		},
+		"gold": 50,
+		"flagId": 34,
+		"color": {
+			"r": .2039215862751007,
+			"g": .3019607961177826,
+			"b": .20000000298023224,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 252,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 35,
+		"name": "Timor-Leste",
+		"destroyed": false,
+		"pos": {
+			"x": 806,
+			"y": 127
+		},
+		"originalPos": {
+			"x": 806,
+			"y": 127
+		},
+		"gold": 50,
+		"flagId": 35,
+		"color": {
+			"r": .25241559743881226,
+			"g": .6280303597450256,
+			"b": .2404279112815857,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 10,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 36,
+		"name": "Samoa",
+		"destroyed": false,
+		"pos": {
+			"x": 20,
+			"y": 114
+		},
+		"originalPos": {
+			"x": 20,
+			"y": 114
+		},
+		"gold": 50,
+		"flagId": 36,
+		"color": {
+			"r": .6549019813537598,
+			"g": .1607843041419983,
+			"b": .1607843041419983,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 2,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 37,
+		"name": "Tonga",
+		"destroyed": false,
+		"pos": {
+			"x": 15,
+			"y": 95
+		},
+		"originalPos": {
+			"x": 15,
+			"y": 95
+		},
+		"gold": 50,
+		"flagId": 37,
+		"color": {
+			"r": .8549019694328308,
+			"g": .345098078250885,
+			"b": .345098078250885,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 38,
+		"name": "Kiribati",
+		"destroyed": false,
+		"pos": {
+			"x": 58,
+			"y": 155
+		},
+		"originalPos": {
+			"x": 58,
+			"y": 155
+		},
+		"gold": 50,
+		"flagId": 38,
+		"color": {
+			"r": .6980392336845398,
+			"g": .16470588743686676,
+			"b": .16470588743686676,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 39,
+		"name": "United Kingdom",
+		"destroyed": false,
+		"pos": {
+			"x": 474,
+			"y": 286
+		},
+		"originalPos": {
+			"x": 474,
+			"y": 286
+		},
+		"gold": 50,
+		"flagId": 39,
+		"color": {
+			"r": .5803921818733215,
+			"g": .11764705926179886,
+			"b": .11764705926179886,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 241,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [201],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 40,
+		"name": "Ireland",
+		"destroyed": false,
+		"pos": {
+			"x": 458,
+			"y": 291
+		},
+		"originalPos": {
+			"x": 458,
+			"y": 291
+		},
+		"gold": 50,
+		"flagId": 40,
+		"color": {
+			"r": .07450979948043823,
+			"g": .5176470875740051,
+			"b": .15686270594596863,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 67,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 41,
+		"name": "Iceland",
+		"destroyed": false,
+		"pos": {
+			"x": 417,
+			"y": 320
+		},
+		"originalPos": {
+			"x": 417,
+			"y": 320
+		},
+		"gold": 50,
+		"flagId": 41,
+		"color": {
+			"r": .2089291512966156,
+			"g": .4935213029384613,
+			"b": .5537879467010498,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 128,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 42,
+		"name": "Denmark",
+		"destroyed": false,
+		"pos": {
+			"x": 507,
+			"y": 297
+		},
+		"originalPos": {
+			"x": 507,
+			"y": 297
+		},
+		"gold": 50,
+		"flagId": 42,
+		"color": {
+			"r": .7568627595901489,
+			"g": .2509803771972656,
+			"b": .2509803771972656,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 45,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [206, 207],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 43,
+		"name": "Norway",
+		"destroyed": false,
+		"pos": {
+			"x": 502,
+			"y": 308
+		},
+		"originalPos": {
+			"x": 502,
+			"y": 308
+		},
+		"gold": 50,
+		"flagId": 43,
+		"color": {
+			"r": .30980393290519714,
+			"g": .18039216101169586,
+			"b": .18039216101169586,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 543,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 44,
+		"name": "Finland",
+		"destroyed": false,
+		"pos": {
+			"x": 539,
+			"y": 309
+		},
+		"originalPos": {
+			"x": 539,
+			"y": 309
+		},
+		"gold": 50,
+		"flagId": 44,
+		"color": {
+			"r": .5607843399047852,
+			"g": .729411780834198,
+			"b": .8392156958580017,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 422,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 45,
+		"name": "Sweden",
+		"destroyed": false,
+		"pos": {
+			"x": 522,
+			"y": 307
+		},
+		"originalPos": {
+			"x": 522,
+			"y": 307
+		},
+		"gold": 50,
+		"flagId": 45,
+		"color": {
+			"r": .16470585763454437,
+			"g": .3176470696926117,
+			"b": .5333333611488342,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 539,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 46,
+		"name": "Russia",
+		"destroyed": false,
+		"pos": {
+			"x": 574,
+			"y": 297
+		},
+		"originalPos": {
+			"x": 574,
+			"y": 297
+		},
+		"gold": 50,
+		"flagId": 46,
+		"color": {
+			"r": .12941806018352509,
+			"g": .31287881731987,
+			"b": .14609630405902863,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 20314,
+		"totalWars": 1,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 47,
+		"name": "France",
+		"destroyed": false,
+		"pos": {
+			"x": 481,
+			"y": 280
+		},
+		"originalPos": {
+			"x": 481,
+			"y": 280
+		},
+		"gold": 50,
+		"flagId": 47,
+		"color": {
+			"r": .16470588743686676,
+			"g": .33333340287208557,
+			"b": .5843137502670288,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 483,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [205, 203],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 48,
+		"name": "Switzerland",
+		"destroyed": false,
+		"pos": {
+			"x": 494,
+			"y": 274
+		},
+		"originalPos": {
+			"x": 494,
+			"y": 274
+		},
+		"gold": 50,
+		"flagId": 48,
+		"color": {
+			"r": .7333333492279053,
+			"g": .30980393290519714,
+			"b": .30980393290519714,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 22,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 49,
+		"name": "Netherlands",
+		"destroyed": false,
+		"pos": {
+			"x": 487,
+			"y": 288
+		},
+		"originalPos": {
+			"x": 487,
+			"y": 288
+		},
+		"gold": 50,
+		"flagId": 49,
+		"color": {
+			"r": .8037879467010498,
+			"g": .35843026638031006,
+			"b": .10960762947797775,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 31,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 50,
+		"name": "Belgium",
+		"destroyed": false,
+		"pos": {
+			"x": 486,
+			"y": 284
+		},
+		"originalPos": {
+			"x": 486,
+			"y": 284
+		},
+		"gold": 50,
+		"flagId": 50,
+		"color": {
+			"r": .7411764860153198,
+			"g": .7019608020782471,
+			"b": .14901961386203766,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 29,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 51,
+		"name": "Luxembourg",
+		"destroyed": false,
+		"pos": {
+			"x": 490,
+			"y": 282
+		},
+		"originalPos": {
+			"x": 490,
+			"y": 282
+		},
+		"gold": 50,
+		"flagId": 51,
+		"color": {
+			"r": .2123108208179474,
+			"g": .7582522630691528,
+			"b": .8492424488067627,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 3,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 52,
+		"name": "Italy",
+		"destroyed": false,
+		"pos": {
+			"x": 508,
+			"y": 260
+		},
+		"originalPos": {
+			"x": 508,
+			"y": 260
+		},
+		"gold": 50,
+		"flagId": 52,
+		"color": {
+			"r": .3019607961177826,
+			"g": .6392157077789307,
+			"b": .35686278343200684,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 226,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 53,
+		"name": "Spain",
+		"destroyed": false,
+		"pos": {
+			"x": 464,
+			"y": 256
+		},
+		"originalPos": {
+			"x": 464,
+			"y": 256
+		},
+		"gold": 50,
+		"flagId": 53,
+		"color": {
+			"r": .7490196228027344,
+			"g": .5921568870544434,
+			"b": .145098015666008,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 374,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [208],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 54,
+		"name": "Portugal",
+		"destroyed": false,
+		"pos": {
+			"x": 450,
+			"y": 252
+		},
+		"originalPos": {
+			"x": 450,
+			"y": 252
+		},
+		"gold": 50,
+		"flagId": 54,
+		"color": {
+			"r": .2284642457962036,
+			"g": .5128787755966187,
+			"b": .2739706039428711,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 70,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 55,
+		"name": "Greece",
+		"destroyed": false,
+		"pos": {
+			"x": 537,
+			"y": 251
+		},
+		"originalPos": {
+			"x": 537,
+			"y": 251
+		},
+		"gold": 50,
+		"flagId": 55,
+		"color": {
+			"r": .4000000059604645,
+			"g": .5176470875740051,
+			"b": .6745098233222961,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 100,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 56,
+		"name": "Albania",
+		"destroyed": false,
+		"pos": {
+			"x": 526,
+			"y": 259
+		},
+		"originalPos": {
+			"x": 526,
+			"y": 259
+		},
+		"gold": 50,
+		"flagId": 56,
+		"color": {
+			"r": .4156862795352936,
+			"g": .05490196868777275,
+			"b": .05490196868777275,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 21,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 57,
+		"name": "North Macedonia",
+		"destroyed": false,
+		"pos": {
+			"x": 531,
+			"y": 261
+		},
+		"originalPos": {
+			"x": 531,
+			"y": 261
+		},
+		"gold": 50,
+		"flagId": 57,
+		"color": {
+			"r": .8117647171020508,
+			"g": .4748457670211792,
+			"b": .17254899442195892,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 19,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 58,
+		"name": "Bulgaria",
+		"destroyed": false,
+		"pos": {
+			"x": 536,
+			"y": 263
+		},
+		"originalPos": {
+			"x": 536,
+			"y": 263
+		},
+		"gold": 50,
+		"flagId": 58,
+		"color": {
+			"r": .16862747073173523,
+			"g": .4117647111415863,
+			"b": .1882352977991104,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 87,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 59,
+		"name": "Montenegro",
+		"destroyed": false,
+		"pos": {
+			"x": 525,
+			"y": 262
+		},
+		"originalPos": {
+			"x": 525,
+			"y": 262
+		},
+		"gold": 50,
+		"flagId": 59,
+		"color": {
+			"r": .36078429222106934,
+			"g": .29411765933036804,
+			"b": .3764705955982208,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 12,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 60,
+		"name": "Kosovo",
+		"destroyed": false,
+		"pos": {
+			"x": 530,
+			"y": 262
+		},
+		"originalPos": {
+			"x": 530,
+			"y": 262
+		},
+		"gold": 50,
+		"flagId": 60,
+		"color": {
+			"r": .8509804010391235,
+			"g": .545098066329956,
+			"b": .8666666746139526,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 9,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 61,
+		"name": "Germany",
+		"destroyed": false,
+		"pos": {
+			"x": 510,
+			"y": 289
+		},
+		"originalPos": {
+			"x": 510,
+			"y": 289
+		},
+		"gold": 50,
+		"flagId": 61,
+		"color": {
+			"r": .26274511218070984,
+			"g": .2862745225429535,
+			"b": .3176470696926117,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 318,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 62,
+		"name": "Estonia",
+		"destroyed": false,
+		"pos": {
+			"x": 539,
+			"y": 306
+		},
+		"originalPos": {
+			"x": 539,
+			"y": 306
+		},
+		"gold": 50,
+		"flagId": 62,
+		"color": {
+			"r": .09740711003541946,
+			"g": .21299973130226135,
+			"b": .3401515781879425,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 41,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 63,
+		"name": "Latvia",
+		"destroyed": false,
+		"pos": {
+			"x": 538,
+			"y": 300
+		},
+		"originalPos": {
+			"x": 538,
+			"y": 300
+		},
+		"gold": 50,
+		"flagId": 63,
+		"color": {
+			"r": .37651512026786804,
+			"g": .12151172012090683,
+			"b": .12151172012090683,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 72,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 64,
+		"name": "Lithuania",
+		"destroyed": false,
+		"pos": {
+			"x": 540,
+			"y": 295
+		},
+		"originalPos": {
+			"x": 540,
+			"y": 295
+		},
+		"gold": 50,
+		"flagId": 64,
+		"color": {
+			"r": .572549045085907,
+			"g": .44313719868659973,
+			"b": .027450978755950928,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 57,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 65,
+		"name": "Cyprus",
+		"destroyed": false,
+		"pos": {
+			"x": 562,
+			"y": 242
+		},
+		"originalPos": {
+			"x": 562,
+			"y": 242
+		},
+		"gold": 50,
+		"flagId": 65,
+		"color": {
+			"r": .8117647171020508,
+			"g": .686274528503418,
+			"b": .09803922474384308,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 6,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 66,
+		"name": "Turkey",
+		"destroyed": false,
+		"pos": {
+			"x": 561,
+			"y": 254
+		},
+		"originalPos": {
+			"x": 561,
+			"y": 254
+		},
+		"gold": 50,
+		"flagId": 66,
+		"color": {
+			"r": .5037878751754761,
+			"g": .08930797874927521,
+			"b": .08930797874927521,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 542,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 67,
+		"name": "Malta",
+		"destroyed": false,
+		"pos": {
+			"x": 513,
+			"y": 244
+		},
+		"originalPos": {
+			"x": 513,
+			"y": 244
+		},
+		"gold": 50,
+		"flagId": 67,
+		"color": {
+			"r": .8039215803146362,
+			"g": .33725491166114807,
+			"b": .7529411315917969,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 68,
+		"name": "San Marino",
+		"destroyed": false,
+		"pos": {
+			"x": 508,
+			"y": 265
+		},
+		"originalPos": {
+			"x": 508,
+			"y": 265
+		},
+		"gold": 50,
+		"flagId": 68,
+		"color": {
+			"r": .24705880880355835,
+			"g": .5960785746574402,
+			"b": .7686274647712708,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 69,
+		"name": "Chile",
+		"destroyed": false,
+		"pos": {
+			"x": 287,
+			"y": 59
+		},
+		"originalPos": {
+			"x": 287,
+			"y": 59
+		},
+		"gold": 50,
+		"flagId": 69,
+		"color": {
+			"r": .32549020648002625,
+			"g": .1921568512916565,
+			"b": .11764704436063766,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 489,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 70,
+		"name": "Argentina",
+		"destroyed": false,
+		"pos": {
+			"x": 321,
+			"y": 58
+		},
+		"originalPos": {
+			"x": 321,
+			"y": 58
+		},
+		"gold": 50,
+		"flagId": 70,
+		"color": {
+			"r": .1788943111896515,
+			"g": .3307350277900696,
+			"b": .48257574439048767,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1891,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 71,
+		"name": "Paraguay",
+		"destroyed": false,
+		"pos": {
+			"x": 322,
+			"y": 84
+		},
+		"originalPos": {
+			"x": 322,
+			"y": 84
+		},
+		"gold": 50,
+		"flagId": 71,
+		"color": {
+			"r": .7128788232803345,
+			"g": .7128788232803345,
+			"b": .7128788232803345,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 249,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 72,
+		"name": "Uruguay",
+		"destroyed": false,
+		"pos": {
+			"x": 327,
+			"y": 59
+		},
+		"originalPos": {
+			"x": 327,
+			"y": 59
+		},
+		"gold": 50,
+		"flagId": 72,
+		"color": {
+			"r": .09773115813732147,
+			"g": .19918689131736755,
+			"b": .33712121844291687,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 120,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 73,
+		"name": "Bolivia",
+		"destroyed": false,
+		"pos": {
+			"x": 295,
+			"y": 107
+		},
+		"originalPos": {
+			"x": 295,
+			"y": 107
+		},
+		"gold": 50,
+		"flagId": 73,
+		"color": {
+			"r": .4399479925632477,
+			"g": .16936668753623962,
+			"b": .5391414761543274,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 607,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 74,
+		"name": "Liechtenstein",
+		"destroyed": false,
+		"pos": {
+			"x": 500,
+			"y": 274
+		},
+		"originalPos": {
+			"x": 500,
+			"y": 274
+		},
+		"gold": 50,
+		"flagId": 74,
+		"color": {
+			"r": .501960813999176,
+			"g": .125490203499794,
+			"b": .4980391263961792,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 75,
+		"name": "Brazil",
+		"destroyed": false,
+		"pos": {
+			"x": 347,
+			"y": 108
+		},
+		"originalPos": {
+			"x": 347,
+			"y": 108
+		},
+		"gold": 50,
+		"flagId": 75,
+		"color": {
+			"r": .08907486498355865,
+			"g": .4260101318359375,
+			"b": .1658449023962021,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 4937,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 76,
+		"name": "Peru",
+		"destroyed": false,
+		"pos": {
+			"x": 272,
+			"y": 117
+		},
+		"originalPos": {
+			"x": 272,
+			"y": 117
+		},
+		"gold": 50,
+		"flagId": 76,
+		"color": {
+			"r": .6000000238418579,
+			"g": .1450980305671692,
+			"b": .1450980305671692,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 714,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 77,
+		"name": "Ecuador",
+		"destroyed": false,
+		"pos": {
+			"x": 267,
+			"y": 149
+		},
+		"originalPos": {
+			"x": 267,
+			"y": 149
+		},
+		"gold": 50,
+		"flagId": 77,
+		"color": {
+			"r": .4240451455116272,
+			"g": .2754630148410797,
+			"b": .4583333432674408,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 142,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 78,
+		"name": "Venezuela",
+		"destroyed": false,
+		"pos": {
+			"x": 297,
+			"y": 177
+		},
+		"originalPos": {
+			"x": 297,
+			"y": 177
+		},
+		"gold": 50,
+		"flagId": 78,
+		"color": {
+			"r": .40984854102134705,
+			"g": .2526060938835144,
+			"b": .16683745384216309,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 515,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 79,
+		"name": "Colombia",
+		"destroyed": false,
+		"pos": {
+			"x": 278,
+			"y": 161
+		},
+		"originalPos": {
+			"x": 278,
+			"y": 161
+		},
+		"gold": 50,
+		"flagId": 79,
+		"color": {
+			"r": .6549019813537598,
+			"g": .5568627119064331,
+			"b": .08235295116901398,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 640,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 80,
+		"name": "Guyana",
+		"destroyed": false,
+		"pos": {
+			"x": 321,
+			"y": 167
+		},
+		"originalPos": {
+			"x": 321,
+			"y": 167
+		},
+		"gold": 50,
+		"flagId": 80,
+		"color": {
+			"r": .7936869263648987,
+			"g": .4463965594768524,
+			"b": .13067801296710968,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 124,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 81,
+		"name": "Suriname",
+		"destroyed": false,
+		"pos": {
+			"x": 328,
+			"y": 165
+		},
+		"originalPos": {
+			"x": 328,
+			"y": 165
+		},
+		"gold": 50,
+		"flagId": 81,
+		"color": {
+			"r": .38261035084724426,
+			"g": .6159090995788574,
+			"b": .45684176683425903,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 79,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 82,
+		"name": "Sao Tome and Principe",
+		"destroyed": false,
+		"pos": {
+			"x": 492,
+			"y": 151
+		},
+		"originalPos": {
+			"x": 492,
+			"y": 151
+		},
+		"gold": 50,
+		"flagId": 82,
+		"color": {
+			"r": .9411764740943909,
+			"g": .8705881834030151,
+			"b": .031372521072626114,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 83,
+		"name": "Seychelles",
+		"destroyed": false,
+		"pos": {
+			"x": 618,
+			"y": 139
+		},
+		"originalPos": {
+			"x": 618,
+			"y": 139
+		},
+		"gold": 50,
+		"flagId": 83,
+		"color": {
+			"r": .5607843399047852,
+			"g": .15294116735458374,
+			"b": .27058830857276917,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 84,
+		"name": "Mauritius",
+		"destroyed": false,
+		"pos": {
+			"x": 627,
+			"y": 97
+		},
+		"originalPos": {
+			"x": 627,
+			"y": 97
+		},
+		"gold": 50,
+		"flagId": 84,
+		"color": {
+			"r": .43712118268013,
+			"g": .19648389518260956,
+			"b": .42528021335601807,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 2,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 85,
+		"name": "Comoros",
+		"destroyed": false,
+		"pos": {
+			"x": 589,
+			"y": 119
+		},
+		"originalPos": {
+			"x": 589,
+			"y": 119
+		},
+		"gold": 50,
+		"flagId": 85,
+		"color": {
+			"r": .43921566009521484,
+			"g": .7960783243179321,
+			"b": 1,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 2,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 86,
+		"name": "Maldives",
+		"destroyed": false,
+		"pos": {
+			"x": 674,
+			"y": 155
+		},
+		"originalPos": {
+			"x": 674,
+			"y": 155
+		},
+		"gold": 50,
+		"flagId": 86,
+		"color": {
+			"r": .14868929982185364,
+			"g": .6159090995788574,
+			"b": .2443581521511078,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 2,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 87,
+		"name": "Bahrain",
+		"destroyed": false,
+		"pos": {
+			"x": 608,
+			"y": 219
+		},
+		"originalPos": {
+			"x": 608,
+			"y": 219
+		},
+		"gold": 50,
+		"flagId": 87,
+		"color": {
+			"r": .7647058963775635,
+			"g": .3647059202194214,
+			"b": .8666666746139526,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 88,
+		"name": "Monaco",
+		"destroyed": false,
+		"pos": {
+			"x": 493,
+			"y": 265
+		},
+		"originalPos": {
+			"x": 493,
+			"y": 265
+		},
+		"gold": 50,
+		"flagId": 88,
+		"color": {
+			"r": .8509804010391235,
+			"g": .3490196764469147,
+			"b": .3490196764469147,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 89,
+		"name": "Cape Verde",
+		"destroyed": false,
+		"pos": {
+			"x": 412,
+			"y": 190
+		},
+		"originalPos": {
+			"x": 412,
+			"y": 190
+		},
+		"gold": 50,
+		"flagId": 89,
+		"color": {
+			"r": .18431372940540314,
+			"g": .6078433394432068,
+			"b": .8509804010391235,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 3,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 90,
+		"name": "Singapore",
+		"destroyed": false,
+		"pos": {
+			"x": 748,
+			"y": 154
+		},
+		"originalPos": {
+			"x": 748,
+			"y": 154
+		},
+		"gold": 50,
+		"flagId": 90,
+		"color": {
+			"r": .9921568632125854,
+			"g": .45098042488098145,
+			"b": .45098042488098145,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 91,
+		"name": "Egypt",
+		"destroyed": false,
+		"pos": {
+			"x": 557,
+			"y": 230
+		},
+		"originalPos": {
+			"x": 557,
+			"y": 230
+		},
+		"gold": 50,
+		"flagId": 91,
+		"color": {
+			"r": .6941176652908325,
+			"g": .5098039507865906,
+			"b": 0,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 615,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 92,
+		"name": "Libya",
+		"destroyed": false,
+		"pos": {
+			"x": 509,
+			"y": 236
+		},
+		"originalPos": {
+			"x": 509,
+			"y": 236
+		},
+		"gold": 50,
+		"flagId": 92,
+		"color": {
+			"r": .4174242913722992,
+			"g": .4174242913722992,
+			"b": .4174242913722992,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1027,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 93,
+		"name": "Tunisia",
+		"destroyed": false,
+		"pos": {
+			"x": 501,
+			"y": 247
+		},
+		"originalPos": {
+			"x": 501,
+			"y": 247
+		},
+		"gold": 50,
+		"flagId": 93,
+		"color": {
+			"r": .8784313797950745,
+			"g": .30980390310287476,
+			"b": .30980390310287476,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 106,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 94,
+		"name": "Morocco",
+		"destroyed": false,
+		"pos": {
+			"x": 456,
+			"y": 239
+		},
+		"originalPos": {
+			"x": 456,
+			"y": 239
+		},
+		"gold": 50,
+		"flagId": 94,
+		"color": {
+			"r": .38823530077934265,
+			"g": .09019608050584793,
+			"b": .09019608050584793,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 250,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 95,
+		"name": "Western Sahara",
+		"destroyed": false,
+		"pos": {
+			"x": 440,
+			"y": 221
+		},
+		"originalPos": {
+			"x": 440,
+			"y": 221
+		},
+		"gold": 50,
+		"flagId": 95,
+		"color": {
+			"r": .8313725590705872,
+			"g": .6784313917160034,
+			"b": .24705882370471954,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 172,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 96,
+		"name": "Algeria",
+		"destroyed": false,
+		"pos": {
+			"x": 482,
+			"y": 247
+		},
+		"originalPos": {
+			"x": 482,
+			"y": 247
+		},
+		"gold": 50,
+		"flagId": 96,
+		"color": {
+			"r": .2078431397676468,
+			"g": .4000000059604645,
+			"b": .21568627655506134,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1477,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 97,
+		"name": "Mauritania",
+		"destroyed": false,
+		"pos": {
+			"x": 433,
+			"y": 197
+		},
+		"originalPos": {
+			"x": 433,
+			"y": 197
+		},
+		"gold": 50,
+		"flagId": 97,
+		"color": {
+			"r": .2646494507789612,
+			"g": .6310606002807617,
+			"b": .2151344269514084,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 613,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 98,
+		"name": "Senegal",
+		"destroyed": false,
+		"pos": {
+			"x": 429,
+			"y": 189
+		},
+		"originalPos": {
+			"x": 429,
+			"y": 189
+		},
+		"gold": 50,
+		"flagId": 98,
+		"color": {
+			"r": .35686272382736206,
+			"g": .2666666805744171,
+			"b": .42352941632270813,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 116,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 99,
+		"name": "Mali",
+		"destroyed": false,
+		"pos": {
+			"x": 454,
+			"y": 183
+		},
+		"originalPos": {
+			"x": 454,
+			"y": 183
+		},
+		"gold": 50,
+		"flagId": 99,
+		"color": {
+			"r": .8037879467010498,
+			"g": .5405561327934265,
+			"b": .15345047414302826,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 762,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 100,
+		"name": "Guinea-Bissau",
+		"destroyed": false,
+		"pos": {
+			"x": 434,
+			"y": 181
+		},
+		"originalPos": {
+			"x": 434,
+			"y": 181
+		},
+		"gold": 50,
+		"flagId": 100,
+		"color": {
+			"r": .3943978250026703,
+			"g": .7254902124404907,
+			"b": .37254902720451355,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 12,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 101,
+		"name": "Guinea",
+		"destroyed": false,
+		"pos": {
+			"x": 438,
+			"y": 176
+		},
+		"originalPos": {
+			"x": 438,
+			"y": 176
+		},
+		"gold": 50,
+		"flagId": 101,
+		"color": {
+			"r": .44469693303108215,
+			"g": .38955020904541016,
+			"b": .15160131454467773,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 140,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 102,
+		"name": "Sri Lanka",
+		"destroyed": false,
+		"pos": {
+			"x": 686,
+			"y": 168
+		},
+		"originalPos": {
+			"x": 686,
+			"y": 168
+		},
+		"gold": 50,
+		"flagId": 102,
+		"color": {
+			"r": .5148990750312805,
+			"g": .06605277955532074,
+			"b": .16223418712615967,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 34,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 103,
+		"name": "Japan",
+		"destroyed": false,
+		"pos": {
+			"x": 843,
+			"y": 245
+		},
+		"originalPos": {
+			"x": 843,
+			"y": 245
+		},
+		"gold": 50,
+		"flagId": 103,
+		"color": {
+			"r": .8583333492279053,
+			"g": .3459343910217285,
+			"b": .3459343910217285,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 260,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 104,
+		"name": "Andorra",
+		"destroyed": false,
+		"pos": {
+			"x": 478,
+			"y": 263
+		},
+		"originalPos": {
+			"x": 478,
+			"y": 263
+		},
+		"gold": 50,
+		"flagId": 104,
+		"color": {
+			"r": .8156862854957581,
+			"g": .29019612073898315,
+			"b": .8078430891036987,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 105,
+		"name": "Taiwan",
+		"destroyed": false,
+		"pos": {
+			"x": 794,
+			"y": 215
+		},
+		"originalPos": {
+			"x": 794,
+			"y": 215
+		},
+		"gold": 50,
+		"flagId": 105,
+		"color": {
+			"r": .07762608677148819,
+			"g": .14822201430797577,
+			"b": .29671719670295715,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 20,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 106,
+		"name": "Philippines",
+		"destroyed": false,
+		"pos": {
+			"x": 794,
+			"y": 188
+		},
+		"originalPos": {
+			"x": 794,
+			"y": 188
+		},
+		"gold": 50,
+		"flagId": 106,
+		"color": {
+			"r": .20465800166130066,
+			"g": .381565660238266,
+			"b": .22740323841571808,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 170,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 107,
+		"name": "Serbia",
+		"destroyed": false,
+		"pos": {
+			"x": 528,
+			"y": 268
+		},
+		"originalPos": {
+			"x": 528,
+			"y": 268
+		},
+		"gold": 50,
+		"flagId": 107,
+		"color": {
+			"r": .1262122243642807,
+			"g": .261577844619751,
+			"b": .6310606002807617,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 64,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 108,
+		"name": "Bosnia and Herzegovina",
+		"destroyed": false,
+		"pos": {
+			"x": 523,
+			"y": 266
+		},
+		"originalPos": {
+			"x": 523,
+			"y": 266
+		},
+		"gold": 50,
+		"flagId": 108,
+		"color": {
+			"r": .7719697952270508,
+			"g": .650543212890625,
+			"b": .17895664274692535,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 37,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 109,
+		"name": "Croatia",
+		"destroyed": false,
+		"pos": {
+			"x": 516,
+			"y": 270
+		},
+		"originalPos": {
+			"x": 516,
+			"y": 270
+		},
+		"gold": 50,
+		"flagId": 109,
+		"color": {
+			"r": .4737563133239746,
+			"g": .299452543258667,
+			"b": .5356060266494751,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 48,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 110,
+		"name": "Slovenia",
+		"destroyed": false,
+		"pos": {
+			"x": 513,
+			"y": 272
+		},
+		"originalPos": {
+			"x": 513,
+			"y": 272
+		},
+		"gold": 50,
+		"flagId": 110,
+		"color": {
+			"r": .2980392575263977,
+			"g": .48235297203063965,
+			"b": .6627451181411743,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 15,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 111,
+		"name": "Austria",
+		"destroyed": false,
+		"pos": {
+			"x": 518,
+			"y": 277
+		},
+		"originalPos": {
+			"x": 518,
+			"y": 277
+		},
+		"gold": 50,
+		"flagId": 111,
+		"color": {
+			"r": .686274528503418,
+			"g": .686274528503418,
+			"b": .686274528503418,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 61,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 112,
+		"name": "Czechia",
+		"destroyed": false,
+		"pos": {
+			"x": 512,
+			"y": 282
+		},
+		"originalPos": {
+			"x": 512,
+			"y": 282
+		},
+		"gold": 50,
+		"flagId": 112,
+		"color": {
+			"r": .13333335518836975,
+			"g": .24313727021217346,
+			"b": .45098039507865906,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 69,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 113,
+		"name": "Slovakia",
+		"destroyed": false,
+		"pos": {
+			"x": 520,
+			"y": 277
+		},
+		"originalPos": {
+			"x": 520,
+			"y": 277
+		},
+		"gold": 50,
+		"flagId": 113,
+		"color": {
+			"r": .19106067717075348,
+			"g": .6349087953567505,
+			"b": .8083333969116211,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 34,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 114,
+		"name": "Poland",
+		"destroyed": false,
+		"pos": {
+			"x": 531,
+			"y": 289
+		},
+		"originalPos": {
+			"x": 531,
+			"y": 289
+		},
+		"gold": 50,
+		"flagId": 114,
+		"color": {
+			"r": .8128787875175476,
+			"g": .347321093082428,
+			"b": .347321093082428,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 287,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 115,
+		"name": "Belarus",
+		"destroyed": false,
+		"pos": {
+			"x": 547,
+			"y": 292
+		},
+		"originalPos": {
+			"x": 547,
+			"y": 292
+		},
+		"gold": 50,
+		"flagId": 115,
+		"color": {
+			"r": .5992424488067627,
+			"g": .5992424488067627,
+			"b": .5992424488067627,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 190,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 116,
+		"name": "Ukraine",
+		"destroyed": false,
+		"pos": {
+			"x": 556,
+			"y": 283
+		},
+		"originalPos": {
+			"x": 556,
+			"y": 283
+		},
+		"gold": 50,
+		"flagId": 116,
+		"color": {
+			"r": .14719706773757935,
+			"g": .3828596770763397,
+			"b": .5583333373069763,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 425,
+		"totalWars": 1,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 117,
+		"name": "Moldova",
+		"destroyed": false,
+		"pos": {
+			"x": 551,
+			"y": 274
+		},
+		"originalPos": {
+			"x": 551,
+			"y": 274
+		},
+		"gold": 50,
+		"flagId": 117,
+		"color": {
+			"r": .45098036527633667,
+			"g": .26274511218070984,
+			"b": .5333333611488342,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 24,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 118,
+		"name": "Hungary",
+		"destroyed": false,
+		"pos": {
+			"x": 525,
+			"y": 275
+		},
+		"originalPos": {
+			"x": 525,
+			"y": 275
+		},
+		"gold": 50,
+		"flagId": 118,
+		"color": {
+			"r": .20000000298023224,
+			"g": .2666666805744171,
+			"b": .20000000298023224,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 84,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 119,
+		"name": "Romania",
+		"destroyed": false,
+		"pos": {
+			"x": 544,
+			"y": 268
+		},
+		"originalPos": {
+			"x": 544,
+			"y": 268
+		},
+		"gold": 50,
+		"flagId": 119,
+		"color": {
+			"r": .7647058963775635,
+			"g": .5568627715110779,
+			"b": .07058823108673096,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 189,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 120,
+		"name": "Chad",
+		"destroyed": false,
+		"pos": {
+			"x": 515,
+			"y": 182
+		},
+		"originalPos": {
+			"x": 515,
+			"y": 182
+		},
+		"gold": 50,
+		"flagId": 120,
+		"color": {
+			"r": .3810606300830841,
+			"g": .07274798303842545,
+			"b": .07274798303842545,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 745,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 121,
+		"name": "Niger",
+		"destroyed": false,
+		"pos": {
+			"x": 482,
+			"y": 185
+		},
+		"originalPos": {
+			"x": 482,
+			"y": 185
+		},
+		"gold": 50,
+		"flagId": 121,
+		"color": {
+			"r": .5628787875175476,
+			"g": .24488891661167145,
+			"b": .10234173387289047,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 697,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 122,
+		"name": "Sierra Leone",
+		"destroyed": false,
+		"pos": {
+			"x": 440,
+			"y": 172
+		},
+		"originalPos": {
+			"x": 440,
+			"y": 172
+		},
+		"gold": 50,
+		"flagId": 122,
+		"color": {
+			"r": .1130855605006218,
+			"g": .36510488390922546,
+			"b": .6219697594642639,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 41,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 123,
+		"name": "Liberia",
+		"destroyed": false,
+		"pos": {
+			"x": 446,
+			"y": 167
+		},
+		"originalPos": {
+			"x": 446,
+			"y": 167
+		},
+		"gold": 50,
+		"flagId": 123,
+		"color": {
+			"r": .16078431904315948,
+			"g": .6745098233222961,
+			"b": .4431372284889221,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 54,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 124,
+		"name": "Ivory Coast",
+		"destroyed": false,
+		"pos": {
+			"x": 462,
+			"y": 167
+		},
+		"originalPos": {
+			"x": 462,
+			"y": 167
+		},
+		"gold": 50,
+		"flagId": 124,
+		"color": {
+			"r": .5023055076599121,
+			"g": .6174242496490479,
+			"b": .2076791673898697,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 183,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 125,
+		"name": "Ghana",
+		"destroyed": false,
+		"pos": {
+			"x": 474,
+			"y": 165
+		},
+		"originalPos": {
+			"x": 474,
+			"y": 165
+		},
+		"gold": 50,
+		"flagId": 125,
+		"color": {
+			"r": .2705882489681244,
+			"g": .3176470696926117,
+			"b": .6196078658103943,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 140,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 126,
+		"name": "Togo",
+		"destroyed": false,
+		"pos": {
+			"x": 477,
+			"y": 166
+		},
+		"originalPos": {
+			"x": 477,
+			"y": 166
+		},
+		"gold": 50,
+		"flagId": 126,
+		"color": {
+			"r": .7001312971115112,
+			"g": .23579902946949005,
+			"b": .7628788948059082,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 35,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 127,
+		"name": "Burkina Faso",
+		"destroyed": false,
+		"pos": {
+			"x": 471,
+			"y": 183
+		},
+		"originalPos": {
+			"x": 471,
+			"y": 183
+		},
+		"gold": 50,
+		"flagId": 127,
+		"color": {
+			"r": .37651512026786804,
+			"g": .17970049381256104,
+			"b": .22290384769439697,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 150,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 128,
+		"name": "Nigeria",
+		"destroyed": false,
+		"pos": {
+			"x": 494,
+			"y": 174
+		},
+		"originalPos": {
+			"x": 494,
+			"y": 174
+		},
+		"gold": 50,
+		"flagId": 128,
+		"color": {
+			"r": .07058822363615036,
+			"g": .4627451002597809,
+			"b": .0980391800403595,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 524,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 129,
+		"name": "Cameroon",
+		"destroyed": false,
+		"pos": {
+			"x": 505,
+			"y": 159
+		},
+		"originalPos": {
+			"x": 505,
+			"y": 159
+		},
+		"gold": 50,
+		"flagId": 129,
+		"color": {
+			"r": .5083333849906921,
+			"g": .5083333849906921,
+			"b": .5083333849906921,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 276,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 130,
+		"name": "Central African Republic",
+		"destroyed": false,
+		"pos": {
+			"x": 524,
+			"y": 162
+		},
+		"originalPos": {
+			"x": 524,
+			"y": 162
+		},
+		"gold": 50,
+		"flagId": 130,
+		"color": {
+			"r": .37254902720451355,
+			"g": .26274511218070984,
+			"b": .40784314274787903,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 349,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 131,
+		"name": "Sudan",
+		"destroyed": false,
+		"pos": {
+			"x": 561,
+			"y": 191
+		},
+		"originalPos": {
+			"x": 561,
+			"y": 191
+		},
+		"gold": 50,
+		"flagId": 131,
+		"color": {
+			"r": .0313725471496582,
+			"g": .3294117748737335,
+			"b": .039215654134750366,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1086,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 132,
+		"name": "South Sudan",
+		"destroyed": false,
+		"pos": {
+			"x": 558,
+			"y": 161
+		},
+		"originalPos": {
+			"x": 558,
+			"y": 161
+		},
+		"gold": 50,
+		"flagId": 132,
+		"color": {
+			"r": .2547437250614166,
+			"g": .5181605815887451,
+			"b": .6320707201957703,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 366,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 133,
+		"name": "Ethiopia",
+		"destroyed": false,
+		"pos": {
+			"x": 576,
+			"y": 174
+		},
+		"originalPos": {
+			"x": 576,
+			"y": 174
+		},
+		"gold": 50,
+		"flagId": 133,
+		"color": {
+			"r": .7856061458587646,
+			"g": .5756768584251404,
+			"b": .29757827520370483,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 609,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 134,
+		"name": "Eritrea",
+		"destroyed": false,
+		"pos": {
+			"x": 578,
+			"y": 190
+		},
+		"originalPos": {
+			"x": 578,
+			"y": 190
+		},
+		"gold": 50,
+		"flagId": 134,
+		"color": {
+			"r": .4090621769428253,
+			"g": .22380001842975616,
+			"b": .47853538393974304,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 75,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 135,
+		"name": "The Gambia",
+		"destroyed": false,
+		"pos": {
+			"x": 431,
+			"y": 185
+		},
+		"originalPos": {
+			"x": 431,
+			"y": 185
+		},
+		"gold": 50,
+		"flagId": 135,
+		"color": {
+			"r": .7628788948059082,
+			"g": .19071990251541138,
+			"b": .2915288209915161,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 9,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 136,
+		"name": "Benin",
+		"destroyed": false,
+		"pos": {
+			"x": 481,
+			"y": 167
+		},
+		"originalPos": {
+			"x": 481,
+			"y": 167
+		},
+		"gold": 50,
+		"flagId": 136,
+		"color": {
+			"r": .7174243330955505,
+			"g": .4805367588996887,
+			"b": .36849531531333923,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 67,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 137,
+		"name": "Equatorial Guinea",
+		"destroyed": false,
+		"pos": {
+			"x": 497,
+			"y": 159
+		},
+		"originalPos": {
+			"x": 497,
+			"y": 159
+		},
+		"gold": 50,
+		"flagId": 137,
+		"color": {
+			"r": .5561797618865967,
+			"g": .24740704894065857,
+			"b": .6719696521759033,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 15,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 138,
+		"name": "Gabon",
+		"destroyed": false,
+		"pos": {
+			"x": 500,
+			"y": 151
+		},
+		"originalPos": {
+			"x": 500,
+			"y": 151
+		},
+		"gold": 50,
+		"flagId": 138,
+		"color": {
+			"r": .7333333492279053,
+			"g": .37254902720451355,
+			"b": .08235292881727219,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 155,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 139,
+		"name": "Congo",
+		"destroyed": false,
+		"pos": {
+			"x": 516,
+			"y": 141
+		},
+		"originalPos": {
+			"x": 516,
+			"y": 141
+		},
+		"gold": 50,
+		"flagId": 139,
+		"color": {
+			"r": .10588234663009644,
+			"g": .4431372582912445,
+			"b": .14901962876319885,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 187,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 140,
+		"name": "DR Congo",
+		"destroyed": false,
+		"pos": {
+			"x": 517,
+			"y": 140
+		},
+		"originalPos": {
+			"x": 517,
+			"y": 140
+		},
+		"gold": 50,
+		"flagId": 140,
+		"color": {
+			"r": .14896699786186218,
+			"g": .24791447818279266,
+			"b": .3901515007019043,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1318,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 141,
+		"name": "Rwanda",
+		"destroyed": false,
+		"pos": {
+			"x": 554,
+			"y": 145
+		},
+		"originalPos": {
+			"x": 554,
+			"y": 145
+		},
+		"gold": 50,
+		"flagId": 141,
+		"color": {
+			"r": .7215686440467834,
+			"g": .5882353186607361,
+			"b": .32156863808631897,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 10,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 142,
+		"name": "Burundi",
+		"destroyed": false,
+		"pos": {
+			"x": 553,
+			"y": 141
+		},
+		"originalPos": {
+			"x": 553,
+			"y": 141
+		},
+		"gold": 50,
+		"flagId": 142,
+		"color": {
+			"r": .348212867975235,
+			"g": .690151572227478,
+			"b": .6353330016136169,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 14,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 143,
+		"name": "Uganda",
+		"destroyed": false,
+		"pos": {
+			"x": 560,
+			"y": 151
+		},
+		"originalPos": {
+			"x": 560,
+			"y": 151
+		},
+		"gold": 50,
+		"flagId": 143,
+		"color": {
+			"r": .4537879526615143,
+			"g": .26153263449668884,
+			"b": .1258230358362198,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 120,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 144,
+		"name": "Kenya",
+		"destroyed": false,
+		"pos": {
+			"x": 572,
+			"y": 146
+		},
+		"originalPos": {
+			"x": 572,
+			"y": 146
+		},
+		"gold": 50,
+		"flagId": 144,
+		"color": {
+			"r": .6765151619911194,
+			"g": .1277862936258316,
+			"b": .1277862936258316,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 326,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 145,
+		"name": "Tanzania",
+		"destroyed": false,
+		"pos": {
+			"x": 569,
+			"y": 133
+		},
+		"originalPos": {
+			"x": 569,
+			"y": 133
+		},
+		"gold": 50,
+		"flagId": 145,
+		"color": {
+			"r": .33712121844291687,
+			"g": .33712121844291687,
+			"b": .33712121844291687,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 510,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 146,
+		"name": "Zambia",
+		"destroyed": false,
+		"pos": {
+			"x": 550,
+			"y": 109
+		},
+		"originalPos": {
+			"x": 550,
+			"y": 109
+		},
+		"gold": 50,
+		"flagId": 146,
+		"color": {
+			"r": .3921568691730499,
+			"g": .18039217591285706,
+			"b": .06666669994592667,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 433,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 147,
+		"name": "Malawi",
+		"destroyed": false,
+		"pos": {
+			"x": 563,
+			"y": 113
+		},
+		"originalPos": {
+			"x": 563,
+			"y": 113
+		},
+		"gold": 50,
+		"flagId": 147,
+		"color": {
+			"r": .5686273574829102,
+			"g": .19999998807907104,
+			"b": .7254902124404907,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 54,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 148,
+		"name": "Mozambique",
+		"destroyed": false,
+		"pos": {
+			"x": 560,
+			"y": 81
+		},
+		"originalPos": {
+			"x": 560,
+			"y": 81
+		},
+		"gold": 50,
+		"flagId": 148,
+		"color": {
+			"r": .19366265833377838,
+			"g": .4946970045566559,
+			"b": .1506577581167221,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 470,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 149,
+		"name": "Angola",
+		"destroyed": false,
+		"pos": {
+			"x": 509,
+			"y": 126
+		},
+		"originalPos": {
+			"x": 509,
+			"y": 126
+		},
+		"gold": 50,
+		"flagId": 149,
+		"color": {
+			"r": .3967171907424927,
+			"g": .08815941959619522,
+			"b": .08815941959619522,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 737,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 150,
+		"name": "Namibia",
+		"destroyed": false,
+		"pos": {
+			"x": 520,
+			"y": 90
+		},
+		"originalPos": {
+			"x": 520,
+			"y": 90
+		},
+		"gold": 50,
+		"flagId": 150,
+		"color": {
+			"r": .20465564727783203,
+			"g": .24498482048511505,
+			"b": .33106058835983276,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 498,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 151,
+		"name": "Botswana",
+		"destroyed": false,
+		"pos": {
+			"x": 543,
+			"y": 85
+		},
+		"originalPos": {
+			"x": 543,
+			"y": 85
+		},
+		"gold": 50,
+		"flagId": 151,
+		"color": {
+			"r": .3025035262107849,
+			"g": .40405580401420593,
+			"b": .6219697594642639,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 348,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 152,
+		"name": "South Africa",
+		"destroyed": false,
+		"pos": {
+			"x": 549,
+			"y": 82
+		},
+		"originalPos": {
+			"x": 549,
+			"y": 82
+		},
+		"gold": 50,
+		"flagId": 152,
+		"color": {
+			"r": .7174243330955505,
+			"g": .3229557275772095,
+			"b": .1402239203453064,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 778,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 153,
+		"name": "Lesotho",
+		"destroyed": false,
+		"pos": {
+			"x": 547,
+			"y": 73
+		},
+		"originalPos": {
+			"x": 547,
+			"y": 73
+		},
+		"gold": 50,
+		"flagId": 153,
+		"color": {
+			"r": .33725494146347046,
+			"g": .8352941274642944,
+			"b": .45098036527633667,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 20,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 154,
+		"name": "Eswatini",
+		"destroyed": false,
+		"pos": {
+			"x": 557,
+			"y": 80
+		},
+		"originalPos": {
+			"x": 557,
+			"y": 80
+		},
+		"gold": 50,
+		"flagId": 154,
+		"color": {
+			"r": .44331714510917664,
+			"g": .1448003649711609,
+			"b": .5492424368858337,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 10,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 155,
+		"name": "Zimbabwe",
+		"destroyed": false,
+		"pos": {
+			"x": 557,
+			"y": 103
+		},
+		"originalPos": {
+			"x": 557,
+			"y": 103
+		},
+		"gold": 50,
+		"flagId": 155,
+		"color": {
+			"r": .6810606718063354,
+			"g": .1331164836883545,
+			"b": .1331164836883545,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 236,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 156,
+		"name": "Somalia",
+		"destroyed": false,
+		"pos": {
+			"x": 594,
+			"y": 156
+		},
+		"originalPos": {
+			"x": 594,
+			"y": 156
+		},
+		"gold": 50,
+		"flagId": 156,
+		"color": {
+			"r": .2295076549053192,
+			"g": .46960848569869995,
+			"b": .6083333492279053,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 369,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 157,
+		"name": "Djibouti",
+		"destroyed": false,
+		"pos": {
+			"x": 588,
+			"y": 180
+		},
+		"originalPos": {
+			"x": 588,
+			"y": 180
+		},
+		"gold": 50,
+		"flagId": 157,
+		"color": {
+			"r": .08626297116279602,
+			"g": .20114083588123322,
+			"b": .3573232591152191,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 11,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 158,
+		"name": "Madagascar",
+		"destroyed": false,
+		"pos": {
+			"x": 601,
+			"y": 102
+		},
+		"originalPos": {
+			"x": 601,
+			"y": 102
+		},
+		"gold": 50,
+		"flagId": 158,
+		"color": {
+			"r": .41425275802612305,
+			"g": .6628788113594055,
+			"b": .3133610188961029,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 356,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 159,
+		"name": "Syria",
+		"destroyed": false,
+		"pos": {
+			"x": 571,
+			"y": 238
+		},
+		"originalPos": {
+			"x": 571,
+			"y": 238
+		},
+		"gold": 50,
+		"flagId": 159,
+		"color": {
+			"r": .47843137383461,
+			"g": .40392157435417175,
+			"b": .16078431904315948,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 130,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 160,
+		"name": "Lebanon",
+		"destroyed": false,
+		"pos": {
+			"x": 569,
+			"y": 240
+		},
+		"originalPos": {
+			"x": 569,
+			"y": 240
+		},
+		"gold": 50,
+		"flagId": 160,
+		"color": {
+			"r": .283305823802948,
+			"g": .6492424011230469,
+			"b": .5429466366767883,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 6,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 161,
+		"name": "Israel",
+		"destroyed": false,
+		"pos": {
+			"x": 567,
+			"y": 235
+		},
+		"originalPos": {
+			"x": 567,
+			"y": 235
+		},
+		"gold": 50,
+		"flagId": 161,
+		"color": {
+			"r": .16862744092941284,
+			"g": .38823527097702026,
+			"b": .6039215922355652,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 16,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 162,
+		"name": "Jordan",
+		"destroyed": false,
+		"pos": {
+			"x": 570,
+			"y": 235
+		},
+		"originalPos": {
+			"x": 570,
+			"y": 235
+		},
+		"gold": 50,
+		"flagId": 162,
+		"color": {
+			"r": .6128788590431213,
+			"g": .2680617570877075,
+			"b": .09193192422389984,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 55,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 163,
+		"name": "Saudi Arabia",
+		"destroyed": false,
+		"pos": {
+			"x": 597,
+			"y": 215
+		},
+		"originalPos": {
+			"x": 597,
+			"y": 215
+		},
+		"gold": 50,
+		"flagId": 163,
+		"color": {
+			"r": .21446412801742554,
+			"g": .5174242854118347,
+			"b": .14111585915088654,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1180,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 164,
+		"name": "Iraq",
+		"destroyed": false,
+		"pos": {
+			"x": 593,
+			"y": 237
+		},
+		"originalPos": {
+			"x": 593,
+			"y": 237
+		},
+		"gold": 50,
+		"flagId": 164,
+		"color": {
+			"r": .18039216101169586,
+			"g": .18039216101169586,
+			"b": .18039216101169586,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 291,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 165,
+		"name": "Iran",
+		"destroyed": false,
+		"pos": {
+			"x": 610,
+			"y": 244
+		},
+		"originalPos": {
+			"x": 610,
+			"y": 244
+		},
+		"gold": 50,
+		"flagId": 165,
+		"color": {
+			"r": .5997475385665894,
+			"g": .47463157773017883,
+			"b": .16901981830596924,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1018,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 166,
+		"name": "Georgia",
+		"destroyed": false,
+		"pos": {
+			"x": 594,
+			"y": 260
+		},
+		"originalPos": {
+			"x": 594,
+			"y": 260
+		},
+		"gold": 50,
+		"flagId": 166,
+		"color": {
+			"r": .7169191837310791,
+			"g": .46853217482566833,
+			"b": .46853217482566833,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 56,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 167,
+		"name": "Azerbaijan",
+		"destroyed": false,
+		"pos": {
+			"x": 606,
+			"y": 257
+		},
+		"originalPos": {
+			"x": 606,
+			"y": 257
+		},
+		"gold": 50,
+		"flagId": 167,
+		"color": {
+			"r": .18255864083766937,
+			"g": .26242804527282715,
+			"b": .3492424786090851,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 60,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 168,
+		"name": "Armenia",
+		"destroyed": false,
+		"pos": {
+			"x": 593,
+			"y": 256
+		},
+		"originalPos": {
+			"x": 593,
+			"y": 256
+		},
+		"gold": 50,
+		"flagId": 168,
+		"color": {
+			"r": .6501811742782593,
+			"g": .6628788113594055,
+			"b": .12956275045871735,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 21,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 169,
+		"name": "United Arab Emirates",
+		"destroyed": false,
+		"pos": {
+			"x": 619,
+			"y": 215
+		},
+		"originalPos": {
+			"x": 619,
+			"y": 215
+		},
+		"gold": 50,
+		"flagId": 169,
+		"color": {
+			"r": .375797301530838,
+			"g": .2512914538383484,
+			"b": .5265151262283325,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 42,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 170,
+		"name": "Oman",
+		"destroyed": false,
+		"pos": {
+			"x": 629,
+			"y": 212
+		},
+		"originalPos": {
+			"x": 629,
+			"y": 212
+		},
+		"gold": 50,
+		"flagId": 170,
+		"color": {
+			"r": .5529412031173706,
+			"g": .14901961386203766,
+			"b": .14901961386203766,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 182,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 171,
+		"name": "Yemen",
+		"destroyed": false,
+		"pos": {
+			"x": 592,
+			"y": 191
+		},
+		"originalPos": {
+			"x": 592,
+			"y": 191
+		},
+		"gold": 50,
+		"flagId": 171,
+		"color": {
+			"r": .6765151619911194,
+			"g": .5470109581947327,
+			"b": .2706061601638794,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 269,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 172,
+		"name": "Qatar",
+		"destroyed": false,
+		"pos": {
+			"x": 610,
+			"y": 217
+		},
+		"originalPos": {
+			"x": 610,
+			"y": 217
+		},
+		"gold": 50,
+		"flagId": 172,
+		"color": {
+			"r": .5219697952270508,
+			"g": .0996488407254219,
+			"b": .0996488407254219,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 7,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 173,
+		"name": "Palestine",
+		"destroyed": false,
+		"pos": {
+			"x": 568,
+			"y": 234
+		},
+		"originalPos": {
+			"x": 568,
+			"y": 234
+		},
+		"gold": 50,
+		"flagId": 173,
+		"color": {
+			"r": .19607843458652496,
+			"g": .6000000238418579,
+			"b": .2862744927406311,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 5,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 174,
+		"name": "Kuwait",
+		"destroyed": false,
+		"pos": {
+			"x": 600,
+			"y": 228
+		},
+		"originalPos": {
+			"x": 600,
+			"y": 228
+		},
+		"gold": 50,
+		"flagId": 174,
+		"color": {
+			"r": .7137255072593689,
+			"g": .3019607961177826,
+			"b": .3019607961177826,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 10,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 175,
+		"name": "Turkmenistan",
+		"destroyed": false,
+		"pos": {
+			"x": 628,
+			"y": 251
+		},
+		"originalPos": {
+			"x": 628,
+			"y": 251
+		},
+		"gold": 50,
+		"flagId": 175,
+		"color": {
+			"r": .0879821628332138,
+			"g": .2765151560306549,
+			"b": .0879821628332138,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 352,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 176,
+		"name": "Uzbekistan",
+		"destroyed": false,
+		"pos": {
+			"x": 657,
+			"y": 258
+		},
+		"originalPos": {
+			"x": 657,
+			"y": 258
+		},
+		"gold": 50,
+		"flagId": 176,
+		"color": {
+			"r": .23529411852359772,
+			"g": .2901960611343384,
+			"b": .4117647111415863,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 309,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 177,
+		"name": "Kazakhstan",
+		"destroyed": false,
+		"pos": {
+			"x": 662,
+			"y": 284
+		},
+		"originalPos": {
+			"x": 662,
+			"y": 284
+		},
+		"gold": 50,
+		"flagId": 177,
+		"color": {
+			"r": .14567726850509644,
+			"g": .47805091738700867,
+			"b": .6967172622680664,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 2304,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 178,
+		"name": "Kyrgyzstan",
+		"destroyed": false,
+		"pos": {
+			"x": 671,
+			"y": 263
+		},
+		"originalPos": {
+			"x": 671,
+			"y": 263
+		},
+		"gold": 50,
+		"flagId": 178,
+		"color": {
+			"r": .7654041051864624,
+			"g": .33948391675949097,
+			"b": .1569465547800064,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 155,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 179,
+		"name": "Tajikistan",
+		"destroyed": false,
+		"pos": {
+			"x": 656,
+			"y": 252
+		},
+		"originalPos": {
+			"x": 656,
+			"y": 252
+		},
+		"gold": 50,
+		"flagId": 179,
+		"color": {
+			"r": .8300504684448242,
+			"g": .6016146540641785,
+			"b": .16684868931770325,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 99,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 180,
+		"name": "Afghanistan",
+		"destroyed": false,
+		"pos": {
+			"x": 654,
+			"y": 241
+		},
+		"originalPos": {
+			"x": 654,
+			"y": 241
+		},
+		"gold": 50,
+		"flagId": 180,
+		"color": {
+			"r": .2441919445991516,
+			"g": .2441919445991516,
+			"b": .2441919445991516,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 420,
+		"totalWars": 1,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 181,
+		"name": "Pakistan",
+		"destroyed": false,
+		"pos": {
+			"x": 668,
+			"y": 239
+		},
+		"originalPos": {
+			"x": 668,
+			"y": 239
+		},
+		"gold": 50,
+		"flagId": 181,
+		"color": {
+			"r": .1181040033698082,
+			"g": .3452019989490509,
+			"b": .11262653768062592,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 546,
+		"totalWars": 1,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 182,
+		"name": "Nepal",
+		"destroyed": false,
+		"pos": {
+			"x": 701,
+			"y": 223
+		},
+		"originalPos": {
+			"x": 701,
+			"y": 223
+		},
+		"gold": 50,
+		"flagId": 182,
+		"color": {
+			"r": .35294124484062195,
+			"g": .14901961386203766,
+			"b": .40784314274787903,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 84,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 183,
+		"name": "Bhutan",
+		"destroyed": false,
+		"pos": {
+			"x": 711,
+			"y": 223
+		},
+		"originalPos": {
+			"x": 711,
+			"y": 223
+		},
+		"gold": 50,
+		"flagId": 183,
+		"color": {
+			"r": .8704546093940735,
+			"g": .5622119903564453,
+			"b": .09056248515844345,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 26,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 184,
+		"name": "Bangladesh",
+		"destroyed": false,
+		"pos": {
+			"x": 713,
+			"y": 212
+		},
+		"originalPos": {
+			"x": 713,
+			"y": 212
+		},
+		"gold": 50,
+		"flagId": 184,
+		"color": {
+			"r": .15965430438518524,
+			"g": .31287881731987,
+			"b": .09070330858230591,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 93,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 185,
+		"name": "Thailand",
+		"destroyed": false,
+		"pos": {
+			"x": 740,
+			"y": 187
+		},
+		"originalPos": {
+			"x": 740,
+			"y": 187
+		},
+		"gold": 50,
+		"flagId": 185,
+		"color": {
+			"r": .19551710784435272,
+			"g": .28280600905418396,
+			"b": .46641412377357483,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 307,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 186,
+		"name": "Laos",
+		"destroyed": false,
+		"pos": {
+			"x": 745,
+			"y": 198
+		},
+		"originalPos": {
+			"x": 745,
+			"y": 198
+		},
+		"gold": 50,
+		"flagId": 186,
+		"color": {
+			"r": .6592736840248108,
+			"g": .27017784118652344,
+			"b": .7209596633911133,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 131,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 187,
+		"name": "Vietnam",
+		"destroyed": false,
+		"pos": {
+			"x": 754,
+			"y": 206
+		},
+		"originalPos": {
+			"x": 754,
+			"y": 206
+		},
+		"gold": 50,
+		"flagId": 187,
+		"color": {
+			"r": .7452020645141602,
+			"g": .5020056366920471,
+			"b": .11065123975276947,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 187,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 188,
+		"name": "Cambodia",
+		"destroyed": false,
+		"pos": {
+			"x": 751,
+			"y": 180
+		},
+		"originalPos": {
+			"x": 751,
+			"y": 180
+		},
+		"gold": 50,
+		"flagId": 188,
+		"color": {
+			"r": .5921568870544434,
+			"g": .1098039299249649,
+			"b": .1098039299249649,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 112,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 189,
+		"name": "Malaysia",
+		"destroyed": false,
+		"pos": {
+			"x": 743,
+			"y": 158
+		},
+		"originalPos": {
+			"x": 743,
+			"y": 158
+		},
+		"gold": 50,
+		"flagId": 189,
+		"color": {
+			"r": .4248252213001251,
+			"g": .26476725935935974,
+			"b": .5472222566604614,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 188,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 190,
+		"name": "Indonesia",
+		"destroyed": false,
+		"pos": {
+			"x": 756,
+			"y": 134
+		},
+		"originalPos": {
+			"x": 756,
+			"y": 134
+		},
+		"gold": 50,
+		"flagId": 190,
+		"color": {
+			"r": .3492424786090851,
+			"g": .11112269014120102,
+			"b": .11112269014120102,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1063,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 191,
+		"name": "India",
+		"destroyed": false,
+		"pos": {
+			"x": 679,
+			"y": 227
+		},
+		"originalPos": {
+			"x": 679,
+			"y": 227
+		},
+		"gold": 50,
+		"flagId": 191,
+		"color": {
+			"r": .6941176652908325,
+			"g": .3372548818588257,
+			"b": .1294117420911789,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1915,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 192,
+		"name": "Brunei",
+		"destroyed": false,
+		"pos": {
+			"x": 777,
+			"y": 162
+		},
+		"originalPos": {
+			"x": 777,
+			"y": 162
+		},
+		"gold": 50,
+		"flagId": 192,
+		"color": {
+			"r": .8159090876579285,
+			"g": .6925678253173828,
+			"b": .10301895439624786,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 2,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 193,
+		"name": "China",
+		"destroyed": false,
+		"pos": {
+			"x": 783,
+			"y": 255
+		},
+		"originalPos": {
+			"x": 783,
+			"y": 255
+		},
+		"gold": 50,
+		"flagId": 193,
+		"color": {
+			"r": .5351009964942932,
+			"g": .09458860754966736,
+			"b": .09458860754966736,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 6303,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 194,
+		"name": "South Korea",
+		"destroyed": false,
+		"pos": {
+			"x": 810,
+			"y": 250
+		},
+		"originalPos": {
+			"x": 810,
+			"y": 250
+		},
+		"gold": 50,
+		"flagId": 194,
+		"color": {
+			"r": .2524164319038391,
+			"g": .44003891944885254,
+			"b": .5351009964942932,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 61,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 195,
+		"name": "North Korea",
+		"destroyed": false,
+		"pos": {
+			"x": 807,
+			"y": 253
+		},
+		"originalPos": {
+			"x": 807,
+			"y": 253
+		},
+		"gold": 50,
+		"flagId": 195,
+		"color": {
+			"r": .26035356521606445,
+			"g": .12281329929828644,
+			"b": .12281329929828644,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 91,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 196,
+		"name": "Mongolia",
+		"destroyed": false,
+		"pos": {
+			"x": 757,
+			"y": 276
+		},
+		"originalPos": {
+			"x": 757,
+			"y": 276
+		},
+		"gold": 50,
+		"flagId": 196,
+		"color": {
+			"r": .7169191837310791,
+			"g": .45591461658477783,
+			"b": .18755781650543213,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1294,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 197,
+		"name": "Myanmar",
+		"destroyed": false,
+		"pos": {
+			"x": 728,
+			"y": 201
+		},
+		"originalPos": {
+			"x": 728,
+			"y": 201
+		},
+		"gold": 50,
+		"flagId": 197,
+		"color": {
+			"r": .5795454382896423,
+			"g": .5795454382896423,
+			"b": .5795454382896423,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 410,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 198,
+		"name": "Guyane",
+		"destroyed": true,
+		"pos": {
+			"x": 336,
+			"y": 163
+		},
+		"originalPos": {
+			"x": 336,
+			"y": 163
+		},
+		"gold": 0,
+		"flagId": 198,
+		"color": {
+			"r": .4818112254142761,
+			"g": .7250000834465027,
+			"b": .10472233593463898,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 199,
+		"name": "Puerto Rico",
+		"destroyed": false,
+		"pos": {
+			"x": 300,
+			"y": 199
+		},
+		"originalPos": {
+			"x": 300,
+			"y": 199
+		},
+		"gold": 50,
+		"flagId": 199,
+		"color": {
+			"r": .46292874217033386,
+			"g": .6542471647262573,
+			"b": .7452020645141602,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 7,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 1,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 200,
+		"name": "Guadeloupe",
+		"destroyed": true,
+		"pos": {
+			"x": 312,
+			"y": 193
+		},
+		"originalPos": {
+			"x": 312,
+			"y": 193
+		},
+		"gold": 0,
+		"flagId": 200,
+		"color": {
+			"r": .6118687987327576,
+			"g": .2713237702846527,
+			"b": .2713237702846527,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 201,
+		"name": "Falklands",
+		"destroyed": false,
+		"pos": {
+			"x": 321,
+			"y": 14
+		},
+		"originalPos": {
+			"x": 321,
+			"y": 14
+		},
+		"gold": 50,
+		"flagId": 201,
+		"color": {
+			"r": .8462122082710266,
+			"g": .4299442768096924,
+			"b": .4299442768096924,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 14,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 39,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 202,
+		"name": "Réunion",
+		"destroyed": true,
+		"pos": {
+			"x": 621,
+			"y": 94
+		},
+		"originalPos": {
+			"x": 621,
+			"y": 94
+		},
+		"gold": 0,
+		"flagId": 202,
+		"color": {
+			"r": .769444465637207,
+			"g": .5712544322013855,
+			"b": .5712544322013855,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 203,
+		"name": "French Polynesia",
+		"destroyed": false,
+		"pos": {
+			"x": 53,
+			"y": 94
+		},
+		"originalPos": {
+			"x": 53,
+			"y": 94
+		},
+		"gold": 50,
+		"flagId": 203,
+		"color": {
+			"r": .8664141297340393,
+			"g": .8460283875465393,
+			"b": .3526920676231384,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 47,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 204,
+		"name": "Guam",
+		"destroyed": false,
+		"pos": {
+			"x": 859,
+			"y": 190
+		},
+		"originalPos": {
+			"x": 859,
+			"y": 190
+		},
+		"gold": 50,
+		"flagId": 204,
+		"color": {
+			"r": .7244051694869995,
+			"g": .2843751311302185,
+			"b": .2843751311302185,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 1,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 205,
+		"name": "New Caledonia",
+		"destroyed": false,
+		"pos": {
+			"x": 912,
+			"y": 93
+		},
+		"originalPos": {
+			"x": 912,
+			"y": 93
+		},
+		"gold": 50,
+		"flagId": 205,
+		"color": {
+			"r": .36540818214416504,
+			"g": .7169191837310791,
+			"b": .31501010060310364,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 12,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 47,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 206,
+		"name": "Faroe Islands",
+		"destroyed": false,
+		"pos": {
+			"x": 455,
+			"y": 314
+		},
+		"originalPos": {
+			"x": 455,
+			"y": 314
+		},
+		"gold": 50,
+		"flagId": 206,
+		"color": {
+			"r": .4448631703853607,
+			"g": .678936779499054,
+			"b": .7452020645141602,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 2,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 42,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 207,
+		"name": "Greenland",
+		"destroyed": false,
+		"pos": {
+			"x": 339,
+			"y": 319
+		},
+		"originalPos": {
+			"x": 339,
+			"y": 319
+		},
+		"gold": 50,
+		"flagId": 207,
+		"color": {
+			"r": .7452020645141602,
+			"g": .4298086166381836,
+			"b": .4298086166381836,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 1109,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 42,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 208,
+		"name": "Canary Islands",
+		"destroyed": false,
+		"pos": {
+			"x": 431,
+			"y": 225
+		},
+		"originalPos": {
+			"x": 431,
+			"y": 225
+		},
+		"gold": 50,
+		"flagId": 208,
+		"color": {
+			"r": .4659816026687622,
+			"g": .7946970462799072,
+			"b": .5395511388778687,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 8,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 53,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 50,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 209,
+		"name": "Hawaii",
+		"destroyed": true,
+		"pos": {
+			"x": 57,
+			"y": 207
+		},
+		"originalPos": {
+			"x": 57,
+			"y": 207
+		},
+		"gold": 50,
+		"flagId": 209,
+		"color": {
+			"r": .2930552661418915,
+			"g": .8167165517807007,
+			"b": .33960893750190735,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 210,
+		"name": "Yucatan",
+		"destroyed": true,
+		"pos": {
+			"x": 238,
+			"y": 205
+		},
+		"originalPos": {
+			"x": 238,
+			"y": 205
+		},
+		"gold": 50,
+		"flagId": 210,
+		"color": {
+			"r": .2513173520565033,
+			"g": .5373737215995789,
+			"b": .44307923316955566,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 211,
+		"name": "Amazonas",
+		"destroyed": true,
+		"pos": {
+			"x": 314,
+			"y": 145
+		},
+		"originalPos": {
+			"x": 314,
+			"y": 145
+		},
+		"gold": 50,
+		"flagId": 211,
+		"color": {
+			"r": .35600951313972473,
+			"g": .682129979133606,
+			"b": .594722330570221,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 212,
+		"name": "Patagonia",
+		"destroyed": true,
+		"pos": {
+			"x": 296,
+			"y": 29
+		},
+		"originalPos": {
+			"x": 296,
+			"y": 29
+		},
+		"gold": 50,
+		"flagId": 212,
+		"color": {
+			"r": .508786141872406,
+			"g": .37660616636276245,
+			"b": .42685726284980774,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 213,
+		"name": "Azawad",
+		"destroyed": true,
+		"pos": {
+			"x": 466,
+			"y": 195
+		},
+		"originalPos": {
+			"x": 466,
+			"y": 195
+		},
+		"gold": 50,
+		"flagId": 213,
+		"color": {
+			"r": .3866024911403656,
+			"g": .5091872215270996,
+			"b": .5645481944084167,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 214,
+		"name": "Ambazonia",
+		"destroyed": true,
+		"pos": {
+			"x": 499,
+			"y": 161
+		},
+		"originalPos": {
+			"x": 499,
+			"y": 161
+		},
+		"gold": 50,
+		"flagId": 214,
+		"color": {
+			"r": .2414449006319046,
+			"g": .3363046646118164,
+			"b": .5494949817657471,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 215,
+		"name": "Darfur",
+		"destroyed": true,
+		"pos": {
+			"x": 541,
+			"y": 184
+		},
+		"originalPos": {
+			"x": 541,
+			"y": 184
+		},
+		"gold": 50,
+		"flagId": 215,
+		"color": {
+			"r": .5171718001365662,
+			"g": .3892097473144531,
+			"b": .18127141892910004,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 216,
+		"name": "Rojava",
+		"destroyed": true,
+		"pos": {
+			"x": 582,
+			"y": 246
+		},
+		"originalPos": {
+			"x": 582,
+			"y": 246
+		},
+		"gold": 50,
+		"flagId": 216,
+		"color": {
+			"r": .4395553171634674,
+			"g": .24657492339611053,
+			"b": .593939483165741,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 217,
+		"name": "Kurdistan",
+		"destroyed": true,
+		"pos": {
+			"x": 580,
+			"y": 250
+		},
+		"originalPos": {
+			"x": 580,
+			"y": 250
+		},
+		"gold": 50,
+		"flagId": 217,
+		"color": {
+			"r": .15134382247924805,
+			"g": .5696970820426941,
+			"b": .22173358500003815,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 218,
+		"name": "Scotland",
+		"destroyed": true,
+		"pos": {
+			"x": 467,
+			"y": 297
+		},
+		"originalPos": {
+			"x": 467,
+			"y": 297
+		},
+		"gold": 50,
+		"flagId": 218,
+		"color": {
+			"r": .2414449006319046,
+			"g": .4223631024360657,
+			"b": .5494949817657471,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 219,
+		"name": "Crimea",
+		"destroyed": true,
+		"pos": {
+			"x": 564,
+			"y": 268
+		},
+		"originalPos": {
+			"x": 564,
+			"y": 268
+		},
+		"gold": 50,
+		"flagId": 219,
+		"color": {
+			"r": .5639956593513489,
+			"g": .739744246006012,
+			"b": .7555555701255798,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 220,
+		"name": "Lapland",
+		"destroyed": true,
+		"pos": {
+			"x": 546,
+			"y": 332
+		},
+		"originalPos": {
+			"x": 546,
+			"y": 332
+		},
+		"gold": 50,
+		"flagId": 220,
+		"color": {
+			"r": .7070707678794861,
+			"g": .41352933645248413,
+			"b": .6362478733062744,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 221,
+		"name": "Dagestan",
+		"destroyed": true,
+		"pos": {
+			"x": 601,
+			"y": 262
+		},
+		"originalPos": {
+			"x": 601,
+			"y": 262
+		},
+		"gold": 50,
+		"flagId": 221,
+		"color": {
+			"r": .5292929410934448,
+			"g": .37799009680747986,
+			"b": .37799009680747986,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 222,
+		"name": "Ural Republic",
+		"destroyed": true,
+		"pos": {
+			"x": 634,
+			"y": 300
+		},
+		"originalPos": {
+			"x": 634,
+			"y": 300
+		},
+		"gold": 50,
+		"flagId": 222,
+		"color": {
+			"r": .6493210792541504,
+			"g": .7857887744903564,
+			"b": .5587097406387329,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 223,
+		"name": "Sakha",
+		"destroyed": true,
+		"pos": {
+			"x": 813,
+			"y": 315
+		},
+		"originalPos": {
+			"x": 813,
+			"y": 315
+		},
+		"gold": 50,
+		"flagId": 223,
+		"color": {
+			"r": .3693053126335144,
+			"g": .42852479219436646,
+			"b": .5616162419319153,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 224,
+		"name": "Somaliland",
+		"destroyed": true,
+		"pos": {
+			"x": 591,
+			"y": 175
+		},
+		"originalPos": {
+			"x": 591,
+			"y": 175
+		},
+		"gold": 50,
+		"flagId": 224,
+		"color": {
+			"r": .5616162419319153,
+			"g": .5616162419319153,
+			"b": .5616162419319153,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 225,
+		"name": "Tamil",
+		"destroyed": true,
+		"pos": {
+			"x": 686,
+			"y": 183
+		},
+		"originalPos": {
+			"x": 686,
+			"y": 183
+		},
+		"gold": 50,
+		"flagId": 225,
+		"color": {
+			"r": .759596049785614,
+			"g": .23248256742954254,
+			"b": .23248256742954254,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 226,
+		"name": "Kashmir",
+		"destroyed": true,
+		"pos": {
+			"x": 671,
+			"y": 240
+		},
+		"originalPos": {
+			"x": 671,
+			"y": 240
+		},
+		"gold": 50,
+		"flagId": 226,
+		"color": {
+			"r": .5165373682975769,
+			"g": .7025173902511597,
+			"b": .6989749670028687,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 227,
+		"name": "Tibet",
+		"destroyed": true,
+		"pos": {
+			"x": 713,
+			"y": 231
+		},
+		"originalPos": {
+			"x": 713,
+			"y": 231
+		},
+		"gold": 50,
+		"flagId": 227,
+		"color": {
+			"r": .3490259051322937,
+			"g": .3434956967830658,
+			"b": .6262626647949219,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 228,
+		"name": "East Turkestan",
+		"destroyed": true,
+		"pos": {
+			"x": 706,
+			"y": 266
+		},
+		"originalPos": {
+			"x": 706,
+			"y": 266
+		},
+		"gold": 50,
+		"flagId": 228,
+		"color": {
+			"r": .4978759288787842,
+			"g": .6109107136726379,
+			"b": .7434344291687012,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 229,
+		"name": "Chinland",
+		"destroyed": true,
+		"pos": {
+			"x": 723,
+			"y": 211
+		},
+		"originalPos": {
+			"x": 723,
+			"y": 211
+		},
+		"gold": 50,
+		"flagId": 229,
+		"color": {
+			"r": .533333420753479,
+			"g": .387340247631073,
+			"b": .387340247631073,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 230,
+		"name": "Western Papua",
+		"destroyed": true,
+		"pos": {
+			"x": 845,
+			"y": 143
+		},
+		"originalPos": {
+			"x": 845,
+			"y": 143
+		},
+		"gold": 50,
+		"flagId": 230,
+		"color": {
+			"r": .8921535611152649,
+			"g": .4779135286808014,
+			"b": .34060055017471313,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 231,
+		"name": "Bougainville",
+		"destroyed": true,
+		"pos": {
+			"x": 884,
+			"y": 134
+		},
+		"originalPos": {
+			"x": 884,
+			"y": 134
+		},
+		"gold": 50,
+		"flagId": 231,
+		"color": {
+			"r": .6672369241714478,
+			"g": .46891990303993225,
+			"b": .37391722202301025,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 232,
+		"name": "Chechnya",
+		"destroyed": true,
+		"pos": {
+			"x": 597,
+			"y": 263
+		},
+		"originalPos": {
+			"x": 597,
+			"y": 263
+		},
+		"gold": 50,
+		"flagId": 232,
+		"color": {
+			"r": .19079695641994476,
+			"g": .6868687272071838,
+			"b": .24906590580940247,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 233,
+		"name": "Hyderabad",
+		"destroyed": true,
+		"pos": {
+			"x": 681,
+			"y": 196
+		},
+		"originalPos": {
+			"x": 681,
+			"y": 196
+		},
+		"gold": 50,
+		"flagId": 233,
+		"color": {
+			"r": .6505050659179688,
+			"g": .1754392683506012,
+			"b": .1754392683506012,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 234,
+		"name": "Alaska",
+		"destroyed": true,
+		"pos": {
+			"x": 80,
+			"y": 312
+		},
+		"originalPos": {
+			"x": 80,
+			"y": 312
+		},
+		"gold": 50,
+		"flagId": 234,
+		"color": {
+			"r": .5609837174415588,
+			"g": .6239134073257446,
+			"b": .7474747896194458,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 235,
+		"name": "Balochistan",
+		"destroyed": true,
+		"pos": {
+			"x": 651,
+			"y": 230
+		},
+		"originalPos": {
+			"x": 651,
+			"y": 230
+		},
+		"gold": 50,
+		"flagId": 235,
+		"color": {
+			"r": .7151516079902649,
+			"g": .5800330638885498,
+			"b": .3604654371738434,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 236,
+		"name": "Texas",
+		"destroyed": true,
+		"pos": {
+			"x": 216,
+			"y": 230
+		},
+		"originalPos": {
+			"x": 216,
+			"y": 230
+		},
+		"gold": 50,
+		"flagId": 236,
+		"color": {
+			"r": .1838180273771286,
+			"g": .19842329621315002,
+			"b": .32323235273361206,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 237,
+		"name": "Catalonia",
+		"destroyed": true,
+		"pos": {
+			"x": 480,
+			"y": 259
+		},
+		"originalPos": {
+			"x": 480,
+			"y": 259
+		},
+		"gold": 0,
+		"flagId": 237,
+		"color": {
+			"r": .3686274588108063,
+			"g": .1568627804517746,
+			"b": .4313725531101227,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 238,
+		"name": "Quebec",
+		"destroyed": true,
+		"pos": {
+			"x": 287,
+			"y": 273
+		},
+		"originalPos": {
+			"x": 287,
+			"y": 273
+		},
+		"gold": 0,
+		"flagId": 238,
+		"color": {
+			"r": .47843137383461,
+			"g": .6431372165679932,
+			"b": .8039215803146362,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 239,
+		"name": "Alberta",
+		"destroyed": true,
+		"pos": {
+			"x": 173,
+			"y": 284
+		},
+		"originalPos": {
+			"x": 173,
+			"y": 284
+		},
+		"gold": 0,
+		"flagId": 239,
+		"color": {
+			"r": .17630863189697266,
+			"g": .2642005383968353,
+			"b": .5454545617103577,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 240,
+		"name": "Tigray",
+		"destroyed": true,
+		"pos": {
+			"x": 580,
+			"y": 185
+		},
+		"originalPos": {
+			"x": 580,
+			"y": 185
+		},
+		"gold": 0,
+		"flagId": 240,
+		"color": {
+			"r": .7382801175117493,
+			"g": .22539903223514557,
+			"b": .22539903223514557,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 241,
+		"name": "Katanga",
+		"destroyed": true,
+		"pos": {
+			"x": 548,
+			"y": 119
+		},
+		"originalPos": {
+			"x": 548,
+			"y": 119
+		},
+		"gold": 0,
+		"flagId": 241,
+		"color": {
+			"r": .2373579442501068,
+			"g": .5830515623092651,
+			"b": .25730782747268677,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 242,
+		"name": "Wales",
+		"destroyed": true,
+		"pos": {
+			"x": 464,
+			"y": 287
+		},
+		"originalPos": {
+			"x": 464,
+			"y": 287
+		},
+		"gold": 0,
+		"flagId": 242,
+		"color": {
+			"r": .2305889129638672,
+			"g": .5707071423530579,
+			"b": .2791772186756134,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 243,
+		"name": "Northern Ireland",
+		"destroyed": true,
+		"pos": {
+			"x": 459,
+			"y": 294
+		},
+		"originalPos": {
+			"x": 459,
+			"y": 294
+		},
+		"gold": 0,
+		"flagId": 243,
+		"color": {
+			"r": .7525253295898438,
+			"g": .3775295913219452,
+			"b": .19003170728683472,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 244,
+		"name": "Aceh",
+		"destroyed": true,
+		"pos": {
+			"x": 727,
+			"y": 164
+		},
+		"originalPos": {
+			"x": 727,
+			"y": 164
+		},
+		"gold": 0,
+		"flagId": 244,
+		"color": {
+			"r": .7373738288879395,
+			"g": .23461894690990448,
+			"b": .23461894690990448,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 50,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 245,
+		"name": "Cyrenaica",
+		"destroyed": true,
+		"pos": {
+			"x": 528,
+			"y": 235
+		},
+		"originalPos": {
+			"x": 528,
+			"y": 235
+		},
+		"gold": 0,
+		"flagId": 245,
+		"color": {
+			"r": .14901961386203766,
+			"g": .14901961386203766,
+			"b": .14901961386203766,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 0,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 246,
+		"name": "South Yemen",
+		"destroyed": true,
+		"pos": {
+			"x": 593,
+			"y": 184
+		},
+		"originalPos": {
+			"x": 593,
+			"y": 184
+		},
+		"gold": 0,
+		"flagId": 246,
+		"color": {
+			"r": .29411765933036804,
+			"g": .5921568870544434,
+			"b": .7568627595901489,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 0,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	},
+	{
+		"id": 247,
+		"name": "Karakalpakstan",
+		"destroyed": true,
+		"pos": {
+			"x": 632,
+			"y": 262
+		},
+		"originalPos": {
+			"x": 632,
+			"y": 262
+		},
+		"gold": 0,
+		"flagId": 247,
+		"color": {
+			"r": .7215686440467834,
+			"g": .5098039507865906,
+			"b": .21960784494876862,
+			"a": 1
+		},
+		"startYear": 0,
+		"endYear": 0,
+		"killerId": 0,
+		"originId": 0,
+		"revoltIds": [],
+		"killedIds": [],
+		"combatEfficiency": 5,
+		"ceLock": false,
+		"maxArea": 0,
+		"totalWars": 0,
+		"lives": [],
+		"aiDisabled": false,
+		"stress": 0,
+		"liegeId": 0,
+		"puppetIds": [],
+		"puppetIntegration": 0,
+		"puppetRank": 30,
+		"puppetLoyalty": 0,
+		"isUnion": false,
+		"storedBns": 0,
+		"customBns": 0,
+		"tempBns": []
+	}
+];
+var cities = [
+	{
+		"x": 271,
+		"y": 252,
+		"n": "Washington",
+		"r": 1,
+		"rp": 0
+	},
+	{
+		"x": 274,
+		"y": 270,
+		"n": "Ottawa",
+		"r": 2,
+		"rp": 0
+	},
+	{
+		"x": 257,
+		"y": 211,
+		"n": "Havana",
+		"r": 3,
+		"rp": 0
+	},
+	{
+		"x": 271,
+		"y": 197,
+		"n": "Kingston",
+		"r": 4,
+		"rp": 0
+	},
+	{
+		"x": 284,
+		"y": 199,
+		"n": "Port-au-Prince",
+		"r": 5,
+		"rp": 0
+	},
+	{
+		"x": 291,
+		"y": 199,
+		"n": "Santo Domingo",
+		"r": 6,
+		"rp": 0
+	},
+	{
+		"x": 306,
+		"y": 196,
+		"n": "Basse-Terre",
+		"r": 7,
+		"rp": 0
+	},
+	{
+		"x": 311,
+		"y": 196,
+		"n": "Saint John's",
+		"r": 8,
+		"rp": 0
+	},
+	{
+		"x": 313,
+		"y": 189,
+		"n": "Roseau",
+		"r": 9,
+		"rp": 0
+	},
+	{
+		"x": 313,
+		"y": 184,
+		"n": "Castries",
+		"r": 10,
+		"rp": 0
+	},
+	{
+		"x": 320,
+		"y": 184,
+		"n": "Bridgetown",
+		"r": 11,
+		"rp": 0
+	},
+	{
+		"x": 313,
+		"y": 182,
+		"n": "Kingstown",
+		"r": 12,
+		"rp": 0
+	},
+	{
+		"x": 312,
+		"y": 180,
+		"n": "St George's",
+		"r": 13,
+		"rp": 0
+	},
+	{
+		"x": 270,
+		"y": 216,
+		"n": "Nassau",
+		"r": 14,
+		"rp": 0
+	},
+	{
+		"x": 313,
+		"y": 178,
+		"n": "Port of Spain",
+		"r": 15,
+		"rp": 0
+	},
+	{
+		"x": 212,
+		"y": 201,
+		"n": "Mexico City",
+		"r": 16,
+		"rp": 0
+	},
+	{
+		"x": 241,
+		"y": 195,
+		"n": "Belmopan",
+		"r": 17,
+		"rp": 0
+	},
+	{
+		"x": 236,
+		"y": 188,
+		"n": "Guatemala City",
+		"r": 18,
+		"rp": 0
+	},
+	{
+		"x": 240,
+		"y": 185,
+		"n": "San Salvador",
+		"r": 19,
+		"rp": 0
+	},
+	{
+		"x": 244,
+		"y": 186,
+		"n": "Tegucigalpa",
+		"r": 20,
+		"rp": 0
+	},
+	{
+		"x": 247,
+		"y": 182,
+		"n": "Managua",
+		"r": 21,
+		"rp": 0
+	},
+	{
+		"x": 252,
+		"y": 177,
+		"n": "San José",
+		"r": 22,
+		"rp": 0
+	},
+	{
+		"x": 265,
+		"y": 174,
+		"n": "Panama City",
+		"r": 23,
+		"rp": 0
+	},
+	{
+		"x": 869,
+		"y": 58,
+		"n": "Canberra",
+		"r": 24,
+		"rp": 0
+	},
+	{
+		"x": 936,
+		"y": 41,
+		"n": "Wellington",
+		"r": 25,
+		"rp": 0
+	},
+	{
+		"x": 919,
+		"y": 103,
+		"n": "Port Vila",
+		"r": 26,
+		"rp": 0
+	},
+	{
+		"x": 944,
+		"y": 102,
+		"n": "Suva",
+		"r": 27,
+		"rp": 0
+	},
+	{
+		"x": 948,
+		"y": 129,
+		"n": "Funafuti",
+		"r": 28,
+		"rp": 0
+	},
+	{
+		"x": 915,
+		"y": 149,
+		"n": "Yaren",
+		"r": 29,
+		"rp": 0
+	},
+	{
+		"x": 892,
+		"y": 168,
+		"n": "Palikir",
+		"r": 30,
+		"rp": 0
+	},
+	{
+		"x": 920,
+		"y": 175,
+		"n": "Majuro",
+		"r": 31,
+		"rp": 0
+	},
+	{
+		"x": 828,
+		"y": 169,
+		"n": "Ngerulmud",
+		"r": 32,
+		"rp": 0
+	},
+	{
+		"x": 896,
+		"y": 125,
+		"n": "Honiara",
+		"r": 33,
+		"rp": 0
+	},
+	{
+		"x": 862,
+		"y": 126,
+		"n": "Port Moresby",
+		"r": 34,
+		"rp": 0
+	},
+	{
+		"x": 806,
+		"y": 127,
+		"n": "Dili",
+		"r": 35,
+		"rp": 0
+	},
+	{
+		"x": 20,
+		"y": 114,
+		"n": "Apia",
+		"r": 36,
+		"rp": 0
+	},
+	{
+		"x": 15,
+		"y": 95,
+		"n": "Nuku'alofa",
+		"r": 37,
+		"rp": 0
+	},
+	{
+		"x": 58,
+		"y": 155,
+		"n": "Tarawa",
+		"r": 38,
+		"rp": 0
+	},
+	{
+		"x": 474,
+		"y": 286,
+		"n": "London",
+		"r": 39,
+		"rp": 0
+	},
+	{
+		"x": 458,
+		"y": 291,
+		"n": "Dublin",
+		"r": 40,
+		"rp": 0
+	},
+	{
+		"x": 417,
+		"y": 320,
+		"n": "Reykjavík",
+		"r": 41,
+		"rp": 0
+	},
+	{
+		"x": 507,
+		"y": 297,
+		"n": "Copenhagen",
+		"r": 42,
+		"rp": 0
+	},
+	{
+		"x": 502,
+		"y": 308,
+		"n": "Oslo",
+		"r": 43,
+		"rp": 0
+	},
+	{
+		"x": 539,
+		"y": 309,
+		"n": "Helsinki",
+		"r": 44,
+		"rp": 0
+	},
+	{
+		"x": 522,
+		"y": 307,
+		"n": "Stockholm",
+		"r": 45,
+		"rp": 0
+	},
+	{
+		"x": 574,
+		"y": 297,
+		"n": "Moscow",
+		"r": 46,
+		"rp": 0
+	},
+	{
+		"x": 481,
+		"y": 280,
+		"n": "Paris",
+		"r": 47,
+		"rp": 0
+	},
+	{
+		"x": 494,
+		"y": 274,
+		"n": "Bern",
+		"r": 48,
+		"rp": 0
+	},
+	{
+		"x": 487,
+		"y": 288,
+		"n": "Amsterdam",
+		"r": 49,
+		"rp": 0
+	},
+	{
+		"x": 486,
+		"y": 284,
+		"n": "Brussels",
+		"r": 50,
+		"rp": 0
+	},
+	{
+		"x": 490,
+		"y": 282,
+		"n": "Luxembourg",
+		"r": 51,
+		"rp": 0
+	},
+	{
+		"x": 508,
+		"y": 260,
+		"n": "Rome",
+		"r": 52,
+		"rp": 0
+	},
+	{
+		"x": 464,
+		"y": 256,
+		"n": "Madrid",
+		"r": 53,
+		"rp": 0
+	},
+	{
+		"x": 450,
+		"y": 252,
+		"n": "Lisbon",
+		"r": 54,
+		"rp": 0
+	},
+	{
+		"x": 537,
+		"y": 251,
+		"n": "Athens",
+		"r": 55,
+		"rp": 0
+	},
+	{
+		"x": 526,
+		"y": 259,
+		"n": "Tirana",
+		"r": 56,
+		"rp": 0
+	},
+	{
+		"x": 531,
+		"y": 261,
+		"n": "Skopje",
+		"r": 57,
+		"rp": 0
+	},
+	{
+		"x": 536,
+		"y": 263,
+		"n": "Sofia",
+		"r": 58,
+		"rp": 0
+	},
+	{
+		"x": 525,
+		"y": 262,
+		"n": "Podgorica",
+		"r": 59,
+		"rp": 0
+	},
+	{
+		"x": 530,
+		"y": 262,
+		"n": "Pristina",
+		"r": 60,
+		"rp": 0
+	},
+	{
+		"x": 510,
+		"y": 289,
+		"n": "Berlin",
+		"r": 61,
+		"rp": 0
+	},
+	{
+		"x": 539,
+		"y": 306,
+		"n": "Tallinn",
+		"r": 62,
+		"rp": 0
+	},
+	{
+		"x": 538,
+		"y": 300,
+		"n": "Riga",
+		"r": 63,
+		"rp": 0
+	},
+	{
+		"x": 540,
+		"y": 295,
+		"n": "Vilnius",
+		"r": 64,
+		"rp": 0
+	},
+	{
+		"x": 562,
+		"y": 242,
+		"n": "Nicosia",
+		"r": 65,
+		"rp": 0
+	},
+	{
+		"x": 561,
+		"y": 254,
+		"n": "Ankara",
+		"r": 66,
+		"rp": 0
+	},
+	{
+		"x": 513,
+		"y": 244,
+		"n": "Valletta",
+		"r": 67,
+		"rp": 0
+	},
+	{
+		"x": 508,
+		"y": 265,
+		"n": "San Marino",
+		"r": 68,
+		"rp": 0
+	},
+	{
+		"x": 287,
+		"y": 59,
+		"n": "Santiago",
+		"r": 69,
+		"rp": 0
+	},
+	{
+		"x": 321,
+		"y": 58,
+		"n": "Buenos Aires",
+		"r": 70,
+		"rp": 0
+	},
+	{
+		"x": 322,
+		"y": 84,
+		"n": "Asunción",
+		"r": 71,
+		"rp": 0
+	},
+	{
+		"x": 327,
+		"y": 59,
+		"n": "Montevideo",
+		"r": 72,
+		"rp": 0
+	},
+	{
+		"x": 295,
+		"y": 107,
+		"n": "La Paz",
+		"r": 73,
+		"rp": 0
+	},
+	{
+		"x": 500,
+		"y": 274,
+		"n": "Vaduz",
+		"r": 74,
+		"rp": 0
+	},
+	{
+		"x": 347,
+		"y": 108,
+		"n": "Brasília",
+		"r": 75,
+		"rp": 0
+	},
+	{
+		"x": 272,
+		"y": 117,
+		"n": "Lima",
+		"r": 76,
+		"rp": 0
+	},
+	{
+		"x": 267,
+		"y": 149,
+		"n": "Quito",
+		"r": 77,
+		"rp": 0
+	},
+	{
+		"x": 297,
+		"y": 177,
+		"n": "Caracas",
+		"r": 78,
+		"rp": 0
+	},
+	{
+		"x": 278,
+		"y": 161,
+		"n": "Bogotá",
+		"r": 79,
+		"rp": 0
+	},
+	{
+		"x": 321,
+		"y": 167,
+		"n": "Georgetown",
+		"r": 80,
+		"rp": 0
+	},
+	{
+		"x": 328,
+		"y": 165,
+		"n": "Paramaribo",
+		"r": 81,
+		"rp": 0
+	},
+	{
+		"x": 492,
+		"y": 151,
+		"n": "Sao Tome",
+		"r": 82,
+		"rp": 0
+	},
+	{
+		"x": 618,
+		"y": 139,
+		"n": "Victoria",
+		"r": 83,
+		"rp": 0
+	},
+	{
+		"x": 627,
+		"y": 97,
+		"n": "Port Louis",
+		"r": 84,
+		"rp": 0
+	},
+	{
+		"x": 589,
+		"y": 119,
+		"n": "Moroni",
+		"r": 85,
+		"rp": 0
+	},
+	{
+		"x": 674,
+		"y": 155,
+		"n": "Malé",
+		"r": 86,
+		"rp": 0
+	},
+	{
+		"x": 608,
+		"y": 219,
+		"n": "Manama",
+		"r": 87,
+		"rp": 0
+	},
+	{
+		"x": 493,
+		"y": 265,
+		"n": "Monaco",
+		"r": 88,
+		"rp": 0
+	},
+	{
+		"x": 412,
+		"y": 190,
+		"n": "Praia",
+		"r": 89,
+		"rp": 0
+	},
+	{
+		"x": 748,
+		"y": 154,
+		"n": "Singapore",
+		"r": 90,
+		"rp": 0
+	},
+	{
+		"x": 557,
+		"y": 230,
+		"n": "Cairo",
+		"r": 91,
+		"rp": 0
+	},
+	{
+		"x": 509,
+		"y": 236,
+		"n": "Tripoli",
+		"r": 92,
+		"rp": 0
+	},
+	{
+		"x": 501,
+		"y": 247,
+		"n": "Tunis",
+		"r": 93,
+		"rp": 0
+	},
+	{
+		"x": 456,
+		"y": 239,
+		"n": "Rabat",
+		"r": 94,
+		"rp": 0
+	},
+	{
+		"x": 440,
+		"y": 221,
+		"n": "El Aaiún",
+		"r": 95,
+		"rp": 0
+	},
+	{
+		"x": 482,
+		"y": 247,
+		"n": "Algiers",
+		"r": 96,
+		"rp": 0
+	},
+	{
+		"x": 433,
+		"y": 197,
+		"n": "Nouakchott",
+		"r": 97,
+		"rp": 0
+	},
+	{
+		"x": 429,
+		"y": 189,
+		"n": "Dakar",
+		"r": 98,
+		"rp": 0
+	},
+	{
+		"x": 454,
+		"y": 183,
+		"n": "Bamako",
+		"r": 99,
+		"rp": 0
+	},
+	{
+		"x": 434,
+		"y": 181,
+		"n": "Bissau",
+		"r": 100,
+		"rp": 0
+	},
+	{
+		"x": 438,
+		"y": 176,
+		"n": "Conakry",
+		"r": 101,
+		"rp": 0
+	},
+	{
+		"x": 686,
+		"y": 168,
+		"n": "Sri Jayewardenepura Kotte",
+		"r": 102,
+		"rp": 0
+	},
+	{
+		"x": 843,
+		"y": 245,
+		"n": "Tokyo",
+		"r": 103,
+		"rp": 0
+	},
+	{
+		"x": 478,
+		"y": 263,
+		"n": "Andorra la Vella",
+		"r": 104,
+		"rp": 0
+	},
+	{
+		"x": 794,
+		"y": 215,
+		"n": "Taipei",
+		"r": 105,
+		"rp": 0
+	},
+	{
+		"x": 794,
+		"y": 188,
+		"n": "Manila",
+		"r": 106,
+		"rp": 0
+	},
+	{
+		"x": 528,
+		"y": 268,
+		"n": "Belgrade",
+		"r": 107,
+		"rp": 0
+	},
+	{
+		"x": 523,
+		"y": 266,
+		"n": "Sarajevo",
+		"r": 108,
+		"rp": 0
+	},
+	{
+		"x": 516,
+		"y": 270,
+		"n": "Zagreb",
+		"r": 109,
+		"rp": 0
+	},
+	{
+		"x": 513,
+		"y": 272,
+		"n": "Ljubljana",
+		"r": 110,
+		"rp": 0
+	},
+	{
+		"x": 518,
+		"y": 277,
+		"n": "Vienna",
+		"r": 111,
+		"rp": 0
+	},
+	{
+		"x": 512,
+		"y": 282,
+		"n": "Prague",
+		"r": 112,
+		"rp": 0
+	},
+	{
+		"x": 520,
+		"y": 277,
+		"n": "Bratislava",
+		"r": 113,
+		"rp": 0
+	},
+	{
+		"x": 531,
+		"y": 289,
+		"n": "Warsaw",
+		"r": 114,
+		"rp": 0
+	},
+	{
+		"x": 547,
+		"y": 292,
+		"n": "Minsk",
+		"r": 115,
+		"rp": 0
+	},
+	{
+		"x": 556,
+		"y": 283,
+		"n": "Kyiv",
+		"r": 116,
+		"rp": 0
+	},
+	{
+		"x": 551,
+		"y": 274,
+		"n": "Chișinău",
+		"r": 117,
+		"rp": 0
+	},
+	{
+		"x": 525,
+		"y": 275,
+		"n": "Budapest",
+		"r": 118,
+		"rp": 0
+	},
+	{
+		"x": 544,
+		"y": 268,
+		"n": "Bucharest",
+		"r": 119,
+		"rp": 0
+	},
+	{
+		"x": 515,
+		"y": 182,
+		"n": "N'Djamena",
+		"r": 120,
+		"rp": 0
+	},
+	{
+		"x": 482,
+		"y": 185,
+		"n": "Niamey",
+		"r": 121,
+		"rp": 0
+	},
+	{
+		"x": 440,
+		"y": 172,
+		"n": "Freetown",
+		"r": 122,
+		"rp": 0
+	},
+	{
+		"x": 446,
+		"y": 167,
+		"n": "Monrovia",
+		"r": 123,
+		"rp": 0
+	},
+	{
+		"x": 462,
+		"y": 167,
+		"n": "Yamoussoukro",
+		"r": 124,
+		"rp": 0
+	},
+	{
+		"x": 474,
+		"y": 165,
+		"n": "Accra",
+		"r": 125,
+		"rp": 0
+	},
+	{
+		"x": 477,
+		"y": 166,
+		"n": "Lomé",
+		"r": 126,
+		"rp": 0
+	},
+	{
+		"x": 471,
+		"y": 183,
+		"n": "Ouagadougou",
+		"r": 127,
+		"rp": 0
+	},
+	{
+		"x": 494,
+		"y": 174,
+		"n": "Abuja",
+		"r": 128,
+		"rp": 0
+	},
+	{
+		"x": 505,
+		"y": 159,
+		"n": "Yaoundé",
+		"r": 129,
+		"rp": 0
+	},
+	{
+		"x": 524,
+		"y": 162,
+		"n": "Bangui",
+		"r": 130,
+		"rp": 0
+	},
+	{
+		"x": 561,
+		"y": 191,
+		"n": "Khartoum",
+		"r": 131,
+		"rp": 0
+	},
+	{
+		"x": 558,
+		"y": 161,
+		"n": "Juba",
+		"r": 132,
+		"rp": 0
+	},
+	{
+		"x": 576,
+		"y": 174,
+		"n": "Addis Ababa",
+		"r": 133,
+		"rp": 0
+	},
+	{
+		"x": 578,
+		"y": 190,
+		"n": "Asmara",
+		"r": 134,
+		"rp": 0
+	},
+	{
+		"x": 431,
+		"y": 185,
+		"n": "Banjul",
+		"r": 135,
+		"rp": 0
+	},
+	{
+		"x": 481,
+		"y": 167,
+		"n": "Porto-Novo",
+		"r": 136,
+		"rp": 0
+	},
+	{
+		"x": 497,
+		"y": 159,
+		"n": "Malabo",
+		"r": 137,
+		"rp": 0
+	},
+	{
+		"x": 500,
+		"y": 151,
+		"n": "Libreville",
+		"r": 138,
+		"rp": 0
+	},
+	{
+		"x": 516,
+		"y": 141,
+		"n": "Brazzaville",
+		"r": 139,
+		"rp": 0
+	},
+	{
+		"x": 517,
+		"y": 140,
+		"n": "Kinshasa",
+		"r": 140,
+		"rp": 0
+	},
+	{
+		"x": 554,
+		"y": 145,
+		"n": "Kigali",
+		"r": 141,
+		"rp": 0
+	},
+	{
+		"x": 553,
+		"y": 141,
+		"n": "Gitega",
+		"r": 142,
+		"rp": 0
+	},
+	{
+		"x": 560,
+		"y": 151,
+		"n": "Kampala",
+		"r": 143,
+		"rp": 0
+	},
+	{
+		"x": 572,
+		"y": 146,
+		"n": "Nairobi",
+		"r": 144,
+		"rp": 0
+	},
+	{
+		"x": 569,
+		"y": 133,
+		"n": "Dodoma",
+		"r": 145,
+		"rp": 0
+	},
+	{
+		"x": 550,
+		"y": 109,
+		"n": "Lusaka",
+		"r": 146,
+		"rp": 0
+	},
+	{
+		"x": 563,
+		"y": 113,
+		"n": "Lilongwe",
+		"r": 147,
+		"rp": 0
+	},
+	{
+		"x": 560,
+		"y": 81,
+		"n": "Maputo",
+		"r": 148,
+		"rp": 0
+	},
+	{
+		"x": 509,
+		"y": 126,
+		"n": "Luanda",
+		"r": 149,
+		"rp": 0
+	},
+	{
+		"x": 520,
+		"y": 90,
+		"n": "Windhoek",
+		"r": 150,
+		"rp": 0
+	},
+	{
+		"x": 543,
+		"y": 85,
+		"n": "Gaborone",
+		"r": 151,
+		"rp": 0
+	},
+	{
+		"x": 549,
+		"y": 82,
+		"n": "Pretoria",
+		"r": 152,
+		"rp": 0
+	},
+	{
+		"x": 547,
+		"y": 73,
+		"n": "Maseru",
+		"r": 153,
+		"rp": 0
+	},
+	{
+		"x": 557,
+		"y": 80,
+		"n": "Mbabane",
+		"r": 154,
+		"rp": 0
+	},
+	{
+		"x": 557,
+		"y": 103,
+		"n": "Harare",
+		"r": 155,
+		"rp": 0
+	},
+	{
+		"x": 594,
+		"y": 156,
+		"n": "Mogadishu",
+		"r": 156,
+		"rp": 0
+	},
+	{
+		"x": 588,
+		"y": 180,
+		"n": "Djibouti",
+		"r": 157,
+		"rp": 0
+	},
+	{
+		"x": 601,
+		"y": 102,
+		"n": "Antananarivo",
+		"r": 158,
+		"rp": 0
+	},
+	{
+		"x": 571,
+		"y": 238,
+		"n": "Damascus",
+		"r": 159,
+		"rp": 0
+	},
+	{
+		"x": 569,
+		"y": 240,
+		"n": "Beirut",
+		"r": 160,
+		"rp": 0
+	},
+	{
+		"x": 567,
+		"y": 235,
+		"n": "Tel Aviv",
+		"r": 161,
+		"rp": 0
+	},
+	{
+		"x": 570,
+		"y": 235,
+		"n": "Amman",
+		"r": 162,
+		"rp": 0
+	},
+	{
+		"x": 597,
+		"y": 215,
+		"n": "Riyadh",
+		"r": 163,
+		"rp": 0
+	},
+	{
+		"x": 593,
+		"y": 237,
+		"n": "Baghdad",
+		"r": 164,
+		"rp": 0
+	},
+	{
+		"x": 610,
+		"y": 244,
+		"n": "Tehran",
+		"r": 165,
+		"rp": 0
+	},
+	{
+		"x": 594,
+		"y": 260,
+		"n": "Tbilisi",
+		"r": 166,
+		"rp": 0
+	},
+	{
+		"x": 606,
+		"y": 257,
+		"n": "Baku",
+		"r": 167,
+		"rp": 0
+	},
+	{
+		"x": 593,
+		"y": 256,
+		"n": "Yerevan",
+		"r": 168,
+		"rp": 0
+	},
+	{
+		"x": 619,
+		"y": 215,
+		"n": "Abu Dhabi",
+		"r": 169,
+		"rp": 0
+	},
+	{
+		"x": 629,
+		"y": 212,
+		"n": "Muscat",
+		"r": 170,
+		"rp": 0
+	},
+	{
+		"x": 592,
+		"y": 191,
+		"n": "Sana'a",
+		"r": 171,
+		"rp": 0
+	},
+	{
+		"x": 610,
+		"y": 217,
+		"n": "Doha",
+		"r": 172,
+		"rp": 0
+	},
+	{
+		"x": 568,
+		"y": 234,
+		"n": "Ramallah",
+		"r": 173,
+		"rp": 0
+	},
+	{
+		"x": 600,
+		"y": 228,
+		"n": "Kuwait City",
+		"r": 174,
+		"rp": 0
+	},
+	{
+		"x": 628,
+		"y": 251,
+		"n": "Ashgabat",
+		"r": 175,
+		"rp": 0
+	},
+	{
+		"x": 657,
+		"y": 258,
+		"n": "Tashkent",
+		"r": 176,
+		"rp": 0
+	},
+	{
+		"x": 662,
+		"y": 284,
+		"n": "Astana",
+		"r": 177,
+		"rp": 0
+	},
+	{
+		"x": 671,
+		"y": 263,
+		"n": "Bishkek",
+		"r": 178,
+		"rp": 0
+	},
+	{
+		"x": 656,
+		"y": 252,
+		"n": "Dushanbe",
+		"r": 179,
+		"rp": 0
+	},
+	{
+		"x": 654,
+		"y": 241,
+		"n": "Kabul",
+		"r": 180,
+		"rp": 0
+	},
+	{
+		"x": 668,
+		"y": 239,
+		"n": "Islamabad",
+		"r": 181,
+		"rp": 0
+	},
+	{
+		"x": 701,
+		"y": 223,
+		"n": "Kathmandu",
+		"r": 182,
+		"rp": 0
+	},
+	{
+		"x": 711,
+		"y": 223,
+		"n": "Thimphu",
+		"r": 183,
+		"rp": 0
+	},
+	{
+		"x": 713,
+		"y": 212,
+		"n": "Dhaka",
+		"r": 184,
+		"rp": 0
+	},
+	{
+		"x": 740,
+		"y": 187,
+		"n": "Bangkok",
+		"r": 185,
+		"rp": 0
+	},
+	{
+		"x": 745,
+		"y": 198,
+		"n": "Vientiane",
+		"r": 186,
+		"rp": 0
+	},
+	{
+		"x": 754,
+		"y": 206,
+		"n": "Hanoi",
+		"r": 187,
+		"rp": 0
+	},
+	{
+		"x": 751,
+		"y": 180,
+		"n": "Phnom Penh",
+		"r": 188,
+		"rp": 0
+	},
+	{
+		"x": 743,
+		"y": 158,
+		"n": "Kuala Lumpur",
+		"r": 189,
+		"rp": 0
+	},
+	{
+		"x": 756,
+		"y": 134,
+		"n": "Jakarta",
+		"r": 190,
+		"rp": 0
+	},
+	{
+		"x": 679,
+		"y": 227,
+		"n": "New Delhi",
+		"r": 191,
+		"rp": 0
+	},
+	{
+		"x": 777,
+		"y": 162,
+		"n": "Bandar Seri Begawan",
+		"r": 192,
+		"rp": 0
+	},
+	{
+		"x": 783,
+		"y": 255,
+		"n": "Beijing",
+		"r": 193,
+		"rp": 0
+	},
+	{
+		"x": 810,
+		"y": 250,
+		"n": "Seoul",
+		"r": 194,
+		"rp": 0
+	},
+	{
+		"x": 807,
+		"y": 253,
+		"n": "Pyongyang",
+		"r": 195,
+		"rp": 0
+	},
+	{
+		"x": 757,
+		"y": 276,
+		"n": "Ulaanbaatar",
+		"r": 196,
+		"rp": 0
+	},
+	{
+		"x": 728,
+		"y": 201,
+		"n": "Naypyidaw",
+		"r": 197,
+		"rp": 0
+	},
+	{
+		"x": 300,
+		"y": 199,
+		"n": "San Juan",
+		"r": 199,
+		"rp": 0
+	},
+	{
+		"x": 321,
+		"y": 14,
+		"n": "Stanley",
+		"r": 201,
+		"rp": 0
+	},
+	{
+		"x": 53,
+		"y": 94,
+		"n": "Papeete",
+		"r": 203,
+		"rp": 0
+	},
+	{
+		"x": 859,
+		"y": 190,
+		"n": "Hagåtña",
+		"r": 204,
+		"rp": 0
+	},
+	{
+		"x": 912,
+		"y": 93,
+		"n": "Nouméa",
+		"r": 205,
+		"rp": 0
+	},
+	{
+		"x": 455,
+		"y": 314,
+		"n": "Tórshavn",
+		"r": 206,
+		"rp": 0
+	},
+	{
+		"x": 339,
+		"y": 319,
+		"n": "Nuuk",
+		"r": 207,
+		"rp": 0
+	},
+	{
+		"x": 431,
+		"y": 225,
+		"n": "Santa Cruz de Tenerife",
+		"r": 208,
+		"rp": 0
+	},
+	{
+		"x": 541,
+		"y": 184,
+		"n": "Al Fashir",
+		"r": 215,
+		"rp": 0
+	},
+	{
+		"x": 632,
+		"y": 262,
+		"n": "Nukus",
+		"r": 247,
+		"rp": 0
+	},
+	{
+		"x": 312,
+		"y": 193,
+		"n": "Basse-Terre",
+		"r": 200,
+		"rp": 0
+	},
+	{
+		"x": 621,
+		"y": 94,
+		"n": "Saint-Denis",
+		"r": 202,
+		"rp": 0
+	},
+	{
+		"x": 540,
+		"y": 73,
+		"n": "Bloemfontein",
+		"r": 152,
+		"rp": 0
+	},
+	{
+		"x": 550,
+		"y": 259,
+		"n": "Istanbul",
+		"r": 66,
+		"rp": 0
+	},
+	{
+		"x": 279,
+		"y": 256,
+		"n": "New York City",
+		"r": 1,
+		"rp": 0
+	},
+	{
+		"x": 243,
+		"y": 261,
+		"n": "Chicago",
+		"r": 1,
+		"rp": 0
+	},
+	{
+		"x": 238,
+		"y": 205,
+		"n": "Mérida",
+		"r": 210,
+		"rp": 0
+	},
+	{
+		"x": 302,
+		"y": 99,
+		"n": "Sucre",
+		"r": 73,
+		"rp": 0
+	},
+	{
+		"x": 362,
+		"y": 90,
+		"n": "Rio de Janeiro",
+		"r": 75,
+		"rp": 0
+	},
+	{
+		"x": 352,
+		"y": 89,
+		"n": "São Paulo",
+		"r": 75,
+		"rp": 0
+	},
+	{
+		"x": 314,
+		"y": 145,
+		"n": "Manaus",
+		"r": 211,
+		"rp": 0
+	},
+	{
+		"x": 296,
+		"y": 29,
+		"n": "Comodoro",
+		"r": 212,
+		"rp": 0
+	},
+	{
+		"x": 528,
+		"y": 282,
+		"n": "Kraków",
+		"r": 114,
+		"rp": 0
+	},
+	{
+		"x": 459,
+		"y": 249,
+		"n": "Seville",
+		"r": 53,
+		"rp": 0
+	},
+	{
+		"x": 468,
+		"y": 264,
+		"n": "Bilbao",
+		"r": 53,
+		"rp": 0
+	},
+	{
+		"x": 506,
+		"y": 277,
+		"n": "Munich",
+		"r": 61,
+		"rp": 0
+	},
+	{
+		"x": 488,
+		"y": 270,
+		"n": "Lyon",
+		"r": 47,
+		"rp": 0
+	},
+	{
+		"x": 510,
+		"y": 250,
+		"n": "Palermo",
+		"r": 52,
+		"rp": 0
+	},
+	{
+		"x": 500,
+		"y": 270,
+		"n": "Milan",
+		"r": 52,
+		"rp": 0
+	},
+	{
+		"x": 512,
+		"y": 258,
+		"n": "Naples",
+		"r": 52,
+		"rp": 0
+	},
+	{
+		"x": 576,
+		"y": 277,
+		"n": "Donetsk",
+		"r": 46,
+		"rp": 0
+	},
+	{
+		"x": 564,
+		"y": 268,
+		"n": "Sevastopol",
+		"r": 219,
+		"rp": 0
+	},
+	{
+		"x": 556,
+		"y": 273,
+		"n": "Odesa",
+		"r": 116,
+		"rp": 0
+	},
+	{
+		"x": 537,
+		"y": 281,
+		"n": "Lviv",
+		"r": 116,
+		"rp": 0
+	},
+	{
+		"x": 591,
+		"y": 246,
+		"n": "Erbil",
+		"r": 217,
+		"rp": 0
+	},
+	{
+		"x": 578,
+		"y": 207,
+		"n": "Jeddah",
+		"r": 163,
+		"rp": 0
+	},
+	{
+		"x": 632,
+		"y": 245,
+		"n": "Mashhad",
+		"r": 165,
+		"rp": 0
+	},
+	{
+		"x": 675,
+		"y": 265,
+		"n": "Almaty",
+		"r": 177,
+		"rp": 0
+	},
+	{
+		"x": 651,
+		"y": 216,
+		"n": "Karachi",
+		"r": 181,
+		"rp": 0
+	},
+	{
+		"x": 679,
+		"y": 183,
+		"n": "Bengaluru",
+		"r": 191,
+		"rp": 0
+	},
+	{
+		"x": 708,
+		"y": 210,
+		"n": "Kolkata",
+		"r": 191,
+		"rp": 0
+	},
+	{
+		"x": 716,
+		"y": 219,
+		"n": "Guwahati",
+		"r": 191,
+		"rp": 0
+	},
+	{
+		"x": 756,
+		"y": 178,
+		"n": "Ho Chi Minh City",
+		"r": 187,
+		"rp": 0
+	},
+	{
+		"x": 795,
+		"y": 234,
+		"n": "Shanghai",
+		"r": 193,
+		"rp": 0
+	},
+	{
+		"x": 832,
+		"y": 241,
+		"n": "Osaka",
+		"r": 103,
+		"rp": 0
+	},
+	{
+		"x": 818,
+		"y": 238,
+		"n": "Fukuoka",
+		"r": 103,
+		"rp": 0
+	},
+	{
+		"x": 848,
+		"y": 263,
+		"n": "Sapporo",
+		"r": 103,
+		"rp": 0
+	},
+	{
+		"x": 552,
+		"y": 308,
+		"n": "Saint Petersburg",
+		"r": 46,
+		"rp": 0
+	},
+	{
+		"x": 602,
+		"y": 296,
+		"n": "Kazan",
+		"r": 46,
+		"rp": 0
+	},
+	{
+		"x": 668,
+		"y": 296,
+		"n": "Omsk",
+		"r": 46,
+		"rp": 0
+	},
+	{
+		"x": 725,
+		"y": 297,
+		"n": "Krasnoyarsk",
+		"r": 46,
+		"rp": 0
+	},
+	{
+		"x": 823,
+		"y": 264,
+		"n": "Vladivostok",
+		"r": 46,
+		"rp": 0
+	},
+	{
+		"x": 601,
+		"y": 262,
+		"n": "Makhachkala",
+		"r": 221,
+		"rp": 0
+	},
+	{
+		"x": 498,
+		"y": 180,
+		"n": "Kano",
+		"r": 128,
+		"rp": 0
+	},
+	{
+		"x": 466,
+		"y": 195,
+		"n": "Timbuktu",
+		"r": 213,
+		"rp": 0
+	},
+	{
+		"x": 591,
+		"y": 175,
+		"n": "Hargeisa",
+		"r": 224,
+		"rp": 0
+	},
+	{
+		"x": 580,
+		"y": 185,
+		"n": "Mekelle",
+		"r": 240,
+		"rp": 0
+	},
+	{
+		"x": 735,
+		"y": 159,
+		"n": "Medan",
+		"r": 190,
+		"rp": 0
+	},
+	{
+		"x": 764,
+		"y": 149,
+		"n": "Pontianak",
+		"r": 190,
+		"rp": 0
+	},
+	{
+		"x": 858,
+		"y": 51,
+		"n": "Melbourne",
+		"r": 24,
+		"rp": 0
+	},
+	{
+		"x": 864,
+		"y": 37,
+		"n": "Hobart",
+		"r": 24,
+		"rp": 0
+	},
+	{
+		"x": 780,
+		"y": 64,
+		"n": "Perth",
+		"r": 24,
+		"rp": 0
+	},
+	{
+		"x": 936,
+		"y": 53,
+		"n": "Auckland",
+		"r": 25,
+		"rp": 0
+	},
+	{
+		"x": 163,
+		"y": 239,
+		"n": "Los Angeles",
+		"r": 1,
+		"rp": 0
+	},
+	{
+		"x": 57,
+		"y": 207,
+		"n": "Honolulu",
+		"r": 209,
+		"rp": 0
+	},
+	{
+		"x": 464,
+		"y": 287,
+		"n": "Cardiff",
+		"r": 242,
+		"rp": 0
+	},
+	{
+		"x": 548,
+		"y": 119,
+		"n": "Lubumbashi",
+		"r": 241,
+		"rp": 0
+	},
+	{
+		"x": 884,
+		"y": 134,
+		"n": "Buka",
+		"r": 231,
+		"rp": 0
+	},
+	{
+		"x": 530,
+		"y": 295,
+		"n": "Kaliningrad",
+		"r": 46,
+		"rp": 0
+	},
+	{
+		"x": 80,
+		"y": 312,
+		"n": "Anchorage",
+		"r": 234,
+		"rp": 0
+	},
+	{
+		"x": 706,
+		"y": 266,
+		"n": "Ürümqi",
+		"r": 228,
+		"rp": 0
+	},
+	{
+		"x": 723,
+		"y": 211,
+		"n": "Camp Victoria",
+		"r": 229,
+		"rp": 0
+	},
+	{
+		"x": 529,
+		"y": 329,
+		"n": "Kiruna",
+		"r": 220,
+		"rp": 0
+	},
+	{
+		"x": 813,
+		"y": 315,
+		"n": "Yakutsk",
+		"r": 223,
+		"rp": 0
+	},
+	{
+		"x": 578,
+		"y": 269,
+		"n": "Krasnodar",
+		"r": 46,
+		"rp": 0
+	},
+	{
+		"x": 874,
+		"y": 62,
+		"n": "Sydney",
+		"r": 24,
+		"rp": 0
+	},
+	{
+		"x": 347,
+		"y": 147,
+		"n": "Belém",
+		"r": 75,
+		"rp": 0
+	},
+	{
+		"x": 544,
+		"y": 152,
+		"n": "Kisangani",
+		"r": 140,
+		"rp": 0
+	},
+	{
+		"x": 166,
+		"y": 236,
+		"n": "Tijuana",
+		"r": 16,
+		"rp": 0
+	},
+	{
+		"x": 467,
+		"y": 297,
+		"n": "Edinburgh",
+		"r": 218,
+		"rp": 0
+	},
+	{
+		"x": 671,
+		"y": 240,
+		"n": "Srinagar",
+		"r": 226,
+		"rp": 0
+	},
+	{
+		"x": 713,
+		"y": 231,
+		"n": "Lhasa",
+		"r": 227,
+		"rp": 0
+	},
+	{
+		"x": 686,
+		"y": 183,
+		"n": "Chennai",
+		"r": 225,
+		"rp": 0
+	},
+	{
+		"x": 499,
+		"y": 161,
+		"n": "Buea",
+		"r": 214,
+		"rp": 0
+	},
+	{
+		"x": 597,
+		"y": 263,
+		"n": "Grozny",
+		"r": 232,
+		"rp": 0
+	},
+	{
+		"x": 747,
+		"y": 232,
+		"n": "Chengdu",
+		"r": 193,
+		"rp": 0
+	},
+	{
+		"x": 781,
+		"y": 229,
+		"n": "Wuhan",
+		"r": 193,
+		"rp": 0
+	},
+	{
+		"x": 754,
+		"y": 228,
+		"n": "Chongqing",
+		"r": 193,
+		"rp": 0
+	},
+	{
+		"x": 763,
+		"y": 239,
+		"n": "Xi'an",
+		"r": 193,
+		"rp": 0
+	},
+	{
+		"x": 801,
+		"y": 261,
+		"n": "Shenyang",
+		"r": 193,
+		"rp": 0
+	},
+	{
+		"x": 777,
+		"y": 239,
+		"n": "Zhengzhou",
+		"r": 193,
+		"rp": 0
+	},
+	{
+		"x": 792,
+		"y": 246,
+		"n": "Qingdao",
+		"r": 193,
+		"rp": 0
+	},
+	{
+		"x": 845,
+		"y": 143,
+		"n": "Jayapura",
+		"r": 230,
+		"rp": 0
+	},
+	{
+		"x": 498,
+		"y": 254,
+		"n": "Cagliari",
+		"r": 52,
+		"rp": 0
+	},
+	{
+		"x": 537,
+		"y": 273,
+		"n": "Cluj-Napoca",
+		"r": 119,
+		"rp": 0
+	},
+	{
+		"x": 670,
+		"y": 233,
+		"n": "Lahore",
+		"r": 181,
+		"rp": 0
+	},
+	{
+		"x": 578,
+		"y": 131,
+		"n": "Dar es Salaam",
+		"r": 145,
+		"rp": 0
+	},
+	{
+		"x": 360,
+		"y": 97,
+		"n": "Belo Horizonte",
+		"r": 75,
+		"rp": 0
+	},
+	{
+		"x": 728,
+		"y": 194,
+		"n": "Yangon",
+		"r": 197,
+		"rp": 0
+	},
+	{
+		"x": 523,
+		"y": 61,
+		"n": "Cape Town",
+		"r": 152,
+		"rp": 0
+	},
+	{
+		"x": 373,
+		"y": 116,
+		"n": "Salvador",
+		"r": 75,
+		"rp": 0
+	},
+	{
+		"x": 339,
+		"y": 70,
+		"n": "Porto Alegre",
+		"r": 75,
+		"rp": 0
+	},
+	{
+		"x": 307,
+		"y": 67,
+		"n": "Córdoba",
+		"r": 70,
+		"rp": 0
+	},
+	{
+		"x": 285,
+		"y": 178,
+		"n": "Maracaibo",
+		"r": 78,
+		"rp": 0
+	},
+	{
+		"x": 651,
+		"y": 230,
+		"n": "Quetta",
+		"r": 235,
+		"rp": 0
+	},
+	{
+		"x": 216,
+		"y": 230,
+		"n": "Austin",
+		"r": 236,
+		"rp": 0
+	},
+	{
+		"x": 692,
+		"y": 295,
+		"n": "Novosibirsk",
+		"r": 46,
+		"rp": 0
+	},
+	{
+		"x": 772,
+		"y": 130,
+		"n": "Surabaya",
+		"r": 190,
+		"rp": 0
+	},
+	{
+		"x": 773,
+		"y": 211,
+		"n": "Guangzhou",
+		"r": 193,
+		"rp": 0
+	},
+	{
+		"x": 667,
+		"y": 201,
+		"n": "Mumbai",
+		"r": 191,
+		"rp": 0
+	},
+	{
+		"x": 666,
+		"y": 210,
+		"n": "Ahmedabad",
+		"r": 191,
+		"rp": 0
+	},
+	{
+		"x": 681,
+		"y": 196,
+		"n": "Hyderabad",
+		"r": 233,
+		"rp": 0
+	},
+	{
+		"x": 470,
+		"y": 275,
+		"n": "Nantes",
+		"r": 47,
+		"rp": 0
+	},
+	{
+		"x": 546,
+		"y": 252,
+		"n": "Izmir",
+		"r": 66,
+		"rp": 0
+	},
+	{
+		"x": 500,
+		"y": 291,
+		"n": "Hamburg",
+		"r": 61,
+		"rp": 0
+	},
+	{
+		"x": 197,
+		"y": 255,
+		"n": "Denver",
+		"r": 1,
+		"rp": 0
+	},
+	{
+		"x": 593,
+		"y": 184,
+		"n": "Aden",
+		"r": 246,
+		"rp": 0
+	},
+	{
+		"x": 336,
+		"y": 163,
+		"n": "Cayenne",
+		"r": 198,
+		"rp": 0
+	},
+	{
+		"x": 483,
+		"y": 168,
+		"n": "Lagos",
+		"r": 128,
+		"rp": 0
+	},
+	{
+		"x": 287,
+		"y": 273,
+		"n": "Quebec City",
+		"r": 238,
+		"rp": 0
+	},
+	{
+		"x": 151,
+		"y": 276,
+		"n": "Seattle",
+		"r": 1,
+		"rp": 0
+	},
+	{
+		"x": 150,
+		"y": 280,
+		"n": "Vancouver",
+		"r": 2,
+		"rp": 0
+	},
+	{
+		"x": 259,
+		"y": 231,
+		"n": "Jacksonville",
+		"r": 1,
+		"rp": 0
+	},
+	{
+		"x": 252,
+		"y": 239,
+		"n": "Atlanta",
+		"r": 1,
+		"rp": 0
+	},
+	{
+		"x": 205,
+		"y": 206,
+		"n": "León",
+		"r": 16,
+		"rp": 0
+	},
+	{
+		"x": 480,
+		"y": 259,
+		"n": "Barcelona",
+		"r": 237,
+		"rp": 0
+	},
+	{
+		"x": 280,
+		"y": 271,
+		"n": "Montreal",
+		"r": 2,
+		"rp": 0
+	},
+	{
+		"x": 266,
+		"y": 266,
+		"n": "Toronto",
+		"r": 2,
+		"rp": 0
+	},
+	{
+		"x": 173,
+		"y": 284,
+		"n": "Calgary",
+		"r": 239,
+		"rp": 0
+	},
+	{
+		"x": 459,
+		"y": 294,
+		"n": "Belfast",
+		"r": 243,
+		"rp": 0
+	},
+	{
+		"x": 727,
+		"y": 164,
+		"n": "Banda Aceh",
+		"r": 244,
+		"rp": 0
+	},
+	{
+		"x": 582,
+		"y": 246,
+		"n": "Hasakah",
+		"r": 216,
+		"rp": 0
+	},
+	{
+		"x": 580,
+		"y": 250,
+		"n": "Diyarbakir",
+		"r": 217,
+		"rp": 0
+	},
+	{
+		"x": 634,
+		"y": 300,
+		"n": "Yekaterinburg",
+		"r": 222,
+		"rp": 0
+	},
+	{
+		"x": 546,
+		"y": 332,
+		"n": "Inari",
+		"r": 220,
+		"rp": 0
+	},
+	{
+		"x": 528,
+		"y": 235,
+		"n": "Benghazi",
+		"r": 245,
+		"rp": 0
+	}
+];
+var alliances = [
+	{
+		"name": "Collective Security Treaty",
+		"color": {
+			"r": .30785125494003296,
+			"g": .5266590118408203,
+			"b": .752525269985199,
+			"a": 1
+		},
+		"ids": [
+			46,
+			115,
+			177,
+			178,
+			179
+		],
+		"inUnion": false,
+		"unity": 15,
+		"ne": true,
+		"ce": true
+	},
+	{
+		"name": "Alliance of Sahel States",
+		"color": {
+			"r": .8037879467010498,
+			"g": .5405561327934265,
+			"b": .15345047414302826,
+			"a": 1
+		},
+		"ids": [
+			99,
+			127,
+			121
+		],
+		"inUnion": false,
+		"unity": 15,
+		"ne": true,
+		"ce": false
+	},
+	{
+		"name": "Peninsula Shield Force",
+		"color": {
+			"r": .21446412801742554,
+			"g": .5174242854118347,
+			"b": .14111585915088654,
+			"a": 1
+		},
+		"ids": [
+			163,
+			172,
+			87,
+			169,
+			170,
+			171
+		],
+		"inUnion": false,
+		"unity": 15,
+		"ne": true,
+		"ce": false
+	},
+	{
+		"name": "All-Weather Partnership",
+		"color": {
+			"r": .5351009964942932,
+			"g": .09458860754966736,
+			"b": .09458860754966736,
+			"a": 1
+		},
+		"ids": [193, 181],
+		"inUnion": false,
+		"unity": 15,
+		"ne": true,
+		"ce": false
+	},
+	{
+		"name": "Eij Entente",
+		"color": {
+			"r": .6941176652908325,
+			"g": .5098039507865906,
+			"b": 0,
+			"a": 1
+		},
+		"ids": [
+			91,
+			162,
+			164
+		],
+		"inUnion": false,
+		"unity": 15,
+		"ne": true,
+		"ce": false
+	},
+	{
+		"name": "ACG Defence Cooperation",
+		"color": {
+			"r": .4000000059604645,
+			"g": .5176470875740051,
+			"b": .6745098233222961,
+			"a": 1
+		},
+		"ids": [
+			55,
+			65,
+			168
+		],
+		"inUnion": false,
+		"unity": 15,
+		"ne": true,
+		"ce": false
+	},
+	{
+		"name": "Nordic Defence Cooperation",
+		"color": {
+			"r": .2089291512966156,
+			"g": .4935213029384613,
+			"b": .5537879467010498,
+			"a": 1
+		},
+		"ids": [
+			41,
+			43,
+			45,
+			42,
+			44
+		],
+		"inUnion": false,
+		"unity": 15,
+		"ne": true,
+		"ce": false
+	},
+	{
+		"name": "Baltic Assembly",
+		"color": {
+			"r": .09740711003541946,
+			"g": .21299973130226135,
+			"b": .3401515781879425,
+			"a": 1
+		},
+		"ids": [
+			62,
+			63,
+			64
+		],
+		"inUnion": false,
+		"unity": 15,
+		"ne": true,
+		"ce": false
+	},
+	{
+		"name": "Benelux Union",
+		"color": {
+			"r": .8037879467010498,
+			"g": .35843026638031006,
+			"b": .10960762947797775,
+			"a": 1
+		},
+		"ids": [
+			49,
+			50,
+			51
+		],
+		"inUnion": false,
+		"unity": 15,
+		"ne": true,
+		"ce": false
+	},
+	{
+		"name": "Shusha Declaration",
+		"color": {
+			"r": .5037878751754761,
+			"g": .08930797874927521,
+			"b": .08930797874927521,
+			"a": 1
+		},
+		"ids": [66, 167],
+		"inUnion": false,
+		"unity": 15,
+		"ne": true,
+		"ce": false
+	},
+	{
+		"name": "Croatian Joint Defense",
+		"color": {
+			"r": .4737563133239746,
+			"g": .299452543258667,
+			"b": .5356060266494751,
+			"a": 1
+		},
+		"ids": [
+			109,
+			60,
+			56
+		],
+		"inUnion": false,
+		"unity": 15,
+		"ne": true,
+		"ce": false
+	},
+	{
+		"name": "Central European Defence Cooperation",
+		"color": {
+			"r": .13333335518836975,
+			"g": .24313727021217346,
+			"b": .45098039507865906,
+			"a": 1
+		},
+		"ids": [
+			111,
+			112,
+			110,
+			118,
+			113
+		],
+		"inUnion": false,
+		"unity": 15,
+		"ne": true,
+		"ce": true
+	},
+	{
+		"name": "Weimar+",
+		"color": {
+			"r": .16470588743686676,
+			"g": .33333340287208557,
+			"b": .5843137502670288,
+			"a": 1
+		},
+		"ids": [
+			47,
+			39,
+			53,
+			52,
+			61,
+			114
+		],
+		"inUnion": false,
+		"unity": 15,
+		"ne": true,
+		"ce": false
+	}
+];
+var wars = [{
+	"attackers": [46],
+	"attackersLeft": [46],
+	"defenders": [116],
+	"defendersLeft": [116],
+	"targetLength": 50.70517349243164,
+	"startTime": 0,
+	"aInitArea": 20230,
+	"dIntiArea": 509
+}, {
+	"attackers": [181],
+	"attackersLeft": [181],
+	"defenders": [180],
+	"defendersLeft": [180],
+	"targetLength": 42.5662727355957,
+	"startTime": 0,
+	"aInitArea": 546,
+	"dIntiArea": 420
+}];
+var terrain2 = /*#__PURE__*/ JSON.parse("{\"amounts\":[3140,7,1,5,934,4,3,4,1,5,929,4,1,3,3,1,2,1,3,1,1,3,926,3,4,12,7,40,31,1,2,849,4,4,2,7,16,27,35,3,12,839,2,2,2,2,2,3,3,1,21,14,68,829,6,1,2,1,1,2,3,112,822,1,1,1,2,1,2,1,1,2,3,119,815,3,2,1,1,1,3,2,1,1,1,123,811,1,1,1,2,1,4,4,62,25,42,804,5,1,2,1,1,3,6,21,2,1,2,24,43,37,487,4,308,7,1,1,1,1,3,6,22,3,1,3,13,60,32,483,5,307,6,2,1,1,1,1,2,7,38,72,28,479,6,305,6,3,2,3,8,33,84,25,475,3,1,2,303,7,1,2,1,1,3,9,25,96,25,216,5,250,7,301,9,1,1,1,4,12,20,102,23,212,9,249,6,299,10,2,1,1,2,1,13,18,107,23,206,8,2,2,250,5,298,12,2,1,2,1,3,1,10,15,112,23,203,7,4,2,249,6,296,13,1,1,1,2,1,3,5,6,14,117,22,196,17,250,5,295,13,2,2,2,2,2,6,7,10,123,21,190,20,250,6,292,15,1,1,2,2,2,5,3,9,7,128,19,184,24,251,6,290,18,1,1,2,2,17,6,131,20,177,29,250,7,288,19,1,1,1,4,17,4,135,19,171,33,250,8,286,21,1,1,3,15,5,139,19,167,15,5,15,250,4,1,4,285,19,3,1,3,13,6,143,19,161,14,13,11,250,7,1,2,283,20,3,1,1,3,12,5,147,18,157,12,18,10,250,2,1,1,1,5,282,21,1,1,3,4,11,5,149,19,151,11,22,10,249,1,2,2,3,2,1,2,279,23,4,2,2,12,3,153,18,146,12,25,8,249,3,2,1,2,1,4,1,278,25,7,14,157,17,141,12,28,8,248,5,2,3,2,2,1,1,275,27,7,16,157,17,137,12,30,7,247,8,2,2,2,2,2,1,273,28,1,3,3,17,159,16,132,12,33,7,246,10,2,3,1,1,2,3,270,32,4,17,161,15,128,12,36,6,245,15,5,3,2,267,34,5,16,164,14,123,12,39,6,201,1,42,18,5,3,1,265,32,1,3,4,17,165,14,118,13,41,5,200,4,39,21,1,2,1,1,2,3,262,33,2,2,4,17,167,14,113,13,44,5,199,1,4,1,36,13,6,6,1,3,2,5,257,35,3,1,4,17,2,2,165,14,108,13,46,6,198,2,6,33,8,15,5,2,3,1,8,252,37,1,3,3,16,3,1,168,14,103,13,49,5,199,1,2,2,3,31,9,17,4,3,4,9,249,39,1,1,4,16,1,172,14,100,12,52,5,199,2,1,1,3,1,29,9,20,4,7,10,245,40,2,1,4,16,175,14,96,11,55,5,198,6,1,2,28,8,23,4,5,2,1,1,1,7,242,42,2,1,4,16,2,5,170,14,91,11,57,5,199,2,5,1,1,27,7,26,3,3,5,1,2,7,240,43,7,24,171,14,86,11,60,5,200,9,25,6,30,2,2,5,4,7,238,11,13,21,6,23,174,14,81,12,62,4,201,9,24,5,34,7,3,2,7,1,3,232,8,20,18,6,24,175,14,77,12,64,4,200,8,1,1,22,6,36,4,2,1,2,2,13,228,6,27,16,6,23,176,14,74,11,67,4,199,11,21,6,38,2,2,6,14,225,7,31,13,1,1,4,23,178,14,70,10,69,5,198,12,18,8,40,1,2,6,1,1,13,222,8,34,10,2,1,1,3,31,172,14,66,9,72,4,197,2,5,2,6,5,4,6,9,44,1,1,4,1,1,1,13,219,9,38,7,3,4,34,171,14,62,9,74,4,192,9,2,5,27,45,1,1,3,1,1,1,2,14,215,9,42,5,2,5,35,172,13,59,10,75,4,189,12,1,8,24,46,1,2,2,3,2,16,211,9,45,4,2,6,35,173,13,53,13,75,5,189,11,3,2,2,8,18,47,1,2,24,208,9,49,3,1,1,1,4,36,173,14,48,15,76,4,189,11,6,6,4,17,48,1,1,1,25,205,9,53,1,1,5,37,175,16,41,16,78,4,189,11,10,2,4,16,48,2,1,1,11,4,11,203,8,57,1,4,1,1,34,178,18,34,18,79,4,189,11,8,1,1,2,4,15,47,1,2,11,8,11,200,8,59,1,1,1,4,34,180,22,22,23,79,5,181,7,11,10,4,3,15,47,1,2,10,11,10,197,8,61,1,1,2,4,33,181,27,5,33,80,4,181,2,1,1,2,2,11,12,2,4,14,47,3,9,14,10,194,7,64,2,2,1,2,33,183,62,80,5,180,2,1,3,14,12,3,3,14,46,2,10,17,9,191,8,66,2,3,2,30,4,1,2,2,177,60,81,4,129,5,46,1,4,1,1,14,13,2,4,12,47,1,8,22,9,188,7,68,4,2,1,29,1,11,176,17,3,38,82,4,127,10,42,2,4,1,1,12,16,2,3,12,47,9,24,8,185,7,70,7,42,176,15,8,6,2,25,82,5,124,1,13,40,1,3,3,14,16,3,3,10,48,8,27,7,182,8,72,3,1,2,6,1,33,1,1,176,13,3,1,2,3,1,1,9,1,1,20,83,4,122,4,24,29,5,3,3,2,8,16,1,1,1,3,9,48,8,30,6,179,8,74,1,1,1,1,2,6,1,31,1,1,1,3,175,12,4,2,5,5,5,3,18,83,4,119,9,22,29,6,1,1,3,2,8,16,1,2,4,8,48,7,33,5,176,9,75,4,1,2,4,4,1,2,26,3,3,3,172,11,5,2,1,9,2,2,5,1,15,83,5,116,12,23,26,6,4,3,4,5,21,3,7,49,6,35,5,173,9,77,7,5,7,26,4,2,3,172,11,3,4,1,10,9,13,84,4,90,39,26,23,3,7,2,8,1,23,4,5,48,6,37,5,170,9,79,3,1,1,2,5,8,23,1,1,4,2,4,171,11,1,2,14,1,2,8,11,84,5,83,46,22,3,6,17,2,21,21,2,4,4,48,6,38,5,167,9,81,1,4,1,1,1,3,8,26,2,1,1,2,1,1,3,170,11,1,2,1,1,10,2,4,8,9,85,4,76,54,22,7,6,8,2,1,26,20,2,4,3,48,6,40,5,164,9,83,2,3,1,1,1,1,1,1,8,27,3,1,1,1,4,171,9,3,1,17,10,1,7,85,4,69,61,23,50,19,2,5,2,48,5,42,5,161,9,85,2,3,1,1,5,7,5,1,22,4,2,1,1,1,171,9,18,3,1,10,1,5,86,4,64,65,24,50,19,3,4,2,47,5,44,5,158,9,87,3,1,1,1,5,7,1,4,2,24,3,1,2,1,1,170,8,25,9,5,85,5,60,39,9,21,24,49,22,3,2,1,47,6,45,5,155,9,89,3,2,2,1,2,8,1,1,1,3,25,3,3,2,171,7,1,1,22,10,1,4,85,4,56,32,25,17,16,55,1,1,22,2,1,1,1,1,47,5,47,5,152,9,92,3,2,1,1,4,7,1,4,24,5,4,1,170,6,24,12,1,3,84,5,51,28,36,14,15,59,22,4,1,48,4,49,5,149,9,94,2,4,1,4,14,21,10,1,170,6,24,12,1,3,84,5,47,25,47,10,12,63,21,2,4,46,5,50,5,146,9,95,3,4,5,15,21,10,170,5,24,14,1,2,83,7,43,23,53,9,8,68,20,1,5,45,6,51,5,143,9,97,4,3,7,13,22,10,169,5,25,15,1,83,7,39,23,59,6,8,70,20,5,45,5,53,5,140,9,100,3,4,7,11,23,11,169,3,23,18,2,82,7,35,22,64,6,7,69,23,4,1,43,6,54,5,137,9,102,4,2,1,1,1,5,10,19,2,5,10,168,2,25,17,2,81,8,30,22,70,4,8,71,21,4,1,42,7,55,5,134,9,105,3,2,1,1,1,4,10,3,1,14,5,1,2,1,10,168,1,25,1,2,16,1,81,9,26,21,75,3,5,73,22,4,2,41,6,57,5,131,9,107,4,1,1,1,1,1,1,2,1,14,13,19,168,27,16,4,79,10,23,21,78,3,2,76,21,1,3,4,39,6,59,5,128,9,109,4,2,1,3,3,14,12,20,168,28,15,4,79,11,20,20,82,1,1,77,21,1,1,3,4,38,7,60,5,125,9,111,4,2,2,3,2,14,12,20,168,25,18,4,78,13,15,19,87,2,76,20,1,2,4,5,36,8,60,6,122,9,114,2,2,2,2,3,1,1,13,12,20,167,9,1,18,15,1,3,79,14,10,18,92,1,76,18,3,1,1,5,7,33,8,61,7,119,9,115,1,2,1,3,2,3,1,2,13,9,22,167,9,1,19,4,1,7,4,2,76,18,6,18,95,1,1,75,23,5,8,32,8,61,8,116,9,118,3,4,1,3,2,1,13,10,21,167,9,1,19,9,1,1,2,3,3,31,3,40,40,99,1,77,20,5,11,29,9,62,8,112,10,120,3,4,1,3,1,16,9,23,165,8,1,1,1,16,1,1,11,2,3,6,26,8,36,39,101,77,21,4,2,1,10,27,9,63,8,110,10,122,3,6,1,2,1,15,9,24,164,8,3,17,13,1,5,7,23,9,35,35,105,70,1,7,19,5,16,23,10,63,9,107,10,124,4,3,3,2,1,15,8,13,1,12,162,9,3,17,10,1,1,1,7,6,22,10,34,33,107,70,3,6,18,5,20,19,11,64,9,104,10,126,4,5,1,3,1,14,8,3,2,7,2,14,2,1,157,9,2,18,21,6,21,6,2,2,33,32,110,70,2,7,15,1,4,24,16,12,64,10,100,10,129,4,3,3,3,1,1,13,7,3,1,3,14,1,2,8,157,9,2,17,4,3,15,6,21,7,1,3,30,32,112,70,2,6,1,1,13,1,5,27,12,13,64,12,96,10,131,5,4,1,5,12,10,1,1,3,3,1,7,1,2,4,8,1,1,154,8,3,16,5,1,3,1,15,4,21,5,2,2,2,1,28,31,114,69,5,4,15,1,4,31,7,15,63,14,93,10,133,5,3,1,5,14,2,1,6,1,1,3,2,3,5,1,3,4,15,149,8,5,13,5,1,6,1,2,1,10,4,20,2,1,2,3,2,2,2,26,29,117,65,11,2,16,4,10,11,12,3,16,64,23,82,10,136,4,3,2,5,17,5,2,2,3,4,8,6,14,148,9,6,2,3,1,1,4,2,2,11,3,8,4,20,5,3,3,2,4,18,33,118,1,1,61,30,2,2,1,7,15,20,1,9,64,39,64,9,139,3,4,1,7,14,1,10,3,3,1,9,5,16,145,11,8,2,2,2,1,3,3,1,1,7,1,1,1,8,5,20,5,4,2,2,7,12,35,121,60,30,3,6,23,14,2,10,64,51,50,9,141,3,8,1,4,15,1,16,7,6,16,145,9,2,2,4,1,1,5,1,1,1,1,1,1,1,2,6,1,2,10,4,21,1,5,4,2,1,53,122,2,57,30,3,33,10,2,4,1,6,64,14,1,41,43,9,143,3,9,1,1,17,1,1,16,6,6,16,144,12,1,2,1,11,1,1,1,10,2,3,8,4,21,2,3,2,3,2,2,18,1,32,124,3,55,30,3,36,5,2,13,39,1,1,2,20,61,36,10,145,3,4,1,3,19,4,15,7,1,4,1,1,2,9,1,3,142,14,2,2,5,2,16,1,2,2,1,7,3,21,3,3,3,4,2,50,126,1,2,56,27,3,38,3,2,14,38,7,18,25,14,27,29,10,147,3,3,2,3,1,2,16,2,2,15,7,8,15,141,6,1,7,1,1,1,1,1,16,2,4,1,1,4,1,6,3,21,4,3,1,5,1,1,49,134,51,27,4,39,1,2,16,35,10,17,17,34,21,20,11,149,3,2,3,5,18,1,2,2,2,12,5,9,2,1,8,1,3,140,10,1,1,4,21,1,4,2,1,3,1,3,1,3,2,21,4,1,3,7,1,23,1,24,137,1,1,2,43,26,4,42,19,33,12,12,17,43,20,14,13,149,1,1,3,1,6,1,1,20,1,1,3,11,5,12,1,2,6,1,3,139,11,1,1,2,14,1,7,1,7,3,1,3,1,3,1,21,5,4,7,1,38,1,8,143,3,38,25,4,49,15,31,15,5,17,52,20,7,16,149,5,3,4,19,5,4,10,2,18,7,1,2,139,11,4,12,1,15,2,1,2,1,3,1,3,4,17,6,5,1,1,4,1,15,14,18,144,2,8,3,1,4,19,28,3,51,18,26,35,60,18,2,17,149,1,4,4,4,17,2,1,1,2,4,11,3,16,8,1,2,138,11,4,12,1,18,1,2,9,4,15,7,4,7,2,12,19,15,145,7,1,10,16,29,2,55,5,1,12,23,33,69,29,151,5,3,4,21,2,2,2,1,1,10,8,10,12,137,11,5,1,1,3,1,4,1,11,2,6,3,1,4,1,5,4,13,8,4,1,1,1,1,3,2,11,23,11,146,21,12,30,2,56,22,1,4,11,33,75,25,150,1,5,3,3,23,3,3,1,12,6,10,2,1,6,1,2,136,12,7,3,1,4,2,11,1,5,1,1,7,1,6,4,10,9,6,4,2,1,1,10,27,8,148,20,1,40,1,57,27,1,3,6,33,80,21,148,3,2,4,4,3,1,21,1,5,14,3,11,1,1,2,6,1,2,135,6,2,4,4,11,1,3,1,3,2,11,17,2,6,12,8,3,1,1,2,8,29,8,146,61,3,56,2,1,23,3,3,1,35,85,19,146,5,1,5,3,30,15,1,14,1,3,9,134,6,4,1,7,12,1,5,2,2,1,4,2,1,18,3,16,11,3,7,33,6,146,46,4,11,2,55,29,1,38,90,16,145,5,3,3,1,1,1,1,2,3,3,2,5,9,1,6,33,4,2,3,134,4,1,1,12,11,1,5,2,7,2,2,19,4,15,13,2,4,35,5,147,2,1,41,1,4,10,3,54,14,8,45,96,14,141,3,1,3,6,7,15,6,1,6,35,3,1,3,134,4,2,11,11,1,8,1,6,1,1,1,2,21,3,13,13,1,4,36,5,148,1,1,39,1,1,1,5,9,2,53,13,16,5,4,30,101,13,137,6,1,1,2,2,3,5,16,12,27,1,1,3,2,1,5,1,2,134,4,1,2,10,13,1,2,1,3,1,8,1,2,22,3,12,13,2,3,37,5,149,1,1,36,9,9,2,53,5,2,3,23,4,1,29,106,12,132,7,4,2,3,4,18,4,3,34,3,3,5,1,2,134,4,2,2,4,2,1,11,4,8,1,7,1,2,11,3,9,3,14,8,1,2,1,1,2,38,4,152,33,11,9,2,52,5,1,4,24,33,110,11,128,2,1,1,1,1,1,3,4,1,1,23,5,3,33,1,1,6,4,1,2,135,3,3,6,2,12,1,1,1,8,1,8,14,1,11,3,16,2,3,3,1,1,2,39,4,150,32,13,8,2,52,5,1,3,27,32,112,12,124,5,5,2,4,24,2,7,33,1,1,5,7,135,2,4,7,2,2,1,4,1,2,1,1,1,1,1,1,1,5,1,7,15,1,12,2,17,3,1,1,2,2,2,39,5,150,29,16,5,4,51,6,1,2,28,32,115,11,121,5,1,1,3,2,5,27,3,4,32,1,1,2,2,1,2,5,135,2,1,1,2,1,1,20,1,5,1,1,1,8,28,3,18,1,3,1,2,2,40,4,151,8,5,14,17,5,4,50,9,30,31,118,11,117,4,5,2,7,27,4,3,32,1,2,3,2,1,1,4,136,1,5,6,1,12,1,3,1,8,1,5,13,1,14,2,19,1,3,1,1,3,41,4,151,6,4,17,16,5,1,2,51,8,31,32,119,12,114,4,7,2,3,1,27,43,3,1,1,3,3,136,1,3,1,2,1,1,16,1,13,2,2,29,2,20,2,1,2,3,41,5,153,2,6,17,1,1,13,5,52,9,32,22,2,8,122,11,112,3,2,1,2,1,1,1,1,1,2,2,27,42,1,1,1,1,1,7,136,2,2,2,1,2,1,4,3,9,1,4,1,11,15,1,12,3,19,1,1,4,3,42,5,161,15,15,6,51,9,34,32,123,12,109,2,2,5,1,1,1,4,28,14,3,25,1,11,136,2,2,1,1,3,1,17,1,15,15,1,13,2,22,3,3,43,4,162,15,15,5,49,10,35,33,125,12,105,2,3,1,1,3,2,4,1,25,1,2,6,2,4,8,22,14,135,3,5,3,1,1,5,1,1,1,21,15,1,13,2,22,2,4,44,4,161,16,15,4,47,12,35,34,127,11,102,3,1,1,1,1,4,2,29,9,3,3,10,21,15,135,4,2,1,1,2,6,1,3,1,1,2,16,6,2,7,2,13,2,22,2,4,44,4,162,15,1,13,4,39,20,36,35,128,12,99,1,8,3,32,6,4,2,12,20,16,135,3,1,1,10,1,1,1,1,1,1,3,14,6,1,9,2,12,3,29,44,4,159,7,6,18,4,1,33,23,38,36,130,11,96,2,3,1,4,2,34,3,20,20,16,135,1,1,7,2,4,1,2,5,2,6,2,2,2,2,5,2,8,2,11,4,7,2,3,8,9,44,5,157,1,3,4,1,24,2,2,24,20,1,9,40,19,6,12,132,10,93,3,2,1,2,2,37,1,21,20,18,134,1,1,6,2,1,1,16,1,1,3,2,1,2,2,5,1,9,1,10,5,10,12,7,45,4,154,5,3,1,2,25,2,2,22,3,1,1,1,24,42,18,11,9,133,11,90,3,4,1,2,1,57,7,2,12,18,135,1,52,1,11,5,6,18,6,45,4,134,6,13,9,27,2,2,20,30,44,17,15,7,135,10,87,3,6,3,59,5,3,10,20,133,2,50,2,1,12,4,3,22,5,45,4,129,10,1,2,8,8,30,1,1,2,18,1,1,1,27,2,1,44,16,17,7,136,10,85,3,1,1,1,1,2,1,63,3,3,10,21,132,2,52,1,12,3,2,25,5,45,4,127,3,1,8,1,4,4,7,32,1,1,2,15,4,32,44,15,19,7,137,10,82,2,3,1,4,64,1,5,10,22,130,3,52,1,2,10,2,2,27,6,43,5,125,3,2,8,3,12,32,5,11,2,4,28,1,4,45,13,22,7,139,9,80,3,2,1,1,1,2,64,1,5,10,11,1,11,129,3,52,3,10,2,2,28,5,44,4,124,2,3,10,3,9,33,5,11,3,1,2,2,2,23,2,4,46,12,24,7,140,9,77,2,4,1,1,1,2,69,11,12,1,11,127,4,39,1,9,6,3,2,4,2,2,30,5,44,4,118,22,4,6,32,1,6,9,3,2,1,1,9,1,18,1,1,1,2,45,12,26,7,141,9,75,1,5,1,1,2,70,12,12,1,10,128,3,39,2,3,1,3,4,7,2,3,2,2,31,4,44,4,110,7,7,3,7,7,5,7,19,6,4,7,1,8,1,2,2,4,6,13,1,8,1,2,45,11,28,7,142,9,72,1,4,1,1,3,71,13,11,1,11,127,3,25,1,16,2,2,2,1,1,2,7,3,2,2,2,31,5,44,4,104,1,1,2,1,6,2,1,3,3,3,2,5,1,1,1,1,2,14,15,4,4,3,7,2,7,2,1,2,3,10,12,1,4,1,5,45,9,31,7,143,9,69,2,8,72,14,1,9,1,11,127,3,24,1,17,1,1,1,2,1,1,1,2,8,2,2,3,33,4,44,4,101,3,8,8,1,19,6,6,1,3,1,1,9,7,6,4,6,5,1,2,2,3,13,8,1,4,1,7,45,1,1,5,34,7,144,9,67,1,3,1,4,74,13,1,9,1,11,126,3,25,1,17,1,2,1,1,7,7,2,1,2,1,33,5,44,4,93,5,3,6,3,10,7,21,7,1,4,5,8,19,3,1,1,1,17,22,43,6,37,7,145,9,64,2,1,1,2,3,75,15,19,1,1,125,1,44,2,2,1,6,11,3,1,34,5,43,4,88,2,2,17,14,4,24,5,1,5,1,8,4,17,2,1,1,1,20,6,1,3,2,9,40,6,40,6,147,9,61,3,2,1,4,76,16,17,1,2,124,2,42,2,1,1,8,11,2,3,33,5,44,4,86,1,1,2,5,5,4,4,14,5,26,9,1,5,7,15,4,2,19,3,1,2,1,2,5,9,38,6,42,6,148,10,56,4,1,1,2,2,2,77,15,17,1,3,122,2,32,2,9,1,4,1,8,8,2,2,1,1,34,4,44,4,85,2,1,6,6,1,3,5,14,4,27,8,2,2,7,16,5,4,3,12,5,1,4,9,7,37,5,43,7,149,10,54,2,1,1,1,1,1,3,2,76,11,4,1,17,5,121,1,1,26,3,1,2,10,2,14,7,2,2,1,1,34,5,44,4,84,2,5,13,5,14,3,28,3,1,3,2,1,8,12,9,3,4,5,7,4,1,5,11,7,34,5,45,6,151,10,52,3,3,1,2,3,76,9,3,1,20,6,119,2,27,1,3,4,8,2,1,3,6,1,4,7,2,3,35,4,44,4,74,6,2,1,1,2,2,17,4,14,3,28,3,4,1,1,2,6,9,1,1,1,1,1,3,2,4,3,10,4,4,1,3,16,6,31,6,47,6,152,10,50,1,3,5,3,76,8,2,2,1,20,7,118,2,28,6,9,2,1,1,6,1,8,5,2,3,35,4,45,4,72,3,1,4,1,4,1,19,4,12,3,1,4,2,22,3,4,4,6,6,4,3,1,1,2,4,13,3,3,7,18,6,29,6,48,7,154,9,47,1,3,5,2,1,83,1,3,1,2,15,13,117,2,25,9,9,1,2,1,9,1,3,1,1,6,1,2,1,36,3,45,4,72,7,1,5,1,19,5,11,2,6,2,5,17,3,4,6,1,7,3,2,5,7,8,3,1,2,3,1,5,22,6,26,7,50,7,155,9,43,2,5,4,90,2,2,13,15,115,1,1,2,2,19,14,1,1,4,1,1,13,1,2,1,1,1,5,2,2,36,3,46,4,70,7,2,5,21,4,11,1,2,3,1,2,1,8,14,1,2,5,4,8,2,4,3,8,13,3,2,1,1,3,24,6,23,8,52,6,157,9,39,5,3,4,2,89,3,1,11,19,112,8,18,16,5,1,3,1,13,1,1,8,2,34,2,1,1,46,4,69,7,1,7,21,2,1,1,11,1,2,3,3,11,12,4,5,7,10,9,16,5,1,2,26,5,22,7,55,6,158,9,36,7,3,1,1,1,2,1,1,91,11,20,110,8,18,1,1,14,1,1,4,1,1,9,1,6,1,1,4,2,2,2,34,4,47,3,68,7,1,8,6,16,1,3,1,1,8,3,2,3,5,6,1,2,8,5,2,1,6,11,10,19,3,1,3,27,5,18,9,56,7,159,9,33,9,1,2,4,1,1,92,2,6,23,108,9,1,5,12,1,1,14,1,1,5,10,1,7,1,1,3,2,2,2,33,5,47,4,67,6,2,8,6,10,1,4,1,1,5,7,4,1,4,7,3,3,3,1,1,1,1,2,5,2,1,26,20,2,1,3,29,5,14,10,59,7,160,9,29,12,3,3,87,1,7,1,4,27,105,12,3,2,12,17,4,1,1,17,1,2,1,2,4,1,33,5,47,4,66,2,1,3,2,10,1,1,2,2,6,1,2,12,7,3,2,1,2,1,9,5,7,6,6,2,17,24,3,33,5,10,11,62,6,162,9,25,14,3,5,85,2,4,35,103,14,2,3,2,2,7,16,4,1,1,1,16,1,1,1,1,3,4,1,32,5,49,4,64,6,2,13,2,1,6,16,4,2,5,1,1,1,1,9,16,2,2,4,4,14,62,9,2,14,64,6,163,9,1,3,16,15,2,4,1,2,1,86,8,33,101,24,6,1,18,3,1,2,1,4,4,7,1,1,1,2,7,31,5,49,4,64,5,2,9,2,1,11,17,1,5,5,1,1,7,10,3,5,3,4,1,5,1,8,68,21,67,6,165,13,10,19,3,2,2,2,1,71,1,13,16,28,98,26,6,16,1,1,1,2,7,4,12,9,29,5,51,4,62,6,1,9,2,2,10,17,8,4,1,2,6,5,5,3,1,2,3,1,3,3,3,2,1,2,4,70,18,71,6,166,40,3,3,2,1,1,83,1,1,19,27,96,28,2,21,2,1,1,5,5,2,6,1,2,10,27,6,51,4,62,1,1,3,1,10,1,13,18,7,4,3,1,1,1,8,2,1,2,1,2,7,3,3,2,7,1,73,14,74,6,168,38,4,2,4,81,31,21,91,3,28,1,23,1,1,1,5,6,1,1,1,4,1,2,11,25,7,52,4,60,1,1,4,1,9,14,20,1,5,3,2,2,1,1,7,4,4,3,3,6,3,2,2,2,1,76,10,79,6,169,8,1,28,3,3,1,1,1,75,1,3,36,20,86,5,53,1,3,4,6,1,1,5,1,2,11,23,8,53,4,59,7,1,7,15,22,6,1,4,1,2,2,9,1,3,5,3,5,1,1,2,1,2,2,77,6,82,6,170,6,2,28,3,3,2,76,42,20,82,9,51,1,1,1,1,4,7,2,1,3,1,3,11,19,10,55,3,59,6,1,9,14,22,6,1,4,14,3,5,2,1,3,1,6,4,78,2,1,2,84,6,169,6,1,6,10,13,3,1,1,1,4,67,4,1,48,18,80,9,51,1,1,1,1,1,4,1,1,3,1,1,1,1,8,11,15,12,56,1,1,2,57,2,1,3,11,10,4,11,1,10,6,1,5,13,2,1,4,7,90,4,84,6,169,7,21,9,2,3,2,1,1,55,1,12,1,1,53,17,78,1,1,7,18,2,31,1,2,1,1,18,2,1,12,11,15,56,4,56,6,1,10,9,6,11,1,10,6,1,8,2,8,2,1,1,1,7,92,4,85,5,169,6,24,7,1,2,4,2,1,53,3,13,57,15,76,9,19,2,28,1,1,1,1,1,20,2,2,12,8,16,58,4,54,6,2,7,9,8,13,3,8,6,12,6,2,1,8,93,5,84,6,167,6,28,6,2,3,2,1,1,1,4,47,3,13,59,15,74,9,49,6,1,14,3,1,2,3,12,4,18,59,4,53,3,1,3,1,10,2,2,1,11,9,10,6,6,1,8,2,2,4,1,1,2,4,96,5,83,6,166,6,31,5,2,3,4,2,3,45,3,14,63,13,72,9,47,8,2,6,3,4,1,5,3,13,20,61,3,52,8,9,2,1,1,1,13,7,2,3,3,1,4,4,10,7,2,2,4,1,1,1,3,98,4,84,4,1,1,165,5,34,4,2,3,4,1,3,1,1,5,3,4,1,17,1,13,2,14,67,11,71,9,46,10,1,4,4,3,4,7,14,18,61,1,1,2,51,7,7,1,1,2,4,14,4,6,9,3,14,8,4,5,99,4,84,6,164,5,37,1,4,3,3,6,1,4,4,1,2,1,3,6,2,1,2,2,2,3,2,8,1,13,71,13,68,8,47,11,3,1,1,1,2,3,2,1,2,2,1,2,16,15,62,4,50,6,2,5,1,1,2,5,12,7,8,1,2,2,6,17,5,3,1,1,2,100,5,84,5,164,5,39,1,2,3,7,2,1,4,11,6,5,2,3,1,3,22,73,15,64,8,44,14,2,9,1,1,1,5,19,13,64,3,49,2,1,4,2,4,1,3,6,9,11,10,3,4,19,4,108,4,84,6,162,5,42,2,4,12,1,10,5,3,1,2,1,1,7,21,76,17,60,8,44,23,2,1,7,19,1,11,65,3,45,10,2,5,2,1,6,8,16,6,1,3,3,21,4,107,4,84,6,162,5,43,1,2,2,1,12,1,12,6,2,3,5,1,21,78,19,57,3,1,3,44,24,1,1,3,1,1,22,1,9,66,4,40,13,1,5,5,6,6,20,4,2,3,2,21,5,106,5,84,6,161,4,44,1,2,1,4,23,5,2,1,2,7,21,80,21,53,6,42,27,1,1,5,23,1,8,66,4,38,14,1,4,6,7,4,22,4,3,2,3,20,3,1,1,107,4,84,6,160,5,44,1,2,2,3,27,3,1,3,5,19,1,2,81,24,50,4,15,1,5,1,1,1,14,32,1,1,2,1,26,1,6,68,5,33,16,1,4,6,8,4,23,4,2,2,3,21,2,1,1,107,4,85,5,160,5,44,1,2,2,5,19,1,5,1,1,1,1,1,1,2,4,4,1,14,1,85,31,2,1,33,6,1,7,3,4,5,2,6,5,3,4,34,1,2,27,2,4,69,6,28,19,2,4,6,8,2,26,4,1,1,1,5,20,1,1,1,107,4,85,6,159,4,45,1,3,3,3,18,2,5,2,1,2,6,20,88,27,7,10,1,19,14,6,2,15,2,4,5,64,1,4,69,7,22,23,2,4,7,8,32,7,3,17,4,107,4,85,6,159,4,45,2,3,1,1,1,4,16,3,6,4,2,22,91,23,23,16,14,47,5,20,2,25,1,2,71,8,1,6,7,29,2,3,7,8,32,11,2,14,5,107,4,86,5,159,4,45,2,6,1,4,1,16,1,2,2,2,3,3,18,97,20,26,13,14,45,6,20,1,1,2,26,1,1,71,56,8,6,35,7,7,11,4,81,5,21,5,86,5,158,5,45,3,4,3,2,1,1,24,15,106,18,28,2,10,6,2,5,45,4,21,1,1,1,2,2,25,1,72,11,2,24,3,16,8,5,37,3,1,2,6,1,2,6,2,1,1,3,74,22,9,6,87,5,158,5,45,4,3,5,1,2,1,23,4,2,7,108,15,29,7,4,6,6,2,47,2,22,2,3,4,1,1,22,1,71,10,4,15,12,13,9,5,38,3,1,4,9,3,2,1,1,3,70,30,2,9,88,6,157,5,44,6,2,5,1,1,1,2,23,4,6,111,13,16,2,10,9,10,76,2,1,11,23,71,10,3,2,10,17,11,9,5,39,2,1,1,6,10,1,2,1,2,3,19,45,17,1,7,1,18,89,6,157,5,44,6,3,3,1,1,2,1,2,20,1,1,6,4,112,11,16,3,8,13,6,77,1,1,5,1,7,24,70,10,2,3,6,22,3,1,4,11,3,42,3,8,3,1,5,1,1,2,2,19,1,5,38,47,90,5,156,6,35,3,5,8,2,5,1,1,1,4,18,1,2,5,1,1,1,114,7,12,3,2,6,6,15,3,79,7,2,5,1,1,23,70,10,5,3,25,7,11,2,44,3,11,1,1,2,1,1,3,3,28,34,19,15,13,91,5,156,6,34,3,5,9,2,6,3,5,16,1,1,1,7,117,5,12,11,5,99,2,2,5,1,2,21,3,2,1,68,11,4,2,27,6,9,1,1,4,43,4,11,7,3,1,32,29,1,1,11,1,3,21,10,91,6,155,6,30,7,6,8,2,6,3,6,15,3,6,1,118,3,12,115,2,2,2,1,3,1,3,18,2,5,1,3,65,3,3,5,4,1,28,5,10,6,43,4,13,2,1,5,4,13,20,24,15,26,8,91,6,155,6,28,1,2,8,3,2,3,4,3,6,2,7,6,3,8,2,5,119,2,8,119,10,1,2,1,1,15,2,8,1,3,64,2,4,5,3,30,5,10,5,13,1,30,2,1,2,13,3,4,25,16,19,12,32,8,90,5,155,6,28,3,1,4,7,5,4,2,5,1,1,1,5,4,1,6,1,5,2,2,6,119,1,3,2,3,119,4,5,1,1,2,1,4,1,4,2,4,1,10,2,5,61,2,3,1,1,4,2,31,5,10,5,13,1,31,2,1,2,10,1,6,2,28,16,16,9,36,10,87,5,155,6,27,1,3,18,1,3,6,3,2,2,3,1,2,6,2,3,3,2,7,118,3,3,2,118,9,1,3,2,2,3,5,1,3,13,2,5,61,1,4,1,2,4,32,5,11,2,15,3,29,3,1,2,8,3,5,1,33,12,1,1,13,9,39,5,1,3,86,5,155,6,23,1,5,1,19,1,4,5,2,3,4,2,2,2,1,7,4,10,116,2,126,6,1,3,1,1,2,1,2,7,2,1,5,9,2,6,60,1,3,2,2,1,3,31,6,11,2,15,5,28,7,6,2,2,2,3,1,36,12,8,10,43,10,83,5,154,7,22,1,5,1,20,1,1,4,1,1,2,2,3,3,1,1,5,1,3,3,1,1,1,2,2,10,113,129,1,1,5,1,2,1,1,1,2,9,2,3,3,8,1,1,1,7,59,1,2,4,1,1,2,32,6,11,2,12,1,1,6,29,3,1,3,5,1,1,1,1,2,1,1,1,41,24,47,10,81,5,154,8,22,5,22,2,4,3,1,4,1,3,1,10,6,2,1,12,110,130,1,2,3,1,1,1,1,2,1,2,5,5,4,3,3,3,2,1,1,2,8,57,1,2,4,2,2,32,6,11,2,11,11,28,3,1,7,3,3,1,46,2,1,16,52,10,78,5,154,8,21,1,5,23,1,4,1,3,1,1,2,1,4,10,2,7,1,14,107,135,2,1,1,1,1,2,1,3,7,9,4,2,2,3,9,56,3,4,2,2,32,6,11,3,9,1,1,9,3,28,8,2,4,2,47,16,55,12,75,6,152,9,20,1,1,2,3,28,3,5,1,3,12,6,1,19,102,134,2,1,1,2,1,1,1,1,1,4,6,16,1,4,10,55,2,5,2,2,31,2,1,3,13,2,9,11,4,1,28,6,3,3,3,47,12,61,13,71,6,152,10,19,1,2,4,29,3,4,1,17,25,101,133,1,2,3,1,2,2,1,4,5,1,18,1,2,12,52,2,7,2,1,31,2,1,3,13,2,9,10,1,1,3,1,33,1,1,7,1,48,8,66,13,70,5,152,11,17,8,31,2,3,1,17,5,1,20,98,136,2,2,2,2,1,2,3,7,19,14,51,3,7,2,1,30,3,2,2,12,4,6,12,1,1,3,1,32,5,2,1,3,49,6,70,15,65,5,152,11,16,9,55,46,76,142,3,1,1,4,7,2,20,5,3,4,50,3,8,1,2,29,7,12,4,5,14,4,1,31,1,5,2,1,3,49,5,74,28,49,5,151,13,14,4,3,3,56,3,1,6,1,46,64,142,4,2,1,2,6,2,2,2,20,10,48,2,7,4,2,28,4,1,2,13,4,2,19,1,3,30,2,5,2,53,4,78,31,42,5,151,13,10,3,1,4,1,5,57,67,53,82,1,60,1,1,4,1,6,2,2,1,3,20,10,47,2,2,9,2,27,6,1,1,13,4,2,18,2,2,30,2,3,1,1,2,1,53,4,80,36,35,5,151,15,6,9,3,4,57,73,47,142,4,1,2,1,5,3,8,1,1,1,13,11,48,2,2,9,2,26,8,14,24,2,2,31,1,2,1,1,2,1,1,53,5,84,35,31,5,150,16,2,2,2,3,1,4,1,1,3,4,56,79,40,1,143,2,1,3,1,4,1,3,7,1,1,1,1,1,2,8,13,48,1,2,11,1,25,12,10,24,1,1,1,2,30,4,1,3,55,5,100,23,27,5,150,16,2,6,1,8,1,1,4,56,85,32,2,145,1,1,2,1,4,3,1,4,1,7,1,2,1,6,13,48,2,2,11,1,24,14,8,25,3,2,31,2,3,58,4,107,20,23,5,149,16,2,4,2,10,6,56,2,1,88,24,3,149,1,1,3,5,2,2,7,1,1,4,1,4,12,49,1,2,9,1,2,23,17,7,24,4,2,29,4,1,1,1,58,4,114,16,19,6,149,15,3,3,8,3,1,1,6,56,101,1,1,10,6,147,1,1,2,7,1,2,6,1,8,1,3,11,49,2,1,8,3,2,22,18,7,23,6,30,4,3,58,2,1,1,118,16,15,6,148,15,24,58,36,42,42,115,1,30,1,1,9,11,1,12,8,50,2,8,4,2,1,19,21,6,22,6,1,30,4,2,59,4,122,15,12,5,148,5,2,1,2,4,13,8,1,1,1,59,30,55,36,72,4,1,1,2,10,22,6,29,1,9,7,1,2,1,2,2,2,2,2,2,2,7,49,2,10,3,2,3,16,12,2,6,1,2,5,21,6,1,30,5,2,59,4,126,13,9,6,148,2,3,4,2,1,1,2,2,11,69,1,2,18,70,30,71,6,1,17,15,10,26,1,10,7,9,2,2,5,7,49,2,10,4,3,1,14,13,4,4,4,5,20,6,1,33,4,1,59,4,129,14,4,7,148,5,1,1,1,4,1,1,3,8,2,2,62,19,80,11,1,17,70,5,1,18,1,1,13,11,25,1,10,4,13,1,2,2,1,4,5,49,2,9,6,1,3,2,8,14,7,3,6,2,12,1,8,5,1,34,2,3,59,4,133,21,145,1,1,1,9,4,1,1,14,59,19,86,2,1,23,70,29,9,13,21,2,1,1,9,4,19,1,1,6,1,49,2,9,8,5,20,10,2,20,1,7,6,1,34,3,2,59,4,136,19,142,1,1,4,3,1,2,1,4,17,55,9,1,4,1,5,90,26,53,5,6,2,3,29,9,14,1,4,14,3,2,9,2,1,1,21,1,2,1,1,3,1,47,2,9,7,8,17,11,3,19,1,7,5,3,33,1,2,2,59,4,138,17,140,1,2,2,1,2,6,2,1,1,18,28,4,12,1,7,20,95,24,19,8,1,1,22,10,3,2,3,30,6,16,1,2,1,1,2,12,1,2,1,8,5,27,1,1,2,47,2,9,6,10,14,15,4,3,12,2,7,4,6,31,4,60,4,142,14,136,1,1,2,2,8,2,3,3,1,17,26,1,3,2,4,7,2,1,2,2,1,4,4,7,102,22,1,15,17,1,1,2,5,7,12,3,3,2,30,2,20,1,4,1,2,1,2,1,10,9,4,30,3,2,44,1,1,9,6,6,1,4,11,17,2,5,12,1,6,5,1,9,28,5,59,4,145,12,133,3,1,12,1,1,2,3,6,2,2,8,27,10,1,4,1,4,6,3,3,6,107,19,2,13,47,3,35,1,24,2,2,4,1,8,9,2,2,36,43,2,1,8,7,6,2,5,7,19,2,5,11,2,6,4,4,4,3,1,27,1,1,2,60,4,146,13,130,16,2,2,2,12,10,25,14,1,3,7,10,112,16,1,1,2,10,9,3,8,1,28,3,1,1,58,1,6,9,10,1,2,1,38,42,10,4,9,2,5,5,20,2,6,3,1,6,3,4,4,1,1,6,2,2,3,25,5,60,4,147,6,1,1,5,127,15,1,3,1,2,1,15,8,25,14,3,5,9,118,13,6,8,53,1,58,2,11,3,10,5,39,40,10,4,10,2,6,3,20,3,10,6,3,3,2,1,2,1,1,8,5,25,3,1,61,4,147,5,1,2,7,124,14,1,1,2,5,1,15,8,1,24,12,4,1,3,7,124,12,6,6,79,2,31,2,14,1,10,4,40,40,9,6,10,3,6,20,4,11,5,6,1,4,1,1,9,5,24,4,61,4,146,7,1,10,121,17,2,3,2,16,1,7,4,20,2,5,4,13,130,10,7,2,2,1,77,4,31,2,15,8,5,42,39,6,10,2,3,4,4,7,17,2,4,10,2,3,13,2,8,3,24,4,61,5,145,22,118,5,2,7,2,1,1,1,4,17,1,2,2,4,5,16,6,4,1,1,11,135,8,7,2,78,7,31,1,15,7,5,43,39,2,1,2,16,5,4,7,15,2,1,4,4,2,8,5,2,2,1,5,1,7,2,2,24,4,61,4,141,11,1,17,117,6,1,5,5,4,18,6,4,6,12,5,7,11,139,5,87,7,31,2,15,6,5,46,31,2,4,2,1,5,13,5,5,6,14,2,1,1,3,5,3,6,8,2,6,2,6,1,2,1,24,4,61,4,141,32,114,1,2,1,1,3,2,1,3,1,6,20,6,2,9,7,6,6,11,142,4,86,8,31,1,16,5,5,48,29,5,2,2,2,2,8,1,5,7,4,6,14,2,3,3,4,1,8,1,1,7,3,2,2,1,3,4,2,2,24,4,61,4,140,7,1,5,7,16,111,2,5,2,1,1,1,3,1,4,23,2,1,13,1,10,4,13,144,2,87,8,31,2,12,1,2,5,4,50,27,7,1,2,2,1,8,15,4,7,11,3,2,1,5,2,2,1,1,5,9,3,1,3,1,5,2,7,21,4,61,4,140,3,1,8,11,15,108,4,1,3,1,2,2,1,2,1,4,26,9,1,10,6,15,144,2,86,2,1,2,3,2,14,2,15,1,6,2,6,6,2,1,2,49,26,11,11,15,4,2,1,5,1,4,1,1,4,1,2,1,1,6,1,2,1,1,5,9,23,1,1,19,3,61,4,140,10,16,14,106,1,6,1,1,7,1,4,28,7,4,2,9,12,1,4,145,3,57,3,15,1,17,1,31,2,12,7,3,1,51,24,1,1,10,11,21,1,2,2,13,4,6,4,3,1,1,10,27,17,1,1,2,60,4,142,4,22,14,104,1,2,1,2,1,9,1,4,30,7,11,19,145,3,8,2,45,6,2,2,5,1,2,2,51,2,10,8,3,1,44,3,2,1,28,1,5,16,15,2,2,5,8,1,4,4,7,4,1,2,1,10,26,1,2,2,1,12,2,1,1,60,4,171,13,90,2,8,3,1,1,3,9,1,1,2,2,33,7,3,24,145,3,8,2,46,10,4,4,53,2,8,8,3,1,44,1,3,1,1,25,4,2,4,18,14,8,13,4,7,18,34,9,1,2,1,1,59,5,174,12,87,3,2,6,1,4,1,1,1,1,8,1,1,4,36,30,146,4,56,9,4,3,56,1,7,8,3,1,43,1,5,26,4,1,1,2,2,21,2,2,7,8,14,4,6,3,1,13,36,7,2,2,2,1,58,4,177,12,84,1,1,1,4,4,3,3,11,3,2,1,1,38,26,148,5,10,1,44,8,4,3,57,1,7,7,3,2,42,1,2,29,4,1,1,1,1,3,40,14,4,6,3,1,14,37,4,3,2,2,3,56,4,179,12,81,2,8,3,5,12,1,5,39,13,1,9,150,5,7,1,1,2,43,8,4,3,58,1,6,6,4,3,30,7,1,4,1,1,28,3,1,3,1,1,1,3,40,12,6,1,5,14,1,4,38,6,2,1,4,55,4,181,12,78,3,7,5,3,13,1,1,2,2,40,11,2,7,151,7,49,2,2,15,58,1,6,6,4,3,29,9,1,3,1,28,1,9,1,4,39,12,3,1,2,1,4,1,1,13,2,4,19,1,17,6,1,2,5,53,5,183,12,75,4,7,3,4,1,1,8,1,2,1,6,40,11,1,1,1,4,153,8,12,2,35,2,2,12,1,1,58,1,5,6,5,3,30,9,1,2,1,1,26,17,16,3,4,11,2,1,2,12,4,1,1,5,3,1,6,1,3,1,1,4,19,2,18,2,5,6,52,4,186,12,73,3,2,4,4,1,1,4,10,3,6,1,40,3,2,10,155,8,49,3,2,11,59,2,5,6,5,1,29,1,2,10,1,2,1,10,12,1,1,2,18,13,37,1,1,3,1,1,3,1,1,2,1,6,1,2,1,1,1,5,17,3,18,9,5,51,4,188,12,71,2,4,1,5,6,21,40,3,2,10,154,9,41,1,8,2,4,8,61,1,4,6,6,1,28,2,2,9,2,1,1,2,43,11,40,2,1,2,1,1,3,1,1,6,1,2,2,2,2,4,17,1,22,8,5,50,4,190,12,69,2,5,3,1,2,1,2,3,20,41,2,1,2,9,154,10,39,3,8,1,2,2,2,5,59,4,4,5,36,1,1,1,1,9,3,1,2,3,3,38,10,44,2,1,2,1,3,5,1,2,2,1,8,15,2,21,9,6,48,5,192,12,65,4,6,3,2,1,4,20,1,40,3,1,2,4,1,2,1,1,153,12,40,1,10,2,66,2,6,6,36,11,2,6,1,4,1,4,7,1,1,3,1,1,21,8,46,1,1,1,1,1,2,1,1,3,2,2,1,4,1,5,11,2,26,9,7,46,4,195,12,61,5,5,6,1,1,3,21,1,40,2,1,1,1,1,9,153,13,117,2,7,5,4,3,29,10,4,2,3,2,6,1,1,3,2,3,1,1,7,20,6,24,17,7,3,3,5,1,2,1,1,2,3,5,11,2,12,2,13,10,6,45,4,197,11,58,6,5,4,4,1,1,6,1,15,2,39,6,10,153,14,116,1,7,5,4,3,29,9,3,3,1,1,8,1,1,2,3,2,4,3,4,1,2,22,2,1,19,12,2,2,1,3,1,4,5,4,1,5,1,2,1,1,2,2,6,20,2,4,1,14,10,7,42,5,199,11,55,6,5,1,1,2,7,11,1,10,2,39,6,3,160,1,1,12,2,12,1,101,1,6,6,3,3,29,9,2,2,1,4,2,5,1,7,2,4,9,23,2,1,14,10,3,1,3,3,1,1,1,1,1,2,1,4,4,9,1,8,1,5,19,3,4,1,14,11,8,40,4,202,11,55,3,5,2,3,1,1,5,23,2,37,6,1,163,3,1,3,1,8,4,110,1,6,1,2,2,3,3,30,7,3,1,9,1,1,1,1,1,3,2,1,1,2,6,4,2,4,25,12,8,1,1,2,3,1,5,1,5,1,1,1,5,2,1,5,1,2,1,13,21,1,3,4,2,1,10,13,7,38,5,204,10,54,3,3,4,3,4,1,3,9,2,10,5,36,5,163,6,1,6,1,6,5,106,1,5,1,3,1,3,3,30,7,4,1,1,4,3,2,1,1,1,1,1,5,2,9,2,1,6,3,2,19,10,7,2,2,1,3,1,1,1,1,1,1,1,3,8,1,1,1,3,2,2,2,2,1,1,13,16,2,2,3,4,8,10,11,8,35,5,207,10,51,3,2,1,1,3,4,5,1,1,7,1,2,3,8,8,34,5,162,3,1,10,1,7,4,25,1,80,1,5,1,3,1,2,1,32,8,2,1,2,1,4,1,4,1,1,2,4,3,9,9,1,3,3,2,15,9,6,4,1,1,1,1,1,1,1,1,1,6,1,9,2,1,1,1,1,2,2,1,3,9,2,3,5,13,7,5,7,9,13,8,33,4,209,11,48,4,2,6,5,2,2,1,8,1,1,3,4,1,3,9,32,5,163,15,1,8,3,1,1,21,2,50,1,15,2,1,3,9,1,3,1,4,3,1,32,7,1,2,9,2,6,5,2,11,8,1,2,3,2,15,7,7,3,2,4,1,8,4,8,2,1,2,2,3,1,1,1,1,5,2,1,11,15,6,4,8,7,16,7,31,5,211,10,45,4,4,6,2,5,18,15,1,1,5,1,1,5,17,6,163,24,2,5,90,3,9,1,2,1,3,2,2,1,32,7,2,1,1,1,15,5,2,13,9,1,1,1,1,1,2,14,5,9,4,1,1,11,6,7,8,2,1,1,1,1,1,3,3,1,13,14,7,1,12,6,16,6,29,5,214,9,44,3,4,6,1,1,2,4,2,1,5,1,10,17,1,9,1,1,11,2,2,6,163,9,6,11,3,1,3,90,4,7,1,5,2,3,2,32,5,2,1,9,1,3,3,2,5,1,14,13,1,2,15,3,6,3,3,5,4,6,2,1,4,2,1,1,2,2,5,2,1,2,1,1,2,3,2,1,16,11,21,5,17,7,27,4,216,10,41,3,5,5,2,1,1,2,1,20,13,5,13,1,1,1,2,3,12,163,6,12,9,2,4,69,1,22,3,5,2,11,1,35,4,4,5,1,4,3,1,22,12,1,1,17,1,4,1,2,5,2,2,1,1,3,1,9,7,1,1,3,1,1,1,3,1,1,1,2,2,3,2,2,1,1,15,9,23,22,4,1,2,25,5,218,10,39,3,5,6,2,3,1,11,1,8,13,8,11,19,162,5,17,5,4,2,2,2,64,5,28,3,2,8,1,31,1,1,1,1,6,1,6,4,3,1,4,1,20,5,1,3,1,2,17,4,1,1,1,3,2,2,22,3,4,1,5,1,1,1,3,2,2,1,3,2,2,15,8,25,21,7,24,4,220,11,36,1,1,2,5,5,2,3,2,6,1,10,17,8,7,22,162,4,21,2,5,3,2,1,1,60,7,21,4,4,1,3,2,6,2,24,1,1,2,3,2,1,11,2,3,1,1,2,25,12,15,5,2,7,1,1,1,2,21,3,3,1,3,2,1,2,3,2,2,1,1,1,2,1,2,50,20,6,23,5,221,11,34,1,2,2,3,29,20,8,5,24,160,5,23,7,2,2,6,1,1,46,2,12,1,17,10,3,6,1,1,1,1,2,28,1,2,3,10,1,4,3,2,5,1,20,11,15,4,2,5,30,2,2,4,3,2,3,3,1,1,1,1,3,1,2,48,1,1,4,16,3,2,2,21,5,224,12,31,2,1,10,2,4,2,10,1,3,22,9,5,4,10,9,159,5,25,7,2,6,4,1,34,1,2,3,3,3,12,2,11,25,2,1,1,1,27,1,2,3,13,1,2,12,1,17,1,2,7,1,2,13,3,4,3,1,1,31,2,1,3,5,1,3,1,2,1,4,3,2,47,1,2,8,11,3,3,2,20,5,226,13,29,1,1,29,1,2,23,8,21,9,158,4,27,8,2,2,7,3,34,8,13,7,1,30,1,3,2,2,1,20,1,2,1,2,2,2,1,4,4,4,12,1,1,2,15,2,1,5,1,3,1,1,9,6,1,3,39,1,7,2,2,2,1,1,4,1,2,1,2,1,47,13,8,3,3,2,19,5,229,15,24,3,27,2,3,23,8,22,9,156,5,27,8,5,1,5,5,32,6,16,7,29,2,3,3,21,2,1,1,2,2,7,2,5,1,2,6,1,3,2,1,2,9,3,2,5,3,1,1,5,8,1,2,3,2,1,41,1,26,1,45,5,11,6,1,1,2,1,1,1,1,3,1,13,6,231,17,16,2,3,2,15,1,3,4,5,1,4,23,9,23,9,153,5,29,8,12,6,24,5,58,3,2,3,21,1,2,4,6,2,10,5,1,3,1,2,2,10,1,1,3,2,2,1,1,2,1,1,2,1,2,7,1,2,4,3,1,69,44,10,7,6,6,2,1,2,12,6,234,19,12,4,3,13,2,2,6,4,2,4,24,9,25,7,152,4,31,9,13,7,19,4,59,4,1,2,18,2,5,3,8,1,5,1,5,7,1,4,3,10,7,1,2,3,1,2,3,5,7,1,1,3,3,2,63,1,1,43,12,3,2,1,6,5,2,3,1,11,7,235,23,3,6,4,13,9,1,2,4,1,3,25,9,26,7,150,5,34,7,3,2,5,1,1,11,9,4,2,1,62,4,3,2,16,1,6,3,13,1,6,4,1,2,2,2,1,10,2,1,9,2,1,1,1,1,2,1,5,7,4,3,1,68,1,42,14,5,4,3,2,4,5,1,1,2,1,11,236,28,7,12,11,1,1,8,26,7,28,8,147,5,36,7,2,4,2,2,2,11,3,6,2,4,61,3,3,2,4,21,1,10,2,1,2,2,1,1,2,1,3,1,2,2,2,1,10,2,3,9,3,3,1,1,5,6,2,2,3,4,2,1,62,2,42,15,5,2,5,4,2,2,2,2,3,10,238,24,6,15,6,1,2,13,27,3,2,30,8,144,6,38,31,2,2,2,6,1,1,59,3,5,3,1,2,20,1,2,3,6,1,1,4,1,1,2,1,3,1,2,1,12,2,4,1,1,1,1,7,2,8,5,1,3,2,4,3,1,1,56,1,5,2,1,1,40,17,5,1,2,1,4,1,6,1,1,2,3,1,9,240,22,1,4,14,6,7,1,4,1,4,27,38,10,139,6,39,46,35,4,17,3,1,1,5,3,3,1,2,16,1,1,5,2,4,1,1,4,1,2,1,1,3,1,1,1,1,13,2,1,1,4,4,2,1,1,1,1,1,3,1,3,3,2,2,2,1,6,2,56,1,4,1,1,1,4,38,20,2,8,4,12,1,1,3,1,1,3,241,20,3,4,13,1,1,3,7,2,1,1,2,1,1,1,1,26,34,1,8,6,139,6,40,1,3,2,3,4,33,3,2,6,21,1,6,3,14,2,2,6,3,10,10,2,1,21,1,1,3,1,2,7,1,1,1,10,1,1,5,2,3,3,2,1,1,4,9,6,5,1,1,1,53,2,8,1,1,34,19,5,3,8,11,4,1,1,1,2,242,18,4,2,1,1,16,1,16,1,1,27,33,2,8,7,136,6,41,1,2,4,7,32,9,1,2,19,13,11,5,5,5,13,4,3,1,22,2,2,1,2,4,1,2,1,2,2,10,1,1,2,1,2,5,1,2,5,1,1,2,1,5,3,1,1,4,1,6,1,56,1,8,33,19,7,13,2,2,3,5,2,1,1,242,17,9,14,1,8,1,5,2,1,1,28,34,4,6,4,136,8,42,6,10,28,13,18,14,1,1,9,6,5,5,19,4,2,3,1,14,4,1,5,2,5,1,11,1,1,1,2,1,6,2,1,4,2,6,1,9,3,1,2,2,1,67,32,18,7,17,4,5,3,243,14,10,24,1,4,4,1,1,28,30,3,2,3,6,5,132,9,43,2,4,12,26,15,15,16,1,1,1,3,5,5,5,5,7,1,8,2,4,2,2,1,1,1,1,14,1,5,1,2,1,2,1,2,3,12,2,3,2,3,2,3,6,2,1,1,7,3,4,2,1,1,2,1,1,24,4,1,3,21,2,9,34,16,7,18,4,1,1,3,2,244,14,1,8,29,4,1,2,28,31,7,5,5,130,10,43,3,7,14,6,2,12,1,1,9,2,3,14,1,1,2,3,1,6,1,1,2,1,5,2,8,1,2,2,5,1,1,11,4,2,2,4,1,2,6,5,1,1,2,3,1,3,2,1,2,5,20,2,5,7,1,2,2,4,2,4,1,3,6,2,2,18,13,2,1,12,1,1,4,8,5,1,30,14,8,19,4,5,1,245,11,1,2,1,1,3,2,29,1,2,1,2,2,28,33,6,5,3,130,11,36,4,2,3,10,24,5,3,9,4,4,12,1,2,1,6,2,5,9,7,9,2,5,2,9,4,1,4,1,1,1,5,9,2,2,1,1,2,2,1,2,5,19,1,6,1,1,1,8,3,3,2,13,2,3,2,2,2,7,25,8,1,4,1,12,1,3,32,12,5,1,23,3,1,1,1,2,244,11,1,1,5,2,14,1,1,1,11,2,3,2,3,31,3,3,25,5,7,129,14,35,10,10,23,8,2,5,1,2,2,1,4,11,2,1,1,1,1,1,6,1,3,9,2,7,6,6,11,6,2,4,1,1,1,2,12,2,2,1,3,3,5,21,2,1,1,4,1,1,9,2,12,6,1,1,4,2,4,4,25,12,6,2,12,23,3,3,3,11,6,1,25,6,245,9,7,2,29,6,1,2,42,22,4,8,1,1,124,16,35,12,8,2,4,17,8,4,2,3,4,1,3,11,1,2,1,2,4,1,6,8,3,7,3,3,7,6,6,1,3,1,4,1,4,13,5,1,1,7,17,2,4,6,1,1,2,9,1,7,12,1,1,1,1,1,6,1,3,1,23,13,7,3,11,2,1,20,5,4,8,2,1,5,1,27,5,246,7,3,4,3,18,1,10,1,1,4,1,2,43,21,4,7,1,3,121,28,23,2,13,3,5,1,1,7,13,8,4,3,1,6,2,1,9,1,3,1,2,3,5,10,3,2,1,7,1,12,1,2,4,1,1,1,5,2,2,1,4,1,13,4,6,21,6,1,8,9,1,4,25,1,1,1,2,5,17,1,1,11,10,4,10,2,1,17,9,4,6,8,1,29,4,246,6,3,4,3,19,3,7,1,2,2,1,4,44,22,3,6,1,3,118,8,1,32,10,4,17,2,6,9,11,7,4,11,2,10,2,3,2,1,2,3,4,7,3,5,2,3,2,8,1,8,1,3,1,3,1,4,1,1,2,2,13,3,5,24,14,13,32,7,13,9,1,1,14,3,14,15,10,4,7,7,1,30,4,246,5,3,4,3,11,1,2,1,6,1,8,5,1,3,46,21,3,5,1,2,1,1,109,63,24,4,1,10,6,2,1,4,9,6,3,10,3,1,3,5,2,1,1,7,3,2,2,3,7,2,3,1,4,3,3,3,3,1,5,1,5,1,12,3,4,25,5,2,2,1,1,15,3,2,8,1,39,7,1,1,1,15,4,12,2,15,9,5,6,6,32,5,246,3,4,3,3,23,1,8,2,1,5,46,21,5,9,102,11,1,58,23,8,1,14,3,2,10,5,1,2,8,3,1,1,1,2,7,3,8,1,8,6,1,1,4,2,5,2,1,4,2,1,1,10,2,10,34,12,12,6,3,6,1,37,9,1,3,15,3,13,2,18,6,2,2,6,6,33,5,245,3,5,1,4,22,2,1,1,6,7,47,21,6,8,98,74,6,3,4,4,7,6,2,2,1,11,2,1,2,10,5,1,1,8,4,3,1,9,10,1,2,1,3,1,1,2,1,2,2,2,11,1,6,1,4,7,3,11,2,2,29,14,9,9,3,4,1,38,3,6,3,18,13,3,17,6,4,4,8,33,5,246,1,10,23,2,9,6,47,21,2,2,2,10,91,34,18,27,6,5,2,4,8,21,2,1,2,11,2,2,2,3,2,3,4,3,1,1,1,6,12,3,1,4,1,1,1,5,1,10,15,2,7,8,33,22,7,9,2,1,1,16,1,30,3,12,2,4,11,2,1,5,16,5,16,1,30,5,247,1,9,1,21,1,1,4,8,2,1,3,49,19,3,1,1,8,88,30,37,18,6,3,1,6,8,20,2,1,1,3,11,2,7,3,4,3,1,1,1,1,1,10,3,4,16,1,4,1,7,11,2,10,7,33,24,6,10,3,2,8,4,2,31,2,9,4,2,1,4,5,13,17,4,15,3,28,4,1,248,8,2,20,2,1,7,4,4,1,2,50,18,1,1,1,1,2,1,1,6,1,2,80,26,53,10,7,9,9,21,2,4,8,1,2,6,4,1,5,6,2,1,1,1,6,3,8,1,1,1,2,6,6,1,6,2,8,3,5,2,2,9,1,3,31,21,12,6,2,1,3,3,7,1,1,2,29,2,16,2,6,14,19,1,16,4,28,1,1,1,1,249,6,1,3,19,1,2,1,13,1,1,1,47,1,3,20,1,2,3,1,1,10,2,72,23,61,8,7,8,14,7,7,9,5,3,1,5,2,6,4,4,1,2,14,7,4,5,4,13,1,7,1,6,5,14,33,3,1,6,1,7,1,8,6,6,2,2,1,1,2,1,3,2,1,1,1,1,59,12,34,5,27,1,2,1,248,6,1,4,6,1,11,1,3,1,15,1,46,1,1,1,1,8,5,14,3,9,1,1,1,1,68,21,67,6,9,5,16,5,8,3,1,7,2,3,1,5,5,4,3,9,11,11,2,3,3,1,1,15,4,4,3,1,5,1,10,1,3,9,1,25,2,1,7,2,12,10,7,1,4,4,5,1,1,3,58,11,34,2,27,2,4,247,5,2,4,22,1,15,1,45,2,2,9,1,1,6,8,2,2,5,9,1,66,18,74,4,10,3,18,4,7,4,2,6,5,1,2,10,1,4,3,1,6,10,12,7,18,6,2,1,5,1,1,11,13,1,28,7,5,6,1,1,1,4,13,2,2,1,3,6,2,2,1,61,10,33,2,27,2,4,1,1,244,4,1,6,22,1,3,11,2,39,1,5,1,4,9,1,2,6,7,2,2,6,6,2,64,15,80,3,9,2,14,3,3,3,7,5,2,4,9,11,2,1,1,13,7,13,6,18,6,5,2,4,12,41,21,4,2,10,4,5,73,10,32,1,3,24,1,5,3,243,10,25,3,2,2,6,42,1,3,3,4,17,3,6,1,7,2,5,2,62,14,84,1,24,6,2,1,8,11,6,2,1,9,4,13,10,14,5,17,3,3,2,9,13,41,8,1,9,1,4,1,3,1,4,3,1,3,6,6,1,67,10,7,1,30,3,2,17,1,5,5,242,8,26,3,1,2,5,43,8,4,10,1,22,3,6,1,59,14,88,21,1,7,2,1,7,3,10,5,2,1,7,1,1,4,2,1,3,1,1,1,5,11,14,3,16,4,2,2,6,2,2,10,44,7,12,5,2,7,7,1,1,5,2,1,1,1,1,1,4,1,1,6,3,1,2,48,10,3,6,29,1,7,14,1,2,1,7,4,238,9,4,1,9,5,5,9,3,9,1,32,9,3,11,2,6,9,7,4,1,1,3,11,2,44,14,92,3,15,1,2,8,12,5,3,5,2,2,6,4,1,2,6,1,6,13,13,3,14,2,1,3,6,5,4,9,21,1,21,7,11,2,8,7,7,1,4,1,6,5,1,1,2,2,5,52,9,3,6,39,9,7,1,1,3,1,1,3,3,236,2,2,4,1,7,5,8,6,5,5,1,7,2,31,11,2,8,1,2,2,8,4,1,2,10,1,7,8,4,40,14,113,7,5,1,12,3,3,3,3,1,6,4,3,1,11,1,6,7,3,12,3,13,1,6,2,1,7,2,1,1,9,22,2,20,3,24,11,8,2,1,1,4,1,3,2,7,2,54,8,1,10,28,1,9,7,7,2,1,2,3,1,1,1,1,1,2,236,1,2,3,2,9,2,2,6,1,2,1,7,6,1,5,4,25,2,3,12,3,8,5,14,1,9,1,1,4,5,6,4,37,14,116,2,8,4,5,1,5,1,2,2,3,2,7,4,10,2,1,1,4,5,2,5,3,12,4,10,1,6,6,9,9,21,6,18,1,27,9,4,7,2,8,65,20,27,2,7,1,5,8,3,4,5,1,1,1,3,234,1,2,4,1,12,7,1,1,1,1,1,6,4,3,6,1,26,3,2,12,5,7,5,2,2,22,2,2,2,6,4,7,31,14,118,10,6,1,1,1,2,1,1,8,4,7,3,7,3,3,1,2,1,1,12,4,11,2,2,1,5,2,2,3,4,3,12,1,12,18,1,7,44,5,8,6,3,6,16,3,48,27,20,2,1,6,2,1,1,8,5,3,4,12,230,1,3,3,1,1,1,10,6,1,1,3,1,1,6,3,1,35,18,6,5,5,1,3,23,3,1,2,6,4,9,23,16,121,10,10,1,2,13,3,1,1,3,8,6,1,4,4,9,5,9,1,1,4,2,2,5,1,1,4,13,4,10,19,1,6,34,1,11,3,8,1,4,4,1,5,17,2,7,1,40,28,20,1,2,1,1,6,1,1,6,7,2,2,5,6,2,5,227,2,1,1,2,1,1,1,3,8,7,1,1,1,1,7,40,19,5,4,9,27,1,12,1,9,19,17,124,9,6,1,1,1,2,1,2,1,1,5,2,4,2,3,4,2,2,15,4,8,4,9,3,3,6,4,4,13,5,1,1,12,15,7,33,2,12,5,4,7,4,3,24,3,17,3,4,1,15,30,18,3,2,1,1,1,3,1,2,2,3,9,1,3,6,8,1,5,225,2,1,1,2,1,2,5,6,8,2,1,3,1,43,19,10,5,2,31,1,13,6,3,2,11,17,126,10,7,2,2,2,4,1,7,6,3,22,1,1,2,3,6,4,9,2,10,18,6,4,10,16,6,33,2,16,12,21,5,1,3,15,1,4,6,2,5,7,35,20,1,1,2,1,3,1,5,11,4,9,8,1,4,224,1,3,1,2,5,7,2,2,3,1,1,1,2,1,1,1,1,42,28,1,50,2,3,3,4,27,128,10,2,1,3,1,1,1,3,5,10,3,2,1,1,20,1,2,3,1,2,6,5,4,7,9,17,9,3,8,18,4,34,3,8,3,6,10,16,8,2,3,1,2,11,1,1,3,1,17,3,37,24,1,1,1,1,3,1,2,10,4,1,10,13,221,3,2,1,2,6,3,1,2,2,1,5,2,1,2,4,41,10,1,7,3,4,1,52,1,1,8,2,26,128,13,1,2,2,1,1,2,5,7,5,1,6,18,3,1,4,1,2,8,5,1,11,5,18,10,4,3,1,2,58,13,3,15,12,7,1,2,4,1,11,1,3,48,5,9,14,7,3,2,1,7,9,2,1,2,13,11,220,3,1,2,2,7,2,1,1,3,1,2,4,1,1,3,2,42,7,7,2,1,8,28,2,7,1,15,4,7,1,11,2,3,3,6,128,13,2,3,1,1,1,3,5,1,2,7,7,19,2,1,1,2,5,8,21,4,15,94,9,1,2,2,3,8,9,6,1,3,5,2,2,3,49,5,6,15,10,4,1,2,5,1,9,3,16,10,218,2,1,1,2,4,7,1,6,2,1,4,47,9,7,1,1,8,20,1,5,7,5,1,2,2,10,13,12,1,3,3,3,129,28,16,2,3,23,5,7,41,73,2,19,3,2,7,2,1,8,8,2,1,10,1,9,51,6,5,16,13,1,9,8,2,19,10,216,2,1,1,3,4,2,2,3,2,1,1,1,1,1,2,4,46,12,12,1,2,17,19,1,2,1,5,2,1,1,4,13,2,2,1,2,3,1,5,5,126,33,16,1,3,21,6,7,45,70,3,18,6,2,2,10,10,2,2,8,2,9,53,5,6,17,12,1,2,1,5,8,1,22,5,1,3,214,2,1,2,1,1,5,6,3,1,1,1,1,6,47,15,9,3,2,1,5,3,4,19,1,5,1,11,15,1,1,3,11,1,128,35,4,2,2,17,1,12,7,6,4,1,43,1,1,30,1,35,4,5,1,13,4,14,10,3,1,8,1,1,2,4,58,6,4,18,11,3,1,1,4,1,1,6,1,23,10,213,2,3,1,7,4,1,2,3,1,5,48,15,1,1,1,5,16,2,21,1,5,2,12,1,10,2,2,1,1,1,9,1,1,127,36,1,2,1,3,1,17,3,8,8,7,3,7,40,30,2,36,2,4,7,3,2,3,6,10,12,12,6,1,3,1,19,3,34,7,3,2,2,16,9,5,5,1,5,2,23,10,210,4,1,1,9,3,1,1,11,49,11,6,2,43,1,5,4,8,4,8,3,3,2,8,1,129,2,1,1,4,28,1,5,1,3,1,11,1,2,8,2,6,22,37,28,5,35,17,4,7,4,17,11,30,8,19,1,10,9,3,9,4,10,4,5,3,3,5,2,24,11,205,4,1,3,9,3,3,1,8,51,10,52,3,4,1,1,6,6,4,5,4,3,2,3,1,4,129,2,6,34,2,2,2,10,2,1,14,28,45,12,9,32,18,7,13,1,2,8,3,1,6,4,1,28,10,2,2,14,2,11,8,1,9,6,18,3,4,4,3,2,1,22,10,202,4,1,4,7,6,12,51,9,54,3,7,6,3,3,2,5,5,5,5,130,3,5,2,3,30,3,1,2,16,1,1,3,3,2,32,42,6,15,31,18,8,10,14,3,2,2,4,1,2,1,21,2,6,13,27,14,9,2,1,17,1,1,4,4,6,23,10,201,1,1,1,1,2,3,1,5,5,2,2,2,3,1,4,50,6,3,1,56,3,6,8,7,2,7,1,1,1,1,4,129,2,3,13,27,4,1,2,18,1,41,39,4,20,1,1,14,8,1,21,9,5,18,2,2,12,10,7,2,4,8,11,25,14,9,3,1,15,3,1,4,4,5,26,9,197,7,1,3,1,6,4,4,1,2,3,1,3,51,2,63,2,2,2,22,6,1,1,1,4,131,5,11,2,27,1,4,1,60,40,2,26,5,38,4,6,10,2,7,3,2,11,2,1,1,2,1,5,13,6,14,22,15,8,4,2,4,4,6,8,4,4,28,4,1,4,195,2,2,7,1,7,4,1,1,1,1,1,1,1,2,1,4,36,3,7,2,1,67,1,1,1,1,3,23,5,1,1,1,1,1,1,133,8,1,1,2,1,3,34,3,59,118,9,4,1,4,2,3,10,3,1,1,3,2,2,2,13,6,15,20,16,7,13,1,1,1,3,10,4,4,29,4,1,4,58,22,117,1,1,6,1,6,4,1,4,1,3,1,5,35,3,8,2,43,1,28,1,1,3,1,2,20,4,3,2,134,14,1,3,98,3,3,109,6,4,4,3,1,18,3,3,5,1,11,6,16,17,17,5,8,1,1,1,1,2,2,2,13,4,4,30,5,1,2,35,50,112,1,2,6,9,3,2,2,2,1,6,33,2,1,1,8,1,1,43,2,1,1,30,1,1,5,1,2,18,3,1,1,119,2,14,12,1,6,10,2,91,111,2,2,2,1,2,4,3,15,10,5,6,2,3,4,18,6,4,4,18,7,7,2,4,2,1,15,3,4,31,3,3,2,28,36,2,24,93,6,6,2,2,3,11,4,2,2,8,34,3,2,1,4,3,43,5,24,3,6,2,1,2,1,1,20,3,118,6,7,1,3,14,6,104,36,2,1,74,9,2,4,11,7,13,3,4,1,4,16,6,27,2,13,1,23,1,4,35,1,3,1,2,23,68,89,3,1,3,4,3,3,2,11,2,4,2,1,2,1,5,30,6,3,1,4,3,41,1,7,25,5,3,1,26,2,119,9,1,5,1,14,7,107,31,2,2,74,1,10,3,37,2,2,9,13,4,39,3,3,3,17,1,4,35,2,1,2,6,16,35,6,32,86,3,1,6,4,2,2,12,3,2,6,1,6,33,2,3,1,1,1,1,4,41,2,1,5,26,1,2,5,27,2,119,10,5,1,1,13,8,1,2,108,2,1,22,3,2,73,2,32,2,3,2,13,3,7,16,3,39,1,2,6,16,1,4,34,3,2,1,10,9,16,39,12,1,11,82,2,3,5,4,1,3,12,4,1,14,33,2,1,2,4,4,40,1,2,6,30,2,28,4,119,9,4,2,1,10,11,1,1,113,21,4,1,72,2,11,3,20,2,2,2,14,5,2,2,14,1,1,2,40,1,6,2,16,2,3,34,3,2,2,28,51,7,1,13,79,2,2,4,2,1,2,2,2,13,19,32,9,4,41,8,32,1,17,1,11,3,117,11,8,9,17,2,1,108,15,1,3,4,1,71,2,13,6,6,3,2,1,4,1,21,5,1,3,10,2,43,2,6,2,15,2,4,34,10,22,59,6,1,12,76,1,3,3,6,1,1,16,17,21,7,4,12,2,41,8,52,1,5,8,117,10,8,8,23,14,2,98,4,3,3,4,3,70,2,1,3,9,7,9,4,25,3,5,2,9,2,4,2,32,3,1,8,2,6,2,5,6,1,34,5,1,5,19,65,19,73,8,7,16,15,3,1,14,71,8,58,10,115,10,4,1,1,2,7,24,6,3,3,3,3,103,3,6,2,68,3,3,11,6,7,5,27,4,4,2,49,1,2,8,3,3,1,1,2,1,3,7,1,34,4,2,1,2,2,16,71,6,2,10,71,6,1,1,7,15,13,2,4,3,5,2,2,74,7,59,2,9,117,5,1,2,3,3,6,26,3,12,3,3,5,4,90,3,6,4,65,4,4,11,5,41,3,1,3,1,1,2,5,1,7,1,34,2,14,3,47,4,3,2,2,2,1,2,9,76,5,2,1,1,1,7,69,3,1,1,3,1,7,13,6,9,6,3,4,78,6,2,53,9,8,117,6,2,10,27,3,3,3,6,1,1,1,14,88,2,7,1,1,3,1,1,1,1,59,4,4,11,5,43,2,1,1,4,1,1,1,3,2,7,1,35,2,9,4,1,2,46,5,3,5,5,7,80,6,1,1,3,1,5,65,4,1,2,1,1,1,1,1,4,1,3,5,2,9,13,1,5,2,71,13,7,47,12,8,120,5,9,27,2,1,2,2,3,4,4,15,95,2,2,3,5,53,5,5,11,6,7,2,36,2,5,1,1,50,1,11,51,5,4,5,3,8,83,4,3,2,11,59,3,1,2,1,1,1,3,2,4,1,13,2,1,1,3,86,15,10,44,15,7,118,2,1,1,1,1,8,27,4,3,4,1,3,3,16,95,1,3,4,4,7,48,3,4,11,2,2,4,3,7,36,2,5,1,2,2,8,2,27,3,1,15,3,49,5,4,6,2,7,86,6,1,4,10,57,1,1,1,1,2,1,1,2,2,4,14,91,18,2,2,7,41,18,8,114,6,7,30,5,5,1,1,5,1,14,2,99,4,5,8,15,5,11,19,3,6,6,6,9,45,4,2,1,3,3,3,1,1,3,22,1,1,2,1,2,1,2,1,12,48,5,4,4,1,1,1,6,89,6,3,2,13,48,1,1,3,2,7,4,6,1,12,1,2,3,1,39,1,40,19,11,40,21,7,112,6,1,2,2,4,29,7,4,1,10,8,4,64,3,7,2,23,5,4,11,9,27,4,8,2,4,5,2,7,9,37,2,1,7,1,2,5,1,2,7,10,2,3,2,3,14,1,13,46,5,6,4,1,2,1,1,1,93,5,2,4,7,1,6,43,2,2,2,1,1,1,2,6,3,9,17,40,1,36,20,3,1,8,1,36,1,3,21,7,111,7,1,6,2,28,5,6,10,5,8,49,3,3,3,2,9,1,6,5,2,16,4,13,14,6,4,23,11,2,1,2,11,2,41,4,1,2,1,6,3,5,2,2,9,5,4,3,1,28,47,5,6,4,2,2,97,4,3,2,5,4,5,41,1,1,1,1,2,1,1,1,3,25,11,39,2,25,3,2,25,12,38,25,6,111,2,1,2,3,8,1,27,3,3,4,11,3,1,1,1,7,5,3,29,6,4,5,1,31,14,5,15,6,42,8,7,2,53,1,8,4,5,2,3,2,5,4,9,3,29,47,3,1,1,4,4,2,2,98,5,3,2,3,6,4,38,1,1,1,1,1,4,1,2,28,10,39,2,25,30,3,1,7,2,31,3,4,24,7,110,2,1,1,2,1,4,6,26,5,2,3,4,1,8,4,2,5,3,2,1,3,28,8,2,44,6,1,6,142,2,5,3,1,1,2,1,1,2,2,8,2,6,4,6,3,13,2,4,45,7,4,5,2,90,12,4,1,1,1,4,1,7,34,3,1,1,4,1,1,1,1,1,31,4,69,31,10,2,31,6,27,7,109,3,2,3,1,1,1,1,3,28,4,5,5,1,7,7,1,3,3,4,3,28,55,2,2,1,1,5,134,3,19,1,2,2,14,1,7,2,28,46,4,4,2,6,88,13,4,6,3,2,4,30,6,1,1,1,3,1,4,104,33,7,5,1,7,2,4,8,1,1,5,7,28,6,110,4,1,2,6,3,21,3,4,1,7,1,2,2,1,7,8,5,1,3,2,8,2,19,60,6,137,1,21,2,12,2,33,2,4,47,3,4,2,6,86,3,1,1,1,3,2,1,2,2,4,5,9,24,8,1,2,1,1,2,1,1,2,1,58,3,40,1,4,36,3,22,4,3,3,3,6,30,6,110,16,19,4,2,1,2,5,3,3,11,5,7,1,1,2,9,2,12,3,2,7,3,51,7,216,47,1,6,1,3,1,3,76,12,16,3,12,17,13,1,6,1,3,63,2,38,1,42,2,20,2,2,3,6,1,5,1,30,7,113,7,1,7,12,5,4,1,2,1,3,2,4,2,5,8,2,8,4,17,17,4,52,5,146,2,64,1,5,22,1,1,6,1,1,15,1,6,2,2,1,3,73,13,19,2,6,1,1,1,2,12,14,2,3,3,1,4,1,65,3,1,1,34,1,42,2,22,5,6,1,4,2,31,8,4,10,100,20,3,4,5,2,4,2,1,2,1,2,1,7,8,15,2,5,3,5,18,1,54,5,148,2,62,2,13,7,3,3,1,2,8,13,2,7,1,7,71,1,2,5,3,2,17,3,5,2,3,1,2,5,1,16,1,4,1,1,3,112,1,41,5,20,4,7,1,3,3,32,7,2,13,100,26,5,2,1,2,17,1,1,7,3,11,3,10,2,1,70,6,252,13,5,5,3,1,3,1,70,1,3,3,17,3,1,1,2,3,4,1,2,2,5,1,10,2,16,112,2,39,6,21,3,1,6,8,32,14,6,2,96,12,1,17,4,1,2,1,1,2,20,4,3,1,3,1,1,9,9,1,1,4,4,65,5,238,3,1,1,2,2,5,13,6,6,2,2,2,1,8,2,59,5,18,9,7,1,2,3,3,1,1,7,20,2,110,3,34,10,21,5,4,8,34,13,2,1,4,2,91,33,5,2,1,1,1,3,20,11,24,6,57,2,1,2,1,7,208,1,1,1,16,2,9,3,13,9,2,1,4,2,17,1,5,57,6,18,11,2,2,1,2,4,2,1,1,2,1,2,21,3,1,1,20,2,30,8,4,1,42,4,32,11,19,1,1,1,1,4,4,7,35,6,9,5,3,87,36,5,1,1,3,4,2,1,15,6,5,18,2,4,6,8,1,47,16,209,2,1,1,15,5,9,2,2,2,1,1,4,8,3,2,1,5,24,53,4,13,1,3,1,4,8,5,2,5,1,3,6,6,1,1,1,11,6,20,5,29,6,46,6,29,14,15,1,10,3,8,36,4,2,4,4,4,2,3,85,22,4,11,5,1,1,4,4,1,1,2,1,1,1,10,12,10,2,4,2,5,4,9,3,49,13,207,3,14,4,2,1,10,1,3,5,1,1,2,1,7,2,5,6,23,48,8,9,5,2,13,9,5,2,1,8,3,2,4,7,6,13,5,3,6,32,7,42,8,24,11,1,4,15,3,10,2,2,1,1,1,2,36,3,3,14,1,5,81,19,11,9,7,5,6,1,2,12,11,10,2,22,4,55,9,208,3,3,1,2,3,2,4,2,2,9,1,4,1,2,9,5,1,1,1,8,2,26,43,11,6,2,2,18,8,6,7,6,1,2,2,1,6,9,9,19,29,4,4,1,39,10,21,13,3,3,14,4,10,4,5,31,8,1,17,6,77,9,2,5,22,4,4,5,2,3,1,1,1,7,9,10,11,1,23,1,1,1,58,6,207,6,1,8,1,3,2,1,14,1,6,1,3,18,3,30,36,15,6,25,3,1,1,2,2,7,8,10,8,8,23,26,2,2,1,6,3,1,1,36,10,17,6,4,12,2,16,4,8,5,32,5,1,1,1,16,3,6,72,18,25,5,1,6,4,3,2,1,5,10,9,11,1,1,1,3,2,3,1,14,1,58,6,205,14,7,1,18,1,4,2,2,19,4,32,3,3,25,17,5,15,2,10,2,1,1,2,1,1,2,3,14,2,1,9,4,29,39,2,18,11,2,1,1,17,11,10,3,12,16,10,5,3,32,5,2,16,5,5,69,18,36,5,1,1,1,1,3,1,1,1,7,1,1,7,8,12,2,2,1,4,1,72,7,209,4,2,2,8,1,4,3,3,1,13,2,3,3,2,55,25,3,1,10,2,6,1,4,13,1,11,16,3,3,2,10,5,29,58,35,8,5,2,15,1,1,2,1,15,10,2,5,1,1,31,4,4,18,4,4,57,28,41,4,1,1,1,3,7,1,1,1,1,8,8,12,1,81,6,203,3,2,4,18,2,3,1,14,2,3,2,4,53,2,22,3,2,8,16,2,1,14,2,8,8,3,1,1,4,1,46,44,1,14,33,1,3,6,2,3,1,5,3,6,3,2,3,12,1,1,8,1,11,31,3,5,19,5,3,50,2,1,1,3,23,46,1,3,2,1,1,2,6,1,1,1,1,1,1,2,1,7,6,92,6,199,1,2,3,1,1,2,3,9,3,3,4,18,2,3,3,2,3,3,49,3,18,18,14,19,1,1,1,8,1,1,6,5,49,41,1,2,2,3,9,3,30,1,4,1,2,2,4,7,2,3,1,2,2,5,1,1,11,21,2,30,4,5,24,4,43,7,2,2,3,1,1,1,14,56,4,1,1,9,1,4,8,7,34,5,52,6,193,1,1,4,2,2,6,4,5,3,6,4,26,6,3,1,1,1,1,42,4,16,2,21,5,1,1,3,2,2,3,18,1,13,52,38,24,1,40,4,12,4,6,6,2,1,1,1,1,22,3,29,3,3,1,1,1,1,23,6,43,1,5,4,1,6,3,6,60,4,1,1,6,1,5,11,7,7,2,20,5,56,1,1,3,184,1,1,11,1,2,1,12,11,7,21,1,1,2,1,2,2,1,1,3,3,40,7,13,6,17,7,6,2,2,3,31,52,38,68,2,10,4,8,31,1,1,5,28,3,3,2,1,23,12,33,1,4,3,2,1,1,2,7,5,3,65,2,4,4,1,1,2,1,10,9,5,1,21,4,6,5,47,1,2,5,94,1,78,1,3,11,1,4,2,2,2,8,10,8,5,3,26,3,3,36,1,1,4,4,2,1,10,9,16,12,2,1,3,1,11,4,15,13,2,17,1,18,13,4,1,2,1,1,18,70,2,6,7,10,27,8,2,25,4,7,25,13,31,2,6,2,4,1,1,2,8,70,4,1,1,5,12,10,4,1,19,6,1,8,44,1,3,1,1,6,1,91,2,81,8,2,3,1,1,9,2,7,6,3,8,2,4,1,2,25,2,7,47,2,3,1,14,10,18,21,1,3,3,3,1,2,8,5,19,35,2,1,2,1,2,17,63,2,5,2,4,7,22,15,7,5,24,4,7,26,1,1,2,2,1,1,1,6,26,2,3,1,2,2,2,1,3,2,2,2,6,70,4,2,1,1,5,12,9,24,14,54,4,3,30,2,50,2,2,2,3,4,76,6,1,2,2,2,4,1,1,1,5,1,4,7,5,2,2,2,4,6,22,2,10,1,6,40,2,22,4,2,4,20,18,2,1,1,7,4,13,7,8,1,1,27,1,6,1,1,9,12,72,3,1,2,1,4,21,16,1,2,5,7,2,20,3,3,1,34,1,1,4,7,23,4,6,1,1,1,2,2,2,3,1,4,73,1,1,1,1,2,2,4,15,3,27,14,2,7,2,40,1,4,6,26,11,43,3,1,1,3,2,2,1,4,2,70,1,2,3,5,3,10,1,5,9,4,2,5,7,14,4,4,3,15,3,1,41,1,10,1,9,4,6,4,5,7,6,3,2,1,1,15,1,23,7,6,3,30,10,4,2,9,73,4,4,4,22,16,1,1,2,10,1,1,3,15,3,3,3,6,30,1,7,5,20,6,2,4,12,2,75,3,1,1,2,1,5,4,2,35,6,12,5,4,1,32,5,1,1,3,1,4,5,21,2,25,5,3,23,1,3,1,2,5,4,4,69,4,16,1,5,12,1,2,5,6,16,1,1,2,1,7,8,12,1,1,1,49,2,7,3,23,6,6,18,2,22,6,7,2,31,1,1,3,1,5,12,86,4,21,29,1,1,6,10,5,4,1,6,30,7,2,6,17,13,89,1,1,5,2,1,2,6,35,3,16,2,9,10,4,3,9,10,8,2,2,6,3,8,2,1,1,3,4,31,19,5,2,2,1,4,2,6,70,6,21,10,8,5,20,1,1,2,17,3,17,42,10,21,3,12,3,2,4,11,6,16,7,6,3,28,17,2,27,1,31,1,36,3,20,21,1,3,1,1,14,5,5,9,42,1,6,15,10,95,1,8,1,1,4,33,1,18,5,8,3,5,5,1,28,1,14,1,15,5,30,18,8,2,4,1,2,76,6,22,7,3,1,5,3,42,2,1,1,9,8,2,40,8,18,3,11,1,4,34,10,1,10,5,29,40,1,2,1,29,1,1,1,21,3,14,5,5,6,7,22,28,8,1,1,42,1,11,8,9,95,4,4,2,3,1,1,3,46,9,8,2,8,49,1,15,5,28,18,19,75,6,20,7,4,2,4,1,11,2,38,2,1,7,4,40,9,17,4,8,2,2,3,3,41,1,3,9,5,29,25,10,1,1,2,5,14,5,3,3,1,3,3,1,19,4,13,12,6,1,3,2,16,1,3,1,1,29,5,1,1,1,1,45,1,16,1,8,93,7,10,3,2,37,1,2,12,2,8,7,5,1,64,4,7,1,21,18,16,75,8,17,7,22,4,37,5,9,38,10,16,4,6,5,1,4,4,43,11,6,19,36,1,1,14,3,3,5,16,5,1,1,4,16,4,1,1,10,8,2,4,5,2,1,2,17,8,13,17,2,1,1,48,1,2,3,18,92,6,2,5,6,1,6,34,13,6,8,5,6,4,1,60,4,7,1,22,3,2,14,12,3,3,72,1,1,6,14,2,2,4,3,2,2,2,16,1,51,35,14,14,5,8,17,7,2,4,28,5,3,3,3,6,7,4,41,2,5,1,2,5,6,1,3,19,4,6,8,2,5,6,11,7,1,4,4,1,2,17,9,19,13,1,1,2,46,5,2,9,9,88,14,4,1,13,33,10,11,4,1,1,11,5,6,3,1,3,10,2,21,3,12,2,8,1,28,12,11,4,5,69,12,3,2,10,3,4,8,15,1,47,36,17,10,15,8,4,25,3,2,23,5,4,3,1,3,1,40,5,1,5,16,7,8,7,9,3,2,1,8,1,5,9,9,6,1,5,1,23,7,25,12,2,1,45,1,6,13,3,86,17,1,2,4,11,2,1,24,3,1,9,30,5,1,8,1,1,11,2,5,14,7,9,13,51,3,4,71,3,2,8,4,3,14,5,20,2,16,17,9,11,4,24,18,7,19,45,11,9,8,9,1,32,10,24,1,9,1,1,10,6,5,11,13,8,9,2,2,2,2,18,1,5,2,28,3,3,5,2,54,4,7,3,2,75,27,6,2,1,13,18,12,1,1,35,4,2,21,1,3,12,9,11,4,65,21,4,3,5,1,1,4,2,33,2,2,8,5,2,5,4,4,3,5,2,31,20,1,16,3,4,20,44,5,56,25,4,2,2,1,6,2,7,5,11,38,1,1,2,1,7,2,4,1,8,19,4,7,1,1,3,6,18,1,4,4,30,1,8,1,4,67,2,1,1,2,36,60,10,1,5,1,9,1,8,5,1,1,5,1,2,43,5,21,1,2,1,7,9,15,3,27,1,39,1,5,2,2,3,4,3,3,9,2,45,6,6,2,5,12,2,22,7,21,19,1,1,3,2,17,2,44,10,43,42,2,2,4,3,3,1,3,16,42,8,4,11,16,12,1,7,3,24,1,2,1,31,1,5,2,6,52,1,1,3,1,1,1,7,2,1,3,1,1,31,61,12,3,1,1,1,3,19,2,3,50,7,17,4,20,13,4,23,2,47,2,3,4,1,3,12,27,1,17,11,5,1,2,66,46,42,17,22,3,1,1,2,56,1,5,7,29,25,3,3,1,4,6,11,9,24,1,24,1,4,2,32,3,6,4,52,4,3,2,1,2,7,2,1,2,29,57,18,5,8,2,1,3,1,14,50,7,40,14,4,23,2,42,6,3,5,4,2,8,47,84,47,37,28,4,2,2,3,2,71,7,13,37,6,9,5,10,9,47,1,2,5,34,9,2,1,1,55,1,3,1,1,6,3,7,1,26,6,1,48,22,5,13,1,1,1,1,1,2,3,1,1,55,8,1,10,25,16,3,22,1,1,1,45,3,3,9,12,2,1,10,2,2,11,5,11,1,9,1,55,4,14,51,1,2,1,5,2,22,115,5,3,14,33,5,11,6,9,12,8,1,36,5,36,5,1,1,1,2,2,58,10,2,8,1,24,47,31,6,82,5,9,29,14,3,7,1,1,4,10,3,46,1,27,3,1,3,21,3,17,6,15,1,36,72,3,144,4,9,7,26,1,9,4,8,4,1,1,4,6,10,11,3,28,1,3,4,39,1,4,2,2,1,3,60,2,2,12,3,22,14,66,6,84,11,33,10,4,5,2,19,1,120,8,2,1,4,2,2,9,27,3,219,1,1,12,4,28,3,6,6,6,10,5,1,12,9,1,18,1,1,1,6,1,3,5,42,3,1,1,7,61,1,1,14,5,18,12,71,6,84,10,35,10,5,3,2,3,2,8,4,117,1,3,1,1,11,4,13,17,1,9,3,220,16,2,18,2,6,3,7,4,4,15,3,4,10,9,4,12,1,1,1,1,1,9,2,46,5,6,67,5,1,1,3,2,5,16,11,73,7,87,7,35,11,1,5,1,4,7,5,116,1,1,1,2,1,4,12,4,11,14,2,3,8,4,221,17,3,9,1,6,3,2,4,7,5,2,4,2,10,3,3,3,3,7,7,3,14,2,2,9,48,5,3,68,5,2,1,2,4,1,2,7,8,12,76,6,87,9,34,1,9,3,3,2,6,3,2,3,113,1,10,1,1,14,4,15,2,3,17,4,223,20,3,5,7,8,6,1,2,4,8,6,3,1,3,11,6,7,3,1,1,10,1,10,49,7,1,68,6,1,2,1,6,4,1,23,78,6,88,1,4,1,3,33,3,2,1,8,1,1,7,8,1,66,1,34,2,1,9,15,13,4,13,7,16,4,224,24,10,9,3,6,3,5,2,1,7,5,1,12,7,7,4,8,1,9,50,6,1,72,10,2,9,18,80,7,88,4,2,4,2,30,6,8,4,1,1,1,1,9,15,1,55,5,1,2,8,1,13,13,6,1,1,1,3,16,4,11,2,8,15,3,225,21,14,8,6,6,8,1,2,1,1,1,1,2,1,1,3,13,16,6,61,5,2,1,74,5,1,2,1,10,16,82,7,88,4,5,2,1,2,27,6,26,10,4,4,57,3,4,4,1,29,1,26,3,9,5,1,1,1,4,15,3,224,12,5,1,18,8,5,9,25,24,6,59,8,82,6,1,6,1,2,11,83,7,88,7,1,4,1,1,3,25,6,26,10,4,3,61,4,5,56,4,5,16,5,12,228,23,10,7,9,5,20,4,1,4,1,2,5,1,13,1,2,5,53,9,90,5,6,1,2,89,7,88,7,1,3,1,1,3,1,1,1,1,21,6,27,8,7,2,1,64,61,12,1,29,228,19,1,1,1,9,7,1,6,8,2,5,7,3,8,4,17,3,1,10,51,8,92,4,1,3,3,2,1,1,88,8,87,7,3,1,1,4,2,1,2,19,7,29,6,13,66,58,7,15,2,1,7,10,227,15,10,1,20,3,1,10,8,1,1,3,4,3,1,16,1,4,13,27,29,93,4,1,5,5,88,7,88,6,9,2,3,1,1,4,12,8,30,2,2,1,16,1,65,57,2,3,13,1,7,3,1,1,238,4,1,5,3,2,15,5,11,5,2,2,1,1,9,8,1,6,8,13,2,1,5,27,31,95,9,7,86,8,87,6,12,2,2,1,1,2,1,8,3,9,29,6,16,3,7,53,1,3,58,5,7,1,8,246,10,7,3,1,6,4,4,3,4,7,4,2,3,2,7,12,4,1,1,1,2,21,2,9,15,8,1,2,2,1,1,2,1,1,1,1,2,1,2,103,5,1,2,2,1,4,85,8,87,6,20,17,4,29,6,17,4,12,1,2,2,5,2,1,35,68,1,263,7,2,2,2,7,8,3,3,5,5,3,7,4,1,2,6,14,1,1,1,2,1,13,1,4,1,2,4,1,1,5,9,10,4,118,3,6,2,4,84,9,9,9,68,6,31,11,2,26,6,18,4,23,1,6,30,335,12,5,8,12,24,7,14,20,5,1,1,1,1,12,1,6,1,1,1,2,123,5,2,4,3,82,4,5,1,7,15,65,5,34,3,6,5,23,5,19,4,29,17,3,349,4,1,4,6,7,12,2,2,36,3,7,6,1,9,1,5,18,1,8,8,115,7,1,1,4,79,3,9,1,5,7,1,16,57,5,35,6,1,10,19,5,21,1,1,2,30,10,1,3,2,2,364,9,10,2,24,8,13,6,2,5,1,4,9,20,1,1,4,1,4,115,3,1,2,2,2,2,1,2,75,9,9,2,6,8,17,51,5,35,7,3,10,16,5,22,5,34,3,3,6,366,4,1,1,3,9,14,5,3,1,1,6,22,1,3,6,1,17,8,134,1,13,73,7,14,5,6,23,47,6,35,7,5,12,11,5,23,6,22,3,8,3,4,3,1,1,366,10,9,2,14,4,8,6,3,2,1,1,4,1,1,1,16,16,7,9,125,2,14,70,2,1,2,6,5,1,1,4,4,5,25,46,7,33,9,8,13,5,7,24,6,20,2,14,4,3,386,2,1,1,8,20,4,9,1,1,2,3,6,1,7,15,15,6,121,4,1,10,66,3,1,3,8,1,16,81,31,10,11,21,26,8,13,5,3,1,9,1,1,393,7,30,7,2,8,3,17,5,3,23,1,116,5,5,1,8,61,6,12,2,7,91,26,11,17,15,28,8,4,13,3,2,4,410,17,6,1,1,6,6,1,4,2,10,13,1,1,6,22,119,17,55,9,4,1,2,1,3,2,5,1,1,3,3,1,12,110,21,3,3,3,32,6,1,17,419,3,3,6,7,10,8,3,9,2,4,20,5,16,6,3,2,93,13,1,6,14,49,26,2,6,22,60,4,41,24,6,33,1,6,3,9,1,3,422,10,7,7,6,1,3,3,2,6,9,21,4,8,20,87,27,15,42,35,1,1,1,1,2,5,2,3,2,8,8,41,5,11,3,3,1,2,2,1,3,23,61,4,2,1,2,10,445,8,7,3,2,7,1,1,2,5,3,8,18,3,7,10,85,30,4,1,19,32,29,10,7,1,18,46,3,4,1,1,3,5,11,2,1,1,6,7,2,2,9,61,6,3,11,444,6,4,8,4,2,3,12,2,11,4,4,2,2,2,7,6,6,1,83,17,2,20,21,22,28,89,23,3,2,3,2,2,4,4,6,3,4,62,1,3,1,7,5,456,3,1,10,23,1,2,22,3,4,10,28,3,10,33,13,3,11,3,2,1,4,2,14,57,108,19,3,21,63,5,468,3,2,18,24,25,6,5,2,13,1,5,1,2,1,11,3,3,16,12,5,2,1,11,3,6,4,1,1,2,6,6,58,128,6,2,16,66,4,479,9,1,2,1,36,18,6,8,6,1,2,1,1,3,8,5,2,1,5,1,1,6,41,9,6,61,716,5,2,2,2,4,1,1,1,3,2,4,3,7,8,2,8,28,13,5,2,11,1,1,1,49,17,46,723,10,1,5,8,3,4,1,8,48,10,3,1,11,4,14,3,2,1,18,800,35,59,17,1,1,5,1,27,807,29,67,8,1,7,1525],\"values\":[0,2,3,2,0,2,3,2,3,2,0,2,4,2,3,2,3,2,3,2,3,2,0,2,4,3,2,0,2,3,2,0,2,4,2,3,2,0,2,3,2,0,2,4,2,3,2,3,8,3,2,0,2,0,2,4,3,2,3,2,8,2,0,4,2,4,2,4,2,3,2,3,8,2,0,2,4,2,4,2,3,2,8,2,8,2,0,2,4,2,4,2,4,8,2,0,2,0,2,4,5,2,3,4,8,2,8,2,8,2,0,2,0,2,0,2,4,5,4,3,4,8,2,8,2,8,2,0,2,0,2,0,2,4,2,5,4,3,4,8,2,0,2,0,2,0,2,4,5,4,8,2,0,2,0,2,3,2,0,2,4,2,4,5,4,8,2,0,2,0,2,0,2,0,2,4,2,5,4,8,2,0,2,0,2,0,2,0,2,4,2,5,4,3,8,2,0,2,0,2,3,2,0,2,0,2,4,2,4,3,8,4,8,2,0,2,0,2,3,2,0,2,0,2,4,2,5,4,3,8,4,8,2,0,2,0,2,0,2,0,2,4,2,4,3,8,4,8,2,0,2,0,2,0,2,0,2,4,2,5,4,3,8,4,8,2,0,2,0,2,0,2,0,2,4,5,4,3,8,2,0,2,0,2,0,2,0,2,4,5,4,3,8,2,0,2,0,2,0,2,0,2,5,4,3,8,2,0,2,0,2,0,2,0,2,1,2,0,2,4,5,3,8,2,0,2,0,2,0,2,0,2,8,2,0,2,4,2,4,3,8,2,0,2,0,2,0,2,0,2,8,2,4,8,0,2,4,2,4,3,8,2,0,2,0,2,0,2,0,2,1,8,4,8,4,8,0,2,4,3,4,8,2,0,2,0,2,0,2,0,2,1,8,4,8,4,8,0,2,4,8,0,2,0,2,0,2,0,2,1,4,8,4,8,2,0,2,4,8,0,2,0,2,0,2,0,2,1,4,8,4,8,2,0,2,4,2,4,8,0,2,0,2,0,2,0,2,1,4,8,4,8,2,0,2,4,8,0,2,0,2,0,2,0,2,4,8,2,0,2,4,8,0,2,0,2,0,2,0,1,0,2,4,8,2,0,2,4,2,4,8,0,2,0,2,0,2,0,4,0,2,1,4,2,4,8,2,0,2,4,2,4,8,0,2,0,2,0,2,0,1,4,1,0,2,0,2,1,4,8,2,0,2,4,2,4,8,2,1,0,2,0,2,0,2,0,1,4,0,2,0,2,1,4,8,2,0,2,4,2,4,8,2,1,0,2,0,2,0,2,0,1,4,1,4,0,2,0,2,1,4,2,0,2,4,1,4,8,2,0,2,0,2,0,2,0,1,4,1,4,1,0,2,0,2,1,2,0,2,4,1,4,8,0,2,0,2,0,2,0,1,4,1,0,2,0,2,1,2,1,4,1,2,0,2,4,5,4,8,0,8,0,2,0,2,0,2,0,1,2,4,1,0,2,0,2,1,2,4,1,2,0,2,4,8,0,2,0,2,0,2,0,2,0,2,0,2,1,2,1,2,0,2,0,2,4,8,0,2,0,2,0,2,0,2,0,2,0,2,4,1,2,0,2,0,2,0,2,4,8,0,2,0,2,0,2,0,2,1,2,0,2,0,2,4,1,4,1,2,0,2,0,2,4,8,0,2,0,2,0,2,0,2,0,2,0,2,1,4,2,0,2,0,2,4,1,4,8,0,2,0,2,0,2,0,2,0,2,0,2,1,4,1,4,2,0,2,0,2,1,4,1,4,8,0,2,0,2,0,2,0,1,2,1,2,0,2,0,2,0,4,1,4,1,4,1,2,0,2,0,2,1,4,8,0,2,0,2,0,2,0,1,2,1,2,0,1,4,1,4,1,4,1,2,0,2,0,2,1,4,8,0,2,0,2,0,2,0,1,2,1,2,0,1,4,1,2,1,2,0,2,0,2,1,4,8,0,2,0,2,0,2,0,1,8,1,4,1,2,0,1,4,2,0,2,0,2,1,4,1,4,8,0,2,0,2,0,2,0,1,8,4,1,2,0,1,4,1,2,0,2,0,2,1,4,8,0,2,0,2,0,2,0,1,8,4,1,2,0,1,2,1,2,0,2,0,2,0,1,4,8,4,8,0,2,0,2,0,2,0,1,8,4,8,4,1,2,0,2,1,2,0,2,0,2,0,1,4,5,4,8,0,2,0,2,0,2,0,2,1,8,4,1,2,0,2,1,2,0,2,0,2,0,1,4,5,4,8,0,2,0,2,0,2,0,2,1,2,1,2,1,8,4,1,2,0,1,2,0,2,0,2,0,1,5,8,4,8,0,2,0,2,0,2,1,2,1,8,4,1,2,0,1,2,0,2,0,2,0,4,5,4,8,0,8,0,8,0,2,0,2,0,1,0,1,2,1,2,1,8,4,1,2,0,1,2,0,2,0,2,0,4,5,4,8,0,8,0,2,1,2,0,2,0,1,0,1,2,1,2,1,8,4,1,2,0,2,0,2,0,2,0,4,8,0,2,1,2,1,2,0,2,0,2,1,0,2,1,2,1,8,4,1,2,0,2,0,2,0,2,0,4,1,4,8,1,8,6,8,0,2,1,3,1,3,1,3,1,2,1,2,0,2,0,2,1,0,1,2,1,3,1,8,4,8,4,1,2,0,2,0,2,0,2,0,4,1,4,5,4,8,1,8,6,8,6,8,0,2,1,3,1,3,1,4,2,0,2,0,2,1,0,1,3,2,1,3,1,8,4,8,1,2,0,2,0,2,0,2,0,1,5,4,8,1,8,1,8,6,8,2,0,2,1,3,1,3,1,3,4,1,2,0,2,0,2,1,0,1,3,1,3,1,8,1,2,0,2,0,2,0,2,0,4,8,1,8,6,8,2,0,2,1,3,1,3,4,2,0,2,0,2,1,0,1,3,1,3,1,8,1,2,0,2,0,2,0,2,0,1,4,5,4,8,1,8,4,8,6,8,2,0,2,3,1,3,4,3,4,2,0,2,0,2,1,3,1,0,1,3,8,4,1,2,0,2,0,2,0,2,0,1,4,3,4,3,8,1,8,6,8,6,8,2,6,2,0,2,3,1,3,1,3,4,3,4,2,0,2,0,2,1,3,1,0,3,1,3,8,4,1,2,0,2,0,2,0,2,0,1,4,5,4,3,1,8,3,1,8,6,8,6,8,2,0,2,3,1,3,4,1,2,0,2,0,2,1,3,8,4,1,2,0,2,0,2,0,2,0,1,4,5,4,3,1,8,0,8,6,8,2,6,2,0,2,3,4,3,4,1,2,0,2,0,2,1,3,8,4,1,2,0,2,0,2,0,2,0,1,4,5,4,3,1,0,8,0,8,6,8,2,6,2,0,2,3,4,2,0,2,0,2,0,2,1,3,8,4,1,2,0,2,0,2,0,2,0,1,4,5,4,3,1,0,1,8,1,8,6,8,2,0,2,3,1,3,4,1,2,0,2,0,2,0,2,1,3,8,3,8,4,1,4,1,2,0,2,0,2,0,2,0,1,4,5,4,3,1,0,1,8,6,8,2,0,2,3,4,1,2,0,2,0,2,0,2,1,3,8,4,1,0,2,0,2,0,2,0,1,4,5,3,1,8,6,2,0,2,3,4,1,2,0,2,0,2,0,2,1,3,8,4,1,0,2,0,2,0,2,0,1,4,3,1,8,6,0,2,3,4,1,2,0,2,0,2,0,2,1,3,8,4,1,0,2,0,2,0,2,0,1,4,3,1,8,6,0,2,3,4,1,0,2,0,2,0,2,1,3,8,1,0,2,0,2,0,2,0,1,4,3,1,8,6,0,2,3,4,1,0,2,0,2,0,2,1,3,8,1,2,0,2,0,2,0,2,0,1,4,5,4,5,3,1,8,6,8,6,0,2,3,4,1,0,2,0,2,0,2,1,3,8,1,2,0,2,0,2,0,2,0,1,4,5,4,5,3,1,8,1,8,6,8,6,8,6,0,2,3,4,3,4,1,0,2,0,2,0,2,1,3,8,1,2,0,2,0,2,0,2,0,1,4,5,4,5,3,4,3,4,1,8,6,0,3,4,1,0,2,0,2,0,2,1,3,8,4,1,2,0,2,0,2,0,2,0,1,4,5,4,3,1,8,6,0,3,4,1,0,2,0,2,0,2,1,3,8,4,8,1,2,0,2,0,2,0,2,0,1,4,5,4,3,1,8,6,0,3,4,1,0,2,0,2,0,1,3,8,4,8,1,2,0,2,0,2,0,2,0,3,1,4,5,4,1,4,1,8,6,0,3,4,3,4,8,1,0,2,0,2,0,2,3,8,4,1,8,1,2,0,2,0,2,0,2,0,1,3,1,4,5,4,3,5,1,8,6,0,3,4,3,4,8,4,8,1,0,2,0,2,0,3,2,3,8,1,2,0,2,0,2,0,2,0,3,4,5,4,3,5,1,8,6,0,3,4,3,8,4,8,4,8,1,0,6,0,2,0,2,3,8,1,2,0,2,0,2,0,2,0,3,4,5,4,3,1,8,6,0,3,4,3,4,3,8,3,8,4,8,1,0,6,0,2,0,3,8,1,2,1,2,0,2,0,2,0,2,0,3,4,5,4,3,1,8,6,0,3,4,3,8,4,8,1,0,6,0,2,0,3,8,3,8,1,2,0,2,0,2,0,2,0,3,4,5,4,3,1,8,6,4,6,0,3,4,3,8,4,8,4,8,1,0,6,0,2,0,3,8,3,8,1,2,0,2,0,2,0,2,0,3,4,5,4,3,1,8,6,8,6,4,6,0,6,0,3,4,3,8,1,0,6,8,6,0,2,0,3,8,3,8,4,1,2,0,2,0,2,0,2,0,3,4,5,4,3,4,1,8,6,4,8,6,1,8,6,0,3,4,3,8,4,8,1,0,6,8,6,0,2,0,3,8,3,8,3,8,4,1,2,0,2,0,2,0,2,0,3,4,5,4,1,8,6,4,8,6,4,6,4,6,8,6,0,6,0,3,4,3,8,4,8,4,8,1,0,6,4,8,6,2,0,2,0,3,8,3,8,4,1,2,0,2,0,2,0,2,0,3,4,5,4,1,8,1,8,4,6,8,6,4,6,4,6,8,6,0,3,4,3,8,4,8,4,8,4,8,1,0,6,1,6,4,8,6,2,0,2,0,3,8,3,8,1,2,0,2,0,2,0,2,0,2,0,3,4,5,4,1,8,4,8,6,4,6,8,6,0,3,4,3,4,3,4,3,8,4,8,4,8,1,0,6,4,8,6,2,0,2,0,3,2,3,8,6,2,1,2,0,2,6,2,0,2,0,2,0,3,4,5,4,1,4,8,6,8,4,6,8,6,0,3,4,3,8,4,3,8,4,8,4,8,4,8,4,8,1,0,6,4,8,6,2,0,2,0,3,8,6,2,0,2,6,2,0,2,0,2,0,3,4,1,4,1,4,8,6,8,6,0,3,4,3,4,8,4,8,4,8,4,8,4,8,4,8,4,8,4,8,1,0,2,6,4,8,6,2,0,2,3,8,6,0,2,6,2,6,2,0,2,1,2,0,2,0,3,4,1,4,1,8,1,8,6,8,6,0,3,4,3,8,4,8,4,8,4,8,4,8,1,0,2,6,1,4,8,6,2,4,2,0,2,3,8,6,0,2,6,2,0,2,1,2,0,2,0,2,0,3,4,5,4,1,4,8,6,4,8,1,6,8,6,4,6,0,3,4,8,4,8,4,8,4,8,4,8,1,0,2,6,1,4,6,2,0,3,2,3,8,6,0,2,6,2,0,2,0,2,0,2,0,2,0,3,4,5,4,1,4,1,4,1,8,6,8,6,0,3,8,3,8,4,8,4,8,4,8,4,8,4,8,4,8,1,0,2,6,1,4,8,6,2,0,3,8,6,0,2,6,2,0,2,0,2,0,2,0,2,0,3,4,5,4,1,4,1,8,4,8,6,8,6,8,6,4,6,0,3,8,3,8,4,8,4,8,4,8,4,8,4,8,1,0,2,6,1,4,6,2,6,2,0,3,0,8,3,8,6,0,2,0,2,0,2,0,2,0,2,0,4,3,4,5,4,1,4,1,8,4,1,8,6,8,6,8,6,4,6,0,3,8,3,8,4,8,4,8,4,8,4,8,4,8,1,0,2,1,4,6,2,6,2,0,8,3,8,6,0,2,0,2,0,2,0,2,0,2,0,4,5,4,1,4,1,8,6,8,6,4,6,0,3,8,4,8,4,8,4,8,4,8,4,8,1,0,2,1,4,8,4,6,2,0,2,0,8,3,8,3,8,3,8,6,0,2,0,2,0,2,0,2,0,3,4,5,4,1,4,1,4,1,4,8,6,8,6,4,6,0,3,8,4,8,4,8,4,8,1,0,2,1,4,6,2,0,2,0,8,3,8,3,8,6,0,2,6,2,0,2,0,2,0,4,5,4,1,4,1,4,1,4,8,6,8,6,0,3,8,4,8,4,8,4,8,4,8,4,8,4,8,4,8,1,0,2,1,4,8,4,8,4,6,2,0,2,0,8,3,8,6,0,2,0,2,0,2,0,2,0,1,4,5,4,1,4,1,4,8,6,8,6,8,6,4,6,0,3,8,4,8,4,8,4,8,4,8,4,8,4,8,1,0,2,1,4,8,4,6,2,0,2,0,8,3,8,6,0,2,6,2,0,2,0,2,0,3,4,5,4,1,4,1,4,1,8,6,8,1,6,8,6,4,6,0,3,8,3,8,4,8,4,8,4,8,4,8,1,0,2,1,4,8,4,6,2,0,2,0,8,6,0,2,6,2,6,2,0,2,0,2,0,3,4,5,4,1,8,6,8,6,8,6,0,3,8,3,8,4,8,4,8,4,8,4,8,4,8,1,2,1,4,2,0,2,0,8,0,8,6,0,2,6,2,0,2,0,3,4,5,4,1,4,1,4,1,6,1,6,1,4,1,8,6,4,6,0,3,4,3,8,4,8,4,8,4,8,4,8,1,2,1,6,2,0,2,0,8,0,8,2,0,8,6,0,2,0,2,0,2,0,3,4,3,4,1,6,1,4,1,8,6,4,6,0,3,4,8,4,8,4,8,4,8,4,8,4,8,1,2,1,6,2,0,2,0,8,0,8,0,2,8,0,8,6,0,2,0,2,6,2,0,2,0,3,4,3,4,0,4,1,6,1,8,4,8,4,8,4,6,4,6,0,3,8,4,8,4,8,4,8,4,8,4,8,4,8,1,2,1,6,2,0,2,0,8,0,8,0,8,6,0,2,6,2,0,2,6,2,0,2,0,3,4,0,4,1,6,8,1,8,4,8,6,4,6,0,3,8,4,8,4,8,4,8,4,8,4,8,4,8,4,8,1,2,1,6,4,2,6,2,0,2,0,8,0,8,6,0,2,6,2,0,2,0,2,0,3,4,3,4,3,4,3,4,6,4,6,8,6,8,4,8,4,6,4,6,0,3,8,4,8,4,8,4,8,4,8,4,8,4,8,1,2,1,6,4,2,1,2,0,2,0,8,0,8,6,0,2,6,2,0,2,0,2,0,3,4,5,4,6,8,6,8,4,8,4,6,0,3,8,4,8,4,8,4,8,4,8,4,8,4,8,4,8,4,8,4,8,4,8,1,2,6,4,6,4,1,2,0,2,0,8,0,8,6,0,2,6,2,0,2,0,2,0,3,4,3,4,5,4,6,8,6,8,4,8,4,3,4,3,6,0,3,8,4,8,4,8,4,8,4,8,4,8,4,8,1,2,6,4,8,1,2,0,2,0,8,0,8,0,8,6,0,2,0,2,0,2,0,3,4,5,4,6,8,6,8,4,8,4,3,4,3,6,0,3,8,4,8,4,8,4,8,4,8,4,8,4,8,1,2,1,4,8,1,2,0,2,0,8,0,8,0,8,0,6,0,2,0,2,0,2,0,3,4,8,4,8,6,8,4,3,4,3,6,0,3,8,4,8,4,8,4,8,4,8,4,8,1,2,1,8,1,2,0,2,0,8,0,8,2,6,0,8,0,2,0,2,1,2,0,2,0,3,4,5,4,5,4,8,4,8,4,8,6,8,3,4,3,4,6,4,0,3,8,4,8,4,8,4,8,4,8,4,8,4,8,0,8,1,2,1,2,1,2,0,2,0,8,0,8,0,2,0,2,0,2,0,3,4,5,4,8,4,8,6,8,6,8,3,4,0,3,8,4,8,4,8,4,8,4,8,0,8,1,2,1,2,0,2,0,8,0,8,0,2,0,2,0,2,0,3,4,5,8,4,8,6,8,6,8,6,8,6,8,6,8,4,0,8,4,8,4,8,4,8,4,8,4,8,0,8,1,2,1,2,0,2,0,8,0,8,0,2,0,2,0,2,0,3,4,8,4,8,4,8,6,8,6,8,6,8,4,0,8,4,8,4,8,4,8,4,8,4,8,4,8,4,8,0,8,1,2,1,2,0,2,0,8,1,0,8,0,2,0,2,0,2,0,3,4,8,6,8,6,8,6,8,4,0,8,4,8,4,8,4,8,4,8,4,8,4,8,4,8,0,8,1,2,0,2,0,2,8,0,8,2,0,2,0,2,0,2,0,3,4,5,4,8,6,8,6,8,4,0,8,4,8,4,8,4,8,4,8,4,8,4,8,4,8,4,8,0,8,1,2,1,2,0,2,0,2,0,2,6,2,8,0,8,2,0,2,6,2,0,2,0,2,0,2,0,3,4,5,4,8,6,8,6,8,4,0,8,4,8,4,8,4,8,4,8,4,8,4,8,4,8,4,8,0,8,1,2,0,2,0,2,0,2,6,2,6,0,8,2,0,2,6,2,6,2,0,2,0,2,0,2,0,3,4,8,4,8,6,8,6,8,4,0,4,8,0,8,1,2,0,2,0,2,0,2,0,2,0,8,2,0,2,0,2,0,2,0,2,0,3,4,8,6,8,6,8,4,0,4,8,4,0,8,1,2,0,2,0,2,0,2,6,2,0,2,0,2,8,2,0,6,2,6,2,6,2,0,2,0,2,0,2,0,3,8,4,5,4,8,3,6,8,6,8,4,0,4,8,0,8,1,2,0,2,0,2,0,2,6,2,6,2,0,2,0,2,8,2,0,6,2,0,2,0,2,0,2,0,3,4,5,4,6,8,6,8,4,0,4,8,0,4,8,1,2,0,2,0,2,0,2,6,2,6,2,0,2,0,4,6,2,6,2,0,2,0,2,0,2,0,3,4,5,8,4,8,6,8,6,8,4,5,4,0,4,8,4,8,1,2,0,2,0,2,0,2,6,2,6,2,0,2,0,4,8,6,2,6,2,6,2,0,2,0,2,0,2,0,3,4,5,8,4,8,6,8,4,5,4,0,4,8,0,8,4,8,4,8,1,2,0,2,0,2,0,2,6,2,0,2,8,0,4,8,2,6,2,6,2,6,2,6,2,0,2,0,2,0,2,0,3,4,8,4,8,6,8,4,5,4,0,4,8,0,8,4,8,4,8,4,8,1,2,0,2,0,2,0,2,6,2,6,2,6,2,0,2,0,8,6,0,4,5,4,2,0,2,6,2,6,2,0,2,0,2,0,2,0,3,4,5,4,8,6,8,4,5,4,0,4,8,4,8,0,4,8,4,1,4,8,4,8,1,2,0,2,0,2,0,6,0,6,2,6,2,6,2,6,2,6,2,6,2,6,2,6,2,0,2,6,0,8,2,0,4,5,4,2,0,2,6,2,6,2,0,2,0,2,0,2,0,3,4,6,8,3,4,5,4,0,4,8,4,8,0,4,1,4,8,4,1,4,8,4,8,1,0,2,0,2,0,4,6,2,0,2,0,2,6,2,6,2,0,2,6,8,6,0,4,5,4,2,0,2,6,2,6,2,0,2,6,2,0,2,0,2,0,3,4,5,4,6,8,3,4,5,4,0,4,8,4,8,0,4,1,8,4,8,4,8,1,2,0,2,0,2,0,6,4,6,2,0,2,0,2,6,2,0,2,6,4,5,4,6,0,2,0,2,0,2,0,2,0,3,1,4,5,4,6,8,4,6,2,0,4,8,0,4,1,4,8,1,2,0,2,0,2,0,2,4,6,0,2,0,2,6,2,0,2,0,6,4,6,4,6,0,2,6,2,0,2,0,2,0,2,0,2,0,3,4,5,4,6,8,4,6,2,0,4,8,0,4,1,4,8,1,2,0,2,0,2,0,4,2,4,6,0,6,2,0,2,0,2,6,2,0,6,4,6,0,2,6,2,6,2,0,2,0,2,0,2,0,2,0,3,1,4,5,4,8,6,8,4,3,2,0,4,8,6,8,0,4,1,4,8,1,2,1,2,0,2,0,2,0,2,4,6,0,6,0,2,0,2,0,2,6,2,0,6,4,6,2,0,2,6,2,0,2,0,2,0,2,0,2,0,3,1,4,1,4,5,4,8,6,8,4,8,4,2,0,8,4,8,6,8,6,8,0,4,8,1,2,1,2,0,2,0,2,0,2,6,0,2,0,2,0,2,0,2,6,2,0,6,4,6,2,6,0,2,6,2,0,2,0,2,0,2,0,2,0,1,4,5,4,8,6,8,6,3,4,2,0,6,8,6,8,6,8,0,4,1,4,1,4,8,1,2,0,2,0,2,0,2,0,4,2,6,2,0,2,0,2,0,2,0,2,6,2,0,6,4,6,4,6,4,5,4,6,2,6,0,2,6,2,0,2,0,2,0,2,0,2,0,3,1,4,8,6,8,6,4,6,4,2,0,6,8,6,8,0,4,1,4,1,4,8,1,2,0,2,0,2,0,2,6,2,4,6,2,0,2,0,6,2,0,6,0,2,0,2,0,6,4,5,4,5,4,6,2,6,0,2,0,2,0,2,0,2,0,2,0,2,1,4,6,8,6,8,6,4,6,4,2,0,6,8,6,8,0,4,1,4,1,4,1,4,8,1,2,1,0,2,0,2,0,2,4,6,2,0,2,0,6,2,6,2,0,2,0,2,0,6,4,5,4,6,0,2,0,2,6,0,2,0,2,0,2,0,2,0,2,0,2,1,4,6,4,6,4,2,0,1,6,8,6,8,6,8,6,8,4,0,4,3,4,1,8,4,8,1,2,0,2,0,2,0,2,4,6,0,2,0,2,6,2,6,2,6,2,0,6,2,0,2,6,4,5,4,6,0,2,6,2,6,2,0,2,0,2,0,2,0,2,0,2,1,4,8,6,4,6,4,2,0,6,8,6,8,0,4,3,4,1,4,8,2,0,2,1,2,0,2,0,2,4,6,0,2,6,2,0,2,6,2,6,2,0,2,0,6,4,6,0,2,6,2,0,2,0,2,0,2,0,2,0,2,1,4,8,4,8,6,8,6,4,2,0,6,8,6,8,6,8,6,8,4,6,4,3,4,1,4,8,4,8,2,0,2,0,2,0,2,4,6,2,0,2,6,0,6,0,6,0,6,0,2,6,2,0,2,6,2,6,4,6,0,2,6,2,0,2,0,2,0,2,0,2,0,2,1,4,8,6,8,6,4,3,2,0,6,8,6,8,6,8,6,1,6,8,4,1,4,8,4,8,4,8,2,0,2,0,2,0,2,4,6,2,0,6,0,6,2,6,0,6,0,6,0,2,6,2,6,2,6,2,6,2,6,2,6,0,2,6,2,0,2,0,2,0,2,0,2,0,2,4,8,6,0,6,4,3,2,0,6,1,6,8,6,8,4,6,4,1,4,8,4,8,2,0,2,0,2,0,2,6,2,4,6,2,6,2,6,2,6,2,6,0,6,0,6,4,6,0,2,6,2,6,0,6,0,2,0,2,0,2,0,2,0,2,0,2,4,8,6,0,6,2,0,6,1,6,8,6,8,6,8,6,0,6,4,3,1,4,8,4,8,2,0,2,0,2,0,2,4,6,2,6,2,6,0,2,6,0,6,4,6,0,2,0,2,6,0,6,0,2,0,2,0,2,0,2,0,2,0,2,1,4,8,6,8,6,0,2,0,6,8,4,6,8,0,4,1,4,0,4,3,4,1,4,8,0,2,0,2,0,2,4,6,2,6,2,6,0,2,6,4,6,0,2,0,2,0,2,6,0,2,6,0,2,0,2,0,2,0,2,1,4,8,6,8,6,0,6,0,2,0,6,8,6,1,8,6,8,4,0,4,8,0,2,0,2,0,2,4,6,2,6,2,6,2,6,4,0,2,6,2,0,2,6,2,0,6,4,0,2,6,2,6,0,2,0,2,0,2,1,4,8,6,8,6,0,6,0,2,0,6,8,6,8,4,1,4,0,1,4,3,4,8,0,2,0,2,0,2,6,2,4,6,0,2,6,2,6,4,6,2,6,2,0,2,6,2,0,2,6,4,0,2,6,0,2,0,2,0,2,1,4,8,6,0,2,0,2,6,8,6,8,6,0,4,0,1,4,1,4,3,4,8,0,2,0,2,0,2,6,2,4,6,0,6,2,0,6,2,6,4,6,2,0,2,0,2,6,4,0,2,6,2,0,2,0,2,0,2,6,2,1,4,8,6,8,6,0,6,0,2,0,2,6,4,6,4,0,4,3,4,1,4,8,0,2,0,2,0,2,4,6,0,6,0,6,2,0,2,6,0,2,6,0,2,6,4,6,0,2,6,2,0,2,0,2,0,2,6,2,1,4,8,6,0,2,0,2,6,4,1,6,3,4,0,4,1,4,1,4,8,0,2,0,2,0,2,4,6,0,6,0,6,2,0,6,0,2,6,2,6,0,2,0,2,6,2,0,2,0,2,6,2,0,2,1,4,8,4,8,6,0,6,0,2,0,2,6,4,8,4,3,1,4,0,4,0,4,3,4,1,4,8,0,2,0,2,6,2,0,2,6,2,6,0,2,6,4,6,0,6,2,0,2,6,0,2,0,2,0,2,0,2,0,2,1,4,8,6,8,6,8,6,0,6,0,2,0,2,1,2,6,4,6,8,4,3,1,4,8,4,8,0,2,0,2,0,2,4,6,0,2,6,4,6,0,6,2,6,0,2,6,2,0,2,0,2,0,2,0,2,0,2,1,6,4,6,8,6,8,6,0,2,0,2,6,4,6,8,6,8,4,8,4,8,3,8,0,2,0,2,0,2,4,6,0,2,6,4,6,0,6,0,2,6,2,0,2,0,2,0,2,0,2,6,4,8,6,8,6,8,6,8,6,0,2,0,2,6,8,0,4,8,4,8,3,8,0,2,0,2,0,2,6,2,4,6,0,6,0,2,6,4,6,0,6,2,6,2,0,6,2,6,2,0,2,0,2,0,2,0,2,6,4,8,6,8,6,8,6,0,2,0,2,6,8,0,4,8,4,3,8,3,8,2,0,2,0,2,6,2,0,6,0,2,6,4,6,4,6,4,6,0,2,6,2,0,6,2,6,2,0,2,0,2,1,2,0,2,0,2,6,4,8,6,8,6,8,6,8,6,3,6,8,6,8,6,0,2,0,2,6,8,0,4,8,4,8,3,8,2,0,2,6,2,0,2,6,2,6,2,6,2,0,6,4,6,0,2,0,2,0,2,0,2,0,2,0,2,6,4,8,6,8,6,8,6,8,6,8,6,4,6,4,6,8,6,8,6,8,6,0,2,0,2,6,8,4,8,3,8,4,8,3,8,3,1,8,3,8,2,0,2,0,2,4,6,2,6,2,6,2,0,6,4,6,4,6,0,2,0,2,6,2,0,2,0,2,0,2,0,2,6,4,8,6,8,6,8,6,4,6,8,6,8,6,0,2,0,2,6,8,4,8,3,0,8,3,8,2,0,2,0,2,1,2,4,6,0,2,6,2,0,6,4,6,0,2,0,2,0,2,0,2,0,6,4,8,6,8,6,4,6,4,3,6,8,6,0,2,0,2,6,8,3,0,3,8,3,2,0,2,0,2,4,6,0,2,6,2,0,6,8,4,6,0,2,0,2,0,2,0,2,0,6,4,5,4,8,6,8,6,4,6,8,4,6,0,2,0,2,1,2,6,8,3,0,3,1,3,8,3,2,0,2,0,2,4,6,0,6,2,0,6,8,4,6,0,2,0,2,0,2,0,2,0,6,4,5,4,8,6,4,6,4,8,6,0,2,0,2,6,8,3,0,3,8,3,2,0,2,0,2,4,6,0,6,2,0,6,8,4,6,0,2,6,2,0,2,0,2,0,2,0,6,4,5,4,8,4,6,4,8,6,3,6,0,2,0,2,6,8,6,8,6,8,6,8,3,0,3,1,8,3,2,0,2,0,2,4,6,0,6,2,0,6,8,4,6,0,2,6,2,0,2,0,2,0,2,0,6,4,5,4,8,4,8,4,6,4,6,4,6,4,8,6,3,6,3,0,2,6,2,0,6,2,6,8,6,8,6,8,6,8,6,8,0,3,8,3,2,0,2,0,2,4,6,0,6,2,0,6,8,6,4,6,0,2,6,2,0,2,0,2,0,2,0,6,4,5,4,8,4,8,6,4,6,8,6,0,2,6,0,6,0,6,8,6,8,6,8,6,8,3,2,0,2,0,2,4,6,0,6,0,6,2,0,2,0,2,0,2,0,2,0,6,4,5,4,5,4,8,4,8,6,8,6,0,2,6,0,6,8,3,8,4,8,3,2,0,2,0,2,0,2,4,2,0,6,0,6,2,0,2,0,2,0,2,0,2,0,6,4,1,4,1,8,4,8,4,8,6,8,6,0,2,6,0,6,8,3,8,4,8,4,8,3,2,0,2,0,6,0,6,2,0,2,0,2,0,2,0,2,0,2,0,6,4,1,4,5,4,8,6,0,2,6,8,0,6,8,6,8,3,8,4,8,4,8,4,8,3,0,2,6,2,0,2,0,6,0,6,2,0,2,1,2,0,6,2,6,2,0,2,0,2,0,2,0,2,0,6,4,1,5,4,1,8,6,1,6,0,2,6,8,0,6,8,6,8,3,8,4,8,4,8,4,8,3,0,2,6,2,0,2,0,6,0,6,2,0,2,0,6,4,6,2,0,2,0,2,0,2,0,2,0,6,4,1,4,5,4,1,8,1,6,0,2,6,8,6,8,6,8,4,8,4,8,0,2,6,1,2,0,2,0,6,0,2,6,2,0,2,6,4,6,2,0,2,0,2,1,2,1,2,0,2,0,2,0,6,4,1,4,1,5,4,1,8,0,8,1,6,0,2,6,8,6,8,6,8,4,8,4,3,4,8,0,2,6,1,2,0,2,1,2,0,6,0,2,0,2,6,2,4,6,4,6,2,1,2,0,2,0,2,0,2,0,6,0,6,4,1,4,5,4,1,8,0,8,1,6,1,6,0,2,6,8,6,8,6,8,6,8,4,3,4,8,4,8,0,2,1,2,0,2,0,6,0,2,0,6,2,6,2,6,4,6,2,0,2,0,2,0,2,0,2,0,6,0,6,4,1,4,1,8,3,8,3,1,0,2,6,8,6,8,4,3,4,1,4,8,4,8,3,0,2,1,2,0,2,0,6,0,6,0,2,0,6,4,6,2,0,2,1,2,1,2,0,2,0,2,0,2,0,6,0,6,4,1,4,1,8,3,1,2,0,2,6,8,4,3,4,1,4,5,4,8,4,8,3,2,0,2,6,2,1,2,0,2,0,6,0,2,0,6,2,6,2,0,2,0,2,0,2,0,2,0,2,0,6,4,6,0,6,0,6,4,1,4,1,8,3,8,1,2,0,2,6,8,4,5,4,8,4,8,4,8,3,2,0,2,6,2,1,0,2,0,6,0,6,0,2,6,2,0,2,6,0,2,0,2,0,2,0,2,0,2,0,4,6,0,6,0,6,4,1,4,0,4,1,8,1,3,4,8,3,1,2,0,2,6,8,6,8,4,5,4,5,4,3,8,4,8,4,8,4,8,3,2,0,2,6,1,3,2,1,0,2,0,6,0,6,0,2,6,2,0,6,2,6,0,2,0,2,0,2,0,2,0,2,0,4,6,0,3,6,1,0,1,4,8,1,3,4,3,8,3,1,2,0,6,8,6,8,4,1,5,4,3,8,4,8,4,8,3,2,0,2,6,1,3,2,0,2,0,6,0,6,0,2,6,2,0,6,2,6,0,2,1,2,0,2,0,2,1,2,0,2,0,2,0,6,4,6,0,3,6,1,0,1,4,3,4,3,1,3,1,2,0,6,8,4,1,3,4,1,4,8,3,8,4,3,4,8,3,2,0,2,6,1,3,1,2,0,2,0,6,0,6,0,2,0,6,2,6,2,6,0,2,0,2,0,2,0,2,0,2,0,6,4,6,0,6,3,6,3,4,1,0,1,4,3,1,3,1,0,3,1,3,1,2,1,2,0,8,4,8,4,5,3,4,1,5,4,8,3,4,3,8,4,8,3,2,0,2,6,1,3,1,2,0,2,0,6,0,6,0,6,0,2,6,2,0,2,6,2,6,2,6,2,6,0,2,0,2,0,2,0,2,0,6,0,3,6,1,3,1,3,1,3,0,3,2,1,2,0,8,4,8,4,1,5,3,5,4,5,4,8,3,0,3,4,8,4,8,1,3,2,0,2,6,1,3,1,0,2,0,6,0,6,0,2,6,2,6,2,6,0,2,1,2,0,2,0,2,0,2,0,2,6,0,3,6,3,1,0,3,1,3,1,0,3,2,1,2,0,8,4,5,4,5,4,5,4,8,3,0,4,3,1,3,2,0,6,1,3,1,0,2,0,6,0,6,2,6,4,0,2,6,2,6,0,2,0,2,0,2,0,2,0,2,6,0,6,0,3,0,3,1,0,2,6,2,0,8,4,8,4,5,4,1,4,5,4,8,3,0,2,3,2,0,6,1,3,1,0,2,1,2,0,6,0,6,4,6,0,2,6,2,6,0,2,0,2,0,2,0,2,0,6,0,6,0,3,0,3,0,2,0,8,4,8,4,5,4,5,4,8,3,2,0,2,3,2,0,6,1,3,1,0,2,1,2,0,6,0,6,4,6,4,6,0,2,6,2,6,0,2,0,2,0,2,0,2,0,6,0,3,0,3,0,2,6,2,0,8,4,8,4,5,1,4,8,3,0,2,0,6,1,3,1,0,2,1,2,0,6,0,6,4,6,4,6,0,2,6,2,6,0,2,0,2,0,2,0,2,0,6,0,2,0,8,4,8,4,8,3,2,0,2,3,2,0,6,1,3,1,0,2,0,6,0,6,4,6,0,4,2,6,2,6,0,2,0,2,0,2,0,2,0,6,4,6,0,2,6,2,6,2,0,8,4,8,4,8,3,2,4,3,0,2,0,6,1,3,1,0,2,1,2,0,6,0,6,4,6,0,4,2,6,0,2,0,2,0,2,0,2,0,6,0,6,4,6,0,2,0,8,0,8,4,5,4,8,3,2,4,3,4,0,2,0,6,1,3,1,0,2,1,2,0,6,0,6,4,6,0,6,2,6,2,6,2,0,2,0,2,0,2,0,2,0,6,4,6,0,2,0,8,4,5,4,8,3,2,4,3,4,3,0,2,0,6,1,3,1,0,2,0,6,4,6,0,6,2,6,2,6,0,6,0,2,0,2,0,2,0,2,0,6,4,6,4,6,4,6,4,6,0,2,0,2,8,4,5,4,8,3,0,2,4,3,4,3,4,3,4,0,2,0,6,1,3,1,0,2,0,6,4,6,4,6,0,6,2,6,0,2,0,2,0,2,0,2,6,4,6,4,6,4,6,0,2,0,2,8,4,5,4,8,3,0,2,4,5,4,5,3,4,0,2,0,6,1,3,1,0,2,0,6,4,6,0,6,2,0,2,0,2,0,2,0,2,6,4,6,4,6,0,2,6,2,0,2,8,4,1,3,0,4,5,4,3,5,3,4,0,2,0,6,1,3,1,3,0,2,0,6,4,6,0,6,2,6,2,0,2,0,2,0,2,0,2,6,4,6,4,6,4,6,0,2,1,2,0,2,8,4,8,3,0,4,5,4,3,4,3,4,2,0,6,1,3,1,3,0,2,0,6,4,0,6,2,0,2,1,2,0,2,0,2,0,2,6,0,2,0,2,8,3,8,4,3,0,4,3,4,2,0,6,3,1,3,1,0,2,0,6,4,6,0,6,2,0,2,0,2,0,2,0,2,1,4,1,2,6,0,1,0,1,0,2,0,2,8,3,8,3,8,3,8,3,8,3,0,4,3,4,3,4,3,4,3,4,5,4,2,0,6,3,1,3,1,0,2,0,2,6,2,0,6,4,6,0,6,2,0,2,0,2,0,2,0,2,1,4,1,2,1,6,3,6,0,2,6,2,0,2,8,3,8,3,8,3,8,3,0,4,3,4,3,4,2,0,6,3,1,3,1,0,2,0,2,6,0,6,4,6,0,6,2,0,2,0,2,0,2,0,1,4,1,4,1,4,6,3,6,3,6,0,2,0,2,1,2,8,3,4,3,8,3,8,3,8,3,0,4,3,4,3,4,3,4,2,0,6,3,1,3,1,6,0,2,0,2,6,0,6,4,6,4,6,0,4,6,0,2,0,2,0,1,4,1,4,1,6,3,6,0,2,0,2,1,2,8,3,8,3,8,4,8,3,0,4,3,4,3,4,2,0,6,3,1,6,2,0,2,6,4,6,4,2,0,4,6,0,2,0,2,0,4,1,4,5,4,1,4,1,6,0,2,6,2,6,2,0,2,8,3,8,3,8,3,8,3,8,3,8,4,3,0,4,3,4,3,4,3,4,3,4,3,0,6,3,1,6,2,0,2,6,4,6,4,2,0,6,4,6,0,2,0,2,0,1,4,1,4,1,4,1,6,1,6,0,4,0,6,0,2,0,2,8,3,8,3,8,3,8,3,8,3,8,3,8,3,1,8,3,8,4,8,3,0,4,3,4,3,4,0,6,3,1,6,2,0,6,1,6,4,6,4,2,0,6,0,2,0,2,0,1,4,1,4,1,3,1,6,0,6,0,6,4,2,0,6,4,0,6,0,6,2,6,2,0,2,3,8,3,8,3,8,3,8,3,8,3,8,3,8,3,8,3,1,8,3,8,3,8,0,4,3,4,3,0,3,6,3,1,6,1,6,2,0,6,1,6,4,6,4,6,2,0,6,0,2,0,2,0,1,4,1,3,4,1,6,0,6,0,6,0,2,6,2,6,4,6,2,6,2,0,2,3,8,3,8,3,8,3,1,3,8,3,8,0,4,5,3,0,3,6,3,1,6,1,6,2,0,6,1,6,4,6,4,0,2,4,6,0,2,6,2,0,2,0,2,0,1,3,1,6,0,6,0,2,6,4,6,2,0,2,3,4,3,8,3,4,3,4,3,8,3,4,3,1,3,8,0,4,5,4,3,0,3,1,6,1,6,2,0,6,1,6,1,6,4,6,4,5,4,0,2,4,6,0,2,0,2,0,2,1,4,2,0,1,3,1,3,1,6,0,6,0,2,4,6,2,0,2,3,8,3,8,3,1,3,8,0,4,3,0,3,1,6,1,6,2,0,6,1,6,4,6,4,5,4,5,4,0,6,0,2,6,0,2,0,2,4,1,2,0,1,3,1,3,1,6,0,6,2,0,2,6,2,6,2,0,2,3,8,3,4,3,1,3,8,0,4,3,0,3,1,6,1,6,0,6,1,6,4,6,4,6,4,0,6,0,2,0,2,0,2,1,2,0,1,3,1,6,0,1,6,2,0,2,6,4,2,0,2,3,8,3,8,3,4,3,1,3,0,4,3,0,3,1,6,1,6,1,6,0,4,6,1,6,1,4,6,0,2,0,2,0,2,0,2,0,1,0,1,3,1,4,3,1,0,1,6,1,6,2,0,2,6,4,6,2,0,2,3,8,3,4,3,1,3,0,4,3,0,3,1,3,1,6,1,6,0,5,4,6,1,4,1,4,6,4,6,4,6,0,2,6,0,2,0,2,0,2,1,2,0,1,4,1,3,1,0,1,6,2,0,2,6,2,0,2,3,4,3,1,3,0,4,3,0,3,0,3,1,3,1,6,1,6,0,6,5,4,6,1,4,1,4,6,4,6,0,2,6,2,0,2,0,2,0,2,0,1,4,1,4,1,3,1,3,4,1,0,1,6,2,0,2,6,2,0,2,3,4,3,1,3,0,4,3,0,3,0,3,1,3,1,6,1,6,1,6,0,6,4,6,1,4,1,4,1,4,6,4,6,4,6,0,2,6,0,2,0,2,0,2,1,2,0,2,0,1,4,3,1,3,1,3,4,1,0,2,1,2,6,2,6,2,0,2,3,4,3,1,3,1,3,0,4,3,0,3,0,3,1,3,1,6,1,6,0,6,5,4,6,1,4,1,4,1,4,6,4,6,4,6,0,6,0,2,0,2,0,2,1,2,0,2,0,1,4,3,4,3,1,4,3,4,1,0,2,6,2,6,2,0,2,3,4,3,4,3,4,3,4,3,1,3,1,3,0,4,3,4,3,0,3,1,6,1,6,1,6,0,6,0,6,0,6,4,5,4,6,1,4,1,4,1,4,6,0,6,0,2,0,2,0,2,0,2,0,1,4,3,4,3,4,1,0,2,6,2,6,2,6,2,0,2,3,4,3,4,3,4,3,1,3,0,3,4,3,0,3,1,3,1,6,1,6,1,6,4,6,4,1,4,1,4,6,0,2,1,2,0,2,0,2,0,2,0,1,4,1,3,4,3,4,1,0,2,6,2,0,2,3,4,3,4,3,4,3,4,3,4,3,1,3,0,3,4,3,8,4,3,0,1,3,1,6,1,6,1,6,2,6,4,6,4,1,4,1,4,6,2,6,0,6,0,1,4,2,0,2,0,2,0,3,0,1,4,1,4,3,4,5,1,4,0,2,6,2,0,2,3,4,3,4,3,4,3,1,3,0,3,4,3,8,4,3,4,0,3,1,3,1,6,1,6,4,6,4,6,0,2,1,4,2,0,2,0,2,0,1,2,0,1,4,3,4,3,4,3,4,5,1,0,2,0,2,3,4,3,4,3,1,3,0,3,4,3,8,4,0,3,1,3,1,3,1,6,1,6,1,6,4,6,4,1,4,6,0,2,1,4,2,0,2,0,2,0,1,3,1,2,0,1,4,3,4,1,3,1,0,2,0,2,3,4,3,4,3,4,3,1,3,0,3,4,3,8,4,0,1,3,1,3,1,3,1,6,4,6,4,1,4,6,0,2,1,4,2,0,2,0,2,0,3,2,1,4,3,4,3,0,2,6,2,0,2,3,4,3,4,3,4,3,4,3,1,3,0,3,4,3,0,1,3,8,4,0,3,1,3,1,3,1,3,1,6,4,1,6,4,5,4,6,2,1,4,2,0,2,0,2,0,3,2,1,4,3,4,3,4,3,0,2,6,2,0,2,3,4,3,4,3,1,3,0,3,4,3,0,1,3,4,0,1,3,1,3,1,6,4,6,4,1,6,4,6,4,5,4,6,4,6,2,0,1,2,0,2,0,2,0,3,2,1,4,3,4,3,4,3,4,3,0,2,6,2,6,2,0,2,3,4,3,4,3,4,3,4,3,1,3,0,3,4,3,0,1,3,4,2,0,3,1,6,1,6,1,6,1,6,4,5,4,6,4,6,4,6,4,6,5,4,6,4,6,2,0,2,0,2,0,2,0,3,0,2,1,4,1,4,3,4,3,8,0,2,1,2,0,2,3,4,3,4,3,1,3,0,3,4,3,2,3,0,1,4,2,0,3,0,3,0,3,1,6,4,6,4,5,4,6,4,6,4,6,4,6,4,6,4,6,4,6,4,6,0,2,0,2,0,2,0,3,0,2,1,4,3,0,2,1,2,0,2,3,4,3,4,3,4,3,1,3,0,3,4,3,2,3,0,2,1,3,2,3,1,6,4,6,4,5,1,6,4,6,4,5,4,6,4,6,4,6,4,6,0,2,0,2,0,2,0,3,0,1,4,1,4,5,4,3,0,6,8,1,2,0,2,3,4,3,4,3,4,3,4,3,1,3,0,3,2,3,0,1,0,2,3,2,3,4,3,1,6,4,5,6,4,6,4,5,4,5,6,4,6,4,6,0,2,0,2,0,2,0,3,0,1,4,5,4,3,8,0,6,8,1,2,1,2,1,2,0,2,3,4,3,4,3,1,3,0,3,0,3,2,3,4,3,4,3,4,3,4,3,4,3,1,6,4,5,4,6,4,6,4,6,4,5,4,5,4,5,4,6,4,6,0,2,0,2,0,2,0,3,0,1,4,5,4,3,8,0,6,8,6,0,1,2,0,2,3,1,3,0,3,4,3,0,3,4,2,3,4,5,4,5,4,3,4,3,4,3,1,6,1,6,4,6,4,5,4,5,6,4,5,4,6,4,6,1,6,0,2,0,2,0,2,0,3,0,1,4,5,4,3,4,3,8,0,6,2,0,2,3,1,3,0,3,4,3,0,3,4,3,4,3,4,3,5,4,3,4,3,4,3,4,3,1,3,6,1,4,1,4,1,4,1,6,4,6,4,5,4,5,6,4,5,4,6,1,6,1,6,0,2,0,2,0,2,0,3,0,1,3,1,4,3,4,3,8,0,6,2,0,2,1,2,1,3,4,3,1,3,0,3,4,3,0,3,4,3,4,8,3,4,3,4,3,4,3,1,3,6,1,4,1,5,4,1,4,1,4,1,5,4,1,6,4,5,4,5,4,6,1,6,1,6,0,2,0,2,0,2,0,3,0,3,1,4,1,4,3,8,0,6,2,0,2,1,2,1,2,1,3,1,3,0,4,0,3,4,3,0,3,4,3,8,4,3,4,3,4,3,4,3,4,3,4,3,4,3,6,1,4,1,4,5,4,5,4,5,4,5,4,1,6,1,4,6,4,5,4,6,1,6,1,6,1,6,0,2,0,2,0,2,0,3,0,3,1,4,3,4,3,4,3,8,0,6,0,2,1,2,1,2,1,3,1,3,0,4,0,3,4,3,0,3,4,3,4,8,4,8,3,4,3,4,3,4,3,4,3,4,3,4,3,6,1,4,5,4,5,4,5,4,5,4,5,4,5,4,1,4,5,1,4,5,4,6,4,5,4,6,1,6,1,6,1,6,0,2,0,2,0,2,0,3,0,3,0,3,1,4,3,4,3,4,3,4,3,8,0,6,0,2,1,2,1,2,1,3,4,3,1,3,0,4,0,3,4,3,0,3,1,4,1,4,1,4,8,3,4,3,4,3,4,3,4,3,4,3,6,1,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,1,4,1,4,5,4,6,4,1,4,1,6,1,6,1,6,0,2,0,2,0,2,0,3,0,3,1,4,3,4,3,4,3,4,3,8,3,8,0,6,0,2,1,2,1,3,4,3,4,3,4,3,8,3,8,3,1,3,0,4,3,4,3,0,3,1,4,3,4,3,4,3,4,3,4,3,4,3,6,1,4,5,4,5,4,5,4,5,4,5,4,5,4,6,4,6,4,6,4,1,6,1,6,1,6,0,2,0,2,0,2,0,3,0,3,1,4,3,8,0,8,0,8,0,8,0,6,0,2,1,4,3,8,3,1,3,0,1,4,3,4,3,0,3,1,4,1,4,3,4,3,4,3,4,3,4,3,4,3,6,1,5,4,5,4,5,4,5,4,6,4,6,4,6,4,6,4,1,6,1,6,1,6,0,2,0,2,0,2,0,3,0,3,4,1,3,4,3,4,3,4,3,8,0,8,0,8,0,6,0,6,0,2,0,2,1,5,4,3,8,3,8,3,1,3,4,3,0,3,1,4,3,4,3,4,3,4,3,4,3,4,3,6,1,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,6,4,6,4,6,4,6,4,1,6,1,6,0,2,0,2,0,2,0,3,0,3,4,3,4,3,4,3,8,6,8,0,6,0,6,0,6,0,2,0,2,1,5,3,0,3,8,3,8,3,4,3,4,1,4,3,4,3,4,3,4,3,4,3,6,1,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,6,4,6,4,6,4,6,4,6,4,1,6,1,0,2,1,2,0,2,0,2,0,3,0,3,4,3,4,3,4,3,8,6,8,6,0,2,0,2,1,4,5,4,3,0,3,8,1,3,8,3,1,3,1,3,4,1,4,5,3,4,3,4,3,4,3,4,3,4,3,1,4,5,4,5,4,5,4,5,4,5,4,6,4,6,4,6,4,6,4,6,4,1,6,1,0,2,0,2,0,2,0,3,1,3,0,3,4,3,4,3,4,3,8,6,8,6,0,2,0,2,1,4,5,4,1,3,0,3,0,1,8,1,0,3,8,3,8,3,8,1,3,1,4,5,4,5,3,4,3,4,3,1,4,5,4,5,4,5,4,5,4,6,4,6,4,6,4,6,4,6,4,6,4,6,4,1,0,2,0,2,0,2,0,3,1,3,0,3,8,6,1,6,0,2,0,1,4,5,4,3,4,3,1,0,1,3,0,1,0,1,3,1,3,8,3,8,1,3,4,5,4,3,4,3,4,3,4,3,1,4,5,4,5,4,6,4,6,4,6,4,6,4,6,4,6,4,1,2,1,2,0,2,4,2,0,2,0,2,0,1,4,3,4,3,4,3,4,3,8,6,1,6,1,6,0,2,0,1,4,5,4,1,3,4,3,1,3,1,0,1,3,0,1,3,1,8,3,8,1,3,4,3,4,3,4,3,4,3,4,3,4,3,1,4,5,4,5,4,5,4,6,4,6,4,6,4,6,4,6,4,1,2,1,2,0,2,4,2,0,2,0,2,0,1,4,3,4,3,8,6,1,6,0,2,0,1,4,5,4,1,3,1,0,1,3,0,2,1,8,3,8,3,1,8,1,3,1,4,1,4,5,4,3,4,3,4,3,4,3,4,3,4,3,4,3,1,4,5,4,5,4,6,4,6,4,6,4,6,4,6,4,6,1,2,0,2,4,2,0,2,0,2,0,1,3,4,3,8,6,1,6,0,2,0,1,4,1,4,1,3,1,0,1,0,2,1,8,3,1,8,1,3,1,4,5,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,1,3,1,4,5,4,5,4,6,1,0,2,0,2,1,2,1,4,1,2,0,2,0,2,0,2,0,2,0,1,3,4,3,4,3,4,3,8,6,1,6,0,2,0,1,4,1,3,1,0,2,1,8,3,1,3,1,4,5,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,1,8,4,3,4,3,1,3,1,4,5,4,1,0,2,0,1,2,1,2,0,2,0,2,0,2,1,3,4,3,4,3,4,3,8,6,1,6,0,2,0,1,4,1,3,1,0,2,1,8,3,0,3,1,4,5,4,5,4,3,4,3,4,3,4,3,4,3,4,3,4,3,8,5,4,5,4,5,4,6,4,1,0,2,1,2,0,1,0,1,2,0,2,0,2,0,2,1,3,4,3,4,3,4,3,8,6,1,6,0,2,0,1,4,1,4,1,4,1,3,1,3,1,0,2,1,8,3,0,3,1,4,5,4,3,4,3,4,3,4,3,4,3,4,5,3,8,4,8,3,4,3,8,5,4,5,4,6,1,0,2,0,2,1,0,1,2,0,1,0,2,0,2,1,3,4,3,4,3,8,6,1,6,0,2,0,1,4,1,4,1,4,1,3,1,3,1,0,2,0,1,8,3,1,4,3,4,5,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,8,3,4,3,8,4,5,4,5,4,5,4,6,1,0,2,0,2,1,0,2,1,2,1,2,0,2,1,3,4,3,4,3,8,1,6,1,6,0,2,0,1,3,1,3,1,3,1,0,2,0,1,4,8,3,1,4,5,4,3,5,4,3,4,3,4,3,4,3,5,3,4,3,4,3,4,3,4,5,3,8,5,8,5,4,5,4,5,4,6,4,6,4,6,1,0,2,0,2,1,2,0,1,2,1,2,1,4,2,0,2,4,1,3,4,3,4,3,4,3,8,1,6,0,2,0,1,0,2,0,4,1,2,0,1,4,3,8,3,8,1,4,5,4,3,5,4,3,4,3,4,3,4,3,5,4,3,4,3,4,3,4,5,3,4,3,4,5,3,4,3,8,4,5,4,5,4,5,4,6,4,6,4,6,4,1,0,1,2,0,1,4,2,4,2,1,2,0,2,4,1,3,4,3,4,3,4,3,4,3,4,3,4,3,8,1,4,1,6,0,2,0,2,1,2,1,0,1,2,0,2,0,2,1,2,0,2,1,0,1,8,3,8,1,4,3,4,3,4,5,3,4,3,4,3,4,3,4,5,4,5,3,4,3,8,4,5,4,5,4,5,4,6,4,1,4,1,0,1,2,0,1,4,1,4,2,1,0,2,4,1,4,1,3,4,3,4,3,8,1,4,1,6,0,2,0,2,1,2,0,1,2,1,2,0,2,0,2,0,1,8,3,8,1,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,5,4,5,8,4,8,4,5,4,5,4,5,4,5,4,6,4,1,0,1,0,1,0,1,4,1,2,1,0,2,4,3,4,3,4,3,4,3,4,8,1,4,1,6,0,2,0,2,0,1,2,0,2,1,2,0,2,0,1,8,4,5,4,5,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,5,4,5,4,5,4,5,4,5,4,1,0,1,0,1,4,1,0,2,4,3,4,3,4,3,4,8,1,4,1,4,1,6,0,2,0,1,2,0,1,2,0,2,1,2,0,1,0,1,0,1,8,3,8,1,4,5,4,3,4,5,3,4,8,3,8,4,1,8,4,3,4,3,4,3,4,3,4,3,4,5,4,5,4,5,4,3,5,3,5,4,5,4,3,4,3,4,3,4,1,0,1,0,1,4,1,4,1,0,2,5,4,3,4,3,4,8,1,4,1,6,0,2,0,1,4,0,1,0,1,2,1,2,1,2,0,1,2,1,2,1,2,1,2,1,2,1,0,1,0,1,0,1,8,1,8,1,4,5,4,3,5,4,0,4,8,4,8,4,3,4,8,3,4,3,4,3,4,5,4,5,4,5,4,3,4,5,4,5,4,3,4,3,4,6,4,3,4,1,4,1,0,1,0,1,4,1,0,2,4,5,1,4,1,4,3,4,5,4,3,4,8,1,4,1,6,0,2,0,1,0,1,4,0,2,1,2,1,2,0,2,4,1,2,1,2,1,4,1,4,1,8,1,4,5,4,5,4,5,4,0,4,3,8,4,8,3,8,3,4,3,8,3,4,3,8,4,5,4,5,4,5,4,5,4,5,4,3,4,6,4,3,4,1,4,1,0,1,4,0,1,4,1,4,1,0,2,1,5,1,4,3,1,3,1,3,4,5,3,4,8,1,8,1,4,1,0,2,0,1,4,0,2,0,2,1,4,1,4,2,0,2,4,1,4,2,4,2,1,2,1,8,4,1,4,1,4,0,4,5,4,5,4,0,3,4,3,8,3,4,3,8,3,8,3,4,8,4,5,4,3,8,4,5,4,5,4,3,4,3,6,4,1,0,1,2,0,1,4,0,1,0,2,1,4,3,4,3,4,8,1,4,1,0,1,0,2,0,1,4,1,2,0,2,0,2,1,4,1,2,0,2,4,1,4,2,1,2,1,8,4,1,8,4,1,4,8,4,0,4,5,4,0,3,4,3,4,3,8,3,8,3,4,8,4,5,4,3,8,3,8,3,4,5,4,5,4,3,4,3,6,4,1,4,1,0,2,0,1,0,1,4,0,1,0,2,4,1,4,3,1,3,4,3,4,3,4,8,1,4,1,0,1,0,2,0,2,1,4,1,4,1,2,0,2,0,2,1,2,1,2,0,1,2,4,2,1,2,1,8,4,8,4,8,4,5,1,4,8,0,8,4,5,4,5,4,5,0,3,4,3,8,3,8,4,5,4,3,4,5,4,5,4,3,4,3,4,3,6,4,1,4,1,0,2,0,1,4,0,1,0,2,4,1,4,3,1,3,4,3,4,5,4,8,1,4,1,0,1,0,2,1,2,0,2,1,4,1,2,0,2,0,2,1,0,1,4,1,2,1,0,2,1,8,4,8,4,8,4,5,4,8,0,8,4,5,4,5,4,5,4,0,3,4,3,8,4,3,4,3,4,6,4,3,6,4,1,0,2,0,1,4,0,1,0,2,4,1,4,3,1,3,1,3,1,3,4,5,4,8,1,4,1,0,1,2,1,0,2,1,2,1,2,0,2,1,2,0,2,1,0,1,4,1,0,2,1,2,1,8,4,1,4,8,4,5,4,5,4,5,8,4,5,4,5,4,3,0,3,4,3,8,4,8,4,8,4,3,5,3,8,3,4,5,4,5,3,6,4,8,1,0,2,0,1,0,1,0,2,4,1,4,3,1,3,4,3,4,8,1,4,1,0,2,1,2,1,2,1,2,1,2,0,2,4,1,0,1,4,1,4,1,0,2,1,8,4,8,4,8,4,5,4,5,8,4,8,5,8,4,3,0,3,8,4,3,5,3,8,3,4,3,5,3,6,4,8,1,0,1,2,0,1,0,1,0,2,4,1,4,3,1,3,1,3,4,8,1,4,1,0,2,1,4,1,4,1,2,1,2,1,2,1,4,2,0,2,4,1,0,1,4,1,0,1,8,4,1,4,1,4,8,1,8,4,5,4,5,8,4,8,4,3,0,3,4,3,8,4,3,5,3,8,3,4,3,5,3,4,8,1,0,1,0,1,0,1,0,2,4,3,1,3,4,8,1,4,1,4,1,0,2,0,2,1,4,1,4,1,2,1,4,2,0,2,4,1,0,1,0,1,4,1,0,1,0,1,4,1,4,8,4,1,4,1,4,8,1,3,0,3,8,4,3,8,3,8,3,8,3,5,3,8,3,4,8,4,8,1,0,1,4,0,1,0,2,4,5,3,0,3,1,3,4,3,4,8,1,4,1,4,1,0,2,0,2,1,4,1,4,1,2,1,4,1,2,0,4,1,0,1,4,1,4,0,4,1,0,2,1,4,1,4,1,4,8,1,3,0,3,8,4,3,8,3,8,3,8,3,5,3,8,3,8,3,4,8,1,0,1,4,0,1,2,0,4,5,3,0,3,1,3,4,3,4,8,1,4,1,4,1,4,1,4,1,0,1,0,2,0,2,1,4,1,2,1,2,0,1,4,1,2,0,1,4,1,0,1,0,1,2,1,4,1,4,1,4,1,0,1,4,8,1,3,1,3,0,3,0,3,8,4,3,5,3,8,5,8,5,3,5,3,5,3,8,3,8,1,0,1,4,0,1,2,1,2,0,4,5,4,3,0,3,1,3,4,3,4,8,1,8,1,4,1,4,1,4,1,2,0,2,0,2,1,4,1,2,0,2,0,1,4,1,0,2,1,4,1,4,1,0,1,4,1,0,4,8,1,3,1,0,3,8,3,8,4,8,4,8,4,3,5,3,5,3,5,8,3,5,3,5,3,5,3,8,1,4,0,2,1,2,0,4,5,4,3,1,3,1,3,1,3,4,8,1,0,1,8,1,0,1,4,1,2,1,2,1,0,2,0,2,1,4,1,2,0,2,1,2,0,1,4,1,0,2,1,4,1,0,1,4,1,0,1,0,8,1,3,1,4,1,0,3,0,3,0,3,8,3,8,4,8,4,3,5,3,5,3,5,3,5,3,8,1,4,0,1,2,0,4,5,4,3,1,3,4,8,1,0,1,2,1,0,1,4,1,4,1,2,0,2,0,2,1,4,1,2,0,2,4,2,1,4,1,0,2,1,4,1,4,1,0,2,0,1,4,1,4,5,1,0,3,0,3,8,4,8,4,8,4,8,4,5,3,5,4,3,5,3,5,3,8,1,4,0,1,2,0,4,0,4,5,4,3,1,4,3,4,8,1,8,1,0,1,2,1,0,1,4,1,4,1,2,0,2,0,2,1,4,1,4,1,2,0,2,1,2,1,0,1,4,1,4,1,0,2,0,1,4,5,4,0,3,8,0,8,4,5,4,3,8,1,4,1,0,1,2,4,0,4,3,4,3,4,3,8,1,8,1,0,1,0,1,4,1,4,1,2,0,2,0,2,1,4,1,2,0,2,1,4,1,0,1,4,1,0,2,0,1,4,5,4,0,3,8,3,8,3,8,4,8,4,8,4,8,4,5,4,5,3,8,1,8,1,0,1,0,2,1,4,0,4,3,4,3,4,3,8,1,0,1,0,1,4,1,2,0,2,0,1,4,5,4,1,0,1,2,1,4,1,0,1,0,1,4,1,4,1,4,1,4,1,0,2,0,1,4,5,4,1,4,0,3,8,3,8,4,8,4,8,4,5,4,5,4,5,4,5,3,4,5,3,4,8,4,3,8,1,8,1,0,1,0,2,1,2,4,1,0,4,3,1,3,4,3,4,3,8,6,8,1,0,1,0,1,0,1,4,1,4,1,0,1,0,2,0,1,0,4,5,4,1,2,0,1,4,1,0,1,4,1,4,1,4,1,0,2,0,1,4,5,4,1,8,0,3,8,3,8,3,8,3,8,4,5,4,5,4,5,8,5,4,3,4,3,8,1,8,1,0,2,4,1,4,1,4,1,2,0,4,1,4,3,1,3,4,3,4,3,4,8,6,8,1,0,1,0,1,0,1,0,1,0,1,4,1,0,1,0,2,0,4,1,4,1,2,0,1,4,1,0,1,4,1,4,1,4,1,8,0,2,0,1,4,1,4,1,8,4,8,0,3,8,3,8,3,8,4,8,4,5,4,5,4,5,3,4,3,8,1,8,1,8,1,0,2,0,4,1,4,1,2,1,2,1,2,0,4,1,4,3,1,3,1,4,3,4,3,4,3,4,8,6,8,1,8,1,0,1,0,1,0,1,4,1,4,1,0,1,0,2,0,4,1,4,1,5,4,2,0,1,4,1,0,1,4,1,4,1,4,1,4,1,8,0,2,0,1,4,1,8,0,3,8,3,8,3,8,4,3,5,4,3,8,1,8,1,4,0,2,0,1,2,1,2,1,2,0,4,1,4,3,1,4,3,4,1,4,1,4,3,4,8,6,8,1,8,1,0,1,0,1,0,1,4,1,4,1,0,1,0,2,0,1,4,1,4,1,4,5,1,4,1,0,1,4,1,4,1,4,1,4,1,8,0,2,4,2,0,2,8,1,4,1,8,4,0,3,0,8,3,8,4,3,5,4,3,4,3,8,1,8,0,1,4,1,0,2,0,1,0,2,0,4,1,4,3,1,3,1,4,3,4,1,4,1,4,3,4,8,1,0,1,0,1,0,1,4,1,4,1,0,1,0,2,0,1,4,5,4,1,0,1,0,1,4,1,4,1,4,1,8,0,2,8,4,8,2,8,1,4,1,8,3,0,3,0,8,3,0,3,8,4,3,8,3,5,4,3,4,3,4,3,8,1,8,0,8,1,4,1,4,2,0,1,2,0,2,6,2,0,4,5,1,4,5,3,1,3,1,4,1,4,1,8,4,8,1,0,1,0,1,4,1,2,1,0,2,0,1,4,1,4,1,4,5,4,1,5,1,4,1,0,1,4,1,4,1,4,1,8,0,8,4,2,8,1,8,3,0,1,0,3,8,3,0,3,8,4,8,3,5,3,4,3,8,3,8,3,8,1,8,0,8,1,4,1,4,1,4,2,0,1,2,0,2,6,2,0,4,5,1,4,5,4,3,1,4,1,4,8,4,8,1,0,1,0,1,4,1,2,1,2,0,2,0,1,4,1,4,5,4,5,4,1,4,1,4,1,5,4,1,8,0,8,0,8,3,1,0,3,8,3,0,3,8,3,4,3,4,3,8,3,8,3,8,3,8,1,8,0,8,1,4,1,4,0,2,0,2,6,2,0,5,4,5,4,3,1,4,5,4,1,4,1,4,8,4,8,4,8,1,0,1,2,1,2,1,2,0,1,4,1,4,1,4,1,4,5,4,1,4,1,4,1,4,1,4,5,4,1,8,0,8,0,8,3,1,0,3,8,3,0,3,0,3,8,3,4,3,4,3,4,3,8,4,8,3,8,3,8,1,4,1,4,1,4,1,4,0,2,6,0,2,0,5,4,5,4,3,1,5,1,4,5,4,1,4,8,4,8,1,0,1,0,1,2,1,2,1,2,1,2,0,1,4,1,4,1,4,1,4,5,4,5,4,1,4,1,4,1,4,1,8,0,8,0,8,3,1,0,3,0,3,0,3,8,3,4,3,4,3,4,3,8,4,8,1,8,1,8,1,4,1,4,0,6,2,6,0,2,0,4,1,5,4,3,1,5,1,4,5,4,1,8,4,8,4,8,1,0,1,2,0,1,6,1,0,1,2,0,1,2,6,2,6,2,0,1,4,1,4,1,4,1,4,5,4,5,4,1,4,1,4,1,4,1,8,0,8,3,8,4,8,4,8,3,4,3,4,3,8,3,8,4,8,1,8,1,8,1,4,1,4,1,0,6,0,2,0,4,5,0,5,4,3,1,5,4,1,4,8,1,0,2,1,0,1,6,1,6,1,0,1,6,1,0,2,6,2,6,2,0,1,4,5,4,1,4,1,8,3,8,3,8,4,8,4,8,3,4,3,4,3,8,4,8,1,8,1,8,1,4,0,6,0,2,0,4,5,4,1,4,1,3,1,5,4,5,4,5,4,1,4,8,1,0,6,0,1,6,1,6,0,6,1,6,1,6,0,2,4,6,4,6,2,6,2,0,1,4,5,4,1,4,1,8,3,8,3,8,3,8,3,4,3,4,3,8,4,8,1,8,1,8,1,4,1,4,0,6,0,2,6,2,0,4,1,0,5,1,4,1,5,4,5,4,5,4,8,1,0,6,1,6,1,6,1,6,4,6,0,6,0,2,6,4,6,2,0,1,4,1,4,1,4,1,4,1,8,1,8,3,8,3,8,3,8,3,8,3,8,3,4,3,4,3,8,4,8,4,8,1,8,1,8,1,4,1,4,6,4,0,6,0,2,0,2,0,1,4,1,4,5,4,5,4,8,1,6,0,6,0,6,1,6,4,6,0,6,2,0,2,6,4,6,4,6,2,6,0,1,4,1,4,1,4,1,4,1,4,1,8,1,8,3,8,3,8,3,8,3,8,3,8,3,4,3,8,4,8,4,8,1,8,1,8,1,8,1,8,1,4,6,0,6,0,2,0,4,1,0,4,1,4,5,4,8,1,6,0,6,4,6,0,6,2,0,2,6,4,6,2,0,2,0,1,0,1,4,1,4,1,4,1,4,1,4,1,4,1,8,3,8,3,8,3,8,3,4,3,8,1,8,0,8,1,8,1,8,1,8,1,4,6,0,6,0,2,0,4,5,0,4,1,4,5,4,8,1,6,4,6,0,6,0,2,6,0,2,6,4,6,2,6,0,2,0,1,4,1,4,1,4,1,4,1,8,3,8,3,8,3,8,4,1,4,3,4,3,8,3,8,1,8,1,8,0,8,1,8,1,8,1,4,6,0,6,0,6,0,2,0,4,5,0,4,1,4,8,1,6,4,6,0,2,6,2,0,2,6,2,0,2,0,1,0,1,4,1,4,1,4,1,4,1,4,1,8,3,8,3,8,3,8,4,3,4,3,8,3,8,3,8,6,8,1,8,1,8,1,4,1,6,4,6,0,6,0,2,0,4,5,4,5,0,4,5,4,1,5,4,5,4,5,4,8,1,6,1,6,4,6,0,2,0,2,4,6,2,6,2,0,1,2,0,1,4,1,4,1,4,1,8,3,8,3,8,3,8,3,8,3,8,4,3,4,3,8,6,8,6,8,1,8,1,8,1,4,1,6,4,6,0,6,0,2,0,4,5,4,5,4,1,5,4,5,4,5,4,8,1,6,4,6,4,6,2,6,4,6,2,0,1,0,2,1,4,1,4,1,8,3,8,3,8,3,8,4,8,4,3,4,3,8,4,8,6,8,4,6,8,1,8,1,8,1,4,1,7,1,6,0,6,0,2,6,2,0,4,0,4,5,4,1,5,4,5,4,5,4,5,4,5,4,8,6,8,0,8,6,4,6,4,6,4,6,2,6,4,6,2,6,2,0,1,0,1,0,1,2,1,4,1,8,4,8,4,6,4,8,3,8,4,8,6,4,6,4,6,8,1,8,1,8,1,8,1,8,1,6,0,6,0,2,6,2,0,2,0,4,5,4,5,4,1,5,4,5,4,5,4,8,6,8,0,6,0,6,4,6,4,6,4,6,2,6,2,0,1,2,0,1,8,1,8,4,8,6,4,6,8,6,4,6,4,6,8,1,8,1,8,1,4,1,6,1,7,1,8,6,0,6,0,2,7,2,0,2,0,4,5,4,1,5,4,5,4,5,4,8,6,8,6,8,0,8,6,0,6,0,6,4,6,4,6,4,6,2,6,2,0,1,0,1,2,0,1,4,1,8,4,8,6,4,6,4,6,8,6,4,6,0,6,8,1,8,1,8,1,8,1,4,6,7,1,6,0,6,0,2,7,2,0,2,7,2,0,2,0,4,5,4,1,5,4,5,4,8,6,8,0,8,0,6,0,6,4,6,4,6,4,6,4,6,2,0,1,0,1,4,1,0,1,8,1,4,8,6,4,6,8,6,4,6,0,1,8,1,8,1,8,1,4,6,2,6,0,6,7,6,2,0,2,0,2,1,2,0,4,5,4,1,4,5,4,5,4,5,4,8,6,8,0,8,0,6,2,0,6,4,6,4,6,2,0,1,0,2,4,1,0,1,8,1,4,8,1,6,4,6,0,1,8,1,8,1,4,6,7,6,2,6,0,6,7,6,2,0,2,0,2,0,2,1,2,4,5,4,1,4,5,4,5,4,8,6,8,6,0,6,8,0,6,2,6,0,6,4,6,4,6,2,0,1,2,1,4,1,0,1,0,1,8,1,8,1,4,8,1,6,4,6,4,6,0,8,1,8,1,4,6,7,6,2,6,0,6,7,6,2,0,2,0,2,6,2,0,2,1,2,4,5,4,1,4,5,4,8,6,8,0,6,0,6,2,6,0,6,4,6,2,0,1,2,1,4,1,0,1,0,1,8,1,4,8,1,6,8,6,4,6,4,6,0,8,7,1,7,1,8,1,4,6,7,6,0,6,0,6,7,6,2,0,2,6,2,0,2,1,2,4,2,4,5,4,1,4,8,6,0,6,0,6,4,6,2,6,2,0,1,0,1,0,1,0,1,8,1,8,1,4,8,1,6,8,6,4,6,4,6,4,6,0,6,7,1,7,1,4,6,7,6,0,6,0,6,2,0,2,6,2,0,2,1,2,4,5,4,1,4,8,6,8,6,0,6,0,6,2,6,2,0,1,0,1,0,1,2,1,8,1,8,1,4,8,1,6,8,6,8,6,4,6,0,6,7,1,7,1,7,1,7,4,6,7,6,2,6,0,6,0,6,7,6,2,0,2,0,2,4,1,4,8,6,8,6,0,6,2,0,1,0,1,2,0,1,0,1,0,1,0,2,1,8,1,4,8,1,8,6,8,6,4,6,0,6,7,1,7,4,6,7,6,2,6,2,0,6,0,6,0,6,7,6,7,6,2,0,2,6,2,0,2,4,2,4,1,4,6,4,6,8,6,8,6,0,6,0,2,0,1,0,1,0,2,1,0,1,0,2,0,1,0,1,8,1,4,8,1,8,6,8,6,0,7,6,7,6,7,1,7,1,7,1,4,6,2,0,6,7,6,7,6,2,6,2,0,2,7,6,2,6,2,0,2,1,2,1,2,4,1,4,6,4,6,8,6,0,2,6,0,2,0,1,2,1,0,1,2,1,0,2,1,2,0,1,8,1,4,1,4,8,6,8,6,8,1,8,6,8,6,0,6,7,6,7,1,7,1,7,1,7,1,7,6,0,2,6,0,6,7,6,7,2,0,2,7,6,2,6,2,0,1,2,1,2,1,7,2,7,4,6,1,4,1,4,6,4,6,8,6,0,2,6,0,2,0,2,1,0,1,2,1,2,1,0,2,0,1,4,1,4,6,8,1,8,6,8,6,8,6,0,6,7,6,1,7,6,0,6,7,6,7,2,0,2,7,6,2,0,1,2,1,7,2,1,7,4,6,1,4,6,4,6,4,6,0,2,6,0,2,0,2,1,2,1,2,1,0,1,2,1,2,1,2,0,1,4,1,4,6,1,8,1,8,6,8,1,8,6,8,6,7,6,7,1,7,1,7,1,7,6,7,6,0,6,7,6,7,2,0,2,7,6,2,0,1,2,1,2,1,7,5,7,4,6,4,6,0,2,7,2,6,0,2,0,2,1,0,1,0,1,2,1,2,0,2,1,4,6,1,8,1,8,1,8,6,8,1,8,6,7,1,7,1,7,1,7,1,7,1,6,7,6,7,6,7,6,7,6,0,6,7,6,7,6,7,2,0,2,7,6,2,0,7,2,1,2,7,6,4,6,4,6,4,6,4,6,0,6,0,2,6,0,2,0,2,6,2,4,1,0,1,0,2,1,0,2,1,6,1,6,1,4,6,1,8,1,6,1,8,6,1,8,1,8,6,7,6,7,6,7,1,7,6,7,1,7,1,7,1,6,7,6,0,6,7,6,7,6,2,6,2,0,2,7,6,2,6,2,0,1,2,1,2,7,5,7,6,4,6,4,6,0,6,0,2,7,2,7,6,2,6,0,2,0,2,6,4,1,0,1,0,1,0,2,1,6,1,6,1,6,1,6,1,6,1,4,6,1,6,1,6,1,6,1,6,1,8,6,7,6,7,6,7,1,7,6,7,1,7,6,7,1,6,0,6,7,6,7,2,0,2,7,6,2,6,2,0,1,7,2,1,2,1,7,5,7,6,4,6,0,6,0,6,0,2,6,0,2,0,2,6,2,6,4,6,0,2,1,0,1,2,0,2,1,2,1,0,1,6,1,6,1,6,1,4,6,1,6,1,6,1,6,7,6,7,6,7,6,7,1,7,6,7,6,0,6,7,6,7,6,7,2,0,2,7,6,2,6,2,0,2,1,2,1,2,1,5,7,6,4,6,0,6,0,2,7,2,7,6,7,6,0,2,0,2,6,2,6,2,4,6,0,2,1,0,1,0,1,2,1,2,0,1,2,0,1,6,1,6,1,6,4,6,7,6,7,6,7,6,7,6,7,1,6,7,6,7,6,7,6,7,6,0,6,7,6,2,0,2,7,6,7,6,2,6,2,0,2,1,7,1,2,7,5,7,5,6,4,6,0,2,7,6,7,0,2,0,2,6,2,6,4,6,4,2,0,2,0,1,0,1,2,1,2,0,2,0,1,6,1,6,1,6,4,6,7,6,7,6,7,6,7,6,7,6,0,6,7,6,2,0,2,7,6,2,6,2,0,2,5,1,2,1,5,7,6,0,2,7,6,7,6,7,6,2,0,6,7,0,2,0,2,6,2,6,2,0,7,6,2,0,1,0,1,0,1,2,0,2,1,2,1,0,1,6,4,6,7,6,7,6,7,6,7,6,0,6,7,6,2,0,2,7,2,7,2,7,2,7,2,7,6,2,0,2,1,5,7,2,7,2,7,5,7,6,0,6,7,6,0,2,7,6,2,0,6,7,0,2,0,2,0,7,6,7,6,0,1,0,1,2,0,2,1,2,1,0,1,6,1,6,0,6,4,6,0,6,7,6,2,6,2,0,2,7,6,2,0,2,7,5,7,5,6,0,6,7,0,2,7,6,7,2,0,6,7,2,0,2,0,2,6,2,0,2,7,4,6,4,6,0,1,0,6,1,2,0,2,1,6,0,6,4,6,7,6,7,6,0,6,0,6,0,6,0,6,7,6,2,6,2,0,2,7,4,2,6,7,6,2,0,2,1,7,4,5,7,1,6,0,6,0,6,7,0,2,7,2,0,6,7,2,0,2,0,2,0,2,0,2,7,5,4,6,0,6,1,6,1,6,1,0,2,1,0,1,6,0,6,4,6,7,6,7,6,7,6,0,6,0,6,0,2,7,6,2,0,2,7,2,7,2,7,6,4,2,6,7,5,2,6,2,1,4,2,7,4,6,7,0,2,7,2,0,2,7,2,0,2,0,2,0,2,7,5,7,4,6,1,6,1,2,0,2,0,1,0,6,4,6,0,2,7,2,6,2,7,0,2,7,2,7,6,7,6,7,6,4,6,2,6,7,5,2,1,4,6,7,0,2,7,2,7,0,2,0,2,7,2,0,2,6,2,7,4,5,4,5,4,6,1,2,1,2,6,2,6,0,6,1,6,0,6,4,6,7,6,7,6,7,6,0,2,7,6,7,2,7,0,7,0,2,7,6,4,6,2,6,7,5,6,2,4,7,6,7,0,2,7,2,0,2,0,2,7,5,7,2,0,2,7,4,5,7,5,4,6,2,6,0,6,4,6,4,6,4,6,7,6,7,6,7,6,7,6,0,2,7,2,0,7,0,7,0,2,7,6,4,5,7,6,2,7,5,7,2,7,6,4,7,6,7,6,7,6,0,6,0,6,7,0,2,7,2,7,2,7,2,0,2,0,2,7,5,2,0,2,7,1,4,5,4,6,7,6,0,2,6,0,6,0,6,0,6,4,6,7,6,7,6,7,6,7,6,7,6,7,6,0,2,7,2,0,7,0,2,7,6,7,6,7,6,4,5,6,2,7,5,4,6,4,6,4,7,6,7,6,0,6,7,0,2,7,0,2,0,2,0,2,7,5,7,5,7,2,0,2,0,2,7,4,1,5,4,7,4,6,4,6,4,6,0,6,0,6,0,6,0,6,0,6,4,6,7,6,7,6,7,6,7,6,7,6,7,6,7,0,2,7,0,7,0,2,7,6,7,6,4,6,4,6,4,6,4,5,4,7,6,7,6,7,6,0,6,7,0,2,7,2,7,0,2,0,2,7,2,7,2,0,2,7,5,7,2,0,2,0,2,7,5,4,6,4,6,0,6,0,6,0,6,4,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,0,2,7,2,7,0,7,0,2,7,6,7,6,4,6,4,6,7,5,4,5,4,7,6,7,6,0,6,0,6,7,0,2,7,2,7,0,2,7,2,0,2,7,5,2,0,2,8,2,0,2,7,5,4,5,7,4,7,4,6,0,6,0,6,0,6,0,6,4,6,7,6,7,6,7,6,7,6,7,6,7,6,7,0,7,0,2,7,6,4,5,7,5,6,4,6,4,7,6,7,6,0,6,0,6,0,6,0,6,7,0,2,7,2,7,0,2,7,2,0,2,7,5,7,5,7,2,0,2,0,2,0,7,4,5,1,7,4,6,0,6,0,6,0,6,0,6,0,6,0,6,4,6,7,6,7,6,7,6,7,6,7,0,7,0,7,0,2,7,6,7,6,4,5,4,5,4,6,4,5,4,6,4,7,6,7,6,0,6,7,6,7,6,7,0,2,7,2,0,7,2,7,0,2,7,5,7,2,0,2,0,7,1,7,4,1,5,7,4,7,4,6,4,6,0,6,0,6,0,6,0,6,4,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,0,2,6,2,0,2,0,7,6,7,6,4,5,4,6,7,6,7,6,7,0,2,7,2,0,2,7,2,0,7,2,7,2,7,0,2,7,5,7,2,0,2,0,7,1,4,1,5,4,6,4,6,4,6,0,6,0,6,4,6,7,6,7,6,7,6,7,6,7,6,7,6,7,2,0,2,6,2,0,6,7,6,7,6,4,5,4,6,4,6,7,6,7,6,7,0,7,0,2,7,2,7,2,7,2,0,2,0,7,0,7,2,7,0,2,7,5,7,2,0,4,6,5,6,2,0,7,0,1,0,5,1,4,6,4,6,4,6,4,6,4,6,0,6,4,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,2,0,2,0,6,7,6,7,6,4,6,4,6,7,6,7,6,7,6,7,6,7,1,7,0,7,0,2,7,2,7,2,7,2,0,7,2,0,7,2,0,2,7,5,2,0,6,4,6,4,5,6,5,2,0,1,4,1,4,6,4,6,0,6,0,6,4,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,2,0,7,2,0,7,6,0,7,6,7,6,7,6,7,6,7,6,7,2,7,2,0,7,0,7,0,7,0,7,2,0,2,7,2,7,2,7,5,2,0,4,6,4,6,5,6,2,0,1,4,1,4,6,4,6,0,6,0,6,0,6,4,7,4,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,2,0,7,2,7,6,2,6,7,6,7,6,7,2,7,2,0,7,2,7,2,0,2,7,2,7,5,2,0,6,4,6,4,5,6,5,4,6,2,0,1,7,4,6,4,6,4,6,0,6,0,6,0,6,0,6,4,7,4,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,2,7,2,7,2,7,0,7,2,7,6,7,6,7,6,7,6,7,6,7,6,7,6,0,2,6,2,0,6,7,2,7,2,0,7,2,7,0,2,7,5,2,0,2,6,4,6,4,6,4,6,0,7,4,7,4,6,0,6,0,6,0,6,0,6,7,6,4,6,7,4,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,0,7,0,7,2,7,6,7,6,7,6,7,6,7,6,7,6,0,2,0,6,0,6,7,0,7,2,7,2,0,7,2,7,0,2,7,5,7,2,7,2,7,2,7,2,0,2,6,2,6,2,6,4,6,4,6,4,6,0,7,5,7,1,4,6,0,6,0,6,7,4,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,0,7,2,0,2,7,6,7,6,7,6,7,6,7,6,7,4,6,0,6,0,6,0,6,7,2,7,2,7,2,0,7,2,7,2,7,2,0,2,7,2,5,7,2,7,2,0,2,6,2,0,6,0,6,4,6,4,6,0,1,7,1,7,5,7,4,6,0,6,0,2,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,2,7,2,7,2,0,2,7,0,7,6,4,6,7,6,4,6,7,6,4,6,0,6,0,6,7,2,7,2,0,7,2,7,2,7,2,7,2,0,2,7,5,7,5,2,7,2,0,2,6,2,0,6,0,7,1,7,5,7,4,6,4,6,0,6,2,7,2,6,7,6,7,6,7,6,7,6,0,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,2,7,2,0,7,4,6,4,6,7,6,4,6,7,6,7,6,0,6,7,2,0,7,2,7,2,0,2,7,2,7,5,7,5,2,0,2,0,7,0,7,5,4,7,4,6,0,6,7,2,7,6,7,6,7,6,7,6,7,6,7,0,7,0,7,0,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,2,0,7,6,4,6,4,6,4,6,7,6,4,6,7,6,7,2,7,2,7,2,0,7,2,7,2,7,2,0,2,7,5,7,2,0,2,0,2,7,4,7,4,6,0,6,7,2,7,0,7,6,7,6,7,6,7,0,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,2,0,2,7,6,7,4,6,7,6,4,6,7,0,7,2,7,2,7,2,7,0,7,2,0,7,0,7,2,7,2,7,5,7,2,0,2,0,2,7,5,7,4,7,4,6,7,2,7,0,7,6,7,0,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,2,0,2,7,4,7,4,7,4,6,7,6,4,6,7,0,7,0,7,0,7,0,7,0,7,2,7,2,7,0,7,2,7,0,7,0,7,2,7,2,7,2,7,2,7,2,7,5,7,2,0,2,0,2,7,4,7,6,7,6,7,0,2,7,0,2,7,0,7,0,7,6,7,6,7,6,7,6,7,6,7,6,7,2,0,2,7,4,7,4,7,4,6,4,6,7,0,7,0,7,0,7,0,7,2,7,2,7,0,7,0,7,2,7,2,7,0,7,0,7,2,0,2,7,2,7,5,7,2,7,2,0,2,7,2,7,4,7,6,7,0,2,7,0,2,0,7,0,7,0,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,2,0,2,7,4,7,4,7,4,6,7,4,7,6,7,6,7,0,7,0,7,0,7,0,7,0,7,2,7,0,7,0,7,2,7,2,0,7,0,7,2,0,2,7,2,7,5,7,5,7,2,0,2,7,0,7,6,7,0,2,7,2,0,2,0,7,2,0,7,2,7,0,7,0,7,0,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,2,0,2,7,4,7,4,7,4,7,0,7,6,7,0,7,0,7,0,7,0,7,2,7,2,7,2,7,0,7,0,7,2,7,2,0,7,2,0,2,7,2,5,7,5,7,2,0,2,7,2,0,7,6,7,6,7,6,7,0,7,2,0,2,7,0,7,2,7,0,7,0,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,0,7,2,0,2,7,4,7,0,7,0,7,0,7,0,7,2,7,2,7,2,7,0,7,2,7,2,7,2,7,2,7,2,0,2,7,2,7,5,7,5,7,2,0,2,0,7,2,7,6,7,0,7,0,7,2,0,7,2,7,0,7,0,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,2,0,7,2,0,7,0,7,0,7,0,7,0,2,7,0,7,2,7,2,7,2,7,0,2,7,0,7,2,7,2,7,2,7,2,7,2,0,2,7,2,7,5,7,2,7,2,0,2,0,2,7,0,7,6,7,6,7,0,7,0,7,0,2,0,2,7,2,7,0,7,0,7,0,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,0,7,0,7,0,7,0,2,0,7,0,7,0,7,0,2,7,2,0,7,2,0,7,0,7,2,7,2,7,2,7,2,0,2,7,2,7,5,7,5,7,2,7,2,7,5,7,2,7,2,0,2,0,2,7,2,7,0,7,6,7,0,2,0,7,0,7,0,7,0,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,0,2,0,7,0,7,0,7,0,7,0,2,0,7,0,2,7,2,0,7,0,7,2,7,2,7,2,0,2,7,2,5,7,2,7,2,7,2,7,2,7,0,2,0,2,0,7,0,7,0,7,0,2,0,7,0,7,0,7,6,7,6,7,6,7,6,7,0,2,0,7,0,7,0,7,0,2,0,7,0,2,0,7,0,7,2,7,2,0,2,7,2,7,5,7,5,7,2,7,2,7,2,0,2,7,2,0,2,0,7,0,7,0,7,0,7,0,7,0,2,0,7,0,7,2,7,0,7,0,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,0,7,0,7,0,2,7,2,7,0,2,0,2,7,0,7,0,2,0,7,0,7,2,7,2,0,2,7,2,7,2,7,5,7,2,7,2,0,2,0,2,0,2,7,0,7,2,7,2,7,2,7,0,7,6,7,6,7,6,7,6,7,0,7,0,7,0,7,0,2,7,0,7,0,7,0,2,7,0,7,0,7,0,7,2,7,2,7,2,0,2,7,2,7,0,7,5,7,2,7,2,0,2,0,2,0,7,0,7,2,7,2,7,0,7,0,7,0,2,0,7,0,7,2,0,7,2,7,0,7,0,7,0,2,7,0,7,0,7,2,7,2,7,2,7,2,7,2,0,2,7,2,7,5,7,2,7,2,0,2,0,2,0,7,0,7,2,7,2,7,2,7,0,7,2,7,2,7,0,2,0,7,2,7,2,0,7,0,7,0,7,0,7,0,2,7,0,7,0,7,2,7,2,7,2,7,2,7,2,0,2,7,5,7,2,7,2,7,2,0,2,0,2,0,7,0,7,0,2,7,2,7,0,7,2,7,2,7,2,7,0,2,0,7,0,7,0,2,0,7,0,7,2,7,0,7,0,7,0,2,7,2,7,0,7,0,7,0,7,2,7,2,7,2,0,2,7,5,7,2,7,2,7,2,7,2,0,2,0,2,0,7,0,2,7,0,2,7,2,0,7,0,7,2,7,2,7,0,2,0,7,2,0,2,0,7,0,7,2,0,7,0,7,0,2,7,0,7,0,7,0,7,2,7,2,7,2,7,0,2,7,5,7,2,7,2,7,2,7,2,0,2,0,2,7,4,7,0,2,7,2,0,2,7,2,0,2,7,0,7,0,7,0,7,0,2,0,2,0,2,0,7,2,0,2,7,0,2,7,2,7,0,2,7,0,7,2,7,2,7,0,2,7,5,7,2,7,2,0,2,0,2,7,4,7,0,2,0,2,7,2,7,2,0,7,2,7,0,7,0,7,0,7,0,7,0,7,0,7,0,2,0,2,7,0,2,0,7,2,0,2,0,2,7,2,7,2,7,2,7,2,0,2,7,0,2,0,2,7,2,5,7,2,7,5,7,2,0,2,0,2,7,4,2,7,0,2,0,2,0,2,7,0,7,0,7,0,7,0,2,0,2,7,2,7,2,0,2,0,7,2,7,2,0,2,0,2,0,2,0,2,5,7,5,7,2,7,2,0,2,0,2,0,7,4,7,4,0,2,0,2,0,2,7,0,7,0,2,0,2,0,2,0,2,7,0,2,0,2,7,2,0,7,0,7,0,7,2,7,5,0,2,5,7,2,7,2,0,2,0,2,0,7,2,7,4,7,4,0,7,0,2,0,2,0,7,2,7,0,2,7,2,0,2,7,2,7,2,7,0,7,2,0,2,7,2,7,0,7,5,7,5,0,2,5,7,2,7,2,7,2,7,0,2,0,2,0,7,0,7,4,7,4,0,2,0,2,0,7,0,2,7,2,7,2,7,0,2,7,2,7,2,7,2,7,2,7,2,7,2,0,7,2,7,5,0,2,5,7,2,7,2,0,2,0,2,0,7,4,7,4,7,0,2,0,2,7,2,0,2,7,0,7,2,7,2,7,2,7,2,0,2,7,2,7,2,7,0,7,2,7,2,7,2,7,2,7,2,7,2,7,2,5,0,2,5,7,2,0,2,0,2,0,7,4,7,4,7,4,7,0,2,0,2,0,2,0,7,2,7,0,2,7,0,7,0,7,2,7,0,7,2,0,7,0,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,0,2,7,5,2,5,2,5,2,5,2,5,2,7,2,5,7,2,7,2,7,2,0,2,0,2,0,7,2,0,2,0,2,0,7,0,7,0,7,0,7,0,7,0,7,2,7,2,0,2,0,7,0,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,5,2,5,2,0,2,7,5,7,2,7,2,0,2,0,2,0,2,0,7,2,0,2,0,2,0,7,0,7,0,7,0,2,0,2,7,2,7,5,0,5,2,5,2,0,2,7,5,2,7,5,7,2,7,2,0,2,7,2,0,2,0,2,0,2,7,2,0,2,0,2,0,7,2,0,7,0,7,0,2,0,2,7,2,7,2,7,0,7,0,5,2,7,2,7,5,7,2,7,2,0,2,7,2,0,2,7,2,0,2,0,2,0,2,0,2,0,2,7,2,0,7,0,2,7,2,0,7,0,7,2,7,2,7,0,7,0,7,5,2,7,2,7,5,7,5,7,2,7,2,7,2,7,2,0,2,7,0,2,7,2,0,2,0,2,0,2,0,2,0,2,0,7,0,2,0,2,7,2,7,0,2,7,2,7,2,7,2,7,0,7,0,5,2,5,7,2,0,2,7,2,7,2,0,2,0,2,0,2,0,2,0,2,0,7,0,2,0,2,7,2,0,7,0,2,7,2,7,2,7,5,7,5,7,2,7,2,7,5,2,7,5,7,2,0,2,7,2,7,2,7,2,7,2,7,2,0,2,0,2,0,2,0,2,0,2,0,2,7,0,2,0,2,7,2,7,2,7,5,7,0,7,0,7,0,7,5,2,7,5,2,7,2,0,2,7,2,7,2,7,2,0,2,0,2,0,2,0,7,2,0,7,0,7,0,7,2,7,5,7,0,7,2,7,2,7,5,7,2,7,2,0,2,7,2,7,2,0,2,0,2,0,2,0,7,2,0,7,0,2,7,5,7,5,7,0,7,0,7,5,7,5,7,2,5,2,0,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,0,2,7,2,0,2,0,7,0,2,7,2,7,5,7,0,7,0,7,5,7,2,7,5,7,5,7,2,5,2,0,2,7,2,7,2,7,2,0,2,0,2,7,2,7,0,7,0,2,7,5,7,0,7,0,7,0,7,5,7,2,7,5,7,2,0,2,7,2,7,2,7,2,7,2,7,2,0,2,7,2,7,2,7,2,7,2,7,2,0,2,7,2,0,7,0,7,0,7,0,7,0,7,0,7,2,7,5,7,2,7,5,7,2,7,2,0,2,0,2,7,2,0,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,0,2,0,7,0,7,0,7,0,5,0,5,0,7,5,7,5,7,5,7,2,7,2,5,7,2,7,2,0,2,0,2,7,2,7,2,7,2,7,2,7,2,0,2,7,2,0,7,0,7,0,7,5,7,5,7,2,7,2,7,5,7,5,7,2,7,2,7,2,7,2,7,2,0,2,7,2,0,2,0,7,0,7,5,7,2,7,2,7,2,7,2,7,2,7,2,7,5,7,2,7,2,7,2,7,2,0,7,0,2,7,2,0,2,7,2,0,2,0,7,2,7,0,5,7,0,2,7,2,7,2,7,2,7,2,7,2,7,2,7,5,7,2,0,2,0,2,7,2,5,7,5,7,5,7,0,5,7,5,7,5,7,0,2,7,2,7,2,7,2,7,0,2,0,2,7,2,7,2,7,2,7,0,2,7,2,7,2,7,2,7,2,7,0,2,0,2,7,2,7,0,7,0,2,0,2,0,2,0]}");
+var owner2 = /*#__PURE__*/ JSON.parse("{\"amounts\":[3147,1,943,3,4,1,938,1,3,3,1,2,1,3,1,1,932,9,7,78,1,855,4,2,3,4,78,3,853,2,2,2,2,4,3,938,3,1,1,2,2,1,934,1,1,1,2,1,2,1,1,5,937,2,1,1,1,3,2,1,1,1,935,1,1,2,1,8,938,1,3,10,21,2,1,2,910,1,1,2,9,22,3,1,3,906,2,2,2,9,934,3,2,2,9,620,1,312,1,2,1,1,1,11,934,1,2,2,14,930,2,2,2,14,362,2,567,2,1,2,15,360,4,566,1,2,2,15,929,2,2,3,16,927,1,3,4,17,927,1,1,4,17,927,1,1,5,17,928,6,13,619,1,308,3,1,5,11,624,1,305,3,1,5,11,619,1,1,6,303,1,1,7,11,617,12,302,8,12,617,11,303,8,13,616,10,303,8,15,615,10,302,1,3,2,18,615,9,305,4,17,618,8,303,3,18,559,1,60,8,298,1,3,2,19,556,4,60,3,1,3,298,2,2,2,19,555,6,61,6,297,3,1,2,19,2,2,550,8,61,6,297,1,3,1,18,3,1,551,8,61,7,297,4,18,555,8,62,7,295,6,17,554,9,63,5,2,3,291,2,1,3,17,2,5,547,2,5,2,63,3,5,3,290,5,26,619,2,5,4,290,4,25,627,5,289,5,25,554,1,69,7,290,4,25,623,8,290,5,24,623,10,287,7,31,534,2,5,2,74,9,286,7,34,526,9,2,5,72,10,285,6,36,522,12,1,8,70,5,3,2,285,6,37,521,26,65,3,293,5,38,519,27,65,3,293,6,37,519,27,64,2,1,1,294,5,36,520,27,63,2,297,2,1,3,35,519,28,63,2,297,2,2,2,35,513,1,1,2,2,29,61,3,298,2,2,1,35,512,1,3,32,60,2,301,2,3,32,4,1,2,2,451,5,46,1,4,1,1,33,59,1,302,4,2,30,1,11,193,3,251,10,42,2,4,1,1,33,362,5,31,13,191,8,6,2,237,13,41,3,3,36,362,4,31,13,189,20,1,1,233,24,29,5,3,35,362,3,1,31,13,2,187,24,233,22,29,7,1,36,361,4,1,31,13,1,186,27,231,23,26,46,361,4,32,12,3,186,27,230,26,23,48,359,3,1,1,31,11,4,186,28,229,31,17,50,358,3,33,10,5,1,1,184,29,228,35,8,55,358,2,3,1,30,8,8,184,32,226,99,357,3,2,1,18,1,11,5,1,1,10,1,1,181,33,224,100,357,3,1,1,13,1,4,2,11,5,12,2,1,179,34,224,100,357,4,1,2,11,1,19,2,15,180,26,3,6,223,100,358,3,2,1,12,1,18,19,177,26,5,6,221,101,358,3,3,1,31,18,177,27,5,5,221,102,356,4,36,18,175,28,5,6,220,102,356,5,36,18,174,4,3,23,2,9,217,103,357,4,38,17,172,1,2,7,33,216,103,357,5,1,1,1,1,34,17,170,11,33,215,104,358,5,1,1,1,28,4,5,14,169,12,33,215,104,358,5,1,1,1,24,10,3,14,168,13,29,2,3,214,103,359,6,1,26,9,3,14,168,13,28,3,3,213,104,359,6,2,25,10,2,14,168,13,1,4,23,3,3,212,105,360,5,1,2,25,9,2,14,167,14,2,5,22,2,2,214,104,359,6,1,2,4,2,20,8,16,167,14,2,5,4,3,17,2,213,1,1,103,360,5,2,1,5,1,19,9,16,167,14,1,7,1,6,16,3,31,3,180,102,361,5,2,1,23,11,18,165,14,1,14,16,6,26,8,176,102,2,1,359,6,3,1,19,14,18,164,14,17,14,9,23,9,175,102,362,7,3,18,15,19,162,15,18,13,9,22,10,174,102,363,9,1,15,15,24,2,1,157,15,18,13,10,21,10,175,99,365,7,3,13,17,27,157,15,19,11,11,21,11,174,99,365,9,1,12,17,29,1,1,154,15,21,9,11,21,11,174,98,366,7,1,1,7,1,5,17,36,149,15,21,9,11,20,12,174,98,367,5,2,2,5,2,4,13,42,148,15,23,4,1,1,1,11,20,13,173,1,1,93,2,1,42,1,324,5,2,1,12,12,45,145,18,22,7,10,20,13,175,93,43,2,325,5,15,12,45,145,18,19,11,8,22,12,177,90,43,2,4,1,84,1,236,5,15,12,45,144,19,17,14,7,23,12,18,1,159,88,41,2,53,1,274,4,3,1,13,11,46,142,20,17,14,6,24,12,176,1,2,86,41,2,329,4,2,2,14,10,47,141,20,17,14,6,25,11,183,82,40,2,330,4,1,3,14,9,48,140,21,16,16,5,25,12,23,1,161,1,1,75,374,4,1,1,19,5,2,48,139,21,14,18,4,26,12,38,1,151,70,376,3,2,3,24,48,139,21,14,17,8,23,12,191,68,376,4,1,4,25,47,138,22,13,18,9,22,13,191,65,60,1,317,1,3,1,3,26,47,137,23,13,19,9,21,13,191,65,377,3,1,2,3,26,47,136,30,1,1,4,20,10,19,14,193,62,84,1,291,5,4,28,48,135,18,10,7,6,15,11,18,15,191,64,58,1,23,3,289,6,5,25,51,134,6,24,11,15,13,16,14,192,46,4,13,84,1,289,8,3,26,51,134,29,13,14,15,15,15,191,2,1,41,5,13,372,11,28,51,134,28,16,11,18,13,14,193,1,1,39,2,1,5,11,87,4,281,10,2,23,56,134,28,17,8,8,1,12,12,15,194,1,1,36,9,11,58,2,30,1,279,11,2,24,56,134,27,20,3,10,3,12,14,11,1,1,196,33,11,11,57,1,310,15,24,56,135,26,22,11,4,12,16,8,1,1,195,32,13,10,57,1,310,10,2,4,24,56,135,26,22,11,4,12,17,9,196,29,16,9,57,1,309,10,2,5,24,56,135,26,24,9,4,13,18,7,197,8,5,14,17,9,366,9,2,8,23,56,136,25,28,5,4,12,19,6,199,6,4,17,16,5,1,2,367,19,22,57,136,25,29,1,5,14,20,5,202,2,6,17,1,1,13,5,115,2,253,5,1,2,1,10,19,60,136,25,29,4,1,15,19,1,1,4,211,15,15,6,370,4,5,10,17,62,136,25,18,3,8,4,1,15,22,3,212,15,15,5,369,5,1,14,15,66,135,30,12,3,8,4,1,15,22,2,213,16,15,4,368,21,12,70,135,29,11,4,9,2,2,15,22,2,214,16,13,4,369,21,11,72,135,28,9,3,12,2,2,15,243,6,18,4,368,5,1,15,11,73,135,28,5,2,1,3,13,2,2,15,7,2,227,3,4,1,24,2,46,1,321,5,1,16,10,75,134,28,3,8,13,3,1,8,7,237,3,1,2,25,2,27,1,1,1,338,19,6,7,75,135,23,2,2,12,12,2,1,13,3,268,2,367,20,8,5,76,133,23,17,12,2,1,15,1,218,1,49,1,20,1,1,1,27,2,316,5,1,14,10,3,77,132,23,17,12,2,1,15,211,1,8,1,48,1,17,4,346,5,1,10,4,1,91,130,23,18,12,2,1,14,211,2,8,3,60,6,28,1,319,5,1,8,87,1,11,129,23,18,12,17,209,3,10,1,2,58,6,2,2,23,2,319,6,1,8,88,1,11,127,24,18,1,1,8,18,225,4,39,6,9,5,1,1,9,1,18,1,1,1,317,14,90,1,10,128,23,19,2,4,21,202,7,3,7,7,5,36,1,7,8,1,2,2,23,1,8,1,316,5,1,9,90,1,11,127,23,21,1,2,22,190,1,1,2,1,6,2,1,3,3,3,2,5,1,1,1,1,2,33,4,3,2,5,9,2,1,2,25,1,4,1,318,15,91,1,11,127,11,5,7,22,1,24,186,11,40,1,3,1,17,8,8,5,1,2,2,24,1,4,1,53,1,266,4,1,10,91,1,11,126,11,7,6,22,1,23,180,14,48,1,17,8,14,1,2,350,4,2,10,103,126,11,7,3,24,2,23,177,19,47,1,18,6,16,26,1,323,5,1,12,102,126,11,33,2,23,175,1,1,7,5,4,58,1,12,5,16,22,1,2,1,322,6,2,13,101,125,11,34,1,23,2,1,174,7,6,1,61,2,9,7,18,20,1,325,6,1,14,100,126,1,9,34,2,23,2,1,174,5,70,2,9,7,17,4,5,11,1,326,6,1,14,100,125,45,2,24,172,1,1,2,76,1,8,8,6,3,6,3,10,8,1,327,22,99,125,1,44,2,24,166,1,4,5,36,3,5,2,39,8,2,3,1,1,6,13,3,335,4,2,17,93,130,2,43,1,25,2,1,167,6,36,2,6,2,36,10,2,12,14,3,333,2,5,20,89,130,5,2,2,37,1,25,1,168,7,37,2,3,1,2,1,22,1,11,10,4,11,16,2,1,1,332,2,4,23,1,83,131,11,36,1,1,23,3,38,1,127,8,23,1,13,2,3,3,32,16,10,21,1,333,1,4,22,2,83,130,1,12,35,3,20,5,165,9,23,3,1,1,8,3,2,3,11,1,15,2,1,19,8,22,1,335,5,21,2,81,131,4,11,34,4,18,6,164,10,16,1,4,1,1,5,7,4,1,4,10,3,3,1,1,1,1,2,5,2,1,19,7,22,1,337,6,20,1,66,1,12,132,5,11,34,4,18,7,158,1,3,12,1,1,2,2,6,1,2,12,7,3,2,4,14,7,6,6,2,14,3,364,8,17,2,66,2,4,138,5,12,34,1,2,18,8,161,15,2,1,6,16,6,5,1,3,29,4,4,13,1,364,12,8,10,66,142,8,1,4,5,34,1,3,4,4,7,12,158,11,2,1,11,17,6,7,32,1,6,8,369,13,6,11,51,1,13,142,14,6,33,4,3,4,6,15,157,10,2,2,10,17,8,5,8,5,9,2,4,6,5,1,2,4,371,13,6,11,63,1,1,142,15,5,34,3,3,5,4,17,151,1,3,11,14,18,7,8,1,1,11,2,10,6,9,1,373,14,4,12,61,146,15,6,33,1,3,2,6,1,18,2,149,1,4,10,14,20,6,3,2,4,21,9,4,2,349,1,28,13,2,14,55,1,3,147,16,7,32,6,6,18,3,154,8,15,22,6,1,7,2,10,3,8,7,3,2,349,2,28,13,1,14,56,153,13,9,31,6,7,17,4,152,10,14,22,6,1,18,3,7,1,3,1,90,1,267,1,29,12,15,50,4,1,155,12,10,32,6,1,1,3,18,5,84,1,61,1,3,11,14,22,6,1,20,1,401,7,19,51,1,1,149,1,7,12,10,32,11,18,6,148,11,15,22,6,1,8,2,10,1,401,5,23,51,157,13,9,33,11,17,7,146,9,17,24,6,12,8,1,403,2,23,8,4,40,157,5,8,10,32,1,11,16,8,141,1,3,11,2,2,12,4,4,17,6,1,8,2,6,1,1,2,402,24,7,7,13,3,22,157,5,5,13,32,2,10,16,9,144,9,3,1,14,3,6,2,2,11,17,2,6,1,1,1,193,1,209,28,2,8,11,6,3,1,16,158,4,5,6,2,5,34,1,10,15,11,80,1,60,7,1,1,2,4,18,10,8,431,30,1,9,10,8,2,5,1,2,1,5,160,17,5,35,9,16,13,137,7,1,1,2,5,19,10,9,26,1,405,28,9,10,9,7,5,4,160,16,1,6,33,10,4,1,11,14,131,1,4,6,4,6,20,10,7,434,27,8,11,8,8,5,3,161,16,2,5,33,9,4,1,12,15,134,7,3,6,24,7,6,436,3,2,21,8,11,8,9,5,2,157,1,3,15,3,5,33,9,4,1,13,15,132,6,5,6,26,6,5,436,3,1,22,8,3,1,8,6,9,6,2,160,15,9,32,1,1,2,6,4,1,5,4,5,15,130,5,6,7,26,7,5,23,1,411,3,2,20,15,6,5,9,8,1,159,16,9,31,9,1,5,1,3,8,2,2,15,128,5,6,8,27,6,4,1,23,1,411,3,2,20,18,3,5,9,7,116,1,1,34,6,1,17,11,4,6,13,17,5,1,17,14,126,6,6,8,28,1,2,9,21,1,411,4,3,18,19,1,6,9,6,115,3,4,10,1,19,9,16,11,3,12,8,18,4,20,12,125,6,7,8,32,7,434,5,1,1,1,17,18,10,8,4,114,5,12,6,16,9,16,33,20,2,25,9,124,2,10,8,32,11,431,26,16,11,8,117,6,12,8,13,10,16,33,21,27,9,136,6,35,7,433,12,1,8,1,4,16,11,124,6,13,10,1,10,11,15,32,21,29,8,83,2,51,2,3,37,3,9,1,8,2,1,1,414,12,1,7,23,9,123,7,13,11,3,2,4,14,14,30,23,30,8,81,4,49,3,2,38,3,17,4,414,14,1,5,26,5,124,8,13,10,3,3,19,3,1,10,29,22,32,7,81,5,47,5,41,1,17,4,86,1,7,1,319,14,2,23,1,5,6,123,1,8,14,9,3,3,24,10,27,22,34,7,80,5,31,1,15,3,56,1,5,6,19,1,382,3,5,1,13,2,1,23,1,5,5,121,5,4,4,13,9,3,3,24,10,1,24,23,36,6,80,5,46,2,58,1,1,2,1,7,401,3,5,3,13,32,3,122,6,3,3,14,9,3,3,25,9,8,17,21,39,6,79,4,44,1,1,4,58,11,62,1,11,1,322,7,6,2,13,34,122,7,3,4,14,9,2,3,25,8,10,14,23,15,1,18,11,71,3,5,4,44,6,60,2,1,5,396,2,9,3,2,3,10,31,126,7,7,14,8,3,3,26,6,11,14,26,12,1,16,14,69,4,5,3,45,5,13,1,32,1,18,4,396,2,2,4,7,5,8,4,1,27,126,7,7,14,8,3,3,27,4,16,8,28,6,5,1,1,13,18,68,5,4,2,46,5,13,1,33,1,12,1,6,2,395,4,18,7,3,3,26,125,2,5,8,13,8,3,5,27,2,18,7,28,10,3,11,20,67,7,52,2,15,3,32,1,10,3,5,1,45,1,67,1,278,7,19,7,3,2,25,126,4,3,9,8,2,3,9,2,6,26,2,18,8,1,5,4,3,1,12,1,24,20,67,8,51,2,15,5,41,2,2,2,3,1,390,7,20,8,2,2,14,3,6,2,2,123,17,7,6,9,2,7,25,6,16,5,4,2,10,1,4,6,1,8,1,4,1,9,21,67,8,51,2,12,1,1,6,32,1,9,1,1,1,2,1,1,1,392,5,22,7,12,10,6,2,1,122,17,4,1,2,7,8,2,8,26,4,17,4,23,4,2,8,1,1,1,2,1,9,3,4,15,66,10,49,1,1,11,4,7,31,1,7,3,3,1,48,1,345,4,1,23,7,2,1,8,10,2,7,1,121,16,9,6,8,2,8,27,3,20,25,3,4,6,1,1,1,1,2,9,2,9,11,65,11,49,1,2,9,1,1,4,8,36,2,4,2,393,1,2,3,28,3,5,4,18,1,121,1,17,9,18,5,29,2,20,25,2,5,5,2,3,1,7,4,17,4,65,11,33,1,16,1,1,9,8,8,34,3,3,3,391,1,2,4,29,3,4,1,143,5,13,9,20,3,29,2,19,26,2,5,6,1,2,2,7,3,20,2,64,12,33,1,16,2,9,8,8,34,1,7,1,390,8,31,2,3,1,22,1,118,6,6,3,1,1,3,11,18,2,1,29,1,20,27,1,6,6,2,10,3,84,13,33,2,14,3,1,6,1,11,6,37,2,1,3,389,9,177,8,2,4,18,18,4,28,1,20,35,17,2,1,27,3,54,14,48,3,1,5,2,13,4,31,1,5,2,1,3,388,10,59,1,6,1,110,14,18,15,7,13,2,12,2,19,37,16,2,2,4,78,15,32,1,15,2,2,2,5,13,5,30,2,5,2,387,3,1,2,8,177,3,2,2,7,21,12,8,7,2,2,5,4,2,4,1,1,19,37,5,1,9,2,2,6,77,15,33,1,14,2,2,2,4,15,3,30,2,3,1,1,2,386,5,3,8,177,2,4,6,24,10,9,6,19,22,38,6,1,6,2,3,11,72,15,48,2,9,14,3,31,1,2,1,1,2,1,1,381,4,3,8,6,176,12,25,8,35,23,37,5,1,6,2,4,14,69,15,47,2,11,12,4,30,4,1,3,381,7,11,5,175,13,27,6,34,24,37,3,2,1,4,3,4,4,1,7,1,3,67,16,46,2,13,4,1,2,4,4,31,2,385,1,8,11,1,2,1,58,1,115,13,1,29,4,35,24,36,12,5,2,2,8,1,5,65,15,47,2,19,5,4,29,4,1,1,382,2,8,15,157,1,17,11,2,35,34,23,36,10,7,1,2,19,60,16,47,1,20,5,3,30,4,63,1,319,3,10,11,178,9,4,1,3,36,29,22,36,8,9,24,58,17,46,2,19,5,3,30,4,372,5,4,6,7,8,1,1,1,180,8,21,25,28,25,33,8,9,21,2,2,56,20,36,1,7,3,17,5,3,30,5,369,9,1,12,3,1,70,2,118,7,22,26,28,24,34,6,10,25,56,20,35,4,5,3,16,5,3,33,4,366,23,4,2,172,1,17,28,26,29,23,34,6,10,1,26,54,23,32,6,2,3,16,5,3,34,5,362,24,6,2,166,1,23,28,26,30,22,35,5,9,2,26,3,50,24,32,11,16,5,2,35,5,360,6,3,18,5,2,64,1,4,1,121,27,26,30,22,37,3,9,3,8,2,14,7,47,26,31,9,17,4,2,36,5,358,29,5,2,28,4,12,1,146,27,26,30,22,38,1,8,16,13,7,47,27,29,9,9,1,8,3,2,37,4,356,22,1,15,2,26,4,6,7,2,1,2,2,1,4,4,131,26,27,30,22,38,9,17,11,11,44,28,28,9,9,2,1,2,3,3,3,37,5,353,23,6,2,2,8,37,1,4,1,10,3,3,132,26,27,30,22,37,9,2,2,15,10,11,43,31,26,9,9,11,1,8,4,28,1,355,22,12,10,39,3,8,138,27,27,30,22,36,10,1,2,23,2,14,42,30,25,10,9,9,1,1,1,8,5,247,2,132,23,15,8,39,3,5,140,28,25,4,28,22,35,10,31,13,40,32,23,11,9,7,1,2,1,1,8,5,28,1,217,3,131,24,15,8,37,4,1,3,143,27,24,8,25,22,35,10,34,10,40,34,20,13,8,8,4,9,5,246,1,131,24,16,8,26,9,153,27,23,10,25,19,5,32,8,39,8,39,36,17,17,4,11,4,390,5,2,16,17,9,27,6,154,27,21,13,24,17,7,32,7,40,8,39,37,17,19,11,5,9,2,245,1,134,21,18,10,23,7,155,28,19,17,21,16,9,32,6,42,9,31,2,4,37,14,2,1,19,10,7,7,2,381,21,20,8,22,6,157,28,19,18,20,14,11,32,5,43,10,29,5,2,37,14,1,22,2,1,2,13,6,2,240,1,139,20,25,1,13,1,10,4,159,11,18,17,22,17,12,14,32,5,43,11,27,7,1,39,11,3,2,17,2,1,2,2,12,3,2,7,233,1,142,21,35,1,10,6,161,11,17,17,25,15,10,16,31,6,44,10,26,49,1,2,2,1,1,4,3,1,17,4,3,11,14,1,1,373,21,35,4,2,9,12,1,152,9,17,15,28,14,8,18,30,7,44,11,24,53,9,2,17,5,2,12,18,18,1,352,21,37,11,167,9,17,14,31,9,1,2,6,20,29,8,43,11,28,50,4,1,4,2,17,12,7,17,1,2,2,1,12,3,339,2,8,18,1,4,40,3,172,9,17,12,35,6,4,4,22,28,8,37,7,10,25,53,10,2,17,14,2,28,10,3,338,3,8,18,1,4,216,10,15,10,39,34,28,8,36,9,8,26,53,7,2,1,3,15,46,9,4,336,3,8,24,217,9,15,9,39,35,28,7,36,10,4,29,54,8,5,14,49,7,4,335,2,8,26,52,1,164,9,15,8,39,36,27,6,37,7,4,3,28,4,52,8,7,9,1,2,8,1,42,6,3,334,3,7,27,51,2,165,8,15,6,39,38,27,6,36,9,3,2,28,10,45,12,5,9,11,2,41,7,2,333,4,7,27,51,1,1,1,165,7,15,5,39,39,26,6,36,2,9,4,27,11,46,11,4,1,9,12,1,43,340,3,6,30,43,2,173,7,18,40,40,26,6,35,1,2,10,3,11,2,10,1,1,2,10,49,2,12,1,10,54,340,2,5,32,43,2,173,7,16,42,40,25,6,35,2,2,11,2,2,11,24,47,4,13,1,9,3,1,52,338,2,5,7,2,20,3,41,5,173,15,5,43,41,25,5,36,1,1,1,1,12,1,2,12,21,49,2,1,1,14,1,9,2,1,2,2,47,337,4,6,5,1,20,5,40,6,4,1,2,1,166,14,4,45,40,24,6,36,11,2,6,13,21,44,3,19,1,9,1,2,2,1,4,1,44,334,5,5,7,1,20,5,40,4,1,1,175,13,2,47,40,24,5,36,10,6,3,8,1,1,3,3,17,41,8,3,8,10,8,1,1,2,1,3,3,45,331,6,5,8,1,20,5,39,6,177,12,49,40,23,5,36,9,18,2,7,17,40,9,2,9,11,7,1,1,2,1,3,2,47,329,6,5,29,6,39,6,164,1,12,12,49,40,22,6,35,9,27,19,34,13,3,8,2,11,4,3,1,8,1,46,331,3,5,29,8,37,6,167,1,3,1,8,10,49,40,22,1,2,2,36,7,29,20,1,3,26,13,3,1,5,1,5,1,1,11,3,3,1,55,331,3,3,30,11,36,5,169,1,6,1,6,7,49,40,21,1,3,1,36,7,30,25,24,9,2,1,3,1,1,1,1,1,1,1,3,7,3,1,5,2,2,3,1,58,327,3,2,1,1,30,13,34,5,165,1,10,1,7,6,49,40,21,1,3,1,33,2,8,28,28,20,11,1,1,1,1,1,1,1,1,1,6,1,9,2,6,2,64,326,4,2,23,2,6,15,32,5,178,1,8,6,47,40,20,1,5,26,5,4,7,28,30,19,9,2,4,1,8,4,8,2,1,2,2,3,63,325,4,4,22,4,3,17,1,1,5,1,1,5,17,6,187,12,40,41,19,1,6,4,21,7,2,7,28,3,5,24,19,5,4,1,1,11,6,7,8,67,323,3,4,22,28,1,9,1,1,11,2,2,6,189,3,1,8,39,41,25,1,5,19,8,2,1,5,29,13,19,20,3,3,5,4,6,2,1,4,2,1,1,2,2,5,68,322,3,5,21,42,1,1,1,2,3,12,190,2,4,6,38,25,1,15,25,2,6,15,14,34,13,20,15,1,2,5,2,2,1,1,3,1,9,7,1,1,3,1,1,1,66,26,1,299,3,5,21,62,189,6,2,7,36,2,21,5,13,25,2,7,13,14,16,4,16,12,20,15,1,1,3,2,2,22,3,4,1,71,323,4,5,19,64,189,8,2,6,35,2,19,7,13,8,4,8,2,2,3,6,12,15,15,2,3,1,16,12,21,13,7,1,1,1,2,21,3,77,320,5,3,6,9,5,66,188,9,2,5,35,2,14,12,13,5,10,3,6,1,1,2,4,11,17,14,1,20,18,17,12,5,30,2,75,1,1,23,2,295,10,84,189,9,6,2,32,4,13,12,13,25,2,1,7,6,18,36,21,14,12,3,1,1,31,2,73,1,2,22,3,295,8,87,189,10,2,9,26,6,11,13,8,31,1,1,9,22,10,4,22,22,15,6,3,39,1,73,24,3,294,6,91,188,21,25,8,8,16,7,31,3,3,5,21,10,2,24,23,14,7,1,5,36,1,72,23,1,2,3,293,99,187,19,25,9,2,61,1,6,2,20,10,2,26,23,13,9,1,3,110,23,6,2,1,289,101,187,18,24,10,63,1,8,12,2,5,11,1,5,1,21,25,10,5,1,1,3,3,2,108,15,2,7,5,2,3,286,104,189,15,24,7,66,2,9,10,1,5,17,1,22,18,2,5,10,4,4,3,1,1,110,26,2,4,5,2,2,276,109,188,14,24,7,67,2,10,14,15,2,23,27,8,5,2,3,4,2,1,106,27,4,4,2,2,3,272,113,188,12,26,7,67,1,12,12,4,3,7,1,15,1,10,19,2,5,8,1,3,2,4,3,1,1,106,25,1,5,6,1,1,2,4,271,117,184,12,27,7,56,4,6,13,13,6,2,5,1,14,1,11,15,2,4,1,5,7,2,2,1,1,5,2,106,20,2,12,13,1,3,1,1,264,117,186,3,2,3,4,26,7,33,6,19,2,6,14,13,26,2,11,4,1,11,2,3,3,4,13,6,5,1,1,1,99,19,5,11,17,1,2,260,120,184,2,11,25,7,9,1,55,15,12,41,4,18,2,2,3,1,9,3,1,1,4,1,6,1,98,19,7,13,2,2,10,1,1,259,118,202,22,6,45,1,21,14,11,3,2,3,1,33,7,19,3,2,6,1,2,7,3,1,2,2,1,99,18,7,17,12,257,122,184,2,16,20,6,46,1,2,3,5,5,5,1,13,10,3,2,4,1,33,8,20,5,2,1,1,2,5,3,6,1,1,2,1,1,98,16,7,18,11,259,120,183,10,14,6,2,7,5,1,1,9,2,17,1,1,2,3,1,6,1,1,2,1,5,2,8,1,2,2,1,1,1,3,3,6,7,2,2,5,2,6,5,19,11,22,3,1,2,2,4,2,8,6,2,2,96,14,8,19,10,256,1,2,37,2,80,177,4,2,13,29,3,9,4,17,3,6,2,5,36,3,5,1,2,1,4,1,1,1,5,9,16,14,7,1,9,3,5,3,3,2,13,2,3,2,2,2,94,12,6,23,8,255,1,1,37,3,79,178,4,16,38,6,17,3,1,1,6,1,3,46,1,2,4,1,1,1,2,12,2,12,20,3,4,6,9,2,20,4,2,4,84,3,3,14,7,25,6,254,123,1,1,175,5,17,35,8,15,5,4,1,6,46,1,1,4,1,4,13,3,8,23,4,5,3,10,1,24,6,1,3,81,17,2,1,6,27,5,253,123,1,3,174,5,18,35,1,6,2,10,1,3,1,2,3,5,36,1,7,1,4,2,2,2,1,4,14,31,7,6,2,9,1,30,1,1,2,79,19,5,4,29,4,252,44,1,79,1,3,126,1,46,6,19,42,2,10,7,1,2,7,30,1,9,3,3,1,1,4,1,1,2,1,1,13,29,8,17,114,21,8,30,4,251,45,1,78,1,2,1,1,172,6,18,4,1,18,1,19,3,10,7,7,1,1,26,3,1,4,3,3,6,1,2,2,1,1,3,3,12,27,9,16,9,2,55,1,1,1,48,20,6,32,5,249,131,113,1,58,4,19,8,1,14,3,17,3,8,8,10,29,2,5,2,7,1,2,2,2,2,2,3,10,28,10,11,5,10,3,54,3,51,6,2,8,6,33,5,248,131,172,5,19,6,2,2,1,11,3,17,2,8,1,7,9,26,2,11,1,9,4,8,11,25,15,2,12,11,3,52,3,51,6,4,4,8,33,5,247,134,170,5,20,21,3,15,4,3,2,3,2,6,1,1,6,48,6,9,8,26,17,2,13,64,3,53,5,6,11,30,5,248,9,1,21,1,100,173,5,19,20,4,14,9,3,4,5,1,2,13,40,4,12,7,25,19,4,12,1,2,60,2,55,4,7,11,28,4,249,8,2,20,2,101,1,2,169,5,20,21,2,12,9,5,4,2,7,1,1,1,2,4,3,25,1,14,4,10,9,1,3,22,15,1,9,13,10,2,4,3,7,1,1,2,29,2,57,1,10,10,28,1,1,1,250,6,1,22,1,108,166,6,23,28,9,8,3,6,10,6,7,13,13,5,6,2,2,5,14,3,2,2,15,11,7,4,19,9,2,2,1,1,2,4,2,1,1,1,1,100,10,28,2,249,6,1,90,1,10,5,26,1,1,1,1,162,6,24,16,1,9,9,9,3,6,9,1,4,11,8,1,1,15,2,1,11,1,3,10,1,3,3,3,2,1,1,8,16,9,24,9,1,4,4,5,1,1,3,97,1,3,4,27,2,251,5,2,90,2,9,1,1,6,26,163,1,3,1,26,15,2,6,8,11,1,3,1,5,14,37,11,3,1,1,11,1,5,4,3,1,7,15,12,25,7,2,2,1,9,2,2,1,35,7,59,1,1,3,27,2,5,1,244,4,1,91,4,9,1,2,6,23,164,31,15,2,4,9,11,3,1,4,2,14,37,10,1,2,4,12,9,6,2,19,12,14,4,5,2,5,4,48,13,60,3,24,1,5,3,243,97,4,10,7,3,21,163,27,1,4,20,9,9,1,1,5,3,4,13,36,6,2,9,13,9,27,18,5,2,6,6,7,6,6,1,26,33,51,2,1,2,3,2,18,10,242,96,4,10,1,9,22,162,22,7,3,7,3,10,8,7,1,1,1,3,3,2,1,5,14,33,6,2,10,10,13,25,40,8,5,2,1,1,1,1,1,5,1,14,39,54,1,1,7,15,2,1,11,238,96,3,11,2,6,9,16,11,2,150,3,15,1,2,19,1,8,6,1,2,6,3,6,8,16,30,1,2,3,15,9,13,15,3,3,1,2,41,7,1,4,1,6,5,1,1,14,41,52,11,16,10,239,97,2,8,1,2,2,8,4,1,2,18,8,4,167,24,1,6,7,6,4,7,8,2,8,5,2,28,21,9,14,14,51,14,1,4,1,3,2,14,43,51,12,16,7,1,1,1,1,238,96,3,8,5,14,1,20,6,4,167,19,1,2,3,3,7,7,4,7,10,16,26,22,9,15,13,51,14,2,23,44,51,12,16,4,5,1,1,1,237,95,5,7,5,2,2,12,22,4,7,163,21,1,13,7,3,8,8,18,13,2,8,25,12,12,6,1,4,53,13,3,21,45,52,4,1,9,14,3,246,96,6,5,5,1,3,18,17,4,9,160,20,1,15,3,1,1,4,5,3,7,21,10,7,2,28,10,15,4,1,2,38,1,15,16,1,18,49,2,4,46,2,2,10,13,2,13,2,232,2,1,3,1,90,5,4,9,25,9,6,1,9,160,20,1,3,1,11,2,14,5,20,3,9,6,6,26,1,1,12,55,2,21,11,3,9,62,47,2,1,10,12,1,17,1,230,2,1,3,1,90,10,5,2,27,7,11,6,3,156,21,2,4,1,11,5,6,2,1,5,10,2,8,1,4,9,2,10,28,10,55,2,21,22,68,43,1,1,11,32,1,229,3,1,16,2,80,2,1,35,6,9,2,3,3,4,155,20,2,5,12,6,2,10,13,1,7,1,5,4,7,9,29,8,56,3,8,3,10,22,67,46,11,14,1,247,2,1,11,1,4,1,65,1,7,3,4,1,38,6,8,1,1,8,2,154,21,6,7,5,1,4,4,13,19,4,4,1,2,9,5,29,3,3,1,2,58,13,9,22,69,44,12,9,2,1,2,244,4,2,11,1,4,1,62,7,2,9,37,1,2,5,8,11,1,11,2,3,3,134,23,6,1,1,1,7,1,9,14,17,4,11,10,4,26,90,21,76,38,12,9,3,244,2,4,12,6,63,8,1,8,38,1,2,1,2,1,8,25,1,3,3,132,25,7,12,2,5,14,15,5,12,38,98,13,76,40,12,8,2,245,2,1,15,2,1,1,1,1,65,12,1,2,39,1,13,15,8,1,5,131,31,14,4,1,5,15,13,5,18,29,102,12,76,41,12,8,1,27,1,217,3,3,12,3,1,1,1,1,63,5,9,43,1,11,16,15,129,32,15,10,4,11,9,2,4,21,28,102,10,69,6,1,33,7,3,14,6,1,251,13,2,3,1,60,9,1,1,5,45,2,12,13,14,1,1,127,33,15,10,9,5,39,25,106,4,72,40,25,5,2,243,5,1,13,1,60,17,2,49,4,8,15,13,133,1,4,25,14,4,2,6,12,41,23,106,3,74,3,1,34,26,5,2,240,4,4,15,1,128,1,1,12,4,9,8,1,4,137,21,17,15,3,1,6,1,39,25,106,2,75,2,2,31,29,4,3,2,1,234,4,5,149,9,3,12,5,143,2,3,14,1,2,16,16,11,40,23,104,1,1,4,53,11,10,32,32,4,6,234,1,1,1,3,3,1,10,2,2,2,3,1,129,24,2,1,1,133,2,16,8,4,1,16,15,14,38,25,3,2,96,11,48,15,8,6,23,35,4,5,232,7,1,3,1,10,4,1,2,3,1,147,6,3,135,5,13,5,7,18,9,19,33,2,1,27,1,2,95,15,11,10,13,3,7,32,22,35,4,4,32,1,199,2,2,7,1,11,1,1,1,1,1,1,1,2,1,50,2,98,5,3,1,1,134,8,1,1,2,1,3,3,9,21,4,22,30,37,16,2,7,3,1,3,53,3,4,19,7,10,12,45,21,35,4,4,33,1,201,1,1,6,1,10,1,4,1,3,1,51,2,43,1,56,4,3,136,14,4,7,2,23,24,28,41,10,20,52,44,11,47,19,36,4,4,35,1,199,1,2,15,3,2,2,2,1,51,1,44,2,1,1,58,3,1,120,2,14,12,7,2,1,4,23,24,27,44,1,2,2,21,50,49,8,8,2,39,19,37,3,4,34,3,66,2,129,2,2,14,4,2,2,47,1,4,3,43,5,60,121,6,7,18,6,8,20,24,2,7,10,9,69,50,51,3,13,4,38,16,39,1,4,35,5,185,1,7,3,3,15,4,2,1,2,1,44,1,4,3,41,8,60,121,9,6,15,7,6,21,24,21,2,4,72,47,70,2,39,14,40,1,4,35,5,184,1,6,4,2,17,2,6,1,45,1,2,4,41,2,1,5,61,121,10,5,15,8,1,2,3,20,24,21,78,46,73,3,35,15,40,1,4,34,6,86,1,95,3,5,4,1,19,1,50,2,4,4,40,1,2,6,60,123,9,4,13,11,1,1,4,20,25,20,79,45,74,5,31,15,41,2,3,34,7,86,1,94,2,4,2,1,2,2,75,4,41,8,50,1,11,120,11,8,9,17,2,1,17,25,23,76,43,78,5,31,9,44,2,4,34,10,87,1,89,3,3,6,1,78,2,41,8,52,1,5,125,10,8,8,23,14,2,23,23,76,34,2,6,81,3,76,2,5,6,1,34,11,184,127,8,58,125,5,2,1,2,4,1,3,7,24,6,3,3,6,21,3,18,84,21,1,3,8,2,83,4,72,1,1,3,3,7,1,34,11,93,2,87,1,1,127,7,59,128,2,3,1,2,6,6,26,3,18,5,4,7,8,14,90,16,98,3,72,50,13,1,2,90,3,1,1,79,1,1,3,1,126,8,53,134,2,4,2,10,27,3,3,3,7,1,15,5,8,13,93,1,3,10,99,2,68,5,2,46,18,93,2,3,1,70,4,1,2,1,2,1,117,20,47,145,9,27,2,1,2,2,3,23,1,13,11,100,4,1,1,101,2,69,51,17,95,5,70,3,1,3,1,2,115,25,44,142,1,1,1,1,8,27,4,3,4,1,3,19,14,11,280,49,17,99,5,67,1,1,1,1,3,1,113,20,2,7,41,146,7,30,5,5,1,1,5,17,11,7,3,286,48,16,101,5,61,1,1,3,2,3,73,1,40,30,40,146,1,2,6,29,7,5,10,12,18,291,46,18,1,1,99,6,7,1,49,2,2,2,1,1,1,77,1,36,23,1,8,37,1,3,146,9,28,5,6,10,13,18,291,47,17,103,5,5,4,46,2,1,1,2,2,1,78,2,25,3,2,37,38,144,1,2,12,30,3,4,11,5,1,7,5,3,9,294,47,15,105,5,3,6,43,1,1,1,1,4,1,79,2,25,33,1,7,40,143,1,1,2,1,10,31,2,3,4,1,8,4,2,8,2,4,9,296,45,16,104,7,4,1,44,6,1,1,1,1,1,104,41,39,146,2,3,4,40,5,1,7,7,1,13,4,4,299,46,10,107,10,3,2,41,1,1,3,1,2,106,40,27,2,12,148,1,2,6,24,7,8,1,2,2,1,7,14,3,2,8,2,299,47,9,95,1,1,1,3,2,1,2,2,9,41,1,2,1,1,2,1,1,2,59,3,45,39,26,6,9,181,9,5,3,3,11,13,1,2,9,2,24,3,274,47,8,3,1,91,19,42,1,6,1,3,63,2,39,44,24,9,6,158,1,24,11,2,2,2,2,13,14,11,23,4,275,22,1,1,6,1,1,15,9,2,1,89,21,6,3,28,5,3,1,1,2,67,3,1,1,35,44,22,11,5,182,5,2,6,1,3,18,17,5,3,23,1,296,3,1,2,8,15,8,79,2,5,3,2,25,2,4,7,1,16,5,1,1,116,46,20,12,3,183,5,2,10,19,27,2,1,328,18,5,3,1,3,1,71,3,3,32,2,7,11,10,3,2,117,45,21,3,1,60,6,110,1,17,5,2,1,1,10,16,3,1,3,1,1,9,9,6,4,322,19,10,2,1,8,2,64,35,2,6,1,1,7,12,123,44,21,64,2,1,4,126,7,1,1,1,10,13,11,16,8,6,324,11,1,6,17,1,5,63,31,2,3,4,2,1,1,2,17,64,8,4,1,46,43,19,1,1,1,1,56,9,131,7,3,9,13,11,18,2,4,6,8,1,317,11,2,6,24,57,35,2,5,1,3,6,14,66,6,52,43,15,62,2,4,4,4,2,125,7,4,10,11,12,10,2,4,2,2,3,4,9,3,317,9,5,6,23,56,59,4,3,69,7,50,35,1,4,15,17,1,1,1,41,3,14,1,125,7,5,7,14,11,10,2,10,12,4,320,6,1,1,8,2,26,54,56,2,2,1,4,68,4,4,1,49,34,3,3,14,14,4,44,1,109,2,31,4,5,2,3,5,14,10,11,1,12,11,1,1,1,336,3,30,51,34,1,1,2,26,66,2,2,1,6,3,1,1,46,23,4,12,2,20,8,42,1,1,1,16,3,127,10,3,3,15,9,11,1,1,1,3,2,3,1,3,11,1,337,4,32,3,3,42,34,1,1,2,4,3,18,80,2,50,21,3,28,10,5,3,37,2,16,5,128,9,3,2,17,8,12,2,2,1,4,1,4,390,28,1,19,45,3,9,133,13,2,17,2,16,10,2,5,1,1,35,4,18,4,130,7,3,1,18,8,12,1,12,389,27,2,24,35,3,15,130,1,3,8,3,1,5,3,6,20,1,1,8,1,11,34,5,19,5,53,3,1,3,69,1,3,2,2,2,22,6,20,392,53,53,135,1,2,6,7,2,3,1,2,7,1,12,21,36,5,71,14,1,1,71,6,22,7,18,16,5,370,20,2,26,2,3,54,140,4,12,10,6,2,1,1,1,1,22,35,3,1,1,1,1,72,11,6,3,66,8,21,7,7,2,8,12,5,370,20,6,17,13,2,52,142,2,10,12,31,1,1,36,3,2,1,68,10,1,1,2,12,68,6,19,9,5,1,9,12,4,6,5,356,1,1,4,4,2,1,10,9,16,67,46,5,2,2,88,2,6,17,27,8,2,29,7,71,24,70,3,20,10,4,1,7,12,6,1,8,371,2,3,1,14,10,71,48,5,1,2,80,2,5,2,4,29,15,7,5,28,7,26,1,1,2,2,1,1,1,34,3,1,2,2,18,70,4,2,19,9,12,12,14,371,2,22,10,68,42,1,6,1,1,9,84,3,1,2,1,25,16,1,2,5,7,25,3,35,1,1,4,34,6,2,1,2,12,73,4,2,21,3,16,11,16,371,1,10,1,9,14,5,7,53,45,10,4,2,82,4,4,26,16,1,1,2,10,1,1,21,3,3,6,31,7,31,2,16,2,75,5,2,22,16,9,6,12,5,4,1,73,2,297,2,7,26,55,51,5,98,25,29,1,1,21,4,1,6,30,7,127,1,1,5,2,20,15,9,3,18,9,65,2,1,1,3,4,295,31,59,88,1,31,1,36,23,21,1,3,1,1,24,9,42,1,127,5,20,14,8,1,23,8,3,5,65,5,293,29,61,84,1,2,1,29,1,1,1,21,3,14,10,6,7,22,28,8,1,1,42,1,127,4,2,18,15,30,8,2,8,65,5,289,30,63,68,10,1,1,2,5,14,5,3,3,1,3,3,1,19,4,13,12,6,1,3,2,16,1,3,1,1,29,5,1,1,1,1,45,1,125,5,18,17,27,10,7,6,64,4,7,1,277,30,66,69,1,1,14,3,3,5,16,5,1,1,4,16,4,1,1,10,8,2,4,5,2,1,2,17,38,2,1,1,48,1,2,3,116,2,5,5,14,16,25,14,5,11,60,4,7,1,273,33,67,71,2,5,1,2,5,6,1,3,19,4,6,8,2,5,6,11,7,1,8,1,2,17,41,1,1,2,46,5,2,9,111,4,1,7,7,17,25,15,1,23,3,4,10,2,21,3,12,2,8,1,270,42,61,9,4,7,1,40,5,1,5,16,7,8,7,9,3,2,1,8,1,5,9,9,6,1,6,23,44,2,46,1,6,13,106,1,6,8,2,3,4,1,3,8,22,30,5,10,1,11,2,5,14,7,9,13,243,4,24,44,59,6,8,9,1,32,10,24,1,9,1,1,10,6,5,11,13,8,9,2,2,2,2,18,1,5,33,3,5,2,54,4,7,3,110,2,1,7,3,10,9,14,1,1,35,4,23,1,3,12,9,11,4,249,7,20,49,56,25,4,2,2,1,6,9,5,11,38,1,1,2,1,7,2,5,8,19,4,7,1,1,3,6,18,1,4,35,8,1,4,67,2,1,1,109,5,1,15,8,1,1,5,1,2,70,2,1,7,9,15,3,27,1,201,19,1,1,3,2,17,56,43,42,2,2,4,6,1,19,42,12,11,16,12,1,7,3,24,1,2,33,5,2,6,52,1,1,3,1,1,1,7,2,1,3,1,108,1,1,1,3,16,3,5,74,4,20,13,4,23,2,202,105,22,3,1,1,2,56,1,41,25,6,1,10,11,9,24,1,24,1,4,37,6,56,4,3,2,1,2,7,2,1,2,117,2,1,3,1,14,97,14,4,23,2,201,112,4,2,2,3,2,91,37,20,10,9,47,1,2,48,2,1,1,55,1,3,1,1,6,3,7,33,1,88,1,1,1,1,1,2,3,1,1,64,10,25,16,3,22,1,1,1,126,1,55,4,14,52,2,1,5,144,3,14,33,22,9,12,8,1,36,46,1,1,1,2,2,58,10,2,8,196,9,29,14,3,7,1,1,4,10,3,122,6,15,1,36,72,3,148,9,7,26,1,9,12,4,1,1,4,6,10,11,3,28,1,3,44,4,2,2,1,3,60,2,2,12,195,11,33,10,4,5,2,19,1,120,8,2,7,2,9,27,222,1,1,12,4,28,3,6,12,10,5,1,12,9,1,18,1,1,1,6,1,3,50,1,1,7,61,1,1,14,196,10,35,10,5,3,2,3,2,8,4,117,1,3,1,1,28,17,1,9,223,16,2,18,2,6,3,7,8,15,3,4,10,9,4,12,1,1,1,1,1,9,53,6,67,5,1,1,3,2,199,7,35,11,6,1,4,7,5,116,1,1,1,2,1,4,27,14,2,3,233,17,3,9,1,6,3,2,4,7,7,4,2,10,3,3,3,3,7,7,3,14,2,2,62,3,68,5,2,1,2,4,1,2,196,9,35,9,6,2,9,2,3,113,1,10,1,1,33,2,247,20,3,5,15,6,1,2,12,6,3,1,3,11,6,7,3,1,1,10,1,10,56,1,68,6,1,2,1,6,4,1,196,8,36,2,10,1,16,66,1,34,2,1,9,15,281,24,22,6,8,2,1,7,6,12,7,7,4,8,1,9,56,1,72,10,2,9,197,8,48,1,1,1,10,15,1,55,5,1,2,8,1,13,13,6,1,1,1,3,33,8,243,21,42,1,2,1,1,1,1,2,5,13,88,2,75,5,1,2,1,10,197,7,1,2,77,57,3,4,4,1,29,1,43,1,1,1,246,12,5,1,244,6,1,6,1,2,197,9,74,61,4,5,349,10,41,4,5,1,2,5,1,13,1,2,157,5,6,1,194,3,1,6,1,1,69,2,1,64,73,1,276,1,1,1,9,7,1,6,15,7,3,8,4,17,3,1,161,4,1,3,3,2,1,1,193,1,1,9,74,66,65,15,2,1,7,10,242,10,1,20,3,1,10,8,1,1,3,4,4,16,1,4,162,4,1,5,203,11,52,2,18,65,57,2,3,13,1,7,3,1,243,1,5,3,2,15,5,11,5,2,2,1,1,9,8,1,6,8,13,2,159,9,206,17,73,53,1,3,63,7,1,8,246,10,7,3,1,6,8,3,11,4,2,3,2,7,12,4,1,1,1,2,21,2,32,1,14,1,105,5,1,2,2,1,210,17,72,1,2,2,5,2,1,35,68,1,263,7,2,2,20,3,10,3,7,4,1,2,6,14,1,1,1,2,1,13,1,4,1,2,30,4,118,3,6,2,220,11,79,1,6,30,335,12,49,7,14,20,28,1,2,2,123,5,2,4,89,5,130,6,85,17,352,4,1,4,27,2,36,3,7,6,1,9,24,1,8,8,115,7,1,1,86,9,13,1,176,1,32,10,4,2,366,9,10,2,24,8,13,6,2,5,1,4,29,1,1,4,1,4,115,3,1,2,2,2,2,1,86,9,8,8,210,3,379,1,1,3,23,5,3,1,1,6,22,1,3,6,160,1,93,14,5,6,202,3,18,1,367,10,11,14,4,8,6,3,2,1,1,4,1,1,1,16,23,9,125,2,86,1,2,6,5,1,1,4,4,5,205,14,395,1,1,8,20,4,9,1,1,2,3,6,1,7,30,6,125,1,79,1,3,8,1,16,201,5,4,9,1,1,393,7,30,7,2,8,3,17,5,3,23,1,116,5,5,1,75,12,2,7,200,13,5,4,427,6,1,1,6,6,1,4,2,10,13,1,1,6,222,4,1,2,1,3,2,5,1,1,3,3,1,12,134,3,42,17,422,3,6,7,10,8,3,9,2,4,20,5,16,6,3,2,93,13,96,2,6,22,60,4,105,6,3,9,1,3,432,7,7,6,1,3,3,2,6,9,21,4,8,20,87,27,92,1,1,1,1,2,5,2,3,2,57,5,11,3,3,1,2,2,1,3,88,2,3,10,445,8,7,3,2,7,1,1,2,5,3,8,18,3,7,10,85,30,4,1,97,1,67,4,1,1,3,5,11,2,1,1,6,7,2,2,79,11,444,6,4,8,23,11,4,4,2,2,2,7,6,6,84,17,2,20,183,3,2,3,2,2,4,4,6,3,67,3,8,5,456,3,1,10,23,1,2,22,3,4,10,28,3,10,33,13,3,11,3,2,1,4,2,14,184,3,557,3,2,18,24,25,6,5,2,13,1,5,1,2,1,11,3,3,16,12,5,2,1,11,3,6,5,1,8,6,192,2,565,9,1,2,37,18,14,6,1,2,1,1,3,8,5,2,1,5,1,1,6,41,797,2,4,4,1,1,1,3,6,3,7,8,2,8,41,5,2,11,1,1,1,49,796,1,5,8,3,4,1,8,58,3,1,11,4,14,3,2,1,18,911,1,1,5,1,27,2444],\"values\":[0,70,0,69,0,70,0,69,0,69,0,70,0,70,0,70,0,69,70,0,201,0,69,0,69,70,0,201,0,69,0,69,0,69,70,0,69,0,69,0,69,70,0,69,0,69,0,69,0,69,0,69,0,69,0,69,0,69,0,69,0,69,0,69,0,69,0,69,0,69,0,70,0,201,0,201,0,69,0,69,70,0,201,0,201,0,69,0,69,70,0,69,0,69,70,0,25,0,69,0,69,0,69,70,0,69,0,69,70,0,69,0,69,70,0,47,0,69,0,69,70,0,47,0,69,0,69,70,0,69,0,69,70,0,69,0,69,70,0,69,0,69,70,0,69,0,69,70,0,69,70,0,25,0,69,0,69,70,0,25,0,69,0,69,70,0,25,0,25,0,69,0,69,70,0,25,0,69,70,0,25,0,69,70,0,25,0,69,70,0,25,0,69,0,69,70,0,25,0,69,70,0,25,0,69,70,0,24,0,25,0,69,0,69,70,0,24,0,25,0,25,0,69,0,69,70,0,24,0,25,0,69,0,69,70,0,70,0,24,0,25,0,69,0,69,70,0,70,0,24,0,25,0,69,70,0,24,0,25,0,69,70,0,24,0,25,0,25,0,69,0,69,70,0,70,0,24,0,24,0,25,0,25,0,69,70,0,25,0,25,0,69,70,0,25,0,69,70,0,24,0,25,0,69,70,0,25,0,69,70,0,25,0,69,70,0,24,0,24,0,25,0,69,70,0,24,0,24,0,25,0,69,70,0,24,0,24,0,25,0,25,0,69,70,0,24,0,25,0,69,70,0,24,0,25,0,69,70,0,24,0,25,0,25,0,69,70,0,24,0,25,0,69,0,69,70,0,24,0,25,0,69,0,69,70,0,24,0,24,0,24,0,25,0,69,0,69,70,0,24,0,24,0,25,0,69,0,70,0,72,0,72,0,24,0,24,0,24,0,24,0,25,0,69,0,70,0,72,0,152,0,24,0,24,0,24,0,24,0,69,70,72,0,152,0,152,0,24,0,24,0,24,0,69,70,72,0,152,0,152,0,24,0,24,0,24,0,69,0,70,72,75,0,152,0,24,0,24,0,24,0,69,0,70,72,75,0,152,0,24,0,24,0,69,70,72,75,0,152,0,24,0,24,0,69,70,0,70,72,75,0,152,0,24,0,24,0,69,70,72,75,0,75,0,152,0,24,0,24,0,69,70,0,70,72,75,0,152,0,24,0,69,70,0,70,0,70,72,75,72,75,0,75,0,152,0,24,0,69,70,0,70,0,70,0,70,72,75,0,75,0,152,0,24,0,69,70,0,70,0,70,72,75,0,152,153,152,0,24,0,69,70,0,70,0,70,75,0,152,153,152,0,24,0,69,70,0,70,75,0,152,153,152,0,24,0,69,70,75,0,152,153,152,0,24,0,69,70,75,0,152,150,152,153,152,0,24,0,69,70,75,0,150,152,150,152,0,24,0,69,70,0,70,0,70,75,0,150,152,0,24,0,69,0,70,0,70,71,70,75,0,150,152,0,24,0,69,0,70,0,70,71,70,75,0,150,152,154,152,0,24,0,69,0,70,71,70,75,0,150,152,154,152,0,24,0,69,0,70,71,70,75,0,150,152,151,152,154,148,0,24,0,69,70,0,70,71,70,75,0,150,152,151,152,154,148,0,24,0,69,70,0,70,0,70,71,75,0,150,152,151,152,151,152,148,0,24,0,24,0,69,70,0,70,0,70,71,75,0,150,152,151,152,151,152,148,0,158,0,24,0,69,70,0,70,71,75,0,150,152,151,152,148,0,158,0,24,0,24,0,69,70,0,70,71,75,0,150,151,152,148,0,158,0,24,0,69,0,70,71,75,0,150,151,152,148,0,158,0,24,0,69,0,70,71,75,0,75,0,150,151,152,148,0,158,0,24,0,69,0,70,71,75,0,150,151,152,148,0,158,0,24,0,69,0,70,71,75,0,75,0,150,151,152,148,0,158,0,24,0,69,73,0,70,73,70,71,75,0,150,151,152,148,0,158,0,24,0,69,73,0,70,73,70,71,75,0,150,151,152,155,152,155,148,0,158,0,24,0,24,0,24,0,205,0,69,73,0,73,71,75,0,150,151,155,148,0,158,0,24,0,205,0,69,73,71,75,0,150,151,155,148,0,158,0,24,0,205,0,205,0,203,0,69,73,71,75,0,150,151,155,148,0,158,0,47,0,24,0,205,0,37,0,69,73,0,73,71,75,0,150,151,155,148,0,158,0,24,0,24,0,205,0,69,73,0,73,71,75,0,150,151,155,148,0,158,0,24,0,205,0,69,73,0,73,71,75,0,150,151,155,148,0,158,0,84,0,24,0,24,0,69,73,0,73,71,73,75,0,150,151,155,148,0,158,0,84,0,24,0,69,73,0,73,75,0,150,151,155,148,0,158,0,24,0,69,73,0,73,75,0,150,151,155,148,0,158,0,24,0,26,0,76,69,73,0,73,75,0,150,151,155,148,0,158,0,24,0,76,69,73,0,73,75,0,150,151,150,151,155,148,0,158,0,24,0,27,0,76,0,73,75,0,150,149,150,146,155,148,0,158,0,24,0,26,0,27,0,76,0,73,75,0,150,149,146,155,148,0,158,0,24,0,24,0,27,0,76,0,73,75,0,149,146,155,148,0,158,0,24,0,24,0,24,0,76,73,75,0,149,146,155,148,0,158,0,24,0,24,0,24,0,24,0,27,0,76,0,73,75,0,149,146,155,148,147,148,0,158,0,24,0,24,0,24,0,26,0,27,0,76,0,73,75,0,149,146,155,148,147,148,0,158,0,158,0,24,0,24,0,26,0,76,73,75,0,149,146,148,147,148,0,158,0,158,0,24,0,24,0,26,0,76,0,76,73,75,0,149,146,148,147,148,0,158,0,24,0,24,0,26,0,76,0,76,73,75,0,149,146,148,147,148,0,158,0,24,0,24,0,24,0,76,0,76,73,75,0,149,146,148,147,148,0,158,0,24,0,24,0,24,0,24,0,76,73,75,0,149,146,148,147,148,0,158,0,24,0,24,0,24,0,24,0,36,0,76,0,76,0,76,73,75,0,149,146,147,0,148,0,158,0,158,0,24,0,24,0,76,0,76,73,75,0,149,146,140,146,147,0,148,0,158,0,24,0,24,0,76,0,76,73,75,0,149,146,140,146,147,0,148,0,158,0,24,0,24,0,76,73,75,0,149,146,140,146,147,0,148,0,158,0,24,0,24,0,76,73,75,0,149,146,140,146,147,0,148,0,24,0,24,0,76,0,76,73,75,0,149,146,140,146,140,146,147,0,148,0,85,0,24,0,24,0,24,0,33,0,76,0,76,73,75,0,149,146,140,146,147,0,145,148,0,24,0,24,0,24,0,34,0,34,0,76,75,73,75,0,149,140,149,140,146,147,0,145,148,0,24,0,76,75,73,75,0,149,140,146,147,0,145,148,0,190,0,24,0,34,0,34,0,33,0,76,0,76,75,73,75,0,149,140,146,147,0,145,0,190,0,190,0,24,0,34,0,76,0,76,75,76,75,0,149,140,146,147,0,145,0,190,0,190,0,34,0,33,0,76,0,76,75,0,75,0,149,140,146,145,0,190,0,35,190,0,34,0,34,0,33,0,76,0,76,75,0,75,0,149,140,146,0,146,145,0,35,0,34,0,34,0,34,0,34,0,33,0,33,0,76,75,0,75,0,149,140,0,146,145,0,190,0,190,0,35,0,190,34,0,34,0,34,0,33,0,33,0,76,0,76,75,0,75,0,149,140,146,0,145,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,190,34,0,34,0,34,0,33,0,33,0,76,75,0,75,0,149,140,149,140,0,145,0,190,0,190,0,190,0,190,34,0,34,0,34,0,33,0,33,0,28,0,76,0,76,75,0,75,0,149,140,149,140,0,145,0,190,0,190,0,190,34,0,34,0,76,0,76,75,0,149,140,149,140,0,145,0,190,0,190,0,190,34,0,33,0,76,0,76,75,0,149,140,0,145,0,190,0,190,0,190,0,190,0,190,34,0,34,0,33,0,76,0,76,75,0,149,140,0,145,0,145,0,190,0,190,0,190,0,190,34,0,34,0,76,0,76,75,0,140,149,140,0,145,0,145,0,190,0,190,0,190,34,0,34,0,34,0,76,0,76,75,0,140,0,145,0,190,0,190,0,190,0,190,34,0,34,0,34,0,34,0,76,75,0,149,140,0,145,0,190,0,190,0,190,0,190,0,190,34,0,34,0,34,0,34,0,76,77,76,75,0,149,140,0,145,0,145,0,190,0,190,0,190,0,190,0,34,0,34,0,76,77,76,75,0,139,140,139,140,0,145,144,0,190,0,190,0,190,0,190,0,190,0,190,0,34,0,34,0,34,0,76,77,76,79,75,0,139,140,0,142,145,144,0,83,0,190,0,190,0,190,0,190,0,190,34,0,34,0,76,77,76,79,75,0,138,139,140,142,145,144,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,190,34,0,34,0,77,76,79,75,0,138,139,140,142,145,144,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,190,34,0,34,0,77,76,79,75,0,75,0,138,139,140,142,145,144,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,190,34,0,77,76,79,75,0,75,0,138,139,140,0,142,145,144,0,190,0,190,0,190,0,190,0,190,0,190,0,190,34,0,77,76,79,75,0,138,139,138,139,140,0,141,145,0,145,144,0,190,0,190,0,190,0,190,0,190,0,190,0,77,76,79,75,0,75,0,138,139,140,141,145,0,145,144,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,77,76,79,75,0,75,0,138,139,140,141,145,0,145,144,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,77,76,79,75,0,138,139,140,0,143,145,0,145,144,156,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,77,0,77,76,79,75,0,75,0,138,139,140,143,0,144,156,0,190,0,190,0,190,0,190,0,190,0,190,0,190,0,77,0,77,76,79,75,0,138,139,140,143,0,144,156,0,190,0,190,0,190,0,190,0,190,0,190,0,29,0,77,0,77,79,75,0,75,0,138,139,140,143,0,143,0,144,156,0,86,0,190,0,190,0,190,0,190,0,190,0,77,79,75,0,75,0,82,0,138,139,140,143,144,156,0,190,0,190,0,190,0,190,0,190,0,77,79,75,0,138,139,140,143,144,156,0,190,0,190,0,190,0,190,0,77,79,75,78,75,0,137,138,139,140,0,143,144,156,0,190,0,190,0,190,0,190,189,190,0,190,0,190,0,190,0,190,0,79,75,78,75,80,75,0,137,138,139,140,0,143,144,156,0,190,0,90,0,190,189,190,189,190,0,190,0,190,0,190,0,38,0,79,75,78,75,80,75,81,75,0,137,138,139,129,139,140,0,143,144,156,0,86,0,190,0,190,0,189,0,189,190,0,79,75,78,75,80,81,75,47,75,47,75,0,129,139,140,143,144,156,0,190,0,190,0,189,0,189,190,0,190,0,79,78,75,80,81,47,75,0,129,130,139,140,143,144,0,144,156,0,190,0,190,0,189,0,189,190,0,79,78,75,80,81,47,75,0,129,130,139,140,143,144,0,144,156,0,190,0,189,0,189,190,0,79,0,79,78,75,80,81,47,75,0,137,0,129,130,139,140,143,144,0,144,156,0,190,0,189,0,189,190,0,79,0,79,78,75,78,75,80,81,47,75,0,129,130,140,132,143,132,143,144,0,144,133,144,156,0,190,0,189,0,189,190,0,190,0,79,0,79,78,75,80,81,47,75,0,129,130,140,132,143,144,0,144,133,144,133,156,0,190,0,189,0,189,190,189,0,190,0,79,0,79,78,75,80,81,47,0,123,124,0,128,0,129,130,140,130,140,132,144,0,133,156,0,190,0,189,0,189,192,189,0,190,0,79,0,79,78,75,80,81,47,0,123,124,0,125,0,128,129,130,140,130,140,132,144,133,156,0,190,0,189,0,189,0,79,0,79,0,79,78,80,81,47,0,123,124,125,0,128,129,130,132,144,133,156,0,190,0,189,0,189,0,79,78,80,81,0,123,124,125,0,128,129,130,132,133,156,0,189,0,189,0,79,0,79,78,79,78,80,0,123,124,125,126,0,128,129,130,132,133,156,0,102,0,189,185,0,189,0,106,0,106,0,106,0,79,0,79,78,80,0,123,124,125,126,136,0,128,129,130,132,133,156,0,102,0,189,185,0,189,0,106,0,79,0,79,78,80,0,123,124,125,126,136,128,129,128,129,130,132,133,156,0,102,0,185,0,189,0,106,0,30,0,30,0,79,0,78,0,78,80,0,122,123,124,125,126,136,128,129,130,132,133,156,0,102,0,191,0,185,0,106,0,106,0,32,0,23,0,23,79,78,0,78,0,78,80,0,122,123,101,124,125,126,136,128,129,120,130,132,133,156,0,102,0,185,0,106,0,106,0,106,0,23,0,23,79,78,80,0,122,123,101,124,125,126,136,128,129,120,130,132,133,156,0,102,0,185,0,185,0,106,0,30,0,30,0,23,0,23,79,78,0,122,123,101,124,125,126,136,128,129,120,130,132,133,0,133,156,0,191,0,102,0,185,0,106,0,106,0,22,23,0,23,0,79,78,0,122,101,124,125,126,136,128,129,120,130,132,133,0,133,156,0,191,0,102,0,185,0,187,0,106,0,106,0,22,23,0,23,0,79,78,0,78,0,122,101,124,125,126,136,128,129,120,130,132,133,0,133,0,133,156,0,191,0,102,0,185,0,187,0,106,0,106,0,106,0,22,0,79,78,0,78,0,101,122,101,124,125,126,136,128,129,120,130,132,133,0,133,156,0,191,0,185,0,187,0,106,0,106,0,106,0,30,0,31,0,22,0,79,78,0,78,0,101,122,101,124,127,124,125,126,136,128,129,120,130,131,132,131,132,131,132,131,133,156,0,191,0,185,0,187,0,106,0,106,0,106,0,22,0,79,78,0,78,0,78,0,15,0,101,124,127,125,126,136,128,129,120,130,131,132,131,132,131,132,131,133,0,133,0,133,156,0,191,0,185,0,188,0,187,0,106,0,106,0,106,0,106,0,106,0,22,0,79,78,0,78,0,15,0,101,99,124,99,127,125,126,136,128,129,120,130,131,132,131,133,0,133,0,133,0,133,156,0,156,0,191,0,197,185,0,188,187,0,106,0,106,0,106,0,30,0,22,21,0,79,78,0,78,0,78,0,15,0,101,99,127,125,126,136,128,129,120,131,132,131,133,0,133,0,133,0,133,156,0,156,0,191,0,197,185,0,188,0,188,187,0,106,0,106,0,21,0,21,0,79,0,78,0,13,0,100,101,99,127,136,128,129,120,131,132,131,133,0,133,0,133,157,0,156,0,191,0,191,0,197,185,0,188,187,0,106,0,106,0,21,0,21,0,79,0,78,0,100,101,99,127,136,128,129,120,131,132,131,133,0,133,0,133,157,0,156,0,191,0,191,0,197,0,188,187,0,106,0,106,0,21,0,79,0,78,0,12,0,100,101,99,101,99,101,99,127,136,121,128,129,120,131,132,131,133,0,133,157,0,191,0,191,0,197,185,0,185,188,187,0,106,0,106,0,21,0,98,101,98,99,127,121,128,129,120,131,133,134,157,0,171,0,191,0,197,185,0,185,188,187,0,106,0,106,0,106,0,21,0,10,0,11,0,98,99,127,121,128,121,128,129,120,131,133,134,0,171,0,191,0,191,0,197,185,0,185,188,187,0,106,0,106,0,19,0,20,21,0,135,98,135,98,99,127,121,128,121,128,121,128,121,128,120,0,120,131,133,0,133,134,0,171,0,191,0,191,0,197,185,0,185,188,187,0,106,0,106,0,106,0,19,20,21,0,98,135,98,99,127,121,128,121,120,131,133,0,133,134,0,171,0,191,0,197,185,188,187,0,106,0,106,0,106,0,106,0,18,19,20,21,0,98,99,127,121,120,131,133,0,133,134,0,171,0,191,0,197,185,188,187,0,106,0,106,0,18,20,21,0,98,99,127,121,120,131,134,133,0,133,134,0,171,0,171,0,171,0,191,0,197,185,188,185,186,188,187,0,106,0,16,18,20,21,20,21,0,9,0,98,97,99,127,121,120,131,134,0,171,0,171,0,171,0,191,0,197,185,186,187,0,106,0,106,0,16,18,20,0,89,0,98,97,99,121,120,131,134,0,171,0,171,0,191,0,197,185,186,187,0,106,0,204,0,16,18,20,0,98,97,99,97,99,121,120,131,134,0,171,0,191,0,197,185,186,187,0,106,0,16,0,16,18,0,20,0,20,0,98,97,99,121,120,131,134,0,171,0,171,0,191,0,197,0,197,185,186,187,0,106,0,16,0,16,18,17,0,47,0,98,97,99,121,120,131,134,0,171,0,191,0,197,0,197,185,186,187,0,106,0,16,18,17,0,89,0,97,99,121,120,131,134,0,163,171,0,191,0,197,0,197,185,186,187,0,106,0,16,18,17,0,89,0,97,99,121,120,131,134,0,163,171,170,0,191,0,197,185,186,187,0,106,0,16,0,16,18,17,0,7,0,8,0,97,99,121,120,131,134,0,163,171,163,171,170,0,191,0,197,185,186,187,0,106,0,16,18,17,0,4,0,6,0,97,99,121,120,131,134,0,163,171,170,0,191,0,197,185,186,185,186,187,0,106,0,16,0,16,17,0,4,0,5,6,0,6,0,6,0,199,0,97,99,121,120,131,0,163,171,170,0,191,0,197,185,186,185,186,185,186,187,0,106,0,16,0,16,0,16,0,5,0,5,6,0,199,0,97,99,121,120,131,0,163,0,163,171,170,0,191,0,197,185,186,187,0,193,0,106,0,16,0,16,0,5,6,0,97,99,121,120,131,0,163,0,163,171,170,0,191,0,197,185,186,187,0,187,0,193,0,1,0,16,0,16,0,5,6,0,97,99,96,121,120,131,0,163,170,0,191,0,197,185,186,0,187,0,187,0,193,0,106,0,1,0,16,0,16,0,5,0,6,0,97,99,96,121,120,131,0,163,170,0,191,0,197,185,186,187,0,193,0,1,0,16,0,16,0,3,0,97,99,96,121,120,92,131,0,163,170,0,191,0,197,185,186,187,0,16,0,16,0,16,0,3,0,97,99,96,121,120,92,131,0,163,170,0,191,0,197,186,187,0,193,0,1,0,16,0,16,0,3,0,97,99,96,121,120,92,131,0,163,170,0,191,0,191,0,197,0,197,186,187,0,193,0,16,0,16,0,3,0,97,99,96,121,120,92,131,0,163,170,0,191,0,191,0,184,197,186,193,186,187,0,193,0,1,0,16,0,16,0,3,0,3,0,95,97,99,96,121,120,92,131,0,163,170,0,191,0,191,0,184,0,197,193,186,193,186,187,193,0,193,0,1,0,16,0,3,0,3,0,95,97,99,96,121,120,92,131,0,163,170,0,191,0,191,184,0,184,0,184,0,197,193,186,187,193,0,193,0,16,0,3,0,3,0,14,0,95,97,99,96,121,120,92,91,0,163,170,0,191,184,191,197,193,186,187,193,0,105,0,16,0,3,0,95,97,99,96,121,92,121,120,92,91,0,163,170,0,191,184,0,184,191,197,193,187,193,0,193,0,193,0,105,0,16,0,16,0,16,0,3,0,95,97,99,96,121,92,120,92,91,0,163,169,170,0,191,184,191,197,193,187,193,0,105,0,16,0,16,0,16,0,95,97,99,96,92,91,0,163,169,170,0,191,184,191,184,191,197,193,0,105,0,16,0,16,0,95,97,99,96,92,91,0,163,169,170,0,191,184,191,197,193,0,105,0,16,0,16,0,14,0,95,97,99,96,92,91,0,163,0,169,170,0,181,191,184,191,197,193,197,193,0,193,0,105,0,16,0,16,0,14,0,95,97,99,96,92,91,0,163,0,169,170,0,181,191,184,191,197,193,0,193,0,105,0,16,0,16,0,14,0,14,0,95,97,99,96,92,91,0,163,172,0,169,0,181,191,184,191,0,197,193,0,193,0,16,0,16,0,1,0,95,97,96,92,91,0,163,0,172,0,169,0,165,181,0,181,0,181,191,184,191,0,197,193,0,16,0,16,0,1,0,95,97,96,92,91,0,163,0,172,0,169,0,165,181,191,184,191,0,197,193,0,193,0,16,0,16,0,16,1,0,1,0,95,97,96,92,91,0,163,0,87,0,172,0,170,0,165,181,191,184,191,184,191,0,197,193,0,193,0,193,0,16,0,16,0,16,1,0,1,0,14,0,14,0,95,97,96,92,91,0,163,0,165,0,165,181,191,182,191,0,197,193,0,193,0,193,0,193,0,16,0,16,0,16,1,0,1,0,1,0,95,97,96,92,91,0,163,0,165,0,165,0,165,0,165,181,191,182,191,183,191,197,193,0,193,0,193,0,193,0,16,0,16,0,16,1,0,1,0,95,96,92,91,0,163,0,165,0,165,181,191,182,191,183,191,197,193,0,193,0,193,0,193,0,16,0,16,1,0,1,0,208,0,95,96,92,91,0,163,0,165,181,191,182,0,183,0,191,197,193,0,193,0,193,0,16,0,16,1,0,1,0,208,0,208,0,94,96,92,91,0,91,0,163,0,165,181,191,181,191,182,0,193,0,183,0,193,0,191,197,193,0,193,0,16,0,16,1,0,1,0,208,0,208,0,94,96,92,91,0,91,0,163,0,165,181,191,182,0,182,0,193,0,193,0,193,0,193,0,193,191,0,191,0,197,193,0,193,0,16,0,16,0,16,1,0,1,0,208,0,208,0,94,96,92,91,0,91,0,163,174,0,165,181,191,182,0,193,0,193,0,193,0,193,0,193,0,193,0,191,0,193,0,16,0,16,1,16,1,0,1,0,208,0,94,96,92,91,0,91,163,164,174,0,165,181,191,182,0,193,0,193,0,193,0,191,0,191,0,193,0,16,0,16,1,16,1,0,1,0,1,0,1,0,1,0,94,96,92,91,0,91,162,163,164,174,0,165,181,180,181,191,182,0,193,0,193,0,193,0,193,0,16,0,16,1,0,1,0,1,0,1,0,1,0,94,0,94,96,92,91,161,162,163,164,174,164,0,165,180,181,191,182,0,193,0,193,0,193,0,193,0,193,0,193,0,193,0,16,0,16,1,0,1,0,1,0,1,0,94,0,94,96,92,0,92,91,161,162,163,164,165,180,181,191,0,191,0,193,0,193,0,193,0,193,0,193,0,193,0,193,0,193,0,103,0,16,0,16,1,0,94,0,94,96,93,92,0,92,91,161,162,163,164,165,0,165,180,181,191,0,191,0,193,0,193,0,193,0,193,0,16,0,16,1,0,94,0,94,96,93,92,0,92,91,0,91,0,91,161,162,163,164,165,0,165,0,165,180,181,191,0,193,0,193,0,193,0,193,0,16,0,16,1,16,1,0,94,0,94,96,93,92,0,92,91,0,91,0,173,161,173,162,163,164,165,0,165,180,181,191,0,193,0,193,0,193,0,103,0,16,1,0,94,0,94,96,93,92,0,92,0,161,173,162,163,164,165,180,181,191,0,193,0,193,0,193,0,193,0,103,0,16,1,0,94,0,94,96,93,92,0,92,0,161,173,162,164,165,0,165,180,181,191,0,193,0,193,0,103,0,16,1,0,94,96,93,92,0,92,0,161,159,162,164,165,0,165,180,181,191,0,191,193,0,193,0,103,0,103,0,1,0,94,96,93,92,0,161,159,162,164,165,0,165,180,181,191,0,191,193,0,103,0,103,0,1,0,94,96,93,0,160,159,164,0,164,165,0,165,0,165,180,181,191,0,191,0,191,0,193,0,194,0,103,0,103,0,1,0,94,96,93,0,160,159,164,0,164,165,0,165,180,0,180,181,191,0,191,0,191,193,0,103,0,103,0,103,0,1,0,94,96,93,0,160,159,164,165,0,165,180,181,191,0,191,0,193,0,193,0,103,0,103,0,103,0,1,0,94,96,93,0,160,159,164,165,0,165,0,165,0,165,180,0,180,181,0,191,0,191,0,193,0,193,0,103,0,103,0,103,0,103,0,1,0,94,96,93,0,65,0,159,164,165,0,165,0,165,0,165,180,0,180,0,180,181,0,181,0,181,191,0,193,0,194,0,103,0,103,0,103,0,1,0,94,0,94,0,96,93,0,55,0,65,0,159,164,165,0,165,180,175,180,0,180,0,180,181,0,193,0,193,0,193,0,194,0,103,0,103,0,1,0,94,0,96,93,0,67,0,159,164,165,175,180,0,180,181,0,181,0,193,0,193,0,193,0,193,0,194,0,103,0,103,0,103,0,1,0,96,93,0,55,0,159,164,165,0,165,0,165,175,180,181,0,181,0,181,193,0,193,0,193,0,193,0,194,0,103,0,1,0,53,0,96,93,0,66,0,66,0,66,0,66,159,164,165,0,165,0,165,175,180,181,0,181,0,181,193,0,193,0,193,0,193,0,193,0,194,0,103,0,1,0,53,0,96,0,96,93,0,93,0,52,0,55,0,55,0,55,0,55,0,66,0,66,0,66,0,66,0,66,159,66,159,66,159,164,165,0,165,0,165,0,165,175,180,181,0,181,0,193,0,193,0,193,0,193,0,194,0,103,0,1,0,1,0,1,0,54,0,53,0,93,0,52,0,55,0,55,0,66,159,164,66,165,0,165,0,165,0,165,0,165,175,180,179,180,179,180,0,193,0,193,0,193,0,193,0,193,0,194,0,103,0,1,0,1,0,1,0,54,53,0,52,0,55,0,55,0,55,0,66,165,0,165,0,165,0,165,0,175,165,175,176,179,180,179,0,193,0,193,0,193,0,193,0,194,0,103,0,1,0,1,0,54,53,0,52,0,55,0,55,0,66,165,0,165,0,165,0,175,165,175,176,179,180,179,0,193,0,193,0,193,0,195,0,194,0,103,0,1,0,1,0,54,53,0,52,0,52,0,55,0,55,0,55,0,66,0,66,0,66,165,0,165,0,165,0,175,176,179,180,179,0,193,0,193,0,193,0,195,194,0,103,0,1,0,1,0,1,0,54,0,54,53,0,52,0,55,0,55,0,66,0,66,0,66,165,0,165,0,165,0,165,167,0,175,176,179,193,0,195,0,103,0,1,0,1,0,1,0,1,0,54,53,0,53,0,52,0,52,0,55,0,55,0,66,0,66,0,66,0,66,0,165,167,168,0,165,167,0,175,176,179,193,0,193,0,193,0,193,0,195,0,103,0,1,0,54,0,54,53,0,53,0,52,0,52,0,55,0,66,0,66,0,66,0,165,167,168,167,165,167,0,175,176,179,178,193,0,193,0,193,0,193,0,195,0,103,0,1,0,54,53,0,53,0,53,0,52,0,52,0,56,55,0,66,0,66,0,66,168,167,0,175,176,179,178,193,0,193,0,193,0,193,0,195,0,103,0,1,0,54,53,0,52,0,52,0,52,0,56,55,0,55,0,66,168,167,0,175,176,179,178,193,0,193,0,193,195,0,103,0,1,0,1,0,1,0,54,53,0,52,0,52,0,56,55,0,55,0,66,168,167,0,175,176,179,178,193,178,193,0,193,0,193,195,0,103,0,1,0,1,0,1,0,1,0,54,53,0,52,0,52,0,56,57,55,0,55,0,55,66,0,66,0,66,168,167,0,175,0,175,176,177,176,178,193,0,193,0,193,0,193,0,193,0,193,0,193,195,0,103,0,103,0,1,0,1,0,1,0,54,53,0,52,0,56,57,55,66,0,66,0,66,166,167,166,167,0,175,177,176,175,176,177,176,178,193,0,193,0,193,0,193,0,193,0,193,0,193,195,0,103,0,1,0,1,0,1,0,1,0,1,0,1,0,54,53,0,47,0,52,0,56,57,58,55,66,0,66,0,66,0,166,66,166,167,46,0,175,0,175,177,176,175,0,175,176,177,178,193,0,193,0,193,0,193,0,193,195,193,195,0,103,0,1,0,1,0,1,0,2,0,1,0,54,53,54,53,0,47,0,52,0,59,56,60,57,58,0,166,46,0,46,0,177,175,177,176,0,175,176,177,178,193,0,193,0,193,0,193,0,193,196,193,195,193,195,0,103,0,103,0,1,0,1,0,1,0,2,0,1,0,53,0,47,0,52,0,59,56,60,107,58,0,166,46,0,46,0,177,176,175,176,177,178,0,178,177,193,0,193,196,193,195,0,103,0,103,0,1,0,1,2,0,1,0,53,104,47,0,52,0,109,108,59,60,107,58,0,166,0,46,0,177,176,177,178,177,178,177,193,0,193,0,193,196,193,195,193,46,0,46,0,103,0,1,0,1,0,2,1,0,53,0,47,0,47,0,52,0,109,0,109,108,59,107,60,107,58,0,166,0,46,0,177,176,177,193,0,193,0,193,0,193,0,193,0,193,196,193,46,0,46,0,103,0,103,0,1,0,1,0,2,0,1,0,2,0,53,0,47,0,47,88,0,52,68,52,0,109,108,107,58,0,46,166,0,46,0,177,176,177,176,177,176,177,193,0,193,0,193,0,193,0,193,196,193,46,0,103,0,1,0,1,0,1,0,2,0,2,0,1,0,2,0,47,52,0,52,0,109,108,107,58,119,58,119,0,46,0,177,176,177,193,0,193,0,193,0,193,196,193,46,0,103,0,103,0,103,0,1,0,1,0,2,0,1,0,2,0,47,0,47,52,0,52,0,109,108,107,119,0,46,0,177,176,177,193,0,193,196,193,46,0,103,0,103,0,103,0,1,0,1,0,2,0,2,1,0,2,0,47,0,52,0,109,108,107,119,0,46,0,46,0,177,176,0,176,177,193,0,193,196,193,46,0,46,0,103,0,1,0,1,0,2,0,2,1,0,2,0,47,0,52,0,109,0,109,108,109,107,119,0,46,0,46,0,177,176,0,176,177,0,177,193,0,193,196,193,196,193,46,0,46,0,103,0,103,0,1,0,1,0,1,0,1,0,2,1,2,0,2,0,47,0,52,0,52,0,109,107,119,116,0,46,0,46,0,46,0,177,0,177,193,0,193,196,193,0,193,46,0,103,0,46,0,1,0,1,0,1,0,2,0,2,1,2,0,2,0,47,0,52,0,52,110,109,118,109,107,119,0,119,117,116,0,46,0,46,0,177,0,177,193,196,193,0,193,46,0,46,0,1,0,1,0,1,2,0,2,1,2,0,2,0,2,0,47,48,0,52,110,109,118,119,0,119,117,116,0,46,0,46,0,177,0,177,0,177,193,196,193,46,0,46,0,1,0,1,0,1,0,1,0,1,0,1,0,2,1,2,0,2,0,2,0,47,48,0,52,0,111,110,118,119,117,116,0,116,46,0,46,177,0,177,0,177,0,177,193,196,193,46,0,46,0,46,0,1,0,1,0,1,0,1,0,1,0,2,0,2,1,2,0,2,0,2,0,2,0,47,48,0,48,74,0,52,111,118,119,117,116,46,0,46,177,193,196,193,46,0,46,0,1,0,1,0,1,0,1,0,2,0,2,1,2,1,2,0,2,0,2,0,47,48,111,0,111,118,119,117,116,46,177,193,196,193,46,0,46,0,1,0,1,0,1,0,1,0,1,0,2,0,2,0,2,0,2,0,2,0,47,61,111,0,111,118,119,117,116,46,177,193,196,193,46,0,46,0,46,0,1,0,1,0,1,0,1,0,1,2,0,2,0,2,0,2,0,47,61,111,113,118,116,119,117,116,46,177,193,196,193,196,193,46,193,46,0,46,0,1,0,1,0,1,2,0,2,0,2,0,2,0,2,0,2,0,47,61,111,113,118,116,46,177,193,196,193,46,0,46,0,2,0,1,0,1,2,0,2,0,2,0,2,0,47,0,47,61,112,111,112,113,116,46,177,193,196,193,0,193,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,47,61,112,113,114,113,114,116,46,177,193,196,193,0,193,46,0,46,0,46,0,2,0,2,0,2,0,2,0,47,0,47,50,51,61,112,114,116,46,177,46,177,46,196,46,196,193,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,39,0,47,50,51,61,112,114,116,46,177,46,177,46,196,46,196,46,193,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,39,0,47,50,61,112,114,116,46,116,46,177,46,177,46,196,46,196,46,196,46,193,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,39,0,39,0,39,0,47,50,61,112,114,116,46,177,46,177,46,177,46,177,46,177,46,196,46,196,46,193,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,39,0,50,49,61,114,116,46,177,46,177,46,196,46,193,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,40,0,39,0,49,50,49,61,114,116,46,177,46,177,46,177,46,196,46,0,46,193,46,0,46,0,46,0,1,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,40,0,39,0,49,61,114,115,116,115,116,46,177,46,196,46,0,46,193,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,40,0,39,0,49,61,114,115,46,116,46,177,46,0,46,193,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,40,0,39,0,49,0,49,61,114,115,46,177,46,0,46,193,46,0,46,0,46,0,1,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,40,0,39,0,49,0,49,61,114,115,46,177,46,0,46,193,46,0,46,0,46,0,1,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,40,0,39,0,61,0,61,114,115,46,177,46,0,46,193,46,0,46,0,46,0,1,0,2,0,2,0,2,0,2,0,2,0,2,0,40,0,39,0,61,0,114,115,46,177,46,177,46,0,46,0,46,0,46,0,46,0,2,0,2,0,40,39,40,39,0,39,0,39,0,61,0,61,0,114,64,115,46,177,46,177,46,177,46,0,46,0,46,0,46,0,46,0,46,0,1,0,1,0,2,0,2,0,40,39,0,39,0,39,0,61,0,114,0,46,64,115,46,177,46,0,46,0,46,0,46,0,1,0,1,0,1,0,1,0,2,0,2,0,40,39,0,39,0,42,0,42,0,42,0,46,64,115,46,177,46,177,46,0,46,0,46,0,46,0,1,0,1,0,1,0,1,0,1,0,2,0,2,0,39,0,42,0,42,0,42,0,46,64,115,46,177,46,177,46,0,46,0,46,0,1,0,1,0,1,0,1,2,0,2,0,39,0,39,0,39,0,42,0,42,0,45,0,64,115,46,0,46,0,1,0,1,0,1,0,1,0,2,0,2,0,2,0,39,0,42,0,42,0,45,0,64,63,115,46,0,46,0,1,0,1,0,1,0,1,2,0,2,0,2,0,39,0,39,0,42,0,45,0,63,46,0,46,0,46,0,1,0,1,0,1,0,1,0,1,0,2,0,2,0,2,0,2,0,2,0,39,0,42,0,45,0,63,46,0,46,0,1,0,1,0,1,0,1,0,1,0,2,0,2,0,2,0,2,0,39,0,39,0,42,0,45,0,45,0,63,0,63,46,0,46,0,1,0,1,0,1,0,1,0,1,0,2,0,2,0,2,0,2,0,39,0,39,0,39,0,42,0,45,0,45,0,45,0,63,0,63,46,0,46,0,1,0,1,0,1,0,1,0,2,0,2,0,2,0,39,0,39,0,45,0,45,0,45,0,63,62,46,0,46,0,1,0,1,0,1,0,1,0,1,2,0,2,0,2,0,39,0,39,0,43,0,45,0,45,0,45,0,62,0,62,0,46,0,46,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,2,0,2,0,2,0,2,0,43,0,45,0,45,0,62,0,62,0,46,0,46,0,46,0,46,0,1,0,1,0,1,0,2,0,2,0,2,0,2,0,39,0,43,0,43,45,0,45,0,62,46,0,46,0,46,0,46,0,46,0,46,0,46,0,1,0,1,0,1,2,0,2,1,2,0,2,0,2,0,2,0,2,0,43,0,43,0,43,45,0,62,0,46,0,46,0,46,0,46,0,46,0,1,0,1,0,1,0,1,0,1,0,1,0,1,2,0,2,0,2,0,43,0,43,45,0,46,0,46,0,46,0,46,0,46,0,1,0,1,0,1,0,1,2,1,2,0,2,0,2,0,207,0,39,0,43,0,43,0,43,45,0,44,0,44,0,44,0,46,0,46,0,46,0,46,0,46,0,1,0,1,0,1,0,1,2,0,2,0,207,0,207,0,43,0,43,0,43,45,0,44,46,0,46,0,46,0,46,0,46,0,1,0,1,0,1,0,1,0,1,2,0,2,0,2,0,2,0,2,0,2,0,207,0,43,0,43,45,0,44,0,46,0,46,0,46,0,46,0,46,0,1,0,1,0,1,0,1,2,0,2,0,2,0,207,0,207,0,207,0,43,0,43,45,0,44,0,44,0,44,46,0,46,0,46,0,46,0,46,0,1,0,1,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,43,0,43,45,0,44,0,44,46,0,46,0,46,0,46,0,46,0,1,0,1,0,1,2,0,2,0,2,0,2,0,2,0,2,0,207,0,206,0,43,0,43,0,43,45,0,44,0,44,46,0,46,0,46,0,46,0,1,0,1,0,1,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,43,0,43,45,0,44,0,44,0,44,0,44,0,44,46,0,46,0,46,0,46,0,1,0,1,0,1,0,1,2,0,2,0,2,0,2,0,2,0,207,0,207,0,43,0,43,45,0,44,0,44,0,44,0,44,46,0,1,0,1,0,1,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,43,0,43,45,0,44,0,44,46,0,1,0,1,0,1,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,41,0,41,0,43,0,43,0,43,45,0,44,46,0,1,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,41,0,41,0,43,45,0,44,46,0,46,0,46,0,1,0,1,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,41,0,41,0,43,45,0,44,0,44,46,0,46,0,46,0,1,0,1,2,0,2,0,2,0,2,0,207,0,207,0,41,0,41,0,41,0,43,45,0,44,0,44,46,0,46,0,46,0,46,0,46,0,46,0,46,0,1,2,0,2,0,2,0,2,0,2,0,2,0,207,0,41,0,43,45,0,44,0,44,46,0,46,0,46,0,46,0,46,0,1,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,207,0,41,0,41,0,41,0,43,0,45,0,44,46,0,46,0,46,0,1,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,41,0,41,0,41,0,43,0,45,0,44,46,0,46,0,46,0,46,0,1,0,1,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,41,0,41,0,43,0,45,44,46,0,46,0,46,0,46,0,46,0,46,0,1,2,0,2,0,2,0,2,0,207,0,207,0,207,0,43,0,43,0,45,44,46,0,46,0,46,0,46,0,46,0,46,0,1,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,43,45,44,46,0,46,0,46,0,46,0,46,0,1,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,43,0,45,44,46,0,46,0,46,0,46,0,1,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,43,45,44,46,0,46,0,46,0,46,0,46,0,1,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,43,0,43,45,44,46,0,46,0,46,0,46,0,46,0,1,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,43,0,43,45,44,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,1,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,43,0,43,45,44,43,44,43,44,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,1,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,43,0,43,44,43,44,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,1,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,43,0,43,44,43,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,1,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,207,0,207,0,207,0,207,0,43,0,43,0,43,44,43,0,46,0,46,0,46,0,46,0,1,0,1,0,1,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,207,0,207,0,43,0,43,0,43,0,46,0,46,0,46,0,1,0,1,0,1,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,207,0,207,0,43,0,43,0,43,0,43,0,43,0,43,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,207,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,207,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,207,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,207,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,2,0,2,0,207,0,207,0,207,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,46,0,46,0,46,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,46,0,46,0,46,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,46,0,46,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,207,0,46,0,46,0,46,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,46,0,46,0,46,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,43,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,43,0,43,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,207,0,207,0,207,0,43,0,43,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,43,0,43,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,43,0,43,0,43,0,43,0,43,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,43,0,43,0,43,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,43,0,43,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,43,0,43,0,43,0,43,0,43,0,43,0,43,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,43,0,43,0,46,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,43,0,43,0,43,0,43,0,43,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,43,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,46,0,46,0,46,0,46,0,46,0,46,0,46,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,207,0,207,0,207,0,46,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,207,0,207,0,207,0,207,0,207,0,207,0,207,0,207,0,46,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,207,0,207,0,207,0,207,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,2,0,2,0,2,0,2,0,207,0,207,0,207,0,207,0,207,0,207,0,207,0,207,0]}");
+var occupations = /*#__PURE__*/ JSON.parse("{\"amounts\":[3147,1,950,1,946,2,1,3,1,1,941,7,943,4,946,3,947,1,3789,10,940,9,941,9,941,9,939,11,939,14,936,14,936,15,935,15,936,16,935,17,933,17,934,17,934,13,937,11,939,11,939,11,939,12,939,13,937,15,933,18,933,17,932,18,932,19,931,19,931,19,2,2,927,18,3,1,928,18,933,17,933,17,2,5,925,26,924,25,926,25,925,25,926,24,927,31,919,34,915,28,2,6,914,28,922,26,925,26,924,26,925,24,926,24,926,16,1,6,928,15,2,5,929,2,3,8,936,1,7,5,946,1,31671,1,18690,2,946,5,236,3,704,8,235,3,701,11,234,4,700,13,231,3,702,13,228,2,1,3,702,14,226,8,689,6,7,15,218,2,2,12,688,8,5,8,224,17,688,10,3,9,223,17,683,4,1,22,222,18,681,29,222,18,681,29,15,20,187,18,680,40,4,21,187,19,294,1,384,40,3,23,186,21,284,4,3,2,383,42,2,24,185,2,2,18,284,8,383,42,1,25,189,18,284,8,383,67,191,16,287,6,384,66,193,13,289,5,38,1,346,65,194,12,287,7,38,1,346,66,194,10,288,7,37,1,347,67,194,9,287,8,36,1,349,67,193,9,287,8,387,66,193,9,284,10,391,61,486,10,397,58,482,16,394,59,475,2,1,19,394,60,474,2,1,19,394,60,474,6,2,14,394,61,474,4,4,13,395,61,475,1,6,8,399,51,1,9,470,6,5,1,2,4,401,61,470,6,9,1,403,61,467,9,4,2,407,55,1,3,471,7,3,2,407,56,473,1,3,1,415,50,4,1,895,51,1,1,899,51,898,8,4,40,898,7,7,13,3,22,903,2,8,11,6,3,1,16,904,1,9,10,10,5,1,2,1,5,392,1,522,10,16,5,4,392,1,521,11,16,5,3,392,2,521,11,17,5,2,391,3,521,3,1,8,15,6,2,390,5,526,6,14,8,1,159,1,229,5,530,3,14,7,159,4,227,6,531,1,15,6,161,3,226,6,549,4,162,4,225,2,719,4,947,3,948,4,947,3,186,1,949,1,948,2,948,1,856,5,78,2,5,1,1,2,854,8,77,2,5,3,852,12,76,3,4,2,851,15,75,4,805,1,5,4,41,15,75,5,803,4,2,5,40,16,74,6,802,11,41,3,4,9,74,8,799,12,41,2,9,5,73,9,799,11,134,6,798,12,34,1,98,7,798,12,32,4,97,2,1,4,798,12,33,3,34,3,63,5,796,14,32,3,8,4,91,2,796,14,30,4,11,3,821,1,66,14,29,1,1,3,12,7,815,3,66,12,29,1,1,4,15,7,811,6,64,12,29,1,1,4,15,4,1,3,809,9,63,12,48,5,1,5,806,16,57,12,49,14,801,23,51,11,51,15,798,25,53,8,51,12,2,2,65,3,580,2,147,26,52,8,51,16,66,3,728,26,52,8,51,18,63,6,726,26,52,10,49,18,62,8,1,1,497,1,225,26,52,10,46,4,2,14,62,13,494,2,225,26,52,10,53,13,61,14,492,10,218,27,52,10,54,11,61,14,493,1,2,8,217,27,52,10,55,10,63,12,496,10,215,27,52,10,62,2,63,12,327,2,170,8,215,25,54,10,125,7,2,4,327,3,170,8,215,24,55,10,125,5,3,4,329,1,171,8,215,23,54,5,133,2,510,9,214,21,54,7,471,1,173,10,213,19,54,9,647,8,213,19,52,11,183,1,282,1,184,1,216,17,51,14,181,3,278,1,404,17,51,15,181,3,683,15,53,15,180,4,683,14,54,15,180,4,683,12,56,15,180,4,683,10,58,15,181,2,684,9,59,15,181,2,684,8,60,15,867,6,62,15,867,5,63,15,935,15,94,12,1,1,2,1,824,15,85,27,512,3,308,15,85,27,510,5,308,15,85,26,511,5,308,15,85,7,1,1,3,14,66,3,442,5,308,15,86,5,2,18,66,4,16,1,423,6,308,15,87,24,67,5,10,3,1,1,422,8,307,15,88,24,53,1,11,1,1,5,9,3,1,5,417,11,305,15,87,26,50,1,1,1,1,1,1,1,3,10,1,1,8,3,1,5,417,13,302,16,87,30,40,1,1,1,1,1,1,1,1,6,1,9,2,6,2,12,407,2,6,15,301,16,90,27,39,4,1,8,4,8,2,1,2,2,3,13,405,4,3,17,1,1,299,16,90,28,37,1,1,11,6,7,8,15,404,28,298,16,90,27,36,5,4,6,2,1,4,2,1,1,2,2,5,15,404,29,299,15,91,11,1,15,34,2,2,1,1,3,1,9,7,1,1,3,1,1,1,18,403,30,300,13,93,6,6,14,30,2,2,22,3,4,1,21,401,32,300,13,106,1,2,11,30,1,1,1,2,21,3,27,398,33,300,13,106,1,6,7,27,30,2,29,395,33,301,13,116,3,26,1,1,31,2,27,397,32,301,8,123,1,13,1,4,1,3,39,1,25,406,24,302,7,134,5,2,2,1,6,35,1,26,405,24,443,10,1,3,63,406,24,369,1,72,6,1,1,3,3,2,65,403,22,370,4,70,5,4,3,1,2,64,405,13,379,4,70,6,2,3,4,2,1,60,406,9,383,4,72,3,2,4,3,1,1,1,60,407,8,381,7,73,2,1,6,2,4,58,408,8,381,8,68,9,6,4,1,1,1,1,51,411,8,382,7,67,9,3,1,1,4,1,6,1,2,4,39,415,8,379,8,67,1,2,6,1,9,3,1,2,2,1,10,37,413,8,366,1,4,1,7,7,2,1,67,3,2,1,1,5,2,3,6,1,1,2,1,1,8,6,5,22,6,2,781,1,5,4,3,6,2,2,72,2,2,4,2,8,6,2,2,16,31,784,4,3,8,1,1,2,76,3,2,13,2,3,2,2,2,10,27,1,1,787,14,2,3,76,20,4,2,4,10,16,1,2,3,1,791,15,1,4,1,3,71,24,6,1,3,6,11,5,800,7,1,6,2,2,1,4,70,30,1,1,2,8,6,10,801,4,3,4,1,4,1,1,2,1,68,61,800,1,3,6,1,2,4,3,67,9,2,54,800,7,1,2,6,2,67,10,3,52,802,7,77,11,3,50,805,2,81,63,889,1,2,59,690,1,110,1,90,10,2,4,3,7,1,1,2,28,690,5,142,2,56,9,2,2,1,1,2,4,2,1,1,1,1,26,692,6,118,3,20,2,12,5,42,9,1,4,4,5,1,1,3,22,693,6,114,3,1,1,21,3,8,6,46,7,2,2,1,9,2,2,1,21,694,6,112,1,2,4,21,6,2,9,47,5,4,36,694,2,118,2,3,22,18,46,7,6,6,1,26,813,2,2,23,18,47,8,5,2,1,1,1,1,1,5,1,14,817,3,3,22,15,50,7,1,4,1,6,5,1,1,14,818,4,23,14,51,14,1,4,1,3,2,14,819,3,24,13,51,14,2,23,788,2,57,6,1,4,53,13,3,21,505,3,281,7,55,4,1,2,54,16,1,18,508,9,274,6,124,11,3,9,508,16,275,2,126,22,507,19,213,2,55,7,126,22,502,23,214,2,55,9,123,22,501,22,1,2,273,9,121,21,500,24,1,2,273,8,128,13,501,25,1,4,275,2,129,12,502,26,1,7,2,2,268,1,129,10,504,27,2,12,398,4,507,28,4,8,267,3,129,3,417,12,79,29,1,1,12,4,393,2,417,12,79,33,9,3,813,13,79,34,275,1,547,14,79,52,253,2,1,1,546,16,79,54,302,2,7,3,1,3,482,17,79,56,245,2,49,20,481,18,79,1,1,58,285,2,2,10,3,8,322,2,158,19,81,36,2,20,136,5,145,13,6,4,481,1,1,19,82,32,6,1,157,3,144,9,2,1,8,5,477,2,1,20,81,33,164,3,145,7,12,5,343,1,131,25,81,33,163,4,146,4,14,6,343,1,128,27,80,32,315,3,15,6,347,1,124,27,80,31,317,1,16,5,473,27,80,31,157,2,1,2,174,9,348,2,87,1,29,27,79,33,156,3,1,2,167,3,3,14,345,3,1,1,79,1,1,3,28,27,80,41,148,4,2,5,160,2,1,20,1,3,343,2,3,1,70,4,1,2,1,2,27,27,84,37,155,6,165,23,341,5,70,3,1,3,1,2,27,27,86,35,151,1,1,1,1,7,163,23,346,5,67,1,1,1,1,3,29,27,87,34,153,7,165,18,353,5,61,1,1,3,2,3,30,27,87,33,153,1,2,6,155,26,160,6,2,3,185,6,7,1,49,2,2,2,1,1,33,27,87,33,154,9,150,30,155,17,186,5,5,4,46,2,1,1,2,2,34,27,87,34,148,1,2,12,149,30,149,24,187,5,3,6,43,1,1,1,1,4,35,27,86,35,148,1,1,2,1,10,149,33,140,31,186,7,4,1,44,6,1,1,36,27,85,34,151,2,3,4,154,33,140,30,187,10,3,2,41,1,1,3,1,2,36,27,83,27,2,7,153,1,2,6,151,33,140,32,175,1,1,1,3,2,1,2,2,9,41,1,2,1,1,2,1,1,39,22,3,2,82,26,6,6,312,32,141,31,177,19,42,1,6,1,41,25,85,24,9,3,314,30,143,29,177,21,6,3,28,5,5,2,41,26,84,22,11,3,314,27,117,2,5,1,20,31,163,2,5,3,2,25,2,4,7,1,16,5,1,1,162,20,12,1,311,30,118,9,13,3,3,33,161,3,3,32,2,7,11,10,3,2,162,21,322,31,120,9,11,40,3,5,3,2,152,35,2,6,1,1,7,12,167,21,323,3,3,21,123,11,10,54,151,31,2,3,4,2,1,1,2,17,166,19,1,1,334,16,125,76,146,35,2,5,1,3,6,14,167,15,348,1,132,75,146,59,4,3,166,15,479,78,147,56,2,2,1,4,166,14,224,2,253,78,149,34,1,1,2,26,167,2,235,5,252,77,3,2,144,34,1,1,2,4,3,18,404,7,249,83,8,1,121,1,19,45,3,9,404,9,247,84,4,6,117,2,24,35,3,15,404,10,11,1,232,86,3,8,142,53,405,10,9,3,229,99,136,2,3,54,408,9,6,6,227,99,128,13,2,52,409,11,2,6,224,103,128,67,409,20,222,105,7,1,5,4,106,71,411,19,224,120,14,1,93,68,412,17,7,3,3,2,1,2,206,123,4,13,92,5,7,53,413,15,7,13,203,142,102,55,415,14,6,13,204,142,97,59,415,16,4,14,202,140,98,61,417,16,2,15,200,139,98,63,416,35,202,136,95,66,420,30,203,137,93,67,423,24,206,138,98,61,426,5,4,1,3,8,206,148,90,59,427,3,10,9,204,148,91,56,443,8,203,143,99,43,457,3,210,2,3,132,105,22,3,1,1,2,685,131,112,4,2,2,3,2,696,53,1,55,4,14,829,43,6,15,1,36,847,44,8,2,7,2,9,27,851,38,1,2,31,17,1,9,849,36,4,1,32,14,2,3,856,33,46,2,870,20,2,1,926,6,1,13,935,1,945,5,24876],\"values\":[0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,212,0,202,0,211,0,211,0,241,0,211,0,241,0,211,0,241,0,211,0,241,0,211,0,241,0,241,0,211,0,241,0,211,0,211,0,241,0,241,0,211,0,211,0,241,0,211,0,211,0,241,0,211,0,211,0,241,0,211,0,241,0,211,0,211,0,241,0,211,0,211,0,241,0,230,0,211,0,211,0,241,0,230,0,230,0,211,0,211,0,241,0,241,0,230,0,211,0,211,0,241,0,230,0,211,0,241,0,230,0,211,0,241,0,230,0,231,0,211,0,241,0,230,0,231,0,211,0,241,0,230,0,231,0,211,0,241,0,230,0,231,0,211,0,241,0,230,0,211,0,241,0,230,0,211,0,230,0,211,0,230,0,211,0,230,0,230,0,211,0,230,0,230,0,211,0,230,0,230,0,211,0,230,0,230,0,211,0,230,0,230,0,211,0,211,0,230,0,230,0,230,0,211,0,230,0,230,0,211,0,230,0,230,0,211,0,211,0,230,0,230,0,211,0,230,0,230,0,211,0,211,0,211,0,211,0,211,0,211,0,211,0,211,0,211,0,211,0,211,0,211,0,211,0,211,0,211,0,211,0,211,198,211,198,211,0,244,0,211,0,198,211,0,244,0,211,0,198,211,0,244,0,211,0,198,211,0,244,0,211,0,211,0,198,211,0,244,0,211,0,198,211,0,214,0,244,0,211,0,198,0,214,0,244,0,211,0,198,0,214,0,244,0,198,0,214,0,244,0,214,0,214,0,214,0,214,0,225,0,225,0,225,0,225,0,224,0,225,0,225,0,225,0,224,0,225,0,225,0,224,0,225,0,225,0,224,0,225,0,215,0,215,0,224,0,225,0,215,0,215,0,224,0,225,0,215,0,224,0,224,0,225,0,215,0,224,0,224,0,225,0,215,0,225,0,215,0,240,0,225,0,215,0,240,0,225,0,225,0,215,0,240,0,246,0,225,0,215,0,240,0,246,0,225,0,215,0,240,0,246,0,213,0,215,0,240,0,240,0,246,0,213,0,215,0,240,0,240,0,246,0,213,0,215,0,240,0,240,0,246,0,246,0,213,0,215,0,246,0,246,0,213,0,215,0,246,0,213,0,215,0,246,0,213,0,215,0,246,0,246,0,233,0,200,0,213,0,215,0,246,0,233,0,213,0,215,0,246,0,233,0,213,0,215,0,246,0,233,0,233,0,210,0,213,0,215,0,246,0,246,0,233,0,210,0,213,0,215,0,246,0,233,0,210,0,213,0,215,0,246,0,233,0,210,0,210,0,213,0,215,0,246,0,233,0,210,0,213,0,215,0,246,0,233,0,209,0,210,0,213,0,215,0,233,0,233,0,209,0,210,0,213,0,215,0,233,0,233,0,209,0,210,0,213,0,245,0,233,0,210,0,213,0,245,0,209,0,210,0,213,0,245,0,210,0,213,0,245,0,229,0,209,0,210,0,213,0,245,0,229,0,209,0,213,0,245,0,229,0,213,0,245,0,229,0,213,0,245,0,229,0,213,0,245,0,229,0,213,0,245,0,229,0,213,0,245,0,229,0,213,0,245,0,213,0,245,0,213,0,245,0,245,0,235,0,235,0,235,0,245,0,235,0,236,0,245,0,235,0,236,0,245,0,235,0,236,0,245,0,235,0,235,0,235,0,227,0,236,0,245,0,235,0,235,0,227,0,227,0,236,0,245,0,235,0,227,0,227,0,227,0,236,0,245,0,235,0,227,0,227,0,227,0,227,0,227,0,236,0,245,0,235,0,227,0,227,0,227,0,227,0,227,0,227,0,227,0,227,0,236,0,245,0,235,0,227,0,227,0,227,0,227,0,227,0,227,0,227,0,227,0,236,0,236,0,245,0,235,0,227,0,227,0,227,0,227,0,227,0,227,0,236,0,236,0,236,0,245,0,235,0,227,0,227,0,227,0,227,0,236,0,245,0,235,0,227,0,227,0,227,0,227,0,227,0,227,0,227,0,236,0,245,0,235,0,235,0,227,0,227,0,227,0,227,0,227,0,227,0,227,0,227,0,236,0,245,0,235,0,235,0,227,0,227,0,227,0,227,0,236,0,245,0,235,0,235,0,227,0,227,0,227,0,227,0,236,0,245,0,235,0,235,0,227,0,227,0,236,0,245,0,235,0,227,0,227,0,227,0,236,0,245,0,235,0,226,0,226,0,227,0,227,0,236,0,245,0,226,0,226,0,226,227,0,227,0,236,0,226,0,226,227,0,236,0,217,0,226,0,226,0,226,0,227,0,236,0,217,0,226,0,226,0,226,227,0,236,0,217,0,226,0,226,0,227,0,227,0,236,0,217,0,226,0,226,0,226,0,226,227,0,236,0,217,0,226,0,226,0,226,227,0,236,0,217,0,226,0,226,227,0,227,0,227,0,236,0,217,0,226,0,226,0,226,0,228,0,227,228,227,0,236,0,217,0,226,0,226,0,226,0,228,0,228,0,228,227,0,236,0,216,0,216,0,217,0,217,0,226,0,226,0,226,228,0,228,0,228,0,228,0,228,227,228,227,0,227,0,216,0,216,0,217,0,217,0,226,0,228,0,228,0,228,0,228,227,0,217,216,217,0,217,167,0,228,0,228,0,228,0,228,0,228,227,0,227,0,217,0,167,0,228,0,228,0,228,227,0,227,0,227,0,217,0,167,0,167,0,228,0,228,0,228,227,228,0,217,0,217,0,167,0,167,0,228,0,228,0,228,227,228,0,217,0,217,0,167,0,167,0,167,0,228,0,217,0,217,0,217,0,167,0,228,0,228,0,217,0,217,0,167,0,228,0,228,0,217,0,228,0,228,0,217,0,228,0,228,0,228,0,237,0,217,0,228,0,228,0,228,0,228,0,228,0,237,0,247,0,228,0,228,0,228,0,228,0,228,0,228,0,228,0,237,0,221,0,247,0,247,0,228,0,228,0,228,0,228,0,228,0,237,0,221,0,221,0,247,0,247,0,228,0,228,0,228,0,228,0,228,0,237,0,232,0,221,0,247,0,247,0,228,0,228,0,237,0,232,221,0,247,0,228,0,228,0,228,0,232,221,0,247,0,228,0,228,0,228,0,228,0,228,0,228,0,232,221,0,247,0,228,0,228,0,228,0,228,0,228,0,221,0,247,0,228,0,228,0,228,0,228,0,221,0,247,0,228,0,228,0,219,0,247,0,247,0,228,0,228,0,238,0,219,0,247,0,247,0,228,0,228,0,238,0,219,0,228,0,228,0,238,0,219,0,228,0,238,0,111,0,116,0,228,0,238,0,111,0,116,0,228,0,238,0,238,0,116,0,228,0,238,0,238,0,116,0,228,0,238,0,238,0,116,0,228,0,238,0,238,0,238,0,116,0,228,0,238,0,238,0,228,0,238,0,238,0,46,0,228,0,239,0,238,0,238,0,238,0,228,0,239,0,238,0,238,0,239,0,238,0,116,0,239,0,238,0,116,0,116,0,239,0,238,0,222,0,222,0,222,0,239,0,238,0,116,0,222,0,239,0,238,0,238,0,222,0,222,0,222,0,234,0,239,0,238,0,238,0,242,0,222,0,222,0,239,0,239,0,238,0,238,0,242,0,222,0,222,0,222,0,239,0,239,0,238,0,242,0,222,0,222,0,234,0,239,0,238,0,242,0,222,0,222,0,234,0,239,0,238,0,222,0,222,0,234,0,239,0,238,0,222,0,222,0,239,0,238,0,243,0,243,0,222,0,234,0,234,0,239,0,238,0,243,0,243,0,222,0,222,0,234,0,234,0,234,0,234,0,239,0,238,0,243,0,218,0,222,0,222,0,222,0,234,0,234,0,234,0,234,0,234,0,239,0,238,0,218,0,222,0,234,0,234,0,234,0,234,0,239,0,238,0,218,0,218,0,218,0,222,0,234,0,234,0,234,0,234,0,239,0,238,0,218,0,222,0,234,0,234,0,234,0,234,0,239,0,238,0,218,0,218,0,222,0,223,0,223,0,234,0,234,0,234,0,234,0,234,0,239,0,238,0,218,0,222,0,223,0,234,0,234,0,234,0,234,0,234,0,239,0,238,0,218,0,218,0,222,0,223,0,234,0,234,0,234,0,234,0,234,0,239,0,238,0,218,0,218,0,218,0,222,0,223,0,234,0,234,0,234,0,234,0,239,0,238,0,218,0,218,0,222,0,223,0,234,0,234,0,234,0,234,0,234,0,239,0,238,0,238,0,218,0,218,0,222,0,223,0,234,0,234,0,234,0,234,0,234,0,234,0,234,0,234,0,234,0,239,0,239,0,238,0,238,0,222,0,223,0,234,0,234,0,234,0,239,0,238,0,238,0,222,0,223,0,234,0,234,0,234,0,234,0,239,0,238,0,238,0,222,0,223,0,223,0,223,0,234,0,234,0,234,0,234,0,234,0,234,0,234,0,238,0,238,0,222,0,223,0,223,0,223,0,234,0,234,0,234,0,234,0,234,0,238,0,222,0,223,0,223,0,223,0,223,0,234,0,234,0,234,0,234,0,238,0,222,0,222,0,223,0,223,0,234,0,234,0,234,0,234,0,234,0,238,0,238,0,222,0,223,0,234,0,234,0,234,0,234,0,238,0,222,0,223,0,234,0,234,0,238,0,223,0,234,0,234,0,234,0,238,0,220,0,223,0,234,0,234,0,234,0,238,0,220,0,223,0,223,0,234,0,234,0,234,0,234,0,220,0,223,0,223,0,234,0,234,0,234,0,220,0,223,0,223,0,234,0,234,0,234,0,220,0,220,0,223,0,223,0,234,0,220,0,220,0,223,0,234,0,234,0,220,0,220,0,223,0,234,0,234,0,220,0,220,0,223,0,234,0,220,0,223,0,223,0,223,0,234,0,220,0,223,0,223,0,234,0,220,0,220,0,220,0,220,0,223,0,223,0,234,0,234,0,220,0,220,0,223,0,234,0,220,0,220,0,223,0,234,0,220,0,220,0,223,0,234,0,220,0,220,0,223,0,234,0,220,0,223,0,234,0,220,0,223,0,234,0,220,0,223,0,234,0,220,0,220,0,220,0,223,0,234,0,220,0,220,0,223,0,234,0,220,0,223,0,234,0,220,0,223,0,223,0,234,0,234,0,234,0,223,0,234,0,234,0,234,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0,223,0]}");
+var terrain = [];
+var owner = [];
+var history = [];
+var world_2026_default = {
+	version,
+	width: 950,
+	height: 373,
+	startingYear,
+	startingMonth: 0,
+	currentGameTime: 0,
+	achData,
+	nations,
+	cities,
+	alliances,
+	wars,
+	terrain2,
+	owner2,
+	occupations,
+	terrain,
+	owner,
+	history
+};
+//#endregion
+export { achData, alliances, cities, currentGameTime, world_2026_default as default, height, history, nations, occupations, owner, owner2, startingMonth, startingYear, terrain, terrain2, version, wars, width };

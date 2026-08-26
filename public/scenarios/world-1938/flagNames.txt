@@ -1,0 +1,271 @@
+NOTE: This file is only for personal use! You don't need to share this with other scenario files.
+This file includes all nations with flags. They follow the same order as the saved flag canvas, in columns of 10, from bottom to top.
+This file is useful for editing flags in outside programs.
+
+1. United States
+2. Canada
+3. Cuba
+4. Jamaica
+5. Haiti
+6. Dominican Republic
+7. Windward Islands
+8. The Bahamas
+9. Trinidad and Tobago
+10. Mexico
+
+11. British Honduras
+12. Guatemala
+13. El Salvador
+14. Honduras
+15. Nicaragua
+16. Costa Rica
+17. Panama
+18. Australia
+19. New Zealand
+20. New Hebrides
+
+21. Fiji
+22. Solomon Islands
+23. Papua
+24. Timor
+25. Samoa
+26. United Kingdom
+27. Ireland
+28. Iceland
+29. Denmark
+30. Norway
+
+31. Finland
+32. Sweden
+33. Soviet Union
+34. France
+35. Switzerland
+36. Netherlands
+37. Belgium
+38. Luxembourg
+39. Italy
+40. Republican Spain
+
+41. Portugal
+42. Greece
+43. Albania
+44. Bulgaria
+45. Germany
+46. Estonia
+47. Latvia
+48. Lithuania
+49. Cyprus
+50. Turkey
+
+51. Malta
+52. San Marino
+53. Chile
+54. Argentina
+55. Paraguay
+56. Uruguay
+57. Bolivia
+58. Liechtenstein
+59. Brazil
+60. Peru
+
+61. Ecuador
+62. Venezuela
+63. Colombia
+64. British Guiana
+65. Suriname
+66. Sao Tome and Principe
+67. Mauritius
+68. Comoros
+69. Bahrain
+70. Monaco
+
+71. Cape Verde
+72. Singapore
+73. Egypt
+74. Libya
+75. Tunisia
+76. Morocco
+77. Sahara
+78. West Africa
+79. Portuguese Guinea
+80. Ceylon
+
+81. Japan
+82. Andorra
+83. Philippines
+84. Yugoslavia
+85. Austria
+86. Czechoslovakia
+87. Poland
+88. Ukraine
+89. Hungary
+90. Romania
+
+91. Equatorial Africa
+92. Sierra Leone
+93. Liberia
+94. Gold Coast
+95. Nigeria
+96. Cameroun
+97. Sudan
+98. East Africa
+99. The Gambia
+100. Spanish Guinea
+
+101. Congo
+102. Rwanda
+103. Burundi
+104. Uganda
+105. Kenya
+106. Tanganyika
+107. Northern Rhodesia
+108. Nyasaland
+109. Mozambique
+110. Angola
+
+111. Southwest Africa
+112. Bechuanaland
+113. South Africa
+114. Basutoland
+115. Swaziland
+116. Southern Rhodesia
+117. Somalia
+118. Madagascar
+119. Syria
+120. Lebanon
+
+121. Transjordan
+122. Saudi Arabia
+123. Iraq
+124. Iran
+125. Trucial States
+126. Muscat and Oman
+127. Yemen
+128. Qatar
+129. Palestine
+130. Kuwait
+
+131. Afghanistan
+132. Nepal
+133. Bhutan
+134. Siam
+135. Laos
+136. Indochina
+137. Cambodia
+138. Malaya
+139. Dutch East Indies
+140. British Raj
+
+141. Brunei
+142. Republic of China
+143. Mongolia
+144. Burma
+145. French Guiana
+146. Puerto Rico
+147. Guadeloupe
+148. Falklands
+149. Réunion
+150. French Oceania
+
+151. Guam
+152. New Caledonia
+153. Faroe Islands
+154. South Greenland
+155. Canary Islands
+156. Hawaii
+157. Yucatan
+158. Amazonas
+159. Patagonia
+160. Kurdistan
+
+161. Somaliland
+162. Kashmir
+163. Tibet
+164. Sinkiang
+165. Western Papua
+166. Hyderabad
+167. Alaska
+168. Texas
+169. Spanish Morocco
+170. Zanzibar
+
+171. North Greenland
+172. Belarus
+173. Armenia
+174. Georgia
+175. Azerbaijan
+176. Kazakhstan
+177. Uzbekistan
+178. Turkmenistan
+179. Kyrgyzstan
+180. Tajikistan
+
+181. Korea
+182. Formosa
+183. Sarawak
+184. North Borneo
+185. Newfoundland
+186. Aden
+187. Danzig
+188. New Guinea
+189. Algeria
+190. Croatia
+
+191. Montenegro
+192. Guinea
+193. Ivory Coast
+194. Soudan
+195. Upper Volta
+196. French Togoland
+197. Dahomey
+198. Mauritania
+199. Chad
+200. Ubangi-Shari
+
+201. Gabon
+202. Niger
+203. Biafra
+204. South Seas Mandate
+205. Manchuria
+206. Mengjiang
+207. Provisional China
+208. Shanghai
+209. Yunnan
+210. Sichuan
+
+211. Chengdu
+212. Ma
+213. New Guanxi
+214. Tannu Tuva
+215. Communist China
+216. Nationalist Spain
+217. Pakistan
+218. East Pakistan
+219. Somalia
+220. Darfur
+
+221. Ethiopia
+222. Macedonia
+223. State of India
+224. Hong Kong
+225. Sikkim
+226. British Cameroons
+227. Maldives
+228. British Togoland
+229. Anarchist Spain
+230. Rif Republic
+
+231. Brittany
+232. Senegal
+233. Quebec
+234. Vietnam
+235. Ruanda-urundi
+236. India
+237. Aceh
+238. Indonesia
+239. Karakalpakstan
+240. Slovakia
+
+241. Jihad Palestine
+242. Israel
+243. Eritrea
